@@ -43,10 +43,11 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             $output .= '<div class="wp_brand-models_profiles-slider wp_brand-models_tns-slider wp_brand-models_tns-subpixel wp_brand-models_tns-horizontal wp_brand-models_style-91lpw" id="wp_brand-models_tns1">';
 
             foreach ($filteredModels as $key => $model) {
+                $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                 $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                 $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
                 $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
-                $link = "/out/offer.php?id=$ModelTracker&o=$key&t=$ModelTag";
+                $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
 
                 $output .= '<div class="wp_brand-models_tns-item">';
                 $output .= '<div class="wp_brand-models_profile-item">';
@@ -137,9 +138,10 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             $output = '<div class="wp_s2_site_profiles-grid">';
 
             foreach ($filteredModels as $key => $model) {
+                $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                 $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                 $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
-                $link = "/out/offer.php?id=$ModelTracker&o=$key&t=$ModelTag";
+                $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
 
                 $output .= '<div class="wp_s2_site_profile-grid-item">';
                 $output .= '<div class="wp_s2_site_tns-outer">';
@@ -149,11 +151,11 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 $output .= '<div id="tns1-iw">';
                 $output .= '<div class="wp_s2_site_profile-top-side wp_s2_site_tns-slider wp_s2_site_tns-subpixel wp_s2_site_tns-horizontal wp_s2_site_style-99FO2" id="tns1">';
 
-                for ($i = 1; $i <= 5; $i++) {
+                for ($i = 1; $i <= 4; $i++) {
                     $imageUrl = "https://cdn.cdndating.net/images/models/{$key}{$i}.png";
                     $output .= '<div class="wp_s2_site_item wp_s2_site_tns-item">';
                     $output .= '<img src="' . esc_url($imageUrl) . '" width="230" height="280" class="wp_s2_site_loaded wp_s2_site_lazyloaded">';
-                    if ($i == 5) {
+                    if ($i == 4) {
                         $output .= '<div class="wp_s2_site_more">' . esc_html($model['Name']) . ' has more photos!<br>Do you want to watch?';
                         $output .= '<div class="wp_s2_site_profile-all-photos-button wp_s2_site_partner-link"><a href="' . esc_url($link) . '" class="wp_s2_site_profile-button wp_s2_site_partner-link-view">View photos</a></div>';
                         $output .= '</div>';
@@ -184,9 +186,6 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             }
 
             $output .= '</div>';
-            $output .= '<link rel="stylesheet" href="' . esc_url(site_url() . '/table-client-brand-models/mob/inc/tiny-slider.css') . '">';
-            $output .= '<script src="' . esc_url(site_url() . '/table-client-brand-models/mob/js/tiny-slider.js') . '"></script>';
-            $output .= '<script src="' . esc_url(site_url() . '/table-client-brand-models/mob/js/tiny-init.js') . '"></script>';
 
             return $output;
 
@@ -196,10 +195,11 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             $currentIndex = 0;
 
             foreach ($filteredModels as $key => $model) {
+                $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                 $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                 $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
                 $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
-                $link = "/out/offer.php?id=$ModelTracker&o=$key&t=$ModelTag";
+                $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
 
                 $popularClass = $currentIndex === 0 ? 's3_shortcode_review-item-popular' : '';
                 $popularRibbon = $currentIndex === 0 ? '<div class="s3_shortcode_review-item-ribbon"><span>Most Popular Choice</span></div>' : '';
@@ -240,9 +240,10 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 $output = '<div class="wp_site4_bride_profiles-grid">';
 
                 foreach ($filteredModels as $key => $model) {
+                    $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                     $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
                     $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
-                    $link = "/out/offer.php?id=$ModelTracker&o=$key&t=$ModelTag";
+                    $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
 
                     $output .= '<div class="wp_site4_bride_profile-grid-item">';
                     $output .= '<div class="wp_site4_bride_tns-outer">';
@@ -255,12 +256,12 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                     $output .= '<div id="tns1-iw">';
                     $output .= '<div class="wp_site4_bride_profile-top-side wp_site4_bride_tns-slider wp_site4_bride_tns-subpixel wp_site4_bride_tns-horizontal style-YQhZ3" id="tns1">';
 
-                    for ($i = 1; $i <= 5; $i++) {
+                    for ($i = 1; $i <= 4; $i++) {
                         $imageUrl = "https://cdn.cdndating.net/images/models/{$key}{$i}.png";
 
                         $output .= '<div class="wp_site4_bride_item wp_site4_bride_tns-item">';
                         $output .= '<img src="' . esc_url($imageUrl) . '" width="230" height="280" class="wp_site4_bride_loaded wp_site4_bride_lazyloaded">';
-                        if ($i == 5) {
+                        if ($i == 4) {
                             $output .= '<div class="wp_site4_bride_more"> ' . esc_html($model['Name']) . ' has more photos!<br>Do you want to watch? <div class="wp_site4_bride_profile-all-photos-button wp_site4_bride_partner-link"><a href="' . esc_url($link) . '" target="_blank" class="wp_site4_bride_profile-button wp_site4_bride_partner-link-view"> View photos </a></div></div>';
                         }
                         $output .= '</div>';
@@ -291,12 +292,8 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 }
 
                 $output .= '</div>';
-                $output .= '<link rel="stylesheet" href="' . esc_url(site_url() . '/table-client-brand-models/mob/inc/tiny-slider.css') . '">';
-                $output .= '<script src="' . esc_url(site_url() . '/table-client-brand-models/mob/js/tiny-slider.js') . '"></script>';
-                $output .= '<script src="' . esc_url(site_url() . '/table-client-brand-models/mob/js/tiny-init.js') . '"></script>';
 
                 return $output;
-
 
         }
 
@@ -316,9 +313,9 @@ add_shortcode('display_models_app', 'customDisplayModelsApp');
 if ( ! function_exists( 'custom_mi_enqueue_models_app_css' ) ) {
     function custom_mi_enqueue_models_app_css($style) {
         $handle = "offers-brand-table-css-$style";
-        $css_url = site_url() . "/table-client-brand-models/mob/inc/{$style}.css";
+        $css_url = site_url() . "/table-client/mob/inc/{$style}.css";
 
-        if (!wp_style_is($handle, 'enqueued') && file_exists(ABSPATH . "table-client-brand-models/mob/inc/{$style}.css")) {
+        if (!wp_style_is($handle, 'enqueued') && file_exists(ABSPATH . "table-client/mob/inc/{$style}.css")) {
             wp_enqueue_style($handle, $css_url, array(), '1.0.0');
         }
     }
@@ -567,4 +564,13 @@ if ( ! function_exists( 'custom_enqueue_offers_table_css' ) ) {
             wp_enqueue_style($handle, $css_url, array(), '1.0.0');
         }
     }
+}
+
+
+add_action('wp_enqueue_scripts', 'enqueue_tiny_slider_assets');
+
+function enqueue_tiny_slider_assets() {
+    wp_enqueue_style('tiny-slider-css', site_url() . '/table-client/mob/inc/tiny-slider.css', array(), '1.0.0');
+    wp_enqueue_script('tiny-slider-js', site_url() . '/table-client/mob/js/tiny-slider.js', array(), '1.0.0', true);
+    wp_enqueue_script('tiny-slider-init', site_url() . '/table-client/mob/js/tiny-init.js', array('tiny-slider-js'), '1.0.0', true);
 }
