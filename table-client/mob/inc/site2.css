@@ -96,7 +96,8 @@
 } 
 
 .wp_s2_site_profile-grid-item .wp_s2_site_profile-bottom-side .wp_s2_site_profile-button  { 
-    display: flex; 
+    display: flex;
+    text-align: center;
     justify-content: center; 
     align-items: center; 
     padding: 12px 20px; 
