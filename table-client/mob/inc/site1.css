@@ -64,7 +64,14 @@
 #wp_brand-models_tns1 { 
     width: calc(600%); 
     transition-duration: 0.3s;
-} 
+}
+
+@media (max-width: 430px) {
+    #wp_brand-models_tns1 {
+        display: grid !important;
+        gap: 20px !important;
+    }
+}
 
 @media (min-width: 36em) { 
   #wp_brand-models_tns1 { 
