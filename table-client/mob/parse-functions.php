@@ -546,9 +546,32 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
 
                     $elementIndex++;
                 }
-
                 $tableHTML .= '</div></div>';
+        } elseif ($style == 'style3') {
+            $tableHTML .= '<div class="insp_woman_wp_shortcode-bridelist_cr-table-style-45 insp_woman_wp_shortcode-bridelist_cr-rating-table">';
+            foreach ($newOffersArray as $arr_key => $offer) {
+                $highlightClass = $arr_key == 0 ? 'insp_woman_has-review' : '';
+                $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
+                $userRating = mt_rand(40, 50) / 10;
+                $ratingPercentage = esc_attr(($userRating / 5) * 100);
+                $ratingFormatted = number_format($userRating, 1);
+                $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
 
+                $tableHTML .= '<div class="insp_woman_review-item ' . $highlightClass . ' insp_woman_snipcss-xGlZY">';
+                $tableHTML .= '<div class="insp_woman_review-logo">';
+                $tableHTML .= '<figure class="insp_woman_partner-link insp_woman_data-1566-reviews-table">';
+                $tableHTML .= '<img decoding="async" src="' . esc_url($imageSrc) . '" width="130" height="62" alt="' . esc_attr($offer['brandName'] ?? '') . '" class="insp_woman_cr-logotype-logo insp_woman_ls-is-cached insp_woman_lazyloaded">';
+                $tableHTML .= '<figcaption>' . esc_html($offer['brandName'] ?? '') . '</figcaption>';
+                $tableHTML .= '</figure>';
+                $tableHTML .= '</div>';
+                $tableHTML .= '<div class="insp_woman_cr-rating-stars" title="Our Score">';
+                $tableHTML .= '<div class="insp_woman_fill" style="width: ' . $ratingPercentage . '%"></div>';
+                $tableHTML .= '</div>';
+                $tableHTML .= '<div class="insp_woman_cr-rating-number">' . $ratingFormatted . '</div>';
+                $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" class="insp_woman_cr-btn insp_woman_square insp_woman_default-size insp_woman_site-btn insp_woman_partner-link insp_woman_data-1566-reviews-table" target="_blank">Visit Site</a>';
+                $tableHTML .= '</div>';
+            }
+            $tableHTML .= '</div>';
         }
 
         return $tableHTML;

@@ -1,0 +1,250 @@
+:root { 
+    --cr-accent-color-inspirationalwomenseries: #f86d6c; 
+    --cr-accent-color-rgb-inspirationalwomenseries: 248,109,108; 
+    --cr-btn-text-color-inspirationalwomenseries: #FFFFFF;
+    --ct-content-bg-color-inspirationalwomenseries: #fff; 
+    --ct-content-text-color-inspirationalwomenseries: #191e23; 
+    --ct-content-link-color-inspirationalwomenseries: #f86d6c; 
+} 
+
+.insp_woman_review-item  { 
+    background: #fff;
+} 
+
+.insp_woman_review-item  { 
+    align-items: center; 
+    background: #fff; 
+    box-shadow: 0 6px 20px rgba(148,160,178,.2); 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+    padding: 20px 30px; 
+    transition: box-shadow .24s ease-in-out; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    gap: 10%;
+} 
+
+.insp_woman_review-item.insp_woman_has-review  { 
+    gap: 4%;
+} 
+
+.insp_woman_review-item:hover  { 
+    box-shadow: 0 8px 36px rgba(0,0,0,.24);
+} 
+
+@media all{ 
+  :focus,:before,:after { 
+    outline: 0; 
+    box-sizing: inherit;
+  } 
+
+  *,:before,:after { 
+    box-sizing: inherit;
+  } 
+}     
+
+.insp_woman_review-logo  { 
+    flex: 1 1 auto; 
+    font-size: 18px; 
+    line-height: 22px; 
+    font-weight: bold;
+} 
+
+.insp_woman_cr-rating-stars { 
+    position: relative; 
+    width: 98px; 
+    height: 17px; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
+} 
+
+.insp_woman_cr-rating-stars  { 
+    flex: 0 0 98px;
+} 
+
+.insp_woman_cr-rating-number  { 
+    flex: 0 0 52px; 
+    text-align: center; 
+    font-size: 34px; 
+    line-height: 1; 
+    color: #333131;
+} 
+
+@media all{ 
+  a { 
+    color: var(--ct-content-link-color-inspirationalwomenseries); 
+    text-decoration: none;
+  } 
+}     
+
+.insp_woman_cr-btn { 
+    display: inline-block; 
+    padding: 10px 12px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none !important; 
+    letter-spacing: normal; 
+    white-space: nowrap; 
+    transition: background .3s; 
+    border: none; 
+    cursor: pointer; 
+    min-width: 110px; 
+    background: var(--cr-accent-color-inspirationalwomenseries); 
+    color: var(--cr-btn-text-color-inspirationalwomenseries); 
+    outline: unset;
+} 
+
+.insp_woman_cr-rating-table a { 
+    text-decoration: none;
+} 
+
+@media all{ 
+  .insp_woman_ct-section-content .insp_woman_ct-content a { 
+    color: var(--ct-content-link-color-inspirationalwomenseries); 
+    text-decoration: underline; 
+    text-decoration-color: rgba(0,0,0,0); 
+    transition: all .15s;
+  } 
+}     
+
+.insp_woman_read-review-link  { 
+    display: flex; 
+    background: none; 
+    text-transform: none;
+} 
+
+.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link::after { 
+    display: block; 
+    padding-left: 5px; 
+    content: "\2192"; 
+    transition: transform .24s ease-in-out;
+} 
+
+.insp_woman_cr-btn:hover { 
+    background: rgba(var(--cr-accent-color-rgb-inspirationalwomenseries), 0.75);
+} 
+
+@media all{ 
+  .insp_woman_ct-section-content .insp_woman_ct-content a:hover { 
+    text-decoration-color: var(--ct-content-link-color-inspirationalwomenseries);
+  } 
+}     
+
+.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link:hover::after { 
+    transform: translateX(10px);
+} 
+
+@media all{ 
+  button,[type="button"] { 
+    -webkit-appearance: button;
+  } 
+}     
+
+.insp_woman_partner-link { 
+    cursor: pointer;
+} 
+
+@media all{ 
+  :where(figure) { 
+    margin: 0 0 1em;
+  } 
+
+  figure { 
+    display: block; 
+    position: relative;
+  } 
+
+  figure  { 
+    max-width: 100%;
+  } 
+
+  figure:not(.insp_woman_wp-block-image)  { 
+    width: auto !important;
+  } 
+}     
+
+.insp_woman_review-logo figure  { 
+    position: relative; 
+    overflow: hidden; 
+    margin: 0 !important;
+} 
+
+div.insp_woman_review-item > div.insp_woman_review-logo > figure  { 
+    margin: 0;
+} 
+
+@media all{ 
+  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed):not(.insp_woman_aligncenter)  { 
+    margin: 0 15px 30px;
+  } 
+}     
+
+.insp_woman_partner-link:not(.insp_woman_offer-title):not(.insp_woman_offer-logo):not(.insp_woman_offer-premium):not(.insp_woman_offer-site):not(.insp_woman_logo):not(.insp_woman_cr-offer-logo):not(.insp_woman_offer-title-col):not(.insp_woman_offer-name):not(.insp_woman_review-title):not(.insp_woman_review-promotion):not(.insp_woman_offer-thumb-title):not(.insp_woman_offer-rating):not(.insp_woman_cr-btn) { 
+    color: var(--cr-accent-color-inspirationalwomenseries); 
+    font-weight: bold; 
+    text-decoration: none;
+} 
+
+.insp_woman_cr-rating-stars .insp_woman_fill  { 
+    position: absolute; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E');
+} 
+
+@media all{ 
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .insp_woman_lazyloaded { 
+    opacity: 1; 
+    transition: opacity .3s;
+  } 
+}     
+
+.insp_woman_cr-rating-table img { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.insp_woman_review-logo figure img  { 
+    display: block; 
+    width: 120px; 
+    z-index: 2;
+} 
+
+@media all{ 
+  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img  { 
+    max-width: 100%; 
+    height: 40px; 
+    object-fit: contain;
+  } 
+
+  figcaption { 
+    display: block; 
+    position: relative;
+  } 
+
+  figcaption { 
+    font-weight: bold; 
+    font-style: italic;
+  } 
+}     
+
+figcaption { 
+    text-align: center;
+} 
+
+.insp_woman_review-logo figure figcaption  { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    font-size: 14px; 
+    opacity: 0; 
+    z-index: 1;
+}
