@@ -248,3 +248,27 @@ figcaption {
     opacity: 0; 
     z-index: 1;
 }
+
+
+@media (max-width: 650px) {
+    .insp_woman_cr-btn {
+        min-width: unset !important;
+        display: flex !important;
+        flex: 0 0 50% !important;
+        justify-content: center !important;
+        margin-top: 11px !important;
+    }
+    .insp_woman_review-item {
+        padding: 10px !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img {
+        max-width: none !important;
+    }
+    .insp_woman_review-logo {
+        display: flex !important;
+        justify-content: center !important;
+        flex: 1 1 100% !important;
+    }
+}
