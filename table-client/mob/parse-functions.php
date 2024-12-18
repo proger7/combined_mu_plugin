@@ -723,6 +723,49 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
             }
             $tableHTML .= '</div>';
 
+        } elseif ($style == 'top1') {
+            $newOffersArray = include __DIR__ . '/offers-aimojo-data.php';
+
+            $tableHTML = '<div class="aimojo_st_comparison-wrapper aimojo_st_snipcss0-0-0-1 aimojo_st_snipcss-vno3X">';
+
+            foreach ($newOffersArray as $arr_key => $offer) {
+                $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
+                $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+                $labelName = esc_html($offer['labelName']);
+                $brandName = esc_html($offer['brandName']);
+                $bulletPoints = nl2br(esc_html($offer['bulletPoints']));
+                $labelButton = esc_html($offer['labelButton']);
+
+                $tableHTML .= '<div class="aimojo_st_comparison-item aimojo_st_snipcss0-1-1-2">';
+                $tableHTML .= '    <div class="aimojo_st_item-header aimojo_st_snipcss0-2-2-3 aimojo_st_style-9KM7g" data-match-height="itemHeader">';
+                $tableHTML .= '        <div class="aimojo_st_item-badge aimojo_st_snipcss0-3-3-4 aimojo_st_style-o1fJI">' . $labelName . '</div>';
+                $tableHTML .= '        <div class="aimojo_st_product-image aimojo_st_snipcss0-3-3-5">';
+                $tableHTML .= '            <div class="aimojo_st_image aimojo_st_snipcss0-4-5-6">';
+                $tableHTML .= '                <img fetchpriority="high" decoding="async" src="' . esc_url($imageSrc) . '" class="aimojo_st_attachment-full aimojo_st_size-full aimojo_st_snipcss0-5-6-7" width="160" height="160" alt="' . $brandName . ' Logo">';
+                $tableHTML .= '            </div>';
+                $tableHTML .= '        </div>';
+                $tableHTML .= '        <div class="aimojo_st_item-title aimojo_st_snipcss0-3-3-8 aimojo_st_style-iXbas"><strong>' . $brandName . '</strong></div>';
+                $tableHTML .= '        <div class="aimojo_st_item-rating aimojo_st_snipcss0-3-3-10">';
+                $tableHTML .= '            <div class="aimojo_st_item-stars-rating aimojo_st_snipcss0-4-10-11">';
+                for ($i = 0; $i < 5; $i++) {
+                    $tableHTML .= '                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="33 -90 360 360">';
+                    $tableHTML .= '                    <polygon fill="#F6A123" points="281.1,129.8 364,55.7 255.5,46.8 214,-59 172.5,46.8 64,55.4 146.8,129.7 121.1,241 213.9,181.1 213.9,181 306.5,241 "></polygon>';
+                    $tableHTML .= '                </svg>';
+                }
+                $tableHTML .= '            </div>';
+                $tableHTML .= '        </div>';
+                $tableHTML .= '        <a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" style="background-color: #7635f3" class="aimojo_st_gss-item-btn aimojo_st_gspb_track_btn aimojo_st_re_track_btn aimojo_st_snipcss0-3-3-17">' . $labelButton . '</a>';
+                $tableHTML .= '    </div>';
+                $tableHTML .= '    <div class="aimojo_st_item-row-description aimojo_st_item-row-bottomline aimojo_st_snipcss0-2-2-18 aimojo_st_style-h7PD1" data-match-height="itemBottomline">';
+                $tableHTML .= '        <div class="aimojo_st_item-row-title aimojo_st_snipcss0-3-18-19">Bottom Line</div>';
+                $tableHTML .= '        ' . $bulletPoints;
+                $tableHTML .= '    </div>';
+                $tableHTML .= '</div>';
+            }
+
+            $tableHTML .= '</div>';
+
+            return $tableHTML;
     }
 
         return $tableHTML;

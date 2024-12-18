@@ -1,0 +1,430 @@
+@media (min-width: 768px){ 
+  .aimojo_st_comparison-wrapper { 
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    scroll-snap-type: x mandatory;
+  } 
+}     
+
+.aimojo_st_comparison-wrapper { 
+    justify-content: center;
+} 
+
+.aimojo_st_comparison-wrapper  { 
+    display: flex; 
+    flex: 1; 
+    width: 100%;
+} 
+
+.aimojo_st_comparison-wrapper  { 
+    gap: 10px;
+} 
+
+.aimojo_st_comparison-wrapper  { 
+    font-size: 14px;
+} 
+
+@media all{ 
+  *,:before,:after { 
+    box-sizing: inherit;
+  } 
+
+  div:-webkit-scrollbar { 
+    width: 0;
+  } 
+
+  :active,:hover { 
+    outline: 0!important; 
+    outline-offset: 0!important;
+  } 
+}     
+
+.aimojo_st_comparison-item { 
+    flex: 1 0 0; 
+    position: relative; 
+    padding-top: 0; 
+    border-top: 1px solid rgba(206,206,206,.5); 
+    border-bottom: 1px solid rgba(206,206,206,.5); 
+    border-right: 1px solid rgba(206,206,206,.5); 
+    scroll-snap-align: start;
+} 
+
+@media (min-width: 768px){ 
+  .aimojo_st_comparison-wrapper .aimojo_st_comparison-item  { 
+    min-width: 190px;
+  } 
+}     
+
+.aimojo_st_comparison-item  { 
+    margin-top: 49px;
+} 
+
+.aimojo_st_comparison-item:first-child  { 
+    border-left: 1px solid rgba(206,206,206,.5);
+} 
+
+.aimojo_st_comparison-item  { 
+    max-width: 350px !important; 
+    border: 2px solid #e5e5e5d1;
+} 
+
+.aimojo_st_comparison-item  { 
+    background: #ffffff; 
+    color: #333333;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-header  { 
+    padding: 0 15px 25px; 
+    text-align: center; 
+    position: relative;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-row-description  { 
+    border-top: 1px solid rgba(206,206,206,.5); 
+    padding: 15px; 
+    font-size: inherit; 
+    line-height: 1.3;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+    text-align: center; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    line-height: 18px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+    text-decoration: none; 
+    position: absolute; 
+    top: -50px; 
+    left: -1px; 
+    right: -1px; 
+    height: 50px; 
+    margin: 0; 
+    padding: 0 15px; 
+    background-color: #ccc; 
+    color: #fff; 
+    z-index: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+    padding: 16px; 
+    background-color: #7635f3; 
+    border-radius: 8px 8px 0 0;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image  { 
+    padding-top: 25px; 
+    display: table; 
+    width: 100%; 
+    table-layout: fixed; 
+    height: 185px; 
+    margin-bottom: 25px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image  { 
+    padding-top: 0px; 
+    display: table; 
+    width: 100%; 
+    table-layout: fixed; 
+    height: auto; 
+    margin-bottom: 25px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-title  { 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 1.5;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-rating  { 
+    margin-bottom: 15px; 
+    margin-left: auto!important; 
+    margin-right: auto!important;
+} 
+
+@media all{ 
+  a { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline;
+  } 
+
+  a { 
+    text-decoration: none; 
+    -webkit-transition: all 0.3s ease-in-out; 
+    -moz-transition: all 0.3s ease-in-out; 
+    -ms-transition: all 0.3s ease-in-out; 
+    -o-transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
+  } 
+}     
+
+a { 
+    font-family: Mulish, sans-serif !important;
+} 
+
+@media all{ 
+  .aimojo_st_space-page-content a { 
+    color: #ff2453; 
+    text-decoration: underline;
+  } 
+}     
+
+.aimojo_st_space-page-content a { 
+    color: #ff3535;
+} 
+
+.aimojo_st_space-page-content a { 
+    text-decoration: none; 
+    font-weight: 600;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_gss-item-btn  { 
+    font-size: 16px; 
+    line-height: 1; 
+    padding: 12px 25px; 
+    text-transform: none; 
+    display: inline-block; 
+    background: #2184f9; 
+    color: #fff; 
+    fill: #fff; 
+    border: 0; 
+    text-decoration: none; 
+    outline: 0; 
+    text-shadow: none; 
+    box-shadow: -1px 6px 19px rgba(0,0,0,.2); 
+    border-radius: 4px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-header > :last-child  { 
+    margin: 0;
+} 
+
+@media all{ 
+  a:hover { 
+    text-decoration: none;
+  } 
+
+  .aimojo_st_space-page-content a:hover { 
+    color: #be2edd;
+  } 
+}     
+
+ .aimojo_st_space-page-content a:hover { 
+    color: #302b63;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+    box-shadow: -1px 6px 13px rgba(0,0,0,.4)!important;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+    background: #fcd43e !important; 
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out;
+} 
+
+.aimojo_st_item-row-title  { 
+    display: none!important;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-row-description .aimojo_st_item-row-title  { 
+    display: none; 
+    margin: -15px -15px 15px; 
+    padding: 7px 15px; 
+    border-bottom: 1px solid rgba(206,206,206,.5); 
+    font-weight: 700; 
+    font-size: 14px; 
+    text-transform: uppercase; 
+    text-align: center;
+} 
+
+@media all{ 
+   .aimojo_st_space-page-content a:hover { 
+    color: #be2edd;
+  } 
+}     
+
+.aimojo_st_has-mercury-main-color, .aimojo_st_home-page .aimojo_st_textwidget a:hover, .aimojo_st_space-header-2-top-soc a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-page-content a:hover, .aimojo_st_space-pros-cons ul li a:hover, .aimojo_st_space-pros-cons ol li a:hover, .aimojo_st_space-companies-2-archive-item-desc a:hover, .aimojo_st_space-organizations-3-archive-item-terms-ins a:hover, .aimojo_st_space-organizations-7-archive-item-terms a:hover, .aimojo_st_space-organizations-8-archive-item-terms a:hover, .aimojo_st_space-comments-form-box p.aimojo_st_comment-notes span.aimojo_st_required, form.aimojo_st_comment-form p.aimojo_st_comment-notes span.aimojo_st_required { 
+    color: #302b63;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image  { 
+    display: table-cell; 
+    vertical-align: middle; 
+    width: 100%; 
+    height: 100%;
+} 
+
+@media all{ 
+  strong { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline;
+  } 
+}     
+
+.aimojo_st_comparison-item .aimojo_st_item-rating .aimojo_st_item-stars-rating  { 
+    display: flex; 
+    justify-content: center; 
+    overflow: hidden; 
+    font-size: 1.5rem; 
+    height: 1.5rem; 
+    line-height: 1; 
+    color: #ff5900; 
+    position: relative; 
+    margin: 0 auto;
+} 
+
+@media all{ 
+  img { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline;
+  } 
+
+  img { 
+    max-width: 100%; 
+    height: auto; 
+    -webkit-backface-visibility: hidden;
+  } 
+
+  .aimojo_st_space-content-section img { 
+    border-radius: 5px;
+  } 
+
+  .aimojo_st_space-page-content img { 
+    border-radius: 5px!important;
+  } 
+}     
+
+.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+    max-height: 160px; 
+    width: auto!important; 
+    height: auto!important; 
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%!important;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+    width: 100% !important; 
+    height: 129px !important; 
+    object-fit: contain !important; 
+    background: transparent !important; 
+    margin: 0 auto !important; 
+    display: block !important; 
+    margin-top: 20px !important;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-kAalw.aimojo_st_style-kAalw {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-G5y2m.aimojo_st_style-G5y2m {  
+   background-color: #7635f3;  
+}  
+#style-yNlxo.aimojo_st_style-yNlxo {  
+   font-size: 18px;  
+}  
+#style-PMQL4.aimojo_st_style-PMQL4 {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-htejV.aimojo_st_style-htejV {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-VOKMq.aimojo_st_style-VOKMq {  
+   background-color: #000000;  
+}  
+#style-nVqXU.aimojo_st_style-nVqXU {  
+   font-size: 18px;  
+}  
+#style-3BRVH.aimojo_st_style-3BRVH {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-c9b7C.aimojo_st_style-c9b7C {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-oHZNZ.aimojo_st_style-oHZNZ {  
+   background-color: #7635f3;  
+}  
+#style-eMdS2.aimojo_st_style-eMdS2 {  
+   font-size: 18px;  
+}  
+#style-QSNhh.aimojo_st_style-QSNhh {  
+   min-height: auto;  
+    height: 104px;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-9KM7g.aimojo_st_style-9KM7g {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-o1fJI.aimojo_st_style-o1fJI {  
+   background-color: #7635f3;  
+}  
+#style-iXbas.aimojo_st_style-iXbas {  
+   font-size: 18px;  
+}  
+#style-h7PD1.aimojo_st_style-h7PD1 {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-ftcRh.aimojo_st_style-ftcRh {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-GDvU3.aimojo_st_style-GDvU3 {  
+   background-color: #000000;  
+}  
+#style-AXPiR.aimojo_st_style-AXPiR {  
+   font-size: 18px;  
+}  
+#style-EAGTY.aimojo_st_style-EAGTY {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-zCkoP.aimojo_st_style-zCkoP {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-5PA2C.aimojo_st_style-5PA2C {  
+   background-color: #7635f3;  
+}  
+#style-Oolhi.aimojo_st_style-Oolhi {  
+   font-size: 18px;  
+}  
+#style-f2QKw.aimojo_st_style-f2QKw {  
+   min-height: auto;  
+    height: 104px;  
+}  
+
+@media (max-width: 650px) {
+    .aimojo_st_comparison-wrapper,
+    .aimojo_st_comparison-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}
