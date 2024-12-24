@@ -513,3 +513,45 @@
         top: 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_men {
+    display: none;
+}
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_women {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+}
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text .ad_wbc_percent {
+    margin-left: 5px;
+}
+
+
+@media (max-width: 1152px) {
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
+        height: 110px !important;
+    }
+}
