@@ -339,3 +339,28 @@ ul li  {
         justify-content: space-between;
     }
 }
+
+
+.mailbride_site_review-info .mailbride_site_review-pros-cons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.mailbride_site_review-info .mailbride_site_review-pros-cons ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-position: inside;
+    box-sizing: border-box;
+}
+
+.mailbride_site_review-info .mailbride_site_review-pros-cons li {
+    padding: 5px 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
