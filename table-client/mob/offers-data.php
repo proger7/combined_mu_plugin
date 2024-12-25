@@ -13,6 +13,7 @@ return [
             ",
             "price" => "$50/m",
             "linkID" => "12345",
+            "siteLabel" => "Site of the Day",
         ),
         "ashley-madison" => array(
             "brandName" => "Ashley Madison",
@@ -25,6 +26,7 @@ return [
             ",
             "price" => "$30/m",
             "linkID" => "67890",
+            "siteLabel" => "Featured Site",
         ),
     ],
     "models" => [

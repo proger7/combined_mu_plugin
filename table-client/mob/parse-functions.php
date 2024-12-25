@@ -430,8 +430,9 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $tableHTML .= '<div class="wp_shortcode-bridelist_reviews-updated">
                                     <svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="m13.584.284 1.66 1.906 2.484-1.059a.742.742 0 0 1 .994.467l.758 2.455 2.694.048a.743.743 0 0 1 .723.83l-.3 2.557 2.442 1.145c.37.175.53.617.356.989-.332.693-.935 1.587-1.343 2.275l1.769 2.047a.75.75 0 0 1-.134 1.096l-2.09 1.484.788 2.592a.744.744 0 0 1-.566.945l-2.506.502-.329 2.688a.744.744 0 0 1-.953.623l-2.443-.557-1.389 2.32a.74.74 0 0 1-1.078.215l-2.052-1.54-2.208 1.554a.737.737 0 0 1-1.07-.249l-1.248-2.242-2.649.517a.742.742 0 0 1-.88-.709l-.229-2.515-2.625-.61a.746.746 0 0 1-.536-.965l.823-2.436-2.152-1.631a.748.748 0 0 1-.055-1.144l1.697-1.843L.63 9.669a.746.746 0 0 1 .357-1.047L3.335 7.61 3.1 4.91a.747.747 0 0 1 .813-.807l2.493.034.878-2.562a.741.741 0 0 1 1.05-.417l2.286 1.06 1.838-1.98a.739.739 0 0 1 1.125.047Zm-6.652 13c-.983-.989.512-2.492 1.495-1.504l3.311 3.33 5.799-6.462c.927-1.036 2.497.384 1.57 1.42l-6.51 7.252a1.054 1.054 0 0 1-1.568.081l-4.097-4.118Z" fill="#ED8A0A"></path>
-                                    </svg> Updated for November 2024
+                                    </svg> Updated for ' . esc_html( date_i18n( 'F Y' ) ) . '
                                 </div>';
+
                 $tableHTML .= '<div class="wp_shortcode-bridelist_cpm-ajax-info wp_shortcode-bridelist_cpm-advertiser-disclosure"></div></div>';
                 $tableHTML .= '<div class="wp_shortcode-bridelist_reviews-list">';
 
@@ -442,11 +443,15 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                     $userRating = mt_rand(40, 50) / 10;
                     $rating = mt_rand(14, 20) / 2;
                     $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+                    $siteLabel = !empty($offer['siteLabel']) 
+                                    ? esc_html($offer['siteLabel']) 
+                                    : sprintf(__('Featured Site - %s', 'text-domain'), date_i18n('F Y'));
+
 
                     $tableHTML .= '<div class="wp_shortcode-bridelist_review-item ' . $highlightClass . '">';
 
                     if ($itemIndex == 0) {
-                        $tableHTML .= '<div class="wp_shortcode-bridelist_review-site-label wp_shortcode-bridelist_mobile-only">Site of the day</div>';
+                        $tableHTML .= '<div class="wp_shortcode-bridelist_review-site-label wp_shortcode-bridelist_mobile-only">'.$siteLabel.'</div>';
                     }
 
                     $tableHTML .= '<div class="wp_shortcode-bridelist_review-logo wp_shortcode-bridelist_partner-link"><img src="' . esc_url($imageSrc) . '" width="180" height="60" class="wp_shortcode-bridelist_cr-logotype-logo wp_shortcode-bridelist_lazyloaded"></div>';
@@ -498,7 +503,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $tableHTML .= '<div class="wp_shortcode-toplist_reviews-updated">
                                     <svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="m13.584.284 1.66 1.906 2.484-1.059a.742.742 0 0 1 .994.467l.758 2.455 2.694.048a.743.743 0 0 1 .723.83l-.3 2.557 2.442 1.145c.37.175.53.617.356.989-.332.693-.935 1.587-1.343 2.275l1.769 2.047a.75.75 0 0 1-.134 1.096l-2.09 1.484.788 2.592a.744.744 0 0 1-.566.945l-2.506.502-.329 2.688a.744.744 0 0 1-.953.623l-2.443-.557-1.389 2.32a.74.74 0 0 1-1.078.215l-2.052-1.54-2.208 1.554a.737.737 0 0 1-1.07-.249l-1.248-2.242-2.649.517a.742.742 0 0 1-.88-.709l-.229-2.515-2.625-.61a.746.746 0 0 1-.536-.965l.823-2.436-2.152-1.631a.748.748 0 0 1-.055-1.144l1.697-1.843L.63 9.669a.746.746 0 0 1 .357-1.047L3.335 7.61 3.1 4.91a.747.747 0 0 1 .813-.807l2.493.034.878-2.562a.741.741 0 0 1 1.05-.417l2.286 1.06 1.838-1.98a.739.739 0 0 1 1.125.047Zm-6.652 13c-.983-.989.512-2.492 1.495-1.504l3.311 3.33 5.799-6.462c.927-1.036 2.497.384 1.57 1.42l-6.51 7.252a1.054 1.054 0 0 1-1.568.081l-4.097-4.118Z" fill="#ED8A0A"></path>
-                                    </svg> Updated for November 2024
+                                    </svg> Updated for ' . esc_html( date_i18n( 'F Y' ) ) . '
                                 </div>';
                 $tableHTML .= '<div class="wp_shortcode-toplist_cpm-ajax-info wp_shortcode-toplist_cpm-advertiser-disclosure"></div></div>';
                 $tableHTML .= '<div class="wp_shortcode-toplist_reviews-list">';
@@ -510,10 +515,14 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                     $userRating = mt_rand(40, 50) / 10;
                     $rating = mt_rand(14, 20) / 2;
                     $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+                    $siteLabel = !empty($offer['siteLabel']) 
+                                    ? esc_html($offer['siteLabel']) 
+                                    : sprintf(__('Featured Site - %s', 'text-domain'), date_i18n('F Y'));
+
 
                     $tableHTML .= '<div class="wp_shortcode-toplist_review-item ' . $highlightClass . '">';
                     if ($elementIndex == 0) {
-                        $tableHTML .= '<div class="wp_shortcode-toplist_review-site-label">Site of the day</div>';
+                        $tableHTML .= '<div class="wp_shortcode-toplist_review-site-label">'.$siteLabel.'</div>';
                     }
                     $tableHTML .= '<div class="wp_shortcode-toplist_review-logo wp_shortcode-toplist_partner-link"><img src="' . esc_url($imageSrc) . '" width="180" height="60" class="wp_shortcode-toplist_cr-logotype-logo wp_shortcode-toplist_lazyloaded"></div>';
                     
