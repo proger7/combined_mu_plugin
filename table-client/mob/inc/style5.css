@@ -554,4 +554,13 @@
     .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
         height: 110px !important;
     }
+    .ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65]  {
+        word-break: break-word !important;
+    } 
+}
+
+@media (max-width: 450px) {
+    .ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65] {
+        font-size: 1em !important;
+    }
 }
