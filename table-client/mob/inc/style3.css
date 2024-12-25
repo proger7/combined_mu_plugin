@@ -272,3 +272,44 @@ figcaption {
         flex: 1 1 100% !important;
     }
 }
+
+
+@media (max-width: 650px) {
+    .insp_woman_review-item {
+        padding: 20px 10px 10px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .insp_woman_review-item img {
+        margin-bottom: 10px;
+        border-radius: 8px;
+}
+
+    .insp_woman_review-item .insp_woman_cr-rating-stars {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .insp_woman_review-item .insp_woman_cr-btn {
+        margin-top: 15px;
+        background-color: #ff5722;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .insp_woman_review-item .insp_woman_cr-btn:hover {
+        background-color: #e64a19;
+        color: #fff;
+    }
+}
+
+
