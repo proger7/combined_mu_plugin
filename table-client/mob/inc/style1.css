@@ -98,6 +98,7 @@
 }
 .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo.shortcode-wp_type-logo {
     padding: 20px;
+    width: 100%;
 }
 .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight .shortcode-wp_review-info-block, .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight .shortcode-wp_review-item-logo {
     background: #fff;
