@@ -98,6 +98,7 @@ return [
             "linkID" => "67890",
         ),
     ],
+    
     "models" => [
         "anna" => array(
             "Name" => "Anna",
@@ -115,7 +116,24 @@ return [
             "Interests" => "Tennis, and helping people",
             "Tag" => "ua",
         ),
+        "maria" => array(
+            "Name" => "Maria",
+            "Age" => "28",
+            "Location" => "Barcelona, Spain",
+            "Occupation" => "Graphic Designer",
+            "Interests" => "Photography, Art",
+            "Tag" => "es",
+        ),
+        "olga" => array(
+            "Name" => "Olga",
+            "Age" => "32",
+            "Location" => "Moscow, Russia",
+            "Occupation" => "Software Engineer",
+            "Interests" => "Coding, Hiking",
+            "Tag" => "ru",
+        ),
     ],
+
     "brands" => [
         "ashley-madison" => array("brandName" => "Ashley Madison"),
         "c-date" => array("brandName" => "C Date"),
