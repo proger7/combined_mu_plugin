@@ -1,11 +1,3 @@
-@media (min-width: 768px){ 
-  .aimojo_st_comparison-wrapper { 
-    overflow-x: auto; 
-    scroll-behavior: smooth; 
-    scroll-snap-type: x mandatory;
-  } 
-}     
-
 .aimojo_st_comparison-wrapper { 
     justify-content: center;
 } 
@@ -48,12 +40,7 @@
     border-right: 1px solid rgba(206,206,206,.5); 
     scroll-snap-align: start;
 } 
-
-@media (min-width: 768px){ 
-  .aimojo_st_comparison-wrapper .aimojo_st_comparison-item  { 
-    min-width: 190px;
-  } 
-}     
+   
 
 .aimojo_st_comparison-item  { 
     margin-top: 49px;
@@ -426,5 +413,39 @@ a {
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 20px;
+    }
+}
+
+
+
+.aimojo_st_comparison-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+    flex: 0 1 calc(var(--item-width) - 16px) !important;
+    max-width: calc(var(--item-width) - 16px) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img {
+        width: 75% !important;
+    }
+    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+        flex: 0 1 calc(50% - 16px) !important;
+        max-width: calc(50% - 16px) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+        flex: 0 1 100% !important;
+        max-width: 100% !important;
     }
 }

@@ -34,4 +34,15 @@ return array(
         ",
         "labelButton" => "Start for Free",
     ),
+    "friend-finder" => array(
+        "labelName" => "HIGHLY RECOMMENDED",
+        "brandName" => "FriendFinder",
+        "linkID" => "3473473",
+        "bulletPoints" => "
+            ✔ The Leading AI Porn Generator
+            ✔ Generate High-Quality AI Porn
+            ✔ Produce Realistic Fetish Content
+        ",
+        "labelButton" => "Start for Free",
+    ),
 );
