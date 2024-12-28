@@ -747,7 +747,8 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 }
 
                 $count = count($filteredOffers);
-                $width = 100 / $count;
+                $columns = $count > 3 ? 3 : $count;
+                $width = 100 / $columns;
 
                 $tableHTML = '<div class="aimojo_st_comparison-wrapper aimojo_st_snipcss0-0-0-1 aimojo_st_snipcss-vno3X" style="--item-width: ' . $width . '%;">';
 
