@@ -37,10 +37,21 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
 
 
         if ($style == 'site1') {
+            $filteredModels = array_filter($modelsArray, function($key) use ($offers) {
+                return in_array($key, $offers);
+            }, ARRAY_FILTER_USE_KEY);
+
+            if (empty($filteredModels)) {
+                return 'No models found.';
+            }
+
+            $count = count($filteredModels);
+            $columns = $count > 3 ? 3 : $count;
+            $width = 100 / $columns;
 
             $output = '<div class="wp_brand-models_tns-ovh">';
             $output .= '<div class="wp_brand-models_tns-inner" id="wp_brand-models_tns1-iw">';
-            $output .= '<div class="wp_brand-models_profiles-slider wp_brand-models_tns-slider wp_brand-models_tns-subpixel wp_brand-models_tns-horizontal wp_brand-models_style-91lpw" id="wp_brand-models_tns1">';
+            $output .= '<div class="wp_brand-models_profiles-slider wp_brand-models_tns-slider wp_brand-models_tns-subpixel wp_brand-models_tns-horizontal wp_brand-models_style-91lpw" id="wp_brand-models_tns1" style="--item-width-site1: ' . $width . '%;">';
 
             foreach ($filteredModels as $key => $model) {
                 $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
