@@ -693,6 +693,17 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
         } elseif ($style == 'style5') {
 
             $newOffersArray = include __DIR__ . '/offers-hookupguru-data.php';
+
+            $offerKeys = array_filter(array_map('trim', explode(',', $atts['offers'])));
+
+            $filteredOffersArray = array_filter($newOffersArray, function ($key) use ($offerKeys) {
+                return in_array($key, $offerKeys, true);
+            }, ARRAY_FILTER_USE_KEY);
+
+            if (empty($filteredOffersArray)) {
+                return '<div>No offers found.</div>';
+            }
+
             $tableHTML = '<div class="ad_wbc_all_reviews ad_wbc_snipcss-J8FO5" show-banner="false" data-v-ef4df5c3="" data-v-5fde7f3a="">';
             $ratings = [];
             for ($i = 5.0; $i >= 3.6; $i -= 0.2) {
@@ -705,7 +716,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $scoreOptions[] = number_format($i, 1);
             }
 
-            foreach ($newOffersArray as $arr_key => $offer) {
+            foreach ($filteredOffersArray as $arr_key => $offer) {
                 $highlightClass = $arr_key == 0 ? 'ad_wbc_highlight-offer' : '';
                 $signUpLink = '/sign-up';
                 $reviewLink = esc_url($offer['readReviewLink']);
