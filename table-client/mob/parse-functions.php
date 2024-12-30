@@ -363,29 +363,35 @@ if ( ! function_exists( 'customNewTables' ) ) {
         global $externalTableSettings, $isCloakActive, $newOffersArray;
 
         if (empty($newOffersArray)) {
-            $newOffersArray = include __DIR__ . '/offers-data.php';
-            $newOffersArray = $newOffersArray['offers'];
+            $data = include __DIR__ . '/offers-data.php';
+            $newOffersArray = isset($data['offers']) ? $data['offers'] : [];
         }
 
         $atts = shortcode_atts(array(
-            'offers' => 'povr',
+            'offers' => '',
             'tag' => '',
             'style' => 'style1',
         ), $atts);
 
-        if (!$isCloakActive || ($isCloakActive && !cloakIPChecker())) {
-            custom_enqueue_offers_table_css($atts['style']);
-
-            $offerKeys = array_map('trim', explode(',', $atts['offers']));
-            $filteredOffersArray = array_filter($newOffersArray, function($key) use ($offerKeys) {
-                return in_array($key, $offerKeys);
-            }, ARRAY_FILTER_USE_KEY);
-
-            return customNewTableLayouts($atts, $filteredOffersArray);
+        if ($isCloakActive && !cloakIPChecker()) {
+            return '';
         }
 
-        return '';
+        custom_enqueue_offers_table_css($atts['style']);
+
+        $offerKeys = array_filter(array_map('trim', explode(',', $atts['offers'])));
+
+        $filteredOffersArray = array_filter($newOffersArray, function($key) use ($offerKeys) {
+            return in_array($key, $offerKeys, true);
+        }, ARRAY_FILTER_USE_KEY);
+
+        if (empty($filteredOffersArray)) {
+            return '<div>No offers found.</div>';
+        }
+
+        return customNewTableLayouts($atts, $filteredOffersArray);
     }
+
 
     add_shortcode('new_table', 'customNewTables');
 }
@@ -620,8 +626,18 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
 
             $newOffersArray = include __DIR__ . '/offers-mail-bride-data.php';
 
+            $offerKeys = array_filter(array_map('trim', explode(',', $atts['offers'])));
+
+            $filteredOffersArray = array_filter($newOffersArray['offers'], function ($key) use ($offerKeys) {
+                return in_array($key, $offerKeys, true);
+            }, ARRAY_FILTER_USE_KEY);
+
+            if (empty($filteredOffersArray)) {
+                return '<div>No offers found.</div>';
+            }
+
             $tableHTML = '<div class="mailbride_site_review-table-wrapper">';
-            foreach ($newOffersArray['brands'] as $arr_key => $offer) {
+            foreach ($filteredOffersArray as $arr_key => $offer) {
                 $highlightClass = $arr_key === "sofia-date" ? 'mailbride_site_highlight-review' : '';
                 $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                 $ratingFormatted = number_format($offer['rating'], 1);
