@@ -210,6 +210,14 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
 
         } elseif ($style == 'site3') {
 
+            $filteredModels = array_filter($modelsArray, function($key) use ($offers) {
+                return in_array($key, $offers);
+            }, ARRAY_FILTER_USE_KEY);
+
+            if (empty($filteredModels)) {
+                return 'No models found.';
+            }
+
             $output = '<div class="s3_shortcode_reviews-list">';
             $currentIndex = 0;
 
