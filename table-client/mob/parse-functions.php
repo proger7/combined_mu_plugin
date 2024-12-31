@@ -196,8 +196,8 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 $output .= '<div class="wp_s2_site_profile-name">';
                 $output .= '<span class="wp_s2_site_partner-link">' . esc_html($model['Name']) . ', ' . esc_html($model['Age']) . '</span>';
                 $output .= '</div>';
-                $output .= '<div class="wp_s2_site_profile-location">' . esc_html($model['Location']) . '</div>';
-                $output .= '<div class="wp_s2_site_profile-website"> From: <span class="wp_s2_site_profile-website-link wp_s2_site_partner-link">' . esc_html($offerName) . '</span></div>';
+                $output .= '<div class="wp_s2_site_profile-location">' . esc_html($model['Occupation']) . '</div>';
+                $output .= '<div class="wp_s2_site_profile-website"> From: <span class="wp_s2_site_profile-website-link wp_s2_site_partner-link">' . esc_html($model['Location']) . '</span></div>';
                 $output .= '</div>';
                 $output .= '<a href="' . esc_url($link) . '" class="wp_s2_site_profile-button wp_s2_site_partner-link">Visit Profile</a>';
                 $output .= '</div>';
@@ -317,8 +317,8 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                     $output .= '<div class="wp_site4_bride_profile-name">';
                     $output .= '<span class="wp_site4_bride_partner-link">' . esc_html($model['Name']) . ', ' . esc_html($model['Age']) . '</span>';
                     $output .= '</div>';
-                    $output .= '<div class="wp_site4_bride_profile-location">' . esc_html($model['Location']) . '</div>';
-                    $output .= '<div class="wp_site4_bride_profile-website"> From: <span class="wp_site4_bride_profile-website-link wp_site4_bride_partner-link">' . esc_html($offerName) . '</span></div>';
+                    $output .= '<div class="wp_site4_bride_profile-location">' . esc_html($model['Occupation']) . '</div>';
+                    $output .= '<div class="wp_site4_bride_profile-website"> From: <span class="wp_site4_bride_profile-website-link wp_site4_bride_partner-link">' . esc_html($model['Location']) . '</span></div>';
                     $output .= '</div>';
                     $output .= '<a href="' . esc_url($link) . '" class="wp_site4_bride_profile-button wp_site4_bride_partner-link"> Find Me </a>';
                     $output .= '</div>';
