@@ -564,3 +564,12 @@
         font-size: 1em !important;
     }
 }
+
+.ad_wbc_all_reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
