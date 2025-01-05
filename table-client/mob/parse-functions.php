@@ -604,12 +604,12 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
 
                 $tableHTML .= '<div class="insp_woman_review-item ' . $highlightClass . ' insp_woman_snipcss-xGlZY">';
-                $tableHTML .= '<div class="insp_woman_review-logo">';
+                $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" class="insp_woman_review-logo">';
                 $tableHTML .= '<figure class="insp_woman_partner-link insp_woman_data-1566-reviews-table">';
                 $tableHTML .= '<img decoding="async" src="' . esc_url($imageSrc) . '" width="130" height="62" alt="' . esc_attr($offer['brandName'] ?? '') . '" class="insp_woman_cr-logotype-logo insp_woman_ls-is-cached insp_woman_lazyloaded">';
                 $tableHTML .= '<figcaption>' . esc_html($offer['brandName'] ?? '') . '</figcaption>';
                 $tableHTML .= '</figure>';
-                $tableHTML .= '</div>';
+                $tableHTML .= '</a>';
                 $tableHTML .= '<div class="insp_woman_cr-rating-stars" title="Our Score">';
                 $tableHTML .= '<div class="insp_woman_fill" style="width: ' . $ratingPercentage . '%"></div>';
                 $tableHTML .= '</div>';
