@@ -426,9 +426,9 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                     $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
 
                     $tableHTML .= '<div class="shortcode-wp_review-item ' . $highlightClass . '" data-position="' . esc_attr($arr_key) . '">';
-                    $tableHTML .= '<div class="shortcode-wp_review-item-logo shortcode-wp_type-logo shortcode-wp_partner-link shortcode-wp_data-' . esc_attr($arr_key) . '-reviews-table">';
+                    $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" class="shortcode-wp_review-item-logo shortcode-wp_type-logo shortcode-wp_partner-link shortcode-wp_data-' . esc_attr($arr_key) . '-reviews-table">';
                     $tableHTML .= '<img decoding="async" src="' . esc_url($imageSrc) . '" width="180" height="60" alt="' . esc_attr($offer['brandName']) . ' Logo" class="shortcode-wp_cr-logotype-logo ls-is-cached lazyloaded">';
-                    $tableHTML .= '</div>';
+                    $tableHTML .= '</a>';
 
                     $tableHTML .= '<div class="shortcode-wp_review-info-block shortcode-wp_rating-block">';
                     $tableHTML .= '<div class="shortcode-wp_review-info-block-label">Our score</div>';
@@ -491,7 +491,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                         $tableHTML .= '<div class="wp_shortcode-bridelist_review-site-label wp_shortcode-bridelist_mobile-only">'.$siteLabel.'</div>';
                     }
 
-                    $tableHTML .= '<div class="wp_shortcode-bridelist_review-logo wp_shortcode-bridelist_partner-link"><img src="' . esc_url($imageSrc) . '" width="180" height="60" class="wp_shortcode-bridelist_cr-logotype-logo wp_shortcode-bridelist_lazyloaded"></div>';
+                    $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" class="wp_shortcode-bridelist_review-logo wp_shortcode-bridelist_partner-link"><img src="' . esc_url($imageSrc) . '" width="180" height="60" class="wp_shortcode-bridelist_cr-logotype-logo wp_shortcode-bridelist_lazyloaded"></a>';
                     
 
                     $tableHTML .= '<div class="wp_shortcode-bridelist_review-description wp_shortcode-bridelist_inner-container wp_shortcode-bridelist_mobile-only">';
