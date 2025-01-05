@@ -561,7 +561,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                     if ($elementIndex == 0) {
                         $tableHTML .= '<div class="wp_shortcode-toplist_review-site-label">'.$siteLabel.'</div>';
                     }
-                    $tableHTML .= '<div class="wp_shortcode-toplist_review-logo wp_shortcode-toplist_partner-link"><img src="' . esc_url($imageSrc) . '" width="180" height="60" class="wp_shortcode-toplist_cr-logotype-logo wp_shortcode-toplist_lazyloaded"></div>';
+                    $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" class="wp_shortcode-toplist_review-logo wp_shortcode-toplist_partner-link"><img src="' . esc_url($imageSrc) . '" width="180" height="60" class="wp_shortcode-toplist_cr-logotype-logo wp_shortcode-toplist_lazyloaded"></a>';
                     
                     $tableHTML .= '<div class="wp_shortcode-toplist_review-description wp_shortcode-toplist_inner-container wp_shortcode-toplist_mobile-only">';
                     if (!empty($offer['bulletPoints'])) {
