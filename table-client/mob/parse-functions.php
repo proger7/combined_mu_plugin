@@ -807,11 +807,11 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                     $tableHTML .= '<div class="aimojo_st_item-header aimojo_st_snipcss0-2-2-3 aimojo_st_style-9KM7g" data-match-height="itemHeader">';
                     $tableHTML .= '<div class="aimojo_st_item-badge aimojo_st_snipcss0-3-3-4 aimojo_st_style-o1fJI">' . $labelName . '</div>';
                     $tableHTML .= '<div class="aimojo_st_product-image aimojo_st_snipcss0-3-3-5">';
-                    $tableHTML .= '<div class="aimojo_st_image aimojo_st_snipcss0-4-5-6">';
+                    $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" class="aimojo_st_image aimojo_st_snipcss0-4-5-6">';
                     $tableHTML .= '<img fetchpriority="high" decoding="async" src="' . esc_url($imageSrc) . '" class="aimojo_st_attachment-full aimojo_st_size-full aimojo_st_snipcss0-5-6-7" width="160" height="160" alt="' . $brandName . ' Logo">';
+                    $tableHTML .= '</a>';
                     $tableHTML .= '</div>';
-                    $tableHTML .= '</div>';
-                    $tableHTML .= '<div class="aimojo_st_item-title aimojo_st_snipcss0-3-3-8 aimojo_st_style-iXbas"><strong>' . $brandName . '</strong></div>';
+                    $tableHTML .= '<a href="' . esc_url($offerLinkURL) . '" rel="nofollow noopener sponsored" target="_blank" class="aimojo_st_item-title aimojo_st_snipcss0-3-3-8 aimojo_st_style-iXbas"><strong>' . $brandName . '</strong></a>';
                     $tableHTML .= '<div class="aimojo_st_item-rating aimojo_st_snipcss0-3-3-10">';
                     $tableHTML .= '<div class="aimojo_st_item-stars-rating aimojo_st_snipcss0-4-10-11">';
                     for ($i = 0; $i < 5; $i++) {
