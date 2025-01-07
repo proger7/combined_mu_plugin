@@ -4,6 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 if ( ! function_exists( 'customDisplayModelsApp' ) ) {
     function customDisplayModelsApp($atts) {
+
         $data = include __DIR__ . '/offers-data.php';
         $modelsArray = $data['models'];
         $offersArray = $data['offers'];
@@ -21,14 +22,19 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
         $style = $atts['style'];
 
         $filteredModels = array_filter($modelsArray, function ($model) use ($atts) {
-            return empty($atts['tag']) || $model['Tag'] === $atts['tag'];
+            $tags = is_array($model['Tag']) ? $model['Tag'] : explode(',', $model['Tag']);
+            return empty($atts['tag']) || in_array($atts['tag'], $tags);
         });
 
         if (empty($filteredModels)) {
             return 'No models found for the specified tag.';
         }
 
-        $filteredModels = array_slice($filteredModels, 0, $atts['limit']);
+        $keys = array_keys($filteredModels);
+        shuffle($keys);
+        $keys = array_slice($keys, 0, $atts['limit']);
+        $filteredModels = array_intersect_key($filteredModels, array_flip($keys));
+
         $offers = array_filter(array_map('trim', explode(',', $atts['offer'])), function ($offer) use ($offersArray) {
             return isset($offersArray[$offer]);
         });
@@ -64,6 +70,7 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             $output .= '<div class="wp_brand-models_profiles-slider wp_brand-models_tns-slider wp_brand-models_tns-subpixel wp_brand-models_tns-horizontal wp_brand-models_style-91lpw" id="wp_brand-models_tns1" style="--item-width-site1: ' . $width . '%;">';
 
             foreach ($filteredModels as $key => $model) {
+
                 $offerDetails = $getOfferDetails($offers, $brandsArray, $offersArray);
                 $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
 
@@ -71,10 +78,7 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 $output .= '<div class="wp_brand-models_profile-item">';
                 $output .= '<div class="wp_brand-models_profile-image-wrapper">';
                 $output .= '<div class="wp_brand-models_profile-label">';
-                $output .= '<div class="wp_brand-models_icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="#2fc85a" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="7.95898" y="7" width="15.9179" height="17" fill="white"></rect>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7185 0.350103L18.7624 2.69534L21.8192 1.39198C22.3144 1.18226 22.8848 1.45229 23.0429 1.96625L23.9756 4.98883L27.2911 5.04778C27.8271 5.05634 28.2466 5.53474 28.1804 6.06986L27.8114 9.21575L30.8171 10.6258C31.272 10.84 31.4691 11.3846 31.2559 11.8423C30.8462 12.6956 30.1043 13.7955 29.6024 14.6425L31.7793 17.1624C32.1308 17.5701 32.0525 18.2007 31.615 18.5103L29.0432 20.3371L30.0121 23.5275C30.1688 24.0478 29.8433 24.5856 29.3154 24.6905L26.2313 25.3079L25.8265 28.6168C25.7576 29.1834 25.1925 29.5497 24.6534 29.3836L21.6464 28.6982L19.9378 31.5543C19.6606 32.0192 19.0418 32.1416 18.6111 31.8184L16.0854 29.9233L13.368 31.8347C12.9229 32.147 12.3171 32.0012 12.0516 31.5291L10.5149 28.7698L7.25444 29.4062C6.70013 29.5124 6.19104 29.0956 6.17179 28.5335L5.88971 25.4371L2.65832 24.6864C2.12953 24.5645 1.82775 24.0122 1.99834 23.4987L3.01159 20.5013L0.362717 18.4932C-0.0939854 18.1471 -0.122641 17.4716 0.295107 17.0859L2.3834 14.8167L0.77554 11.8994C0.511817 11.4228 0.719124 10.8265 1.21478 10.6123L4.10409 9.36517L3.81619 6.04151C3.76694 5.46814 4.25409 4.99378 4.81735 5.04869L7.88532 5.09054L8.96663 1.937C9.14976 1.40143 9.76317 1.16245 10.2579 1.42394L13.0716 2.7291L15.334 0.292046C15.7178 -0.122456 16.3724 -0.0891516 16.7185 0.350103ZM8.53142 16.3487C7.3216 15.1326 9.1614 13.2829 10.3717 14.499L14.4471 18.5958L21.5837 10.6442C22.725 9.36922 24.657 11.1159 23.5153 12.3918L15.5042 21.3173C15.0184 21.9177 14.1206 21.9667 13.5744 21.4172L8.53142 16.3487Z" fill="#2fc85a"></path>
-                            </svg></div>';
+                $output .= '<div class="wp_brand-models_icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="#2fc85a" xmlns="http://www.w3.org/2000/svg"><rect x="7.95898" y="7" width="15.9179" height="17" fill="white"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.7185 0.350103L18.7624 2.69534L21.8192 1.39198C22.3144 1.18226 22.8848 1.45229 23.0429 1.96625L23.9756 4.98883L27.2911 5.04778C27.8271 5.05634 28.2466 5.53474 28.1804 6.06986L27.8114 9.21575L30.8171 10.6258C31.272 10.84 31.4691 11.3846 31.2559 11.8423C30.8462 12.6956 30.1043 13.7955 29.6024 14.6425L31.7793 17.1624C32.1308 17.5701 32.0525 18.2007 31.615 18.5103L29.0432 20.3371L30.0121 23.5275C30.1688 24.0478 29.8433 24.5856 29.3154 24.6905L26.2313 25.3079L25.8265 28.6168C25.7576 29.1834 25.1925 29.5497 24.6534 29.3836L21.6464 28.6982L19.9378 31.5543C19.6606 32.0192 19.0418 32.1416 18.6111 31.8184L16.0854 29.9233L13.368 31.8347C12.9229 32.147 12.3171 32.0012 12.0516 31.5291L10.5149 28.7698L7.25444 29.4062C6.70013 29.5124 6.19104 29.0956 6.17179 28.5335L5.88971 25.4371L2.65832 24.6864C2.12953 24.5645 1.82775 24.0122 1.99834 23.4987L3.01159 20.5013L0.362717 18.4932C-0.0939854 18.1471 -0.122641 17.4716 0.295107 17.0859L2.3834 14.8167L0.77554 11.8994C0.511817 11.4228 0.719124 10.8265 1.21478 10.6123L4.10409 9.36517L3.81619 6.04151C3.76694 5.46814 4.25409 4.99378 4.81735 5.04869L7.88532 5.09054L8.96663 1.937C9.14976 1.40143 9.76317 1.16245 10.2579 1.42394L13.0716 2.7291L15.334 0.292046C15.7178 -0.122456 16.3724 -0.0891516 16.7185 0.350103ZM8.53142 16.3487C7.3216 15.1326 9.1614 13.2829 10.3717 14.499L14.4471 18.5958L21.5837 10.6442C22.725 9.36922 24.657 11.1159 23.5153 12.3918L15.5042 21.3173C15.0184 21.9177 14.1206 21.9667 13.5744 21.4172L8.53142 16.3487Z" fill="#2fc85a"></path></svg></div>';
                 $output .= '</div>';
                 $output .= '<span class="wp_brand-models_partner-link"><img src="' . esc_url($imageUrl) . '" width="330" height="220" class="wp_brand-models_profile-image wp_brand-models_lazyloaded" alt="' . esc_attr($model['Name']) . '"></span>';
                 $output .= '</div>';
