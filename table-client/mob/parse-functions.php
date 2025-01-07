@@ -103,10 +103,9 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             $output = '<div class="wp_s2_site_profiles-grid">';
 
             foreach ($filteredModels as $key => $model) {
-                $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
-                $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
-                $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
-                $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
+                $offerDetails = $getOfferDetails($offers, $brandsArray, $offersArray);
+                $link = $offerDetails['link'];
+                $offerName = $offerDetails['name'];
 
                 $output .= '<div class="wp_s2_site_profile-grid-item">';
                 $output .= '<div class="wp_s2_site_tns-outer">';
@@ -142,8 +141,8 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 $output .= '<div class="wp_s2_site_profile-name">';
                 $output .= '<span class="wp_s2_site_partner-link">' . esc_html($model['Name']) . ', ' . esc_html($model['Age']) . '</span>';
                 $output .= '</div>';
-                $output .= '<div class="wp_s2_site_profile-location">' . esc_html($model['Location']) . '</div>';
-                $output .= '<div class="wp_s2_site_profile-website"> From: <span class="wp_s2_site_profile-website-link wp_s2_site_partner-link">' . esc_html($offerName) . '</span></div>';
+                $output .= '<div class="wp_s2_site_profile-location">' . esc_html($model['Occupation']) . '</div>';
+                $output .= '<div class="wp_s2_site_profile-website"> From: <span class="wp_s2_site_profile-website-link wp_s2_site_partner-link">' . esc_html($model['Location']) . '</span></div>';
                 $output .= '</div>';
                 $output .= '<a href="' . esc_url($link) . '" class="wp_s2_site_profile-button wp_s2_site_partner-link">Visit Profile</a>';
                 $output .= '</div>';
@@ -152,63 +151,61 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
 
             $output .= '</div>';
 
-            return $output;
 
         } elseif ($style == 'site3') {
 
-            $output = '<div class="s3_shortcode_reviews-list">';
-            $currentIndex = 0;
+                $output = '<div class="s3_shortcode_reviews-list">';
+                $currentIndex = 0;
 
-            foreach ($filteredModels as $key => $model) {
-                $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
-                $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
-                $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
-                $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
-                $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
+                foreach ($filteredModels as $key => $model) {
+                    $offerDetails = $getOfferDetails($offers, $brandsArray, $offersArray);
+                    $link = $offerDetails['link'];
+                    $offerName = $offerDetails['name'];
+                    $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
 
-                $popularClass = $currentIndex === 0 ? 's3_shortcode_review-item-popular' : '';
-                $popularRibbon = $currentIndex === 0 ? '<div class="s3_shortcode_review-item-ribbon"><span>Most Popular Choice</span></div>' : '';
+                    $popularClass = $currentIndex === 0 ? 's3_shortcode_review-item-popular' : '';
+                    $popularRibbon = $currentIndex === 0 ? '<div class="s3_shortcode_review-item-ribbon"><span>Most Popular Choice</span></div>' : '';
 
-                $output .= '<div class="s3_shortcode_review-item ' . esc_attr($popularClass) . '">';
-                $output .= $popularRibbon;
-                $output .= '<div class="s3_shortcode_review-item-grid">';
-                $output .= '<div class="s3_shortcode_review-item-column">';
-                $output .= '<div class="s3_shortcode_logo s3_shortcode_partner-link">';
-                $output .= '<img src="' . esc_url($imageUrl) . '" width="240" height="300" class="s3_shortcode_lazyloaded" alt="' . esc_attr($model['Name']) . '">';
-                $output .= '</div>';
-                $output .= '</div>';
-                $output .= '<div class="s3_shortcode_review-item-column s3_shortcode_review-item-column-content">';
-                $output .= '<div class="s3_shortcode_review-item-info">';
-                $output .= '<a href="' . esc_url($link) . '" class="s3_shortcode_review-title">' . esc_html($model['Name']) . '</a>';
-                $output .= '<div class="s3_shortcode_cr-rating-stars"><div class="s3_shortcode_fill" style="width: 100%;"></div></div>';
-                $output .= '<p>' . esc_html($model['Interests']) . '</p>';
-                $output .= '</div>';
-                $output .= '<div class="s3_shortcode_review-item-bottom">';
-                $output .= '<div class="s3_shortcode_review-item-average-age">Average Girls Age <div class="s3_shortcode_review-item-average-age-count">' . esc_html($model['Age']) . '</div></div>';
-                $output .= '<div class="s3_shortcode_review-item-rating">Our Score <div class="s3_shortcode_review-item-overall-rating"><div>5.0</div></div></div>';
-                $output .= '</div>';
-                $output .= '</div>';
-                $output .= '<div class="s3_shortcode_review-item-column s3_shortcode_review-item-column-action">';
-                $output .= '<div class="s3_shortcode_review-item-buttons">';
-                $output .= '<a href="' . esc_url($link) . '" class="s3_shortcode_cr-btn s3_shortcode_square s3_shortcode_partner-link">Visit Site</a>';
-                $output .= '</div>';
-                $output .= '</div>';
-                $output .= '</div>';
-                $output .= '</div>';
-                $currentIndex++;
-            }
+                    $output .= '<div class="s3_shortcode_review-item ' . esc_attr($popularClass) . '">';
+                    $output .= $popularRibbon;
+                    $output .= '<div class="s3_shortcode_review-item-grid">';
+                    $output .= '<div class="s3_shortcode_review-item-column">';
+                    $output .= '<div class="s3_shortcode_logo s3_shortcode_partner-link">';
+                    $output .= '<img src="' . esc_url($imageUrl) . '" width="240" height="300" class="s3_shortcode_lazyloaded" alt="' . esc_attr($model['Name']) . '">';
+                    $output .= '</div>';
+                    $output .= '</div>';
+                    $output .= '<div class="s3_shortcode_review-item-column s3_shortcode_review-item-column-content">';
+                    $output .= '<div class="s3_shortcode_review-item-info">';
+                    $output .= '<a href="' . esc_url($link) . '" class="s3_shortcode_review-title">' . esc_html($model['Name']) . '</a>';
+                    $output .= '<div class="s3_shortcode_cr-rating-stars"><div class="s3_shortcode_fill" style="width: 100%;"></div></div>';
+                    $output .= '<p>' . esc_html($model['Interests']) . '</p>';
+                    $output .= '</div>';
+                    $output .= '<div class="s3_shortcode_review-item-bottom">';
+                    $output .= '<div class="s3_shortcode_review-item-average-age">Average Girls Age <div class="s3_shortcode_review-item-average-age-count">' . esc_html($model['Age']) . '</div></div>';
+                    $output .= '<div class="s3_shortcode_review-item-rating">Our Score <div class="s3_shortcode_review-item-overall-rating"><div>5.0</div></div></div>';
+                    $output .= '</div>';
+                    $output .= '</div>';
+                    $output .= '<div class="s3_shortcode_review-item-column s3_shortcode_review-item-column-action">';
+                    $output .= '<div class="s3_shortcode_review-item-buttons">';
+                    $output .= '<a href="' . esc_url($link) . '" class="s3_shortcode_cr-btn s3_shortcode_square s3_shortcode_partner-link">Visit Site</a>';
+                    $output .= '</div>';
+                    $output .= '</div>';
+                    $output .= '</div>';
+                    $output .= '</div>';
+                    $currentIndex++;
+                }
 
-            $output .= '</div>';
+                $output .= '</div>';
+
 
         } elseif ($style == 'site4') {
 
                 $output = '<div class="wp_site4_bride_profiles-grid">';
 
                 foreach ($filteredModels as $key => $model) {
-                    $randomOfferKey = $offerCount > 0 ? $offers[array_rand($offers)] : '';
-                    $randomOffer = $offerCount > 0 ? $offers[array_rand($offers)] : '';
-                    $offerName = isset($modelBrandArray[$randomOffer]) ? $modelBrandArray[$randomOffer]['brandName'] : '';
-                    $link = "/out/offer.php?id=$ModelTracker&o=$randomOfferKey&t=$ModelTag";
+                    $offerDetails = $getOfferDetails($offers, $brandsArray, $offersArray);
+                    $link = $offerDetails['link'];
+                    $offerName = $offerDetails['name'];
 
                     $output .= '<div class="wp_site4_bride_profile-grid-item">';
                     $output .= '<div class="wp_site4_bride_tns-outer">';
@@ -257,8 +254,6 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
                 }
 
                 $output .= '</div>';
-
-                return $output;
 
         }
 
