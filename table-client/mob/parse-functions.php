@@ -284,13 +284,13 @@ if ( ! function_exists( 'custom_mi_enqueue_models_app_css' ) ) {
 
 
 
-if ( ! function_exists( 'customNewTables' ) ) {
-    function customNewTables($atts) {
-        global $externalTableSettings, $isCloakActive, $newOffersArray;
+if ( ! function_exists( 'customUpdatedTables' ) ) {
+    function customUpdatedTables($atts) {
+        global $externalTableSettings, $isCloakActive, $updatedOffersArray;
 
-        if (empty($newOffersArray)) {
-            $newOffersArray = include __DIR__ . '/offers-data.php';
-            $newOffersArray = $newOffersArray['offers'];
+        if (empty($updatedOffersArray)) {
+            $updatedOffersArray = include __DIR__ . '/offers-data.php';
+            $updatedOffersArray = $updatedOffersArray['offers'];
         }
 
         $atts = shortcode_atts(array(
@@ -300,28 +300,28 @@ if ( ! function_exists( 'customNewTables' ) ) {
         ), $atts);
 
         if (!$isCloakActive || ($isCloakActive && !cloakIPChecker())) {
-            custom_enqueue_offers_table_css($atts['style']);
+            enqueue_offers_table_css($atts['style']);
 
             $offerKeys = array_map('trim', explode(',', $atts['offers']));
-            $filteredOffersArray = array_filter($newOffersArray, function($key) use ($offerKeys) {
+            $filteredOffersArray = array_filter($updatedOffersArray, function($key) use ($offerKeys) {
                 return in_array($key, $offerKeys);
             }, ARRAY_FILTER_USE_KEY);
 
-            return customNewTableLayouts($atts, $filteredOffersArray);
+            return customUpdatedTableLayouts($atts, $filteredOffersArray);
         }
 
         return '';
     }
 
-    add_shortcode('new_table', 'customNewTables');
+    add_shortcode('new_table', 'customUpdatedTables');
 }
 
-if ( ! function_exists( 'customNewTableLayouts' ) ) {
-    function customNewTableLayouts($atts, $newOffersArray) {
+if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
+    function customUpdatedTableLayouts($atts, $updatedOffersArray) {
         $style = $atts['style'];
         $tableHTML = '';
 
-        custom_enqueue_offers_table_css($style);
+        enqueue_offers_table_css($style);
 
         if ($style == 'style1') {
                 $tableHTML .= '<div class="shortcode-wp_cr-table-style-23 shortcode-wp_cr-rating-table ' . esc_attr($atts['style']) . '">';
@@ -342,7 +342,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $isFirst = true;
                 $rating = 5.0;
 
-                foreach ($newOffersArray as $arr_key => $offer) {
+                foreach ($updatedOffersArray as $arr_key => $offer) {
                     $highlightClass = $isFirst ? 'shortcode-wp_highlight' : '';
                     $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                     $userRating = mt_rand(80, 100) / 10;
@@ -398,7 +398,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $tableHTML .= '<div class="wp_shortcode-bridelist_reviews-list">';
 
                 $itemIndex = 0;
-                foreach ($newOffersArray as $arr_key => $offer) {
+                foreach ($updatedOffersArray as $arr_key => $offer) {
                     $highlightClass = $itemIndex == 0 ? 'wp_shortcode-bridelist_highlight' : '';
                     $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                     $userRating = mt_rand(40, 50) / 10;
@@ -470,7 +470,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $tableHTML .= '<div class="wp_shortcode-toplist_reviews-list">';
 
                 $elementIndex = 0;
-                foreach ($newOffersArray as $arr_key => $offer) {
+                foreach ($updatedOffersArray as $arr_key => $offer) {
                     $highlightClass = $elementIndex == 0 ? 'wp_shortcode-toplist_highlight' : '';
                     $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                     $userRating = mt_rand(40, 50) / 10;
@@ -519,7 +519,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $tableHTML .= '</div></div>';
         } elseif ($style == 'style3') {
             $tableHTML .= '<div class="insp_woman_wp_shortcode-bridelist_cr-table-style-45 insp_woman_wp_shortcode-bridelist_cr-rating-table">';
-            foreach ($newOffersArray as $arr_key => $offer) {
+            foreach ($updatedOffersArray as $arr_key => $offer) {
                 $highlightClass = $arr_key == 0 ? 'insp_woman_has-review' : '';
                 $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                 $userRating = mt_rand(40, 50) / 10;
@@ -544,10 +544,10 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
             $tableHTML .= '</div>';
         } elseif ($style == 'style4') {
 
-            $newOffersArray = include __DIR__ . '/offers-mail-bride-data.php';
+            $updatedOffersArray = include __DIR__ . '/offers-mail-bride-data.php';
 
             $tableHTML = '<div class="mailbride_site_review-table-wrapper">';
-            foreach ($newOffersArray['brands'] as $arr_key => $offer) {
+            foreach ($updatedOffersArray['brands'] as $arr_key => $offer) {
                 $highlightClass = $arr_key === "sofia-date" ? 'mailbride_site_highlight-review' : '';
                 $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                 $ratingFormatted = number_format($offer['rating'], 1);
@@ -602,7 +602,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
             return $tableHTML;
         } elseif ($style == 'style5') {
 
-            $newOffersArray = include __DIR__ . '/offers-hookupguru-data.php';
+            $updatedOffersArray = include __DIR__ . '/offers-hookupguru-data.php';
             $tableHTML = '<div class="ad_wbc_all_reviews ad_wbc_snipcss-J8FO5" show-banner="false" data-v-ef4df5c3="" data-v-5fde7f3a="">';
             $ratings = [];
             for ($i = 5.0; $i >= 3.6; $i -= 0.2) {
@@ -615,7 +615,7 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
                 $scoreOptions[] = number_format($i, 1);
             }
 
-            foreach ($newOffersArray as $arr_key => $offer) {
+            foreach ($updatedOffersArray as $arr_key => $offer) {
                 $highlightClass = $arr_key == 0 ? 'ad_wbc_highlight-offer' : '';
                 $signUpLink = '/sign-up';
                 $reviewLink = esc_url($offer['readReviewLink']);
@@ -694,11 +694,15 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
             $tableHTML .= '</div>';
 
         } elseif ($style == 'top1') {
-            $newOffersArray = include __DIR__ . '/offers-aimojo-data.php';
+            $updatedOffersArray = include __DIR__ . '/offers-aimojo-data.php';
 
-            $tableHTML = '<div class="aimojo_st_comparison-wrapper aimojo_st_snipcss0-0-0-1 aimojo_st_snipcss-vno3X">';
+            $count = count($updatedOffersArray);
+            $columns = $count > 3 ? 3 : $count;
+            $width = 100 / $columns;
 
-            foreach ($newOffersArray as $arr_key => $offer) {
+            $tableHTML = '<div class="aimojo_st_comparison-wrapper aimojo_st_snipcss0-0-0-1 aimojo_st_snipcss-vno3X" style="--item-width: ' . $width . '%;">';
+
+            foreach ($updatedOffersArray as $arr_key => $offer) {
                 $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                 $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
                 $labelName = esc_html($offer['labelName']);
@@ -742,9 +746,9 @@ if ( ! function_exists( 'customNewTableLayouts' ) ) {
     }
 }
 
-if ( ! function_exists( 'custom_enqueue_offers_table_css' ) ) {
-    function custom_enqueue_offers_table_css($style) {
-        $handle = "offers-table-css-$style";
+if ( ! function_exists( 'enqueue_offers_table_css' ) ) {
+    function enqueue_offers_table_css($style) {
+        $handle = "updated-table-css-$style";
         $css_url = site_url() . "/table-client/mob/inc/{$style}.css";
 
         if (!wp_style_is($handle, 'enqueued') && file_exists(ABSPATH . "table-client/mob/inc/{$style}.css")) {
