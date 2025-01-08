@@ -17,6 +17,8 @@ if ( ! function_exists( 'customDisplayModelsApp' ) ) {
             'style' => 'site1',
         ], $atts);
 
+        $atts['limit'] = (int)$atts['limit'] > 0 ? (int)$atts['limit'] : 10;
+
         custom_mi_enqueue_models_app_css($atts['style']);
 
         $style = $atts['style'];
