@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    "casino" => [
+    "casino1" => [
         "goldenbet-casino" => array(
             "brandName" => "GoldenBet Casino",
             "bulletPoints" => "
@@ -72,5 +72,67 @@ return array(
             "linkID" => "12349",
             "Tag" => "games",
         ),
+    ],
+    "casino2" => [
+        "betfair-casino" => [
+            "brandName" => "Betfair",
+            "bulletPoints" => "
+                Safe casino: play daily for top prizes
+            ",
+            "bonus" => "Bet £10 Get £30 in Free Football Bet Builders",
+            "rating" => "10",
+            "link" => "https://newhorrizon.eu/visit/betfair/",
+            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/betfair.svg",
+            "linkID" => "12345",
+            "Tag" => "games",
+        ],
+        "all-british-casino" => [
+            "brandName" => "All British Casino",
+            "bulletPoints" => "
+                Over 1500 games from the top providers
+            ",
+            "bonus" => "10% Cashback Welcome Offer",
+            "rating" => "9.5",
+            "link" => "https://newhorrizon.eu/visit/all-british-casino/",
+            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/abc-sports.svg",
+            "linkID" => "12346",
+            "Tag" => "popular",
+        ],
+        "william-hill" => [
+            "brandName" => "William Hill",
+            "bulletPoints" => "
+                The world's biggest casino
+            ",
+            "bonus" => "Get £30 in Free Bets When You Stake £10",
+            "rating" => "9.8",
+            "link" => "https://newhorrizon.eu/visit/william-hill/",
+            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/William-Hill-130x63.png",
+            "linkID" => "12347",
+            "Tag" => "games",
+        ],
+        "10bet" => [
+            "brandName" => "10bet",
+            "bulletPoints" => "
+                Offer thousands of games across a comprehensive list of categories
+            ",
+            "bonus" => "100% Welcome Offer Up To £50",
+            "rating" => "9.6",
+            "link" => "https://href.li/?https://www.10bet.co.uk/casino",
+            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/10Bet.svg",
+            "linkID" => "12348",
+            "Tag" => "online",
+        ],
+        "betfred" => [
+            "brandName" => "Betfred",
+            "bulletPoints" => "
+                Large selection of the most popular casino games
+            ",
+            "bonus" => "£50 in Free Bets When You Bet £10",
+            "rating" => "9.7",
+            "link" => "https://newhorrizon.eu/visit/betfred/",
+            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/logo-betfred.svg",
+            "linkID" => "12349",
+            "Tag" => "popular",
+        ],
     ],
 );

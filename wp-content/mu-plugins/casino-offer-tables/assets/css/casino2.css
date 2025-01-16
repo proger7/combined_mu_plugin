@@ -1,0 +1,606 @@
+:root { 
+    --nh-red-newhorrizon: rgba(206, 0, 55, 1); 
+    --nh-darker-red-newhorrizon: rgba(146, 0, 38, 1); 
+} 
+
+:root { 
+    --bm-cta-button-color-newhorrizon: #FFF; 
+    --bm-cta-button-hover-color-newhorrizon: #FFF; 
+    --bm-cta-button-background-newhorrizon: #3CB371; 
+    --bm-cta-button-hover-background-newhorrizon: #3CA36A;
+} 
+
+.toplist-poker-compact__offers { 
+    display: flex; 
+    flex-direction: column; 
+    counter-reset: bm-toplist-poker-compact-offers-list; 
+    gap: 8px;
+} 
+
+@media all{ 
+  :before,:after { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+  } 
+
+  *,:before,:after { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+  } 
+
+  :selection { 
+    color: #fff; 
+    background: #fc6d6d;
+  } 
+}     
+
+.toplist-poker-compact__offer-inner { 
+    display: grid; 
+    padding: 18px 20px; 
+    border: 2px solid #101214; 
+    border-radius: 4px; 
+    background: #FFF; 
+    grid-template-columns: 170px auto 179px; 
+    grid-template-rows: auto auto; 
+    gap: 8px 20px; 
+    grid-template-areas: "logo head extra"    "logo body extra";
+} 
+
+.toplist-poker-compact__offer-logo-wrapper { 
+    position: relative; 
+    overflow: hidden; 
+    margin: -18px 0 -18px -20px; 
+    background: #101214; 
+    background-repeat: no-repeat; 
+    background-position: bottom; 
+    background-size: contain; 
+    grid-area: logo;
+} 
+
+.toplist-poker-compact__offer-logo-wrapper:before { 
+    background: linear-gradient(179deg, #1C1C1C 42.11%, rgba(28, 28, 28, 0.00) 99.51%);
+} 
+
+.toplist-poker-compact__offer-head { 
+    grid-area: head;
+} 
+
+.toplist-poker-compact__offer-body { 
+    grid-area: body;
+} 
+
+.toplist-poker-compact__offer-extra { 
+    position: relative; 
+    display: flex; 
+    align-items: flex-end; 
+    flex-direction: column; 
+    grid-area: extra; 
+    gap: 12px;
+} 
+
+.toplist-poker-compact__offer-label { 
+    position: absolute; 
+    z-index: 2; 
+    top: 5px; 
+    left: 5px; 
+    display: flex;
+} 
+
+.toplist-poker-compact__offer-label:before { 
+    font-family: "Lato", sans-serif; 
+    font-size: 12px; 
+    font-weight: 700; 
+    font-style: normal; 
+    line-height: 125%; 
+    z-index: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 24px; 
+    height: 24px; 
+    content: counter(bm-toplist-poker-compact-offers-list); 
+    counter-increment: bm-toplist-poker-compact-offers-list; 
+    text-align: center; 
+    color: #FFF; 
+    border-radius: 2px; 
+    background: #3D4155;
+} 
+
+@media all{ 
+  a { 
+    background: 0 0;
+  } 
+
+  a { 
+    color: #428bca; 
+    text-decoration: none;
+  } 
+
+  a { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    vertical-align: baseline;
+  } 
+
+  a { 
+    color: #e96656; 
+    -webkit-transition: all 700ms; 
+    transition: all 700ms;
+  } 
+
+  a { 
+    text-decoration: none;
+  } 
+
+  a { 
+    color: #e96656;
+  } 
+}     
+
+a { 
+    font-family: Noway, Verdana, Sans-serif;
+} 
+
+a { 
+    color: var(--nh-red-newhorrizon);
+} 
+
+.toplist-poker-compact__offer-logo { 
+    position: relative; 
+    z-index: 1; 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(180deg, #0D0E12 42%, rgb(0 0 0 / 0%) 100%);
+} 
+
+@media all{ 
+  a:active,a:hover { 
+    outline: 0;
+  } 
+
+  a:hover { 
+    color: #2a6496; 
+    text-decoration: underline;
+  } 
+
+  a:hover,a:active { 
+    outline: 0;
+  } 
+
+  a,a:hover { 
+    text-decoration: none;
+  } 
+
+  a:hover { 
+    color: #cb4332;
+  } 
+
+  a:hover,a:active { 
+    color: #cb4332;
+  } 
+}     
+
+a:hover,a:active { 
+    color: var(--nh-darker-red-newhorrizon);
+} 
+
+.toplist-poker-compact__offer-brand-name { 
+    font-family: "Lato", sans-serif; 
+    font-size: 12px; 
+    font-weight: 700; 
+    font-style: normal; 
+    line-height: 150%; 
+    margin-bottom: 8px; 
+    letter-spacing: 0.36px; 
+    text-transform: capitalize; 
+    color: #404040;
+} 
+
+.toplist-poker-compact__offer-title { 
+    font-family: "Lato", sans-serif; 
+    font-size: 22px; 
+    font-weight: 700; 
+    font-style: normal; 
+    line-height: 120%; 
+    display: block; 
+    width: fit-content; 
+    margin-bottom: 0; 
+    text-transform: capitalize; 
+    color: #060606;
+} 
+
+.toplist-poker-compact__offer-rating-review-wrapper { 
+    display: flex; 
+    align-items: flex-end; 
+    gap: 6px;
+} 
+
+.toplist-poker-compact__offer-rakeback { 
+    font-family: "Lato", sans-serif; 
+    font-size: 12px; 
+    font-weight: 700; 
+    font-style: normal; 
+    line-height: 150%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: fit-content; 
+    padding: 4px 8px; 
+    color: #404040; 
+    border-radius: 2px; 
+    background: #F6FFE8; 
+    gap: 4px;
+} 
+
+.toplist-poker-compact__offer-rakeback { 
+    display: none;
+} 
+
+.toplist-poker-compact__offer-cta-btn { 
+    font-family: "Lato", sans-serif; 
+    font-size: 18px; 
+    font-weight: 800; 
+    font-style: normal; 
+    line-height: 1; 
+    display: flex; 
+    align-items: center; 
+    align-self: stretch; 
+    justify-content: center; 
+    width: 100%; 
+    height: 44px; 
+    margin-top: auto; 
+    padding: 0 18px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    color: var(--bm-cta-button-color-newhorrizon); 
+    border-radius: 24px; 
+    background: var(--bm-cta-button-background-newhorrizon);
+} 
+
+.toplist-poker-compact__offer-cta-btn { 
+    margin-top: 0;
+} 
+
+.toplist-poker-compact__offer-cta-btn:hover { 
+    text-decoration: none; 
+    color: var(--bm-cta-button-hover-color-newhorrizon); 
+    background: var(--bm-cta-button-hover-background-newhorrizon);
+} 
+
+.toplist-poker-compact__offer-logo-inner { 
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    width: 100%; 
+    height: 100%;
+} 
+
+@media screen and (min-width: 992px){ 
+  .toplist-poker-compact__offer-logo-inner { 
+    background: unset !important;
+  } 
+}     
+
+@media all{ 
+  p { 
+    margin: 0 0 10px;
+  } 
+
+  p { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    vertical-align: baseline;
+  } 
+
+  p { 
+    margin: 0;
+  } 
+
+  p { 
+    margin-bottom: 1.5em;
+  } 
+}     
+
+p { 
+    font-family: Noway, Verdana, Sans-serif;
+} 
+
+.toplist-poker-compact__offer-title p  { 
+    font-family: "Lato", sans-serif; 
+    font-size: 22px; 
+    font-weight: 700; 
+    font-style: normal; 
+    line-height: 120%; 
+    display: block; 
+    width: fit-content; 
+    margin-bottom: 0; 
+    text-transform: capitalize; 
+    color: #060606;
+} 
+
+.toplist-poker-compact__offer-title p  { 
+    display: inline;
+} 
+
+.content-con p { 
+    margin-bottom: 15px; 
+    font-size: 16px; 
+    line-height: 24px;
+} 
+
+@media all{ 
+  ul { 
+    margin-top: 0; 
+    margin-bottom: 10px;
+  } 
+
+  ul { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    vertical-align: baseline;
+  } 
+
+  ul { 
+    list-style: none;
+  } 
+
+  ul { 
+    padding-left: 0 !important;
+  } 
+
+  ul { 
+    margin: 0 0 1.5em 3em;
+  } 
+
+  ul { 
+    list-style: disc;
+  } 
+}     
+
+ul { 
+    font-family: Noway, Verdana, Sans-serif;
+} 
+
+@media all{ 
+  ul { 
+    box-sizing: border-box;
+  } 
+}     
+
+.toplist-poker-compact__offer-key-features ul  { 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 0 !important; 
+    list-style: none; 
+    gap: 2px;
+} 
+
+.content-con ul { 
+    list-style: disc; 
+    padding-left: 20px; 
+    margin-bottom: 15px;
+} 
+
+.toplist-poker-compact__offer-key-features ul  { 
+    list-style: none;
+} 
+
+.toplist-poker-compact__offer-key-features ul  { 
+    margin-left: 0;
+} 
+
+.toplist-poker-compact__offer-rating-wrapper { 
+    display: flex; 
+    align-items: center; 
+    gap: 5px;
+} 
+
+.toplist-poker-compact__offer-cta-btn-icon { 
+    width: 24px; 
+    height: 24px; 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M16 12.5L8 18.2631V6.73682L16 12.5Z' fill='white'/%3E%3C/svg%3E");
+} 
+
+@media all{ 
+  img { 
+    border: 0;
+  } 
+
+  img { 
+    vertical-align: middle;
+  } 
+
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  a img  { 
+    border: 0;
+  } 
+}     
+
+.toplist-poker-compact__offer-logo img  { 
+    width: 150px; 
+    height: 72px; 
+    margin-top: 25px; 
+    object-fit: contain;
+} 
+
+@media all{ 
+  li { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    vertical-align: baseline;
+  } 
+}     
+
+li { 
+    font-family: Noway, Verdana, Sans-serif;
+} 
+
+.toplist-poker-compact__offer-key-features li  { 
+    font-family: 'Open Sans'; 
+    font-size: 16px; 
+    font-weight: 400; 
+    font-style: normal; 
+    line-height: 24px; 
+    padding-bottom: 0 !important; 
+    padding-left: 22px; 
+    color: #101214; 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='12' viewBox='0 0 10 12' fill='none'%3E%3Cpath d='M7.14216 3.40781C6.3295 2.41031 5.63635 1.32114 5.07687 0.162525C5.04936 0.1152 5.00991 0.0759252 4.96247 0.0486256C4.91502 0.0213259 4.86124 0.00695801 4.8065 0.00695801C4.75177 0.00695801 4.69799 0.0213259 4.65054 0.0486256C4.6031 0.0759252 4.56365 0.1152 4.53614 0.162525C3.97659 1.32083 3.28345 2.40969 2.47085 3.40691C1.76587 4.27141 0.97506 5.06221 0.110561 5.7672C0.0760127 5.79537 0.0481672 5.83087 0.0290441 5.87114C0.00992112 5.91141 0 5.95543 0 6.00001C0 6.04459 0.00992112 6.08861 0.0290441 6.12888C0.0481672 6.16914 0.0760127 6.20465 0.110561 6.23282C0.97506 6.93781 1.76587 7.72861 2.47085 8.59311C3.28345 9.59033 3.97659 10.6792 4.53614 11.8375C4.56074 11.8883 4.59915 11.9311 4.64696 11.9611C4.69478 11.9911 4.75007 12.007 4.8065 12.007C4.86294 12.007 4.91823 11.9911 4.96605 11.9611C5.01386 11.9311 5.05227 11.8883 5.07687 11.8375C6.12408 9.66763 7.63482 7.75408 9.50245 6.23192C9.537 6.20375 9.56484 6.16824 9.58396 6.12798C9.60309 6.08771 9.61301 6.04369 9.61301 5.99911C9.61301 5.95453 9.60309 5.91051 9.58396 5.87024C9.56484 5.82997 9.537 5.79447 9.50245 5.76629C8.63804 5.06188 7.84724 4.27168 7.14216 3.40781Z' fill='%23101214'/%3E%3C/svg%3E"); 
+    background-repeat: no-repeat; 
+    background-position: top 6px left 2px;
+} 
+
+.content-con li { 
+    font-size: 16px; 
+    line-height: 24px;
+} 
+
+.toplist-poker-compact__offer-rating-star { 
+    width: 18px; 
+    height: 18px; 
+    background: url(./images/star-orange.svg) left top no-repeat;
+} 
+
+.toplist-poker-compact__offer-rating-star { 
+    display: none;
+} 
+
+.toplist-poker-compact__offer-rating { 
+    font-family: "Lato", sans-serif; 
+    font-size: 20px; 
+    font-weight: 700; 
+    font-style: normal; 
+    line-height: 1; 
+    color: #060606;
+} 
+
+.toplist-poker-compact__offer-rating { 
+    display: none;
+} 
+
+@media all{ 
+  span { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    vertical-align: baseline;
+  } 
+}     
+
+span { 
+    font-family: Noway, Verdana, Sans-serif;
+} 
+
+.toplist-poker-compact__offer-rating span  { 
+    font-size: 14px;
+} 
+
+
+@media screen and (max-width: 768px) {
+    .toplist-poker-compact__offers {
+        gap: 16px;
+    }
+
+    .toplist-poker-compact__offer-inner {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        border: 1px solid #101214;
+        gap: 12px;
+    }
+
+    .toplist-poker-compact__offer-logo-wrapper {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    .toplist-poker-compact__offer-logo img {
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .toplist-poker-compact__offer-head {
+        text-align: center;
+    }
+
+    .toplist-poker-compact__offer-brand-name {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .toplist-poker-compact__offer-title {
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .toplist-poker-compact__offer-body {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .toplist-poker-compact__offer-key-features ul {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .toplist-poker-compact__offer-key-features li {
+        font-size: 14px;
+        padding-left: 20px;
+        margin-bottom: 8px;
+    }
+
+    .toplist-poker-compact__offer-extra {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .toplist-poker-compact__offer-rating-wrapper {
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .toplist-poker-compact__offer-rating {
+        font-size: 18px;
+    }
+
+    .toplist-poker-compact__offer-cta-btn {
+        width: 100%;
+        height: 44px;
+        font-size: 16px;
+    }
+}

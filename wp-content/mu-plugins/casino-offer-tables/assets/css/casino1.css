@@ -271,7 +271,7 @@
     transition: all 0ms ease;
   } 
 
-  a:not(.event_cas_btn):not(.event_cas_button)  { 
+  .event_cas_grw-block-brand-table-box a:not(.event_cas_btn):not(.event_cas_button)  { 
     color: #005eea; 
     text-decoration: underline;
   } 
