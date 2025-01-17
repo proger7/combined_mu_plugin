@@ -10,7 +10,7 @@
     --bm-cta-button-hover-background-newhorrizon: #3CA36A;
 } 
 
-.toplist-poker-compact__offers { 
+.newhorrizon_toplist-poker-compact__offers { 
     display: flex; 
     flex-direction: column; 
     counter-reset: bm-toplist-poker-compact-offers-list; 
@@ -36,7 +36,7 @@
   } 
 }     
 
-.toplist-poker-compact__offer-inner { 
+.newhorrizon_toplist-poker-compact__offer-inner { 
     display: grid; 
     padding: 18px 20px; 
     border: 2px solid #101214; 
@@ -48,7 +48,7 @@
     grid-template-areas: "logo head extra"    "logo body extra";
 } 
 
-.toplist-poker-compact__offer-logo-wrapper { 
+.newhorrizon_toplist-poker-compact__offer-logo-wrapper { 
     position: relative; 
     overflow: hidden; 
     margin: -18px 0 -18px -20px; 
@@ -59,19 +59,19 @@
     grid-area: logo;
 } 
 
-.toplist-poker-compact__offer-logo-wrapper:before { 
+.newhorrizon_toplist-poker-compact__offer-logo-wrapper:before { 
     background: linear-gradient(179deg, #1C1C1C 42.11%, rgba(28, 28, 28, 0.00) 99.51%);
 } 
 
-.toplist-poker-compact__offer-head { 
+.newhorrizon_toplist-poker-compact__offer-head { 
     grid-area: head;
 } 
 
-.toplist-poker-compact__offer-body { 
+.newhorrizon_toplist-poker-compact__offer-body { 
     grid-area: body;
 } 
 
-.toplist-poker-compact__offer-extra { 
+.newhorrizon_toplist-poker-compact__offer-extra { 
     position: relative; 
     display: flex; 
     align-items: flex-end; 
@@ -80,7 +80,7 @@
     gap: 12px;
 } 
 
-.toplist-poker-compact__offer-label { 
+.newhorrizon_toplist-poker-compact__offer-label { 
     position: absolute; 
     z-index: 2; 
     top: 5px; 
@@ -88,7 +88,7 @@
     display: flex;
 } 
 
-.toplist-poker-compact__offer-label:before { 
+.newhorrizon_toplist-poker-compact__offer-label:before { 
     font-family: "Lato", sans-serif; 
     font-size: 12px; 
     font-weight: 700; 
@@ -152,7 +152,7 @@ a {
     color: var(--nh-red-newhorrizon);
 } 
 
-.toplist-poker-compact__offer-logo { 
+.newhorrizon_toplist-poker-compact__offer-logo { 
     position: relative; 
     z-index: 1; 
     display: block; 
@@ -192,7 +192,7 @@ a:hover,a:active {
     color: var(--nh-darker-red-newhorrizon);
 } 
 
-.toplist-poker-compact__offer-brand-name { 
+.newhorrizon_toplist-poker-compact__offer-brand-name { 
     font-family: "Lato", sans-serif; 
     font-size: 12px; 
     font-weight: 700; 
@@ -204,7 +204,7 @@ a:hover,a:active {
     color: #404040;
 } 
 
-.toplist-poker-compact__offer-title { 
+.newhorrizon_toplist-poker-compact__offer-title { 
     font-family: "Lato", sans-serif; 
     font-size: 22px; 
     font-weight: 700; 
@@ -217,13 +217,13 @@ a:hover,a:active {
     color: #060606;
 } 
 
-.toplist-poker-compact__offer-rating-review-wrapper { 
+.newhorrizon_toplist-poker-compact__offer-rating-review-wrapper { 
     display: flex; 
     align-items: flex-end; 
     gap: 6px;
 } 
 
-.toplist-poker-compact__offer-rakeback { 
+.newhorrizon_toplist-poker-compact__offer-rakeback { 
     font-family: "Lato", sans-serif; 
     font-size: 12px; 
     font-weight: 700; 
@@ -240,11 +240,11 @@ a:hover,a:active {
     gap: 4px;
 } 
 
-.toplist-poker-compact__offer-rakeback { 
+.newhorrizon_toplist-poker-compact__offer-rakeback { 
     display: none;
 } 
 
-.toplist-poker-compact__offer-cta-btn { 
+.newhorrizon_toplist-poker-compact__offer-cta-btn { 
     font-family: "Lato", sans-serif; 
     font-size: 18px; 
     font-weight: 800; 
@@ -265,17 +265,17 @@ a:hover,a:active {
     background: var(--bm-cta-button-background-newhorrizon);
 } 
 
-.toplist-poker-compact__offer-cta-btn { 
+.newhorrizon_toplist-poker-compact__offer-cta-btn { 
     margin-top: 0;
 } 
 
-.toplist-poker-compact__offer-cta-btn:hover { 
+.newhorrizon_toplist-poker-compact__offer-cta-btn:hover { 
     text-decoration: none; 
     color: var(--bm-cta-button-hover-color-newhorrizon); 
     background: var(--bm-cta-button-hover-background-newhorrizon);
 } 
 
-.toplist-poker-compact__offer-logo-inner { 
+.newhorrizon_toplist-poker-compact__offer-logo-inner { 
     display: flex; 
     align-items: flex-start; 
     justify-content: center; 
@@ -284,7 +284,7 @@ a:hover,a:active {
 } 
 
 @media screen and (min-width: 992px){ 
-  .toplist-poker-compact__offer-logo-inner { 
+  .newhorrizon_toplist-poker-compact__offer-logo-inner { 
     background: unset !important;
   } 
 }     
@@ -318,7 +318,7 @@ p {
     font-family: Noway, Verdana, Sans-serif;
 } 
 
-.toplist-poker-compact__offer-title p  { 
+.newhorrizon_toplist-poker-compact__offer-title p  { 
     font-family: "Lato", sans-serif; 
     font-size: 22px; 
     font-weight: 700; 
@@ -331,11 +331,11 @@ p {
     color: #060606;
 } 
 
-.toplist-poker-compact__offer-title p  { 
+.newhorrizon_toplist-poker-compact__offer-title p  { 
     display: inline;
 } 
 
-.content-con p { 
+.newhorrizon_content-con p { 
     margin-bottom: 15px; 
     font-size: 16px; 
     line-height: 24px;
@@ -385,7 +385,7 @@ ul {
   } 
 }     
 
-.toplist-poker-compact__offer-key-features ul  { 
+.newhorrizon_toplist-poker-compact__offer-key-features ul  { 
     display: flex; 
     flex-direction: column; 
     margin-bottom: 0 !important; 
@@ -393,30 +393,30 @@ ul {
     gap: 2px;
 } 
 
-.content-con ul { 
+.newhorrizon_content-con ul { 
     list-style: disc; 
     padding-left: 20px; 
     margin-bottom: 15px;
 } 
 
-.toplist-poker-compact__offer-key-features ul  { 
+.newhorrizon_toplist-poker-compact__offer-key-features ul  { 
     list-style: none;
 } 
 
-.toplist-poker-compact__offer-key-features ul  { 
+.newhorrizon_toplist-poker-compact__offer-key-features ul  { 
     margin-left: 0;
 } 
 
-.toplist-poker-compact__offer-rating-wrapper { 
+.newhorrizon_toplist-poker-compact__offer-rating-wrapper { 
     display: flex; 
     align-items: center; 
     gap: 5px;
 } 
 
-.toplist-poker-compact__offer-cta-btn-icon { 
+.newhorrizon_toplist-poker-compact__offer-cta-btn-icon { 
     width: 24px; 
     height: 24px; 
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M16 12.5L8 18.2631V6.73682L16 12.5Z' fill='white'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.newhorrizon_w3.newhorrizon_org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M16 12.5L8 18.2631V6.73682L16 12.5Z' fill='white'/%3E%3C/svg%3E");
 } 
 
 @media all{ 
@@ -438,7 +438,7 @@ ul {
   } 
 }     
 
-.toplist-poker-compact__offer-logo img  { 
+.newhorrizon_toplist-poker-compact__offer-logo img  { 
     width: 150px; 
     height: 72px; 
     margin-top: 25px; 
@@ -462,7 +462,7 @@ li {
     font-family: Noway, Verdana, Sans-serif;
 } 
 
-.toplist-poker-compact__offer-key-features li  { 
+.newhorrizon_toplist-poker-compact__offer-key-features li  { 
     font-family: 'Open Sans'; 
     font-size: 16px; 
     font-weight: 400; 
@@ -471,27 +471,27 @@ li {
     padding-bottom: 0 !important; 
     padding-left: 22px; 
     color: #101214; 
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='12' viewBox='0 0 10 12' fill='none'%3E%3Cpath d='M7.14216 3.40781C6.3295 2.41031 5.63635 1.32114 5.07687 0.162525C5.04936 0.1152 5.00991 0.0759252 4.96247 0.0486256C4.91502 0.0213259 4.86124 0.00695801 4.8065 0.00695801C4.75177 0.00695801 4.69799 0.0213259 4.65054 0.0486256C4.6031 0.0759252 4.56365 0.1152 4.53614 0.162525C3.97659 1.32083 3.28345 2.40969 2.47085 3.40691C1.76587 4.27141 0.97506 5.06221 0.110561 5.7672C0.0760127 5.79537 0.0481672 5.83087 0.0290441 5.87114C0.00992112 5.91141 0 5.95543 0 6.00001C0 6.04459 0.00992112 6.08861 0.0290441 6.12888C0.0481672 6.16914 0.0760127 6.20465 0.110561 6.23282C0.97506 6.93781 1.76587 7.72861 2.47085 8.59311C3.28345 9.59033 3.97659 10.6792 4.53614 11.8375C4.56074 11.8883 4.59915 11.9311 4.64696 11.9611C4.69478 11.9911 4.75007 12.007 4.8065 12.007C4.86294 12.007 4.91823 11.9911 4.96605 11.9611C5.01386 11.9311 5.05227 11.8883 5.07687 11.8375C6.12408 9.66763 7.63482 7.75408 9.50245 6.23192C9.537 6.20375 9.56484 6.16824 9.58396 6.12798C9.60309 6.08771 9.61301 6.04369 9.61301 5.99911C9.61301 5.95453 9.60309 5.91051 9.58396 5.87024C9.56484 5.82997 9.537 5.79447 9.50245 5.76629C8.63804 5.06188 7.84724 4.27168 7.14216 3.40781Z' fill='%23101214'/%3E%3C/svg%3E"); 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.newhorrizon_w3.newhorrizon_org/2000/svg' width='10' height='12' viewBox='0 0 10 12' fill='none'%3E%3Cpath d='M7.14216 3.40781C6.3295 2.41031 5.63635 1.32114 5.07687 0.162525C5.04936 0.1152 5.00991 0.0759252 4.96247 0.0486256C4.91502 0.0213259 4.86124 0.00695801 4.8065 0.00695801C4.75177 0.00695801 4.69799 0.0213259 4.65054 0.0486256C4.6031 0.0759252 4.56365 0.1152 4.53614 0.162525C3.97659 1.32083 3.28345 2.40969 2.47085 3.40691C1.76587 4.27141 0.97506 5.06221 0.110561 5.7672C0.0760127 5.79537 0.0481672 5.83087 0.0290441 5.87114C0.00992112 5.91141 0 5.95543 0 6.00001C0 6.04459 0.00992112 6.08861 0.0290441 6.12888C0.0481672 6.16914 0.0760127 6.20465 0.110561 6.23282C0.97506 6.93781 1.76587 7.72861 2.47085 8.59311C3.28345 9.59033 3.97659 10.6792 4.53614 11.8375C4.56074 11.8883 4.59915 11.9311 4.64696 11.9611C4.69478 11.9911 4.75007 12.007 4.8065 12.007C4.86294 12.007 4.91823 11.9911 4.96605 11.9611C5.01386 11.9311 5.05227 11.8883 5.07687 11.8375C6.12408 9.66763 7.63482 7.75408 9.50245 6.23192C9.537 6.20375 9.56484 6.16824 9.58396 6.12798C9.60309 6.08771 9.61301 6.04369 9.61301 5.99911C9.61301 5.95453 9.60309 5.91051 9.58396 5.87024C9.56484 5.82997 9.537 5.79447 9.50245 5.76629C8.63804 5.06188 7.84724 4.27168 7.14216 3.40781Z' fill='%23101214'/%3E%3C/svg%3E"); 
     background-repeat: no-repeat; 
     background-position: top 6px left 2px;
 } 
 
-.content-con li { 
+.newhorrizon_content-con li { 
     font-size: 16px; 
     line-height: 24px;
 } 
 
-.toplist-poker-compact__offer-rating-star { 
+.newhorrizon_toplist-poker-compact__offer-rating-star { 
     width: 18px; 
     height: 18px; 
-    background: url(./images/star-orange.svg) left top no-repeat;
+    background: url(./images/star-orange.newhorrizon_svg) left top no-repeat;
 } 
 
-.toplist-poker-compact__offer-rating-star { 
+.newhorrizon_toplist-poker-compact__offer-rating-star { 
     display: none;
 } 
 
-.toplist-poker-compact__offer-rating { 
+.newhorrizon_toplist-poker-compact__offer-rating { 
     font-family: "Lato", sans-serif; 
     font-size: 20px; 
     font-weight: 700; 
@@ -500,7 +500,7 @@ li {
     color: #060606;
 } 
 
-.toplist-poker-compact__offer-rating { 
+.newhorrizon_toplist-poker-compact__offer-rating { 
     display: none;
 } 
 
@@ -521,17 +521,17 @@ span {
     font-family: Noway, Verdana, Sans-serif;
 } 
 
-.toplist-poker-compact__offer-rating span  { 
+.newhorrizon_toplist-poker-compact__offer-rating span  { 
     font-size: 14px;
 } 
 
 
 @media screen and (max-width: 768px) {
-    .toplist-poker-compact__offers {
+    .newhorrizon_toplist-poker-compact__offers {
         gap: 16px;
     }
 
-    .toplist-poker-compact__offer-inner {
+    .newhorrizon_toplist-poker-compact__offer-inner {
         display: flex;
         flex-direction: column;
         padding: 12px;
@@ -539,66 +539,66 @@ span {
         gap: 12px;
     }
 
-    .toplist-poker-compact__offer-logo-wrapper {
+    .newhorrizon_toplist-poker-compact__offer-logo-wrapper {
         margin: 0;
         width: 100%;
         height: auto;
         background-size: cover;
     }
 
-    .toplist-poker-compact__offer-logo img {
+    .newhorrizon_toplist-poker-compact__offer-logo img {
         width: 120px;
         height: auto;
         margin: 0 auto;
         object-fit: contain;
     }
 
-    .toplist-poker-compact__offer-head {
+    .newhorrizon_toplist-poker-compact__offer-head {
         text-align: center;
     }
 
-    .toplist-poker-compact__offer-brand-name {
+    .newhorrizon_toplist-poker-compact__offer-brand-name {
         font-size: 14px;
         line-height: 150%;
     }
 
-    .toplist-poker-compact__offer-title {
+    .newhorrizon_toplist-poker-compact__offer-title {
         font-size: 18px;
         line-height: 130%;
     }
 
-    .toplist-poker-compact__offer-body {
+    .newhorrizon_toplist-poker-compact__offer-body {
         margin: 0 auto;
         text-align: center;
     }
 
-    .toplist-poker-compact__offer-key-features ul {
+    .newhorrizon_toplist-poker-compact__offer-key-features ul {
         flex-direction: column;
         text-align: left;
     }
 
-    .toplist-poker-compact__offer-key-features li {
+    .newhorrizon_toplist-poker-compact__offer-key-features li {
         font-size: 14px;
         padding-left: 20px;
         margin-bottom: 8px;
     }
 
-    .toplist-poker-compact__offer-extra {
+    .newhorrizon_toplist-poker-compact__offer-extra {
         flex-direction: column;
         align-items: center;
         gap: 8px;
     }
 
-    .toplist-poker-compact__offer-rating-wrapper {
+    .newhorrizon_toplist-poker-compact__offer-rating-wrapper {
         justify-content: center;
         gap: 4px;
     }
 
-    .toplist-poker-compact__offer-rating {
+    .newhorrizon_toplist-poker-compact__offer-rating {
         font-size: 18px;
     }
 
-    .toplist-poker-compact__offer-cta-btn {
+    .newhorrizon_toplist-poker-compact__offer-cta-btn {
         width: 100%;
         height: 44px;
         font-size: 16px;
