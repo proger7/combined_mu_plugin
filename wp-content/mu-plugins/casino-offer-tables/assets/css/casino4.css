@@ -1,0 +1,563 @@
+.cardplayer_toplist-cardplayer__offers { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px;
+} 
+
+.cardplayer_toplist-cardplayer__offer { 
+    display: flex; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    padding: 20px; 
+    border: 1px solid #CBCBCB; 
+    border-radius: 2px; 
+    background: #FFF; 
+    gap: 16px;
+} 
+
+.cardplayer_toplist-cardplayer__offer:first-of-type { 
+    border-color: #070707; 
+    background: #FFFBF0;
+} 
+
+.cardplayer_toplist-cardplayer__offer  { 
+    border: 1px solid #4F4F4F; 
+    padding: 15px; 
+    overflow-x: visible;
+} 
+
+.cardplayer_toplist-cardplayer__offer:first-of-type  { 
+    border-color: inherit; 
+    background: inherit; 
+    border: 1px solid #4F4F4F;
+} 
+
+.cardplayer_hidden { 
+    display: none;
+} 
+
+.cardplayer_toplist-cardplayer__offer.cardplayer_hidden { 
+    display: none;
+} 
+
+.cardplayer_toplist-cardplayer__offer-inner { 
+    position: relative; 
+    display: grid; 
+    width: 100%; 
+    grid-template-columns: 130px auto 153px; 
+    grid-template-rows: auto auto 1fr; 
+    grid-auto-flow: row; 
+    grid-template-areas: "logo brand-name actions" "logo title actions" "logo features actions"; 
+    gap: 6px 24px;
+} 
+
+@media screen and (min-width: 992px){ 
+  .cardplayer_toplist-cardplayer__offer-inner { 
+    height: auto; 
+    min-height: 101px;
+  } 
+}     
+
+.cardplayer_toplist-cardplayer__offer-inner:has(.cardplayer_toplist-cardplayer__offer-key-features)  { 
+    grid-template-areas: ". brand-name ." "logo title actions" "logo features actions" ". features ."; 
+    grid-template-columns: 100px 1fr max-content; 
+    gap: 6px 10px; 
+    height: auto; 
+    min-height: 101px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-logo-wrapper { 
+    grid-area: logo;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating { 
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    gap: 2px;
+} 
+
+@media screen and (min-width: 992px){ 
+  .cardplayer_toplist-cardplayer__offer-rating { 
+    position: absolute; 
+    top: 85px; 
+    left: 0; 
+    width: 130px; 
+    height: 16px;
+  } 
+}     
+
+.cardplayer_toplist-cardplayer__offer-rating  { 
+    height: 24px; 
+    width: max-content; 
+    align-items: center; 
+    top: 73px; 
+    left: 15px;
+} 
+
+#middle .cardplayer_toplist-cardplayer__offer-rating::after { 
+    content: ""; 
+    width: 95%; 
+    height: 18px; 
+    position: absolute; 
+    border: 1px solid #E8E8E8; 
+    border-left: none; 
+    border-radius: 0 4px 4px 0; 
+    left: 10px; 
+    top: 3px; 
+    box-sizing: border-box;
+} 
+
+.cardplayer_toplist-cardplayer__offer-brand-name-wrapper { 
+    font-family: var(--bm-font-family); 
+    font-size: 12px; 
+    font-weight: 700; 
+    line-height: 100%; 
+    display: flex; 
+    text-transform: uppercase; 
+    color: #718096; 
+    grid-area: brand-name; 
+    gap: 6px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-brand-name-wrapper  { 
+    font-size: 10px; 
+    line-height: 10px; 
+    font-weight: 700; 
+    gap: 4px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title { 
+    grid-area: title;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title { 
+    font-family: var(--bm-font-family); 
+    font-size: 20px; 
+    font-weight: 700; 
+    line-height: 26px; 
+    margin: 0; 
+    padding: 0; 
+    color: #333;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title  { 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title  { 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 20.7px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-key-features { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0!important; 
+    list-style: none; 
+    grid-area: features; 
+    gap: 2px;
+} 
+
+div#middle ul { 
+    font-size: 16px; 
+    line-height: 1.5rem; 
+    margin-bottom: 10px;
+} 
+
+div#page-content ul { 
+    margin: 10px 0 20px 20px;
+} 
+
+div#page-content ul { 
+    list-style-type: disc;
+} 
+
+.cardplayer_toplist-cardplayer__offer-key-features  { 
+    gap: 5px;
+} 
+
+div#middle #page-content ul { 
+    margin-bottom: 10px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-actions { 
+    grid-area: actions;
+} 
+
+.cardplayer_toplist-cardplayer__offer-actions  { 
+    justify-self: end;
+} 
+
+.cardplayer_toplist-cardplayer__offer-logo { 
+    display: block;
+} 
+
+a.cardplayer_toplist-cardplayer__offer-logo  { 
+    border-bottom: 0!important; 
+    line-height: 25px!important;
+} 
+
+div#middle a { 
+    font-size: 16px; 
+    line-height: 1.5rem; 
+    margin-bottom: 10px;
+} 
+
+div#page-content a { 
+    border-bottom: 1px dotted #600;
+} 
+
+.cardplayer_toplist-cardplayer__offer-logo  { 
+    display: flex; 
+    margin-top: 3px; 
+    margin-bottom: 0;
+} 
+
+#middle div#page-content a { 
+    font-size: 14px; 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__wrapper a.cardplayer_toplist-cardplayer__offer-logo:hover { 
+    background-color: inherit!important;
+} 
+
+div#page-content a:hover { 
+    background-color: #eaeaea; 
+    text-decoration: none;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-score { 
+    font-family: var(--bm-font-family); 
+    font-size: 16px; 
+    font-weight: 700; 
+    line-height: 100%; 
+    display: flex; 
+    align-items: center; 
+    color: #333; 
+    gap: 2px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-score  { 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-score  { 
+    color: #060606; 
+    font-size: 12px; 
+    font-weight: 700; 
+    line-height: 12px; 
+    position: relative; 
+    z-index: 1; 
+    gap: 5px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-score:before { 
+    position: relative; 
+    width: 18px; 
+    height: 16px; 
+    content: ''; 
+    background-image: url("data:image/svg+xml,%3Csvg width='19' height='17' viewBox='0 0 19 17' fill='none' xmlns='http://www.cardplayer_w3.cardplayer_org/2000/svg'%3E%3Cpath d='M12.0981 14.6641C11.9943 14.6645 11.892 14.64 11.7996 14.5927L8.49024 12.8602L5.1809 14.5927C5.07344 14.6492 4.95228 14.6744 4.8312 14.6655C4.71011 14.6566 4.59397 14.6139 4.49595 14.5422C4.39793 14.4706 4.32199 14.3729 4.27674 14.2602C4.2315 14.1475 4.21877 14.0244 4.24001 13.9049L4.8889 10.2517L2.21546 7.6561C2.13206 7.57286 2.07289 7.46848 2.04431 7.35416C2.01573 7.23984 2.01882 7.1199 2.05324 7.00721C2.09085 6.89188 2.16004 6.78941 2.25294 6.71141C2.34584 6.63341 2.45875 6.58303 2.57884 6.56596L6.27752 6.02738L7.90624 2.69857C7.95938 2.58886 8.04234 2.49633 8.14563 2.43159C8.24892 2.36686 8.36835 2.33252 8.49024 2.33252C8.61215 2.33252 8.73158 2.36686 8.83487 2.43159C8.93816 2.49633 9.02114 2.58886 9.07424 2.69857L10.7224 6.02089L14.4211 6.55947C14.5412 6.57654 14.6541 6.62693 14.747 6.70493C14.84 6.78292 14.9091 6.88539 14.9467 7.00072C14.9812 7.11341 14.9843 7.23335 14.9556 7.34767C14.9271 7.46199 14.8679 7.56637 14.7845 7.64961L12.111 10.2452L12.7599 13.8984C12.7832 14.0201 12.771 14.1458 12.725 14.2608C12.679 14.3758 12.6011 14.4752 12.5004 14.5473C12.3829 14.6297 12.2414 14.6707 12.0981 14.6641Z' fill='%230F9960'/%3E%3C/svg%3E%0A");
+} 
+
+#middle .cardplayer_toplist-cardplayer__offer-rating-score::before { 
+    width: 20px; 
+    height: 20px; 
+    background-image: url("data:image/svg+xml,%3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.cardplayer_w3.cardplayer_org/2000/svg'%3E%3Ccircle cx='10.25' cy='10.5' r='10' fill='%23E8E8E8'/%3E%3Cpath d='M13.5284 15.26C13.4483 15.2603 13.3693 15.2414 13.2979 15.2048L10.7425 13.867L8.18702 15.2048C8.10404 15.2485 8.01048 15.2679 7.91698 15.2611C7.82348 15.2542 7.73379 15.2212 7.6581 15.1658C7.58242 15.1105 7.52377 15.0351 7.48883 14.9481C7.4539 14.8611 7.44407 14.766 7.46047 14.6737L7.96154 11.8527L5.89713 9.84842C5.83272 9.78414 5.78703 9.70354 5.76496 9.61526C5.74289 9.52699 5.74528 9.43437 5.77186 9.34735C5.8009 9.25829 5.85433 9.17916 5.92607 9.11894C5.9978 9.05871 6.08499 9.0198 6.17773 9.00662L9.03383 8.59073L10.2915 6.02024C10.3325 5.93552 10.3966 5.86408 10.4764 5.81409C10.5561 5.7641 10.6483 5.73758 10.7425 5.73758C10.8366 5.73758 10.9288 5.7641 11.0086 5.81409C11.0883 5.86408 11.1524 5.93552 11.1934 6.02024L12.4661 8.58572L15.3222 9.00161C15.415 9.01479 15.5022 9.0537 15.5739 9.11393C15.6457 9.17415 15.6991 9.25328 15.7281 9.34233C15.7547 9.42935 15.7571 9.52198 15.735 9.61025C15.713 9.69853 15.6673 9.77913 15.6028 9.8434L13.5384 11.8477L14.0395 14.6687C14.0574 14.7626 14.048 14.8598 14.0125 14.9485C13.977 15.0373 13.9168 15.1141 13.8391 15.1698C13.7484 15.2334 13.6391 15.2651 13.5284 15.26Z' fill='%230F9960'/%3E%3C/svg%3E%0A"); 
+    background-repeat: no-repeat; 
+    top: 0;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-max { 
+    font-family: var(--bm-font-family); 
+    font-size: 12px; 
+    font-weight: 700; 
+    line-height: 14px; 
+    color: #718096;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-max  { 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__offer-rating-max  { 
+    color: #718096; 
+    font-size: 10px; 
+    font-weight: 700; 
+    line-height: 11.4px; 
+    padding-top: 1px; 
+    margin-left: 2px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-position  { 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__brand-name  { 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title p  { 
+    font-family: var(--bm-font-family); 
+    font-size: 20px; 
+    font-weight: 700; 
+    line-height: 26px; 
+    margin: 0; 
+    padding: 0; 
+    color: #333;
+} 
+
+.cardplayer_toplist-cardplayer__wrapper p { 
+    margin-bottom: 0px!important;
+} 
+
+div#middle p { 
+    font-size: 16px; 
+    line-height: 1.5rem; 
+    margin-bottom: 10px;
+} 
+
+div#page-content p { 
+    margin: 3px 0 20px 0;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title p  { 
+    font-size: 22px; 
+    font-weight: 600; 
+    line-height: 26px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title p  { 
+    font-family: Arial;
+} 
+
+div#middle #page-content p { 
+    font-size: 14px; 
+    font-family: Arial;
+} 
+
+div#middle #page-content p { 
+    margin-top: 0; 
+    margin-bottom: 12px; 
+    line-height: 24px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-title p  { 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 20.7px;
+} 
+
+
+.cardplayer_toplist-cardplayer__offer-key-features li  { 
+    font-family: var(--bm-font-family); 
+    font-size: 14px; 
+    font-weight: 500; 
+    line-height: 140%; 
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 0!important; 
+    padding-left: 19px; 
+    color: #434959; 
+    background-image: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.cardplayer_w3.cardplayer_org/2000/svg'%3E%3Cg clip-path='url(./images/-23clip0_244_486)'%3E%3Cpath d='M11.1816 1.49976L4.18157 8.49976L0.999756 5.31794' stroke='%230F9960' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_244_486'%3E%3Crect y='0.5' width='13' height='9' rx='4.5' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A"); 
+    background-repeat: no-repeat; 
+    background-position: top 5px left 0;
+} 
+
+li.cardplayer_principales-list-item  { 
+    margin-bottom: 0px!important;
+} 
+
+div#middle li { 
+    font-size: 16px; 
+    line-height: 1.5rem; 
+    margin-bottom: 10px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-key-features li  { 
+    font-family: Arial;
+} 
+
+div#middle #page-content li { 
+    font-size: 14px; 
+    font-family: Arial;
+} 
+
+div#middle #page-content li { 
+    margin-bottom: 8px; 
+    line-height: 20px; 
+    font-size: 12px;
+} 
+
+.cardplayer_principales-list-item  { 
+    line-height: 15px; 
+    color: #434959; 
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='9' viewBox='0 0 10 9' fill='none' xmlns='http://www.cardplayer_w3.cardplayer_org/2000/svg'%3E%3Cpath d='M3.78262 8.1702C3.74637 8.1702 3.71075 8.16072 3.6793 8.14271C3.64784 8.1247 3.62164 8.09878 3.60329 8.06752C2.91238 6.89045 1.07042 4.38413 1.05191 4.35895C1.02232 4.31872 1.0082 4.26919 1.01212 4.21941C1.01604 4.16963 1.03774 4.12292 1.07327 4.08782L1.63967 3.5281C1.67426 3.49391 1.71974 3.47294 1.76819 3.46882C1.81665 3.46469 1.86502 3.47769 1.90489 3.50554L3.73935 4.78643C4.96688 3.21234 6.10712 2.12484 6.85727 1.48312C7.70183 0.760792 8.23945 0.4356 8.26195 0.422209C8.29427 0.40282 8.33124 0.392578 8.36893 0.392578H9.28527C9.32742 0.392575 9.36858 0.405385 9.40329 0.429309C9.438 0.453233 9.46462 0.487141 9.47961 0.526538C9.49461 0.565934 9.49728 0.608959 9.48727 0.649907C9.47725 0.690855 9.45503 0.727793 9.42355 0.755823C6.82136 3.07357 3.99157 8.01551 3.96329 8.06517C3.94524 8.09686 3.91917 8.12325 3.88769 8.14168C3.85622 8.16011 3.82044 8.16994 3.78397 8.17018L3.78262 8.1702Z' fill='%230F9960'/%3E%3Cpath d='M3.74286 9.0365C1.67905 9.0365 0 7.35748 0 5.29364C0 3.22981 1.67905 1.55078 3.74286 1.55078C4.15667 1.55033 4.56768 1.61863 4.9591 1.7529C5.01126 1.77082 5.05417 1.80873 5.07837 1.85829C5.10258 1.90784 5.10612 1.96498 5.08819 2.01714C5.07027 2.0693 5.03236 2.11221 4.9828 2.13641C4.93325 2.16062 4.8761 2.16415 4.82395 2.14623C4.47596 2.0269 4.11056 1.96621 3.74267 1.96666C1.90815 1.96666 0.415686 3.45914 0.415686 5.29364C0.415686 7.12814 1.90815 8.62063 3.74267 8.62063C5.5772 8.62063 7.06966 7.12814 7.06966 5.29364C7.06972 5.06854 7.04711 4.84401 7.00217 4.62344C6.9967 4.59668 6.99655 4.56911 7.00174 4.54229C7.00693 4.51548 7.01735 4.48994 7.03241 4.46715C7.04746 4.44437 7.06686 4.42477 7.08949 4.40947C7.11212 4.39418 7.13754 4.38349 7.1643 4.37803C7.19107 4.37256 7.21864 4.37241 7.24546 4.3776C7.27227 4.38279 7.2978 4.39321 7.32059 4.40827C7.34338 4.42332 7.36298 4.44272 7.37828 4.46535C7.39357 4.48798 7.40425 4.5134 7.40972 4.54016C7.46025 4.78814 7.48569 5.04057 7.48564 5.29364C7.48572 7.35748 5.80668 9.0365 3.74286 9.0365Z' fill='%230F9960'/%3E%3C/svg%3E"); 
+    background-repeat: no-repeat; 
+    padding-left: 15px!important; 
+    margin-bottom: 3px; 
+    background-position: left 3px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-key-features li  { 
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 15px; 
+    background-position: left 2px; 
+    padding-left: 17px; 
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='9' viewBox='0 0 10 9' fill='none' xmlns='http://www.cardplayer_w3.cardplayer_org/2000/svg'%3E%3Cg clip-path='url(./images/-23clip0_681_5978)'%3E%3Cpath d='M3.78262 8.1702C3.74637 8.1702 3.71075 8.16072 3.6793 8.14271C3.64784 8.1247 3.62164 8.09878 3.60329 8.06752C2.91238 6.89045 1.07042 4.38413 1.05191 4.35895C1.02232 4.31872 1.0082 4.26919 1.01212 4.21941C1.01604 4.16963 1.03774 4.12292 1.07327 4.08782L1.63967 3.5281C1.67426 3.49391 1.71974 3.47294 1.76819 3.46882C1.81665 3.46469 1.86502 3.47769 1.90489 3.50554L3.73935 4.78643C4.96688 3.21234 6.10712 2.12484 6.85727 1.48312C7.70183 0.760792 8.23945 0.4356 8.26195 0.422209C8.29427 0.40282 8.33124 0.392578 8.36893 0.392578H9.28527C9.32742 0.392575 9.36858 0.405385 9.40329 0.429309C9.438 0.453233 9.46462 0.487141 9.47961 0.526538C9.49461 0.565934 9.49728 0.608959 9.48727 0.649907C9.47725 0.690855 9.45503 0.727793 9.42355 0.755823C6.82136 3.07357 3.99157 8.01551 3.96329 8.06517C3.94524 8.09686 3.91917 8.12325 3.88769 8.14168C3.85622 8.16011 3.82044 8.16994 3.78397 8.17018L3.78262 8.1702Z' fill='%230F9960'/%3E%3Cpath d='M3.74286 9.0365C1.67905 9.0365 0 7.35748 0 5.29364C0 3.22981 1.67905 1.55078 3.74286 1.55078C4.15667 1.55033 4.56768 1.61863 4.9591 1.7529C5.01126 1.77082 5.05417 1.80873 5.07837 1.85829C5.10258 1.90784 5.10612 1.96498 5.08819 2.01714C5.07027 2.0693 5.03236 2.11221 4.9828 2.13641C4.93325 2.16062 4.8761 2.16415 4.82395 2.14623C4.47596 2.0269 4.11056 1.96621 3.74267 1.96666C1.90815 1.96666 0.415686 3.45914 0.415686 5.29364C0.415686 7.12814 1.90815 8.62063 3.74267 8.62063C5.5772 8.62063 7.06966 7.12814 7.06966 5.29364C7.06972 5.06854 7.04711 4.84401 7.00217 4.62344C6.9967 4.59668 6.99655 4.56911 7.00174 4.54229C7.00693 4.51548 7.01735 4.48994 7.03241 4.46715C7.04746 4.44437 7.06686 4.42477 7.08949 4.40947C7.11212 4.39418 7.13754 4.38349 7.1643 4.37803C7.19107 4.37256 7.21864 4.37241 7.24546 4.3776C7.27227 4.38279 7.2978 4.39321 7.32059 4.40827C7.34338 4.42332 7.36298 4.44272 7.37828 4.46535C7.39357 4.48798 7.40425 4.5134 7.40972 4.54016C7.46025 4.78814 7.48569 5.04057 7.48564 5.29364C7.48572 7.35748 5.80668 9.0365 3.74286 9.0365Z' fill='%230F9960'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_681_5978'%3E%3Crect width='10' height='9' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn { 
+    font-family: var(--bm-font-family); 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 25px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    height: 48px; 
+    padding: 0 12px; 
+    color: #FFF; 
+    border-radius: 5px; 
+    background: #900; 
+    gap: 8px;
+} 
+
+a.cardplayer_toplist-cardplayer__offer-cta-btn  { 
+    border-bottom: 0!important; 
+    line-height: 25px!important;
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn  { 
+    font-family: Arial;
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn  { 
+    background: #900; 
+    font-size: 12px; 
+    font-weight: 700; 
+    line-height: 24.8px!important; 
+    height: 35px; 
+    width: 100px; 
+    box-sizing: border-box; 
+    margin-top: -5px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn  { 
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-top: -5px; 
+    padding: 0 15px;
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn:before { 
+    position: relative; 
+    width: 16px; 
+    height: 16px; 
+    content: ''; 
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='17' viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.5 8.49998L0.499999 15.4282L0.5 1.57178L12.5 8.49998Z' fill='white'/%3E%3C/svg%3E%0A");
+} 
+
+#middle .cardplayer_toplist-cardplayer__offer-cta-btn::before { 
+    width: 8px; 
+    height: 9px; 
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='17' viewBox='0 0 16 17' fill='none' xmlns='http://www.cardplayer_w3.cardplayer_org/2000/svg'%3E%3Cpath d='M12.5 8.49998L0.499999 15.4282L0.5 1.57178L12.5 8.49998Z' fill='white'/%3E%3C/svg%3E%0A");
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn:hover { 
+    text-decoration: none; 
+    color: #FFF; 
+    background: #780000;
+} 
+
+.cardplayer_toplist-cardplayer__offer-cta-btn:hover { 
+    background: #780000!important;
+} 
+
+.cardplayer_toplist-cardplayer__offer-logo img  { 
+    width: 130px; 
+    height: 62px; 
+    object-fit: contain;
+} 
+
+.cardplayer_toplist-cardplayer__offer-logo img  { 
+    width: 100px; 
+    height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .cardplayer_toplist-cardplayer__offers {
+    gap: 16px;
+  }
+
+  .cardplayer_toplist-cardplayer__offer {
+    padding: 12px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    grid-template-areas: unset;
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-title {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-rating {
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-key-features {
+    gap: 4px;
+    padding-left: 0;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-key-features li {
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 20px;
+    background-size: 12px;
+    background-position: left center;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-cta-btn {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  .cardplayer_toplist-cardplayer__offer-brand-name-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cardplayer_toplist-cardplayer__brand-name {
+    font-size: 14px;
+  }
+}

@@ -178,6 +178,53 @@ function casino_offer_tables_shortcode($atts) {
 
         $output .= '</div>';
 
+    } elseif ($style === 'casino4') {
+
+        $output = '<div class="cardplayer_toplist-cardplayer__offers snipcss-ZdxVN">';
+
+        $count = 1;
+        foreach ($filteredOffers as $arr_key => $offer) {
+            $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer" data-offer-name="' . esc_attr($offer['brandName']) . '">';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-inner">';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-logo-wrapper">';
+            $output .= '<a class="cardplayer_toplist-cardplayer__offer-logo" href="' . esc_url($offerLinkURL) . '" target="_blank" rel="nofollow sponsored">';
+            $output .= '<img alt="' . esc_attr($offer['brandName']) . ' Logo" src="' . esc_url($offer['logo']) . '">';
+            $output .= '</a>';
+            $output .= '</div>';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-rating">';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-rating-score">' . esc_html($offer['rating']) . '</div>';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-rating-max">/ 10</div>';
+            $output .= '</div>';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-brand-name-wrapper">';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-position"># ' . $count . '</div>';
+            $output .= '<div class="cardplayer_toplist-cardplayer__brand-name">' . esc_html($offer['brandName']) . '</div>';
+            $output .= '</div>';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-title">';
+            $output .= '<p>' . esc_html($offer['bonus']) . '</p>';
+            $output .= '</div>';
+            $output .= '<ul class="cardplayer_toplist-cardplayer__offer-key-features">';
+            $bulletPoints = preg_split('/\r\n|\r|\n/', trim($offer['bulletPoints']));
+            foreach ($bulletPoints as $feature) {
+                if (!empty($feature)) {
+                    $output .= '<li class="cardplayer_principales-list-item"><span class="cardplayer_list-check-icon"></span>' . esc_html($feature) . '</li>';
+                }
+            }
+            $output .= '</ul>';
+            $output .= '<div class="cardplayer_toplist-cardplayer__offer-actions">';
+            $output .= '<a class="cardplayer_toplist-cardplayer__offer-cta-btn" href="' . esc_url($offerLinkURL) . '" target="_blank" rel="nofollow sponsored"> Play Now </a>';
+            $output .= '</div>';
+            $output .= '</div>';
+            $output .= '</div>';
+
+            $count++;
+        }
+
+        $output .= '</div>';
+
+        return $output;
+
     }
 
     return $output;

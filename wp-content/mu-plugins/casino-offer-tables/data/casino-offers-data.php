@@ -197,4 +197,76 @@ return array(
             "Tag" => "online",
         ],
     ],
+    "casino4" => [
+        "katana-spins" => [
+            "brandName" => "Katana Spins",
+            "bulletPoints" => "
+                Compete in daily & weekly tournaments for prizes
+                Boasts vast game library of skill-based games
+                Reap benefits of the three-tier loyalty program
+            ",
+            "bonus" => "Claim Up To £450 And 250 Free Spins On Your First Deposits",
+            "rating" => "10",
+            "link" => "https://www.stjamestheatre.co.uk/go/katana-spins",
+            "logo" => "https://www.cardplayer.com/uk/wp-content/uploads/sites/8/2024/11/katanaspin-01.svg",
+            "linkID" => "12355",
+            "Tag" => "popular",
+        ],
+        "thehighroller" => [
+            "brandName" => "The HighRoller",
+            "bulletPoints" => "
+                Large Game Selection With Games From Evolution, Pragmatic Play, NetEnt
+                High Roller Casino With An Extensive VIP Programme
+                Anonymous Casino With Instant Withdrawals
+            ",
+            "bonus" => "100% Bonus up to 500 EUR + 50 Free Spins",
+            "rating" => "9.9",
+            "link" => "https://www.stjamestheatre.co.uk/go/thehighroller",
+            "logo" => "https://www.cardplayer.com/uk/wp-content/uploads/sites/8/2024/11/the-highroller-01.svg",
+            "linkID" => "12356",
+            "Tag" => "popular",
+        ],
+        "instaspin" => [
+            "brandName" => "InstaSpin",
+            "bulletPoints" => "
+                Pragmatic and Evolution serves with all the latest game shows
+                Payment options include Apple Pay
+                Slots are regularly updated every month, adding to the over 2k big library
+            ",
+            "bonus" => "£1,000 Bonus and 100 Free Spins",
+            "rating" => "9.8",
+            "link" => "https://www.stjamestheatre.co.uk/go/instaspin",
+            "logo" => "https://www.cardplayer.com/uk/wp-content/uploads/sites/8/2024/11/insta-spin-01.svg",
+            "linkID" => "12357",
+            "Tag" => "games",
+        ],
+        "prive-casino" => [
+            "brandName" => "Prive Casino",
+            "bulletPoints" => "
+                World-class welcome bonuses and weekly offers for UK players
+                4000+ games from top providers like Habanero, NetEnt, Quickspin
+                10% cashback by joining the VIP program
+            ",
+            "bonus" => "First deposit bonus 200%",
+            "rating" => "9.8",
+            "link" => "https://www.stjamestheatre.co.uk/go/prive-casino",
+            "logo" => "https://www.cardplayer.com/uk/wp-content/uploads/sites/8/2024/11/prive-casino-trnsp.svg",
+            "linkID" => "12358",
+            "Tag" => "online",
+        ],
+        "jackpot-raider" => [
+            "brandName" => "Jackpot Raider",
+            "bulletPoints" => "
+                Accepts Visa and MasterCard Deposits
+                Weekly Free Bet Bonuses
+                Top New Games from over 34 Game Developers
+            ",
+            "bonus" => "Welcome Package up to £450 + 250 Free Spins",
+            "rating" => "9.7",
+            "link" => "https://www.stjamestheatre.co.uk/go/jackpot-raider",
+            "logo" => "https://www.cardplayer.com/uk/wp-content/uploads/sites/8/2025/01/jackpot-raider.svg",
+            "linkID" => "12359",
+            "Tag" => "online",
+        ],
+    ],
 );
