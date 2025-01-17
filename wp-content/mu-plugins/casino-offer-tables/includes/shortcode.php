@@ -142,6 +142,42 @@ function casino_offer_tables_shortcode($atts) {
                 $output .= '</div>';
 
 
+    } elseif ($style === 'casino3') {
+
+        $output .= '<div class="stjamestheatre_brands-collection">';
+
+        $count = 1;
+        foreach ($filteredOffers as $arr_key => $offer) {
+            $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+
+            $output .= '<div class="stjamestheatre_brands-collection__item">';
+            $output .= '<div class="stjamestheatre_brands-collection__num">' . $count . '</div>';
+            $output .= '<a href="' . esc_url($offerLinkURL) . '" class="stjamestheatre_brands-collection__logo" target="_blank" rel="nofollow">';
+            $output .= '<img decoding="async" src="' . esc_url($offer['logo']) . '" alt="' . esc_attr($offer['brandName']) . '">';
+            $output .= '</a>';
+
+            $output .= '<div class="stjamestheatre_brands-collection__content">';
+            $output .= '<div class="stjamestheatre_brands-collection__title">' . esc_html($offer['brandName']) . '</div>';
+            $output .= '<div class="stjamestheatre_brands-collection__bonus">' . esc_html($offer['bonus']) . '</div>';
+            $output .= '</div>';
+
+            $output .= '<div class="stjamestheatre_brands-collection__rating">';
+            $output .= '<div class="stjamestheatre_brands-collection__rating__label">Rating: ' . esc_html($offer['rating']) . '/5</div>';
+            $output .= '<div class="stjamestheatre_brands-collection__rating__stars">';
+            for ($i = 1; $i <= 5; $i++) {
+                $output .= '<span class="stjamestheatre_style-star">' . ($i <= floor($offer['rating']) ? '★' : '☆') . '</span>';
+            }
+            $output .= '</div>';
+            $output .= '</div>';
+
+            $output .= '<a href="' . esc_url($offerLinkURL) . '" class="stjamestheatre_brands-collection__btn" target="_blank" rel="nofollow"> Play now </a>';
+            $output .= '</div>';
+
+            $count++;
+        }
+
+        $output .= '</div>';
+
     }
 
     return $output;

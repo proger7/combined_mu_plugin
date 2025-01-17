@@ -159,38 +159,9 @@ a {
     width: 100%; 
     height: 100%; 
     background: linear-gradient(180deg, #0D0E12 42%, rgb(0 0 0 / 0%) 100%);
-} 
-
-@media all{ 
-  a:active,a:hover { 
-    outline: 0;
-  } 
-
-  a:hover { 
-    color: #2a6496; 
-    text-decoration: underline;
-  } 
-
-  a:hover,a:active { 
-    outline: 0;
-  } 
-
-  a,a:hover { 
-    text-decoration: none;
-  } 
-
-  a:hover { 
-    color: #cb4332;
-  } 
-
-  a:hover,a:active { 
-    color: #cb4332;
-  } 
 }     
 
-a:hover,a:active { 
-    color: var(--nh-darker-red-newhorrizon);
-} 
+
 
 .newhorrizon_toplist-poker-compact__offer-brand-name { 
     font-family: "Lato", sans-serif; 
@@ -416,7 +387,7 @@ ul {
 .newhorrizon_toplist-poker-compact__offer-cta-btn-icon { 
     width: 24px; 
     height: 24px; 
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.newhorrizon_w3.newhorrizon_org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M16 12.5L8 18.2631V6.73682L16 12.5Z' fill='white'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M16 12.5L8 18.2631V6.73682L16 12.5Z' fill='white'/%3E%3C/svg%3E");
 } 
 
 @media all{ 

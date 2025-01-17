@@ -82,7 +82,7 @@ return array(
             "bonus" => "Bet £10 Get £30 in Free Football Bet Builders",
             "rating" => "10",
             "link" => "https://newhorrizon.eu/visit/betfair/",
-            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/betfair.svg",
+            "logo" => "http://test/wp-content/uploads/2025/01/betfair.png",
             "linkID" => "12345",
             "Tag" => "games",
         ],
@@ -94,7 +94,7 @@ return array(
             "bonus" => "10% Cashback Welcome Offer",
             "rating" => "9.5",
             "link" => "https://newhorrizon.eu/visit/all-british-casino/",
-            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/abc-sports.svg",
+            "logo" => "http://test/wp-content/uploads/2025/01/abc-sports.png",
             "linkID" => "12346",
             "Tag" => "popular",
         ],
@@ -106,7 +106,7 @@ return array(
             "bonus" => "Get £30 in Free Bets When You Stake £10",
             "rating" => "9.8",
             "link" => "https://newhorrizon.eu/visit/william-hill/",
-            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/William-Hill-130x63.png",
+            "logo" => "http://test/wp-content/uploads/2025/01/William-Hill-130x63-1.png",
             "linkID" => "12347",
             "Tag" => "games",
         ],
@@ -118,7 +118,7 @@ return array(
             "bonus" => "100% Welcome Offer Up To £50",
             "rating" => "9.6",
             "link" => "https://href.li/?https://www.10bet.co.uk/casino",
-            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/10Bet.svg",
+            "logo" => "http://test/wp-content/uploads/2025/01/10Bet.png",
             "linkID" => "12348",
             "Tag" => "online",
         ],
@@ -130,9 +130,71 @@ return array(
             "bonus" => "£50 in Free Bets When You Bet £10",
             "rating" => "9.7",
             "link" => "https://newhorrizon.eu/visit/betfred/",
-            "logo" => "https://newhorrizon.eu/wp-content/uploads/2024/11/logo-betfred.svg",
+            "logo" => "http://test/wp-content/uploads/2025/01/logo-betfred.png",
             "linkID" => "12349",
             "Tag" => "popular",
+        ],
+    ],
+    "casino3" => [
+        "betgem-casino" => [
+            "brandName" => "BetGem Casino",
+            "bulletPoints" => "
+                150% UP TO £3000
+            ",
+            "bonus" => "by PROMO CODE: VRS777",
+            "rating" => "5.0",
+            "link" => "https://www.stjamestheatre.co.uk/go/betgem",
+            "logo" => "https://www.stjamestheatre.co.uk/wp-content/uploads/2024/12/betgem.png",
+            "linkID" => "12350",
+            "Tag" => "popular",
+        ],
+        "donbet-casino" => [
+            "brandName" => "DonBet Casino",
+            "bulletPoints" => "
+                150% up to £750 + 50 Free Spins
+            ",
+            "bonus" => "",
+            "rating" => "4.85",
+            "link" => "https://www.stjamestheatre.co.uk/go/donbet",
+            "logo" => "https://www.stjamestheatre.co.uk/wp-content/uploads/2024/12/Donbet-Casino-3.png",
+            "linkID" => "12351",
+            "Tag" => "popular",
+        ],
+        "mystake-casino" => [
+            "brandName" => "Mystake Casino",
+            "bulletPoints" => "
+                300% up to 1500 or 100% UP TO £1000 + Exclusive 10 Free Spins with a PROMO CODE “WIN777”
+            ",
+            "bonus" => "",
+            "rating" => "4.9",
+            "link" => "https://www.stjamestheatre.co.uk/go/mystake",
+            "logo" => "https://www.stjamestheatre.co.uk/wp-content/uploads/2024/12/MyStake-Casino-2.png",
+            "linkID" => "12352",
+            "Tag" => "games",
+        ],
+        "magic-win-casino" => [
+            "brandName" => "Magic Win Casino",
+            "bulletPoints" => "
+                400% up to €2000 + 140 Free Spins with a PROMO CODE MAGICCHRISTMAS145
+            ",
+            "bonus" => "",
+            "rating" => "4.8",
+            "link" => "https://www.stjamestheatre.co.uk/go/magic-win",
+            "logo" => "https://www.stjamestheatre.co.uk/wp-content/uploads/2024/12/Magic-Win-Casino-2.png",
+            "linkID" => "12353",
+            "Tag" => "online",
+        ],
+        "golden-lion-casino" => [
+            "brandName" => "Golden Lion Casino",
+            "bulletPoints" => "
+                400% BONUS + 100 Free Spins ON FIRST DEPOSIT
+            ",
+            "bonus" => "",
+            "rating" => "4.8",
+            "link" => "https://www.stjamestheatre.co.uk/go/golden-lion",
+            "logo" => "https://www.stjamestheatre.co.uk/wp-content/uploads/2025/01/goldenlion.png",
+            "linkID" => "12354",
+            "Tag" => "online",
         ],
     ],
 );
