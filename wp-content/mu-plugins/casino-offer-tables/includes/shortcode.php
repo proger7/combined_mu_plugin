@@ -225,6 +225,78 @@ function casino_offer_tables_shortcode($atts) {
 
         return $output;
 
+    } elseif ($style === 'casino5') {
+
+            $output = '<div class="endoflifecareambitions_css-xd7n3k snipcss-kbt4b">';
+
+            foreach ($filteredOffers as $arr_key => $offer) {
+                $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+
+                $output .= '<div class="endoflifecareambitions_css-1e84buh endoflifecareambitions_style-L4Uw9" onclick="window.open(\'' . esc_url($offerLinkURL) . '\', \'_blank\');" id="endoflifecareambitions_style-L4Uw9">';
+                $output .= '<div class="endoflifecareambitions_css-h9u7nh">';
+                $output .= '<div class="group endoflifecareambitions_css-oxdvdj">';
+                $output .= '<div class="endoflifecareambitions_css-11kqtnt">';
+                $output .= '<div class="endoflifecareambitions_css-0"><img alt="' . esc_attr($offer['brandName']) . ' Logo" class="endoflifecareambitions_css-1x39tyh" data-nimg="1" decoding="async" height="100" loading="lazy" src="' . esc_url($offer['logo']) . '" style="color:transparent" width="200"></div>';
+                $output .= '</div>';
+                $output .= '<div class="endoflifecareambitions_css-5656ht">';
+                $output .= '<div class="endoflifecareambitions_css-17xwonx">';
+                $output .= '<div class="endoflifecareambitions_css-18b9jja">';
+                $output .= '<div class="endoflifecareambitions_css-1ood773">' . esc_html($offer['brandName']) . '</div>';
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '<div class="endoflifecareambitions_css-1r2us4v">';
+                $output .= '<div class="endoflifecareambitions_css-hd5v0">';
+                $output .= '<div class="endoflifecareambitions_css-uauz28">';
+
+                $bulletPoints = preg_split('/\r\n|\r|\n/', trim($offer['bulletPoints']));
+                foreach ($bulletPoints as $feature) {
+                    if (!empty($feature)) {
+                        $output .= '<div><svg class="endoflifecareambitions_css-1gg81p8" fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg> ' . esc_html($feature) . '</div>';
+                    }
+                }
+
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '<div class="endoflifecareambitions_css-il5spi"></div>';
+                $output .= '</div>';
+                $output .= '<div class="endoflifecareambitions_css-866mno">';
+                $output .= '<div class="endoflifecareambitions_css-12vzzte">';
+                $output .= '<div class="endoflifecareambitions_css-1c4nzka">Our Score</div>';
+                $output .= '<div class="endoflifecareambitions_css-xbf2mi"><span>' . esc_html($offer['rating']) . '</span></div>';
+                $output .= '</div>';
+                $output .= '<div class="endoflifecareambitions_css-1scg9ky">';
+                $output .= '<div>';
+                $output .= '<div id="endoflifecareambitions_style-wCVFy" class="endoflifecareambitions_style-wCVFy">';
+
+                $rating = floatval($offer['rating']);
+                $fullStars = floor($rating / 2);
+                $halfStar = ($rating % 2) >= 0.5;
+
+                for ($i = 0; $i < 5; $i++) {
+                    if ($i < $fullStars) {
+                        $output .= '<span class="endoflifecareambitions_style-itfUx" style="color: rgb(255, 215, 0);"><svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewBox="0 0 576 512" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></span>';
+                    } elseif ($i === $fullStars && $halfStar) {
+                        $output .= '<span class="endoflifecareambitions_style-itfUx" style="color: rgb(255, 215, 0);"><svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewBox="0 0 576 512" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></span>';
+                    } else {
+                        $output .= '<span class="endoflifecareambitions_style-itfUx" style="color: gray;"><svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewBox="0 0 576 512" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></span>';
+                    }
+                }
+
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '<div class="endoflifecareambitions_css-zjr4vk"><button class="endoflifecareambitions_css-rgftw8">GET BONUS</button></div>';
+                $output .= '</div>';
+                $output .= '</div>';
+                $output .= '</div>';
+            }
+
+            $output .= '</div>';
+
+            return $output;
+
     }
 
     return $output;

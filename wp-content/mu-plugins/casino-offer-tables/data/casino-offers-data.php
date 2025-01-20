@@ -269,4 +269,62 @@ return array(
             "Tag" => "online",
         ],
     ],
+    "casino5" => [
+        "lets-jackpot" => [
+            "brandName" => "Lets Jackpot",
+            "bulletPoints" => "
+                Big Welcome Bonus
+                Instant Cashouts
+                Daily Rewards
+            ",
+            "bonus" => "GET BONUS",
+            "rating" => "9.8",
+            "link" => "https://endoflifecareambitions.org.uk/go/lets-jackpot",
+            "logo" => "https://endoflifecareambitions.org.uk/img/lets-jackpot-non-gamstop.webp",
+            "linkID" => "001",
+            "Tag" => "top-rated",
+        ],
+        "fat-pirate" => [
+            "brandName" => "FatPirate",
+            "bulletPoints" => "
+                Massive welcome bonus
+                Instant withdrawals
+                Daily offers and bonuses
+            ",
+            "bonus" => "GET BONUS",
+            "rating" => "9.2",
+            "link" => "https://endoflifecareambitions.org.uk/go/fat-pirate",
+            "logo" => "https://endoflifecareambitions.org.uk/img/fatpirate.webp",
+            "linkID" => "002",
+            "Tag" => "recommended",
+        ],
+        "r2pbet" => [
+            "brandName" => "R2PBet",
+            "bulletPoints" => "
+                Several banking methods
+                Exclusive VIP Perks
+                Over 8300 slot games
+            ",
+            "bonus" => "GET BONUS",
+            "rating" => "8.9",
+            "link" => "https://endoflifecareambitions.org.uk/go/r2pbet",
+            "logo" => "https://endoflifecareambitions.org.uk/img/r2pbet.png",
+            "linkID" => "003",
+            "Tag" => "popular",
+        ],
+        "instant-casino" => [
+            "brandName" => "InstantCasino",
+            "bulletPoints" => "
+                Live casino games
+                Receive first deposit bonus
+                Exclusive VIP Perks
+            ",
+            "bonus" => "GET BONUS",
+            "rating" => "8.3",
+            "link" => "https://endoflifecareambitions.org.uk/go/instant-casino",
+            "logo" => "https://endoflifecareambitions.org.uk/img/instantcasino.webp",
+            "linkID" => "004",
+            "Tag" => "new",
+        ],
+    ],
 );

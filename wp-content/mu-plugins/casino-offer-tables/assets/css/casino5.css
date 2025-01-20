@@ -1,0 +1,1392 @@
+.endoflifecareambitions_css-xd7n3k { 
+    position: relative; 
+    z-index: 10; 
+    margin: auto; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    max-width: 1280px; 
+    -webkit-box-flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    -webkit-box-pack: justify; 
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+    row-gap: 0.5rem; 
+    border-radius: 1rem; 
+    padding: 0.5rem; 
+    padding-bottom: 3rem; 
+    padding-top: 3rem; 
+    background-color: rgba(255, 255, 255, 0.129); 
+    border: solid 1px rgba(138, 152, 171, 0.2);
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-xd7n3k { 
+    row-gap: 0.5rem; 
+    padding: 1.5rem;
+  } 
+}
+
+.endoflifecareambitions_css-1e84buh { 
+    cursor: pointer; 
+    width: 100%;
+} 
+
+.endoflifecareambitions_css-h9u7nh { 
+    width: 100%; 
+    cursor: pointer;
+} 
+ 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-oxdvdj { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex;
+  } 
+}     
+
+.endoflifecareambitions_css-oxdvdj:hover { 
+    --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); 
+    -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow); 
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+} 
+
+.endoflifecareambitions_css-weze2 { 
+    background: #fff; 
+    border-color: #d1d5db; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    width: 100%; 
+    -webkit-align-items: stretch; 
+    -webkit-box-align: stretch; 
+    -ms-flex-align: stretch; 
+    align-items: stretch; 
+    -webkit-box-pack: justify; 
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+    overflow: hidden; 
+    border-radius: 0.75rem; 
+    border-width: 1px; 
+    border-style: solid; 
+    --tw-border-opacity: 1; 
+    border-color: rgb(209 213 219 / var(--tw-border-opacity)); 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity)); 
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+    transition-property: all; 
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
+    transition-duration: 300ms;
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-weze2 { 
+    display: none;
+  } 
+}     
+
+.endoflifecareambitions_css-weze2:hover { 
+    --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); 
+    -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow); 
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+} 
+
+.endoflifecareambitions_css-11kqtnt { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center;
+} 
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-11kqtnt { 
+    width: 25%;
+  } 
+}     
+
+.endoflifecareambitions_css-5656ht { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-flex: 1; 
+    -webkit-flex-grow: 1; 
+    -ms-flex-positive: 1; 
+    flex-grow: 1; 
+    -webkit-flex-direction: row; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: justify; 
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+    gap: 0.25rem; 
+    border-radius: 0.375rem; 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity)); 
+    padding: 0.5rem;
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-5656ht { 
+    width: 50%;
+  } 
+}     
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-5656ht { 
+    width: 66.666667%;
+  } 
+}     
+
+.endoflifecareambitions_css-zjr4vk { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-flex: 1; 
+    -webkit-flex-grow: 1; 
+    -ms-flex-positive: 1; 
+    flex-grow: 1; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center; 
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem; 
+    text-align: center;
+} 
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-zjr4vk { 
+    width: 25%;
+  } 
+}     
+
+.endoflifecareambitions_css-h34bbj { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    height: 100%; 
+    width: 50%; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    overflow: hidden;
+} 
+
+.endoflifecareambitions_css-1nztzux { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    height: 100%; 
+    width: 50%; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: justify; 
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+    gap: 0.5rem; 
+    padding: 0.5rem;
+} 
+
+.endoflifecareambitions_css-17xwonx { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    height: 100%; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center;
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-17xwonx { 
+    width: 50%;
+  } 
+}     
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-17xwonx { 
+    width: 50%;
+  } 
+}     
+
+@media (min-width: 1280px){ 
+  .endoflifecareambitions_css-17xwonx { 
+    width: 40%;
+  } 
+}     
+
+.endoflifecareambitions_css-1r2us4v { 
+    display: none; 
+    height: 100%; 
+    width: 18rem; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center; 
+    gap: 0.5rem;
+} 
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-1r2us4v { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    width: 25%;
+  } 
+}     
+
+@media (min-width: 1280px){ 
+  .endoflifecareambitions_css-1r2us4v { 
+    width: 40%;
+  } 
+}     
+
+.endoflifecareambitions_css-866mno { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    height: 100%; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: justify; 
+    -webkit-justify-content: space-between; 
+    justify-content: space-between;
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-866mno { 
+    width: 50%;
+  } 
+}     
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-866mno { 
+    width: 25%;
+  } 
+}     
+
+@media (min-width: 1280px){ 
+  .endoflifecareambitions_css-866mno { 
+    width: 20%;
+  } 
+}     
+
+.endoflifecareambitions_css-rgftw8 { 
+    position: relative; 
+    width: 100%; 
+    cursor: pointer; 
+    border-radius: 0.75rem; 
+    border-style: none; 
+    -webkit-background-position: right; 
+    background-position: right; 
+    padding: 0.75rem; 
+    text-align: center; 
+    font-size: 1.125rem; 
+    line-height: 1.75rem; 
+    text-transform: uppercase; 
+    transition-property: all; 
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
+    transition-duration: 300ms; 
+    background: #002f6c; 
+    color: #fff; 
+    background: linear-gradient(         to right,         #002f6c,         #2563eb 50%,         #002f6c 50%         ) right; 
+    -webkit-background-size: 200% auto; 
+    background-size: 200% auto; 
+    background-image: linear-gradient(         to right,         #002f6c,         #2563eb 50%,         #002f6c 50%         );
+} 
+
+.endoflifecareambitions_group:hover .endoflifecareambitions_css-rgftw8 { 
+    -webkit-background-position: left; 
+    background-position: left;
+} 
+
+.endoflifecareambitions_css-pit38s { 
+    height: auto;
+} 
+
+.endoflifecareambitions_css-1gsfxg4 { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-flex-direction: row; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: justify; 
+    -webkit-justify-content: space-between; 
+    justify-content: space-between; 
+    gap: 0.5rem;
+} 
+
+.endoflifecareambitions_css-xx6ujc { 
+    width: 100%; 
+    text-align: center; 
+    font-size: 0.875rem; 
+    line-height: 1.25rem;
+} 
+
+.endoflifecareambitions_css-1d3w5wq { 
+    width: 100%;
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-1x39tyh { 
+    height: auto; 
+    width: 9rem;
+  } 
+}     
+
+.endoflifecareambitions_css-18b9jja { 
+    font-size: 1.125rem; 
+    line-height: 1.75rem;
+} 
+
+.endoflifecareambitions_css-hd5v0 { 
+    display: none;
+} 
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-hd5v0 { 
+    display: block;
+  } 
+}     
+
+.endoflifecareambitions_css-il5spi { 
+    display: none; 
+    -webkit-flex-direction: row; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    gap: 0.5rem;
+} 
+
+@media (min-width: 1024px){ 
+  .endoflifecareambitions_css-il5spi { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex;
+  } 
+}     
+
+.endoflifecareambitions_css-12vzzte { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    height: 100%; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center;
+} 
+
+.endoflifecareambitions_css-1scg9ky { 
+    margin-top: 0.25rem; 
+    margin-bottom: 0.25rem;
+} 
+
+.endoflifecareambitions_css-1ood773 { 
+    font-size: inherit; 
+    overflow-wrap: break-word; 
+    font-weight: 600;
+} 
+
+.endoflifecareambitions_css-uauz28 { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    list-style-type: disc; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: flex-start; 
+    -webkit-box-align: flex-start; 
+    -ms-flex-align: flex-start; 
+    align-items: flex-start; 
+    font-size: 0.875rem; 
+    line-height: 1.25rem;
+} 
+
+.endoflifecareambitions_css-1c4nzka { 
+    display: none; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 0.75rem; 
+    line-height: 1rem;
+} 
+
+@media (min-width: 768px){ 
+  .endoflifecareambitions_css-1c4nzka { 
+    display: block;
+  } 
+}     
+
+.endoflifecareambitions_css-xbf2mi { 
+    text-align: center; 
+    font-weight: 700; 
+    font-size: 48px;
+} 
+
+.endoflifecareambitions_css-9exv97 { 
+    text-align: center; 
+    font-weight: 700; 
+    font-size: 36px;
+} 
+
+.endoflifecareambitions_css-1gg81p8 { 
+    margin-right: 0.5rem; 
+    display: inline-block; 
+    fill: #22c55e;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-Aw6zx.endoflifecareambitions_style-Aw6zx {  
+   cursor: pointer;  
+}  
+#style-zMsRW.endoflifecareambitions_style-zMsRW {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-joZeX.endoflifecareambitions_style-joZeX {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-3Upio.endoflifecareambitions_style-3Upio {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-wUGaI.endoflifecareambitions_style-wUGaI {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-IdCrD.endoflifecareambitions_style-IdCrD {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-KJ1bh.endoflifecareambitions_style-KJ1bh {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-eoyMF.endoflifecareambitions_style-eoyMF {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-JoTtg.endoflifecareambitions_style-JoTtg {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-s4Goq.endoflifecareambitions_style-s4Goq {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-YA6Ia.endoflifecareambitions_style-YA6Ia {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-e1mRS.endoflifecareambitions_style-e1mRS {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-ooPtd.endoflifecareambitions_style-ooPtd {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-g9sCZ.endoflifecareambitions_style-g9sCZ {  
+   cursor: pointer;  
+}  
+#style-zZNSw.endoflifecareambitions_style-zZNSw {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-qVPUR.endoflifecareambitions_style-qVPUR {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-PVdhf.endoflifecareambitions_style-PVdhf {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-7eNTV.endoflifecareambitions_style-7eNTV {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-dYfEV.endoflifecareambitions_style-dYfEV {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-eoLlX.endoflifecareambitions_style-eoLlX {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-rXUFV.endoflifecareambitions_style-rXUFV {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-6x4e7.endoflifecareambitions_style-6x4e7 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-qjMxF.endoflifecareambitions_style-qjMxF {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-BaCMM.endoflifecareambitions_style-BaCMM {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-dSdJb.endoflifecareambitions_style-dSdJb {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-7ZLtH.endoflifecareambitions_style-7ZLtH {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-wSexd.endoflifecareambitions_style-wSexd {  
+   cursor: pointer;  
+}  
+#style-xO7SN.endoflifecareambitions_style-xO7SN {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-SMBYC.endoflifecareambitions_style-SMBYC {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-PGPWI.endoflifecareambitions_style-PGPWI {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-vJ2r1.endoflifecareambitions_style-vJ2r1 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-epppC.endoflifecareambitions_style-epppC {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-aJBnd.endoflifecareambitions_style-aJBnd {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 20px;  
+}  
+#style-lDy7K.endoflifecareambitions_style-lDy7K {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-xkFo4.endoflifecareambitions_style-xkFo4 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-nblwf.endoflifecareambitions_style-nblwf {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-AvvG3.endoflifecareambitions_style-AvvG3 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-n5oOJ.endoflifecareambitions_style-n5oOJ {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-kg6sA.endoflifecareambitions_style-kg6sA {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 14px;  
+}  
+#style-vxZyR.endoflifecareambitions_style-vxZyR {  
+   cursor: pointer;  
+}  
+#style-QXlSX.endoflifecareambitions_style-QXlSX {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-KNcIf.endoflifecareambitions_style-KNcIf {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-FsPgn.endoflifecareambitions_style-FsPgn {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-WCL1Z.endoflifecareambitions_style-WCL1Z {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-OrPs1.endoflifecareambitions_style-OrPs1 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-PCP5y.endoflifecareambitions_style-PCP5y {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 20px;  
+}  
+#style-tqDAT.endoflifecareambitions_style-tqDAT {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-W8kBV.endoflifecareambitions_style-W8kBV {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-1AYHA.endoflifecareambitions_style-1AYHA {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-fj8HT.endoflifecareambitions_style-fj8HT {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-lkLs7.endoflifecareambitions_style-lkLs7 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-Y1mkt.endoflifecareambitions_style-Y1mkt {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 14px;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-L4Uw9.endoflifecareambitions_style-L4Uw9 {  
+   cursor: pointer;  
+}  
+#style-wCVFy.endoflifecareambitions_style-wCVFy {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-itfUx.endoflifecareambitions_style-itfUx {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-EVUQI.endoflifecareambitions_style-EVUQI {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-yFRMC.endoflifecareambitions_style-yFRMC {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-gjJg6.endoflifecareambitions_style-gjJg6 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-MctdR.endoflifecareambitions_style-MctdR {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-17BTt.endoflifecareambitions_style-17BTt {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-TFxcc.endoflifecareambitions_style-TFxcc {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-rjY8A.endoflifecareambitions_style-rjY8A {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-6vwtz.endoflifecareambitions_style-6vwtz {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-ELqOh.endoflifecareambitions_style-ELqOh {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-oPZSf.endoflifecareambitions_style-oPZSf {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-FiLoz.endoflifecareambitions_style-FiLoz {  
+   cursor: pointer;  
+}  
+#style-3FQoA.endoflifecareambitions_style-3FQoA {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-Kkbo1.endoflifecareambitions_style-Kkbo1 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-Eyatm.endoflifecareambitions_style-Eyatm {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-HRYrD.endoflifecareambitions_style-HRYrD {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-lbfea.endoflifecareambitions_style-lbfea {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-AkJV7.endoflifecareambitions_style-AkJV7 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-Tro8Y.endoflifecareambitions_style-Tro8Y {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-mytmJ.endoflifecareambitions_style-mytmJ {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-Yskcn.endoflifecareambitions_style-Yskcn {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-xQ54M.endoflifecareambitions_style-xQ54M {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-1iOPB.endoflifecareambitions_style-1iOPB {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-bDiIs.endoflifecareambitions_style-bDiIs {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-W7EPY.endoflifecareambitions_style-W7EPY {  
+   cursor: pointer;  
+}  
+#style-7lgeg.endoflifecareambitions_style-7lgeg {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-t6ofL.endoflifecareambitions_style-t6ofL {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-2N73g.endoflifecareambitions_style-2N73g {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-STwXw.endoflifecareambitions_style-STwXw {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-MyP2m.endoflifecareambitions_style-MyP2m {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-d6NxW.endoflifecareambitions_style-d6NxW {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 20px;  
+}  
+#style-oJqod.endoflifecareambitions_style-oJqod {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-4L6a4.endoflifecareambitions_style-4L6a4 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-AeN7W.endoflifecareambitions_style-AeN7W {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-IjxY5.endoflifecareambitions_style-IjxY5 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-YYyLU.endoflifecareambitions_style-YYyLU {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-Y3JXV.endoflifecareambitions_style-Y3JXV {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 14px;  
+}  
+#style-cko9H.endoflifecareambitions_style-cko9H {  
+   cursor: pointer;  
+}  
+#style-yIr38.endoflifecareambitions_style-yIr38 {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-jLffw.endoflifecareambitions_style-jLffw {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-wIofo.endoflifecareambitions_style-wIofo {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-b2bL4.endoflifecareambitions_style-b2bL4 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-wAUcU.endoflifecareambitions_style-wAUcU {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 20px;  
+}  
+#style-MHDKP.endoflifecareambitions_style-MHDKP {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 20px;  
+}  
+#style-lLx4w.endoflifecareambitions_style-lLx4w {  
+   overflow:hidden;  
+   position:relative;  
+}  
+#style-mCApz.endoflifecareambitions_style-mCApz {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-4zV6A.endoflifecareambitions_style-4zV6A {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-zNEOe.endoflifecareambitions_style-zNEOe {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-OWdwV.endoflifecareambitions_style-OWdwV {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: rgb(255, 215, 0);  
+    font-size: 14px;  
+}  
+#style-FMtE8.endoflifecareambitions_style-FMtE8 {  
+   position: relative;  
+    overflow: hidden;  
+    cursor: default;  
+    display: block;  
+    float: left;  
+    color: gray;  
+    font-size: 14px;  
+}  
+
+@media (max-width: 768px) {
+    .endoflifecareambitions_css-xd7n3k {
+        flex-direction: column;
+        row-gap: 1rem;
+        padding: 1rem;
+    }
+
+    .endoflifecareambitions_css-1e84buh {
+        width: 100%;
+    }
+
+    .endoflifecareambitions_css-11kqtnt,
+    .endoflifecareambitions_css-5656ht,
+    .endoflifecareambitions_css-zjr4vk {
+        width: 100%;
+    }
+
+    .endoflifecareambitions_css-oxdvdj {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .endoflifecareambitions_css-11kqtnt img {
+        width: 150px;
+        height: auto;
+    }
+
+    .endoflifecareambitions_css-rgftw8 {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .endoflifecareambitions_css-xx6ujc {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .endoflifecareambitions_css-1r2us4v,
+    .endoflifecareambitions_css-il5spi {
+        display: none;
+    }
+
+    .endoflifecareambitions_css-1ood773 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .endoflifecareambitions_css-12vzzte .endoflifecareambitions_css-xbf2mi {
+        font-size: 36px;
+    }
+
+    .endoflifecareambitions_css-5656ht {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .endoflifecareambitions_css-1scg9ky {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .endoflifecareambitions_css-uauz28 {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+    .endoflifecareambitions_css-weze2 {
+        display: block;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .endoflifecareambitions_css-866mno {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
