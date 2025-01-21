@@ -2,6 +2,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+
 add_shortcode('display_casino_tables', 'casino_offer_tables_shortcode');
 
 function casino_offer_tables_shortcode($atts) {
@@ -22,11 +23,23 @@ function casino_offer_tables_shortcode($atts) {
 
 
     $filteredOffers = array_filter($casinoOffers, function ($offer) use ($atts) {
-        if (!isset($offer['Tag'])) {
+        if (
+            !isset($offer['Tag'], $offer['linkID'], $offer['brandName'], $offer['rating'], $offer['bonus'], $offer['bulletPoints']) ||
+            !is_numeric($offer['rating']) || 
+            (float)$offer['rating'] < 0 || 
+            (float)$offer['rating'] > 10
+        ) {
             return false;
         }
-        $tags = is_array($offer['Tag']) ? $offer['Tag'] : explode(',', $offer['Tag']);
-        return empty($atts['tag']) || in_array($atts['tag'], $tags);
+
+        $tags = array_map('trim', is_array($offer['Tag']) ? $offer['Tag'] : explode(',', $offer['Tag']));
+        $attsTag = trim($atts['tag']);
+
+        if (!empty($attsTag) && !in_array($attsTag, $tags)) {
+            return false;
+        }
+
+        return true;
     });
 
 
@@ -355,13 +368,17 @@ function casino_offer_tables_shortcode($atts) {
 }
 
 
-if ( ! function_exists( 'enqueue_offers_table_css' ) ) {
+if (!function_exists('enqueue_offers_table_css')) {
     function enqueue_offers_table_css($style) {
         $handle = "casino-style-css-$style";
+        $css_path = plugin_dir_path(__FILE__) . "../assets/css/{$style}.css";
         $css_url = plugin_dir_url(__FILE__) . "../assets/css/{$style}.css";
 
-        if (!wp_style_is($handle, 'enqueued') && file_exists(plugin_dir_path(__FILE__) . "../assets/css/{$style}.css")) {
-            wp_enqueue_style($handle, $css_url, [], '1.0.0');
+        if (file_exists($css_path)) {
+            $version = filemtime($css_path);
+            if (!wp_style_is($handle, 'enqueued')) {
+                wp_enqueue_style($handle, $css_url, [], $version);
+            }
         }
     }
 }
