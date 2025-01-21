@@ -327,4 +327,81 @@ return array(
             "Tag" => "new",
         ],
     ],
+    "casino6" => [
+        "rolletto" => [
+            "brandName" => "Rolletto",
+            "bulletPoints" => "
+                150 Bonus + 50 Free Spins
+                Casino Games & Betting
+                200 Free Spins Every Weekend
+                Bank, Apple Pay, Crypto Deposit
+            ",
+            "bonus" => "PLAY NOW",
+            "rating" => "9.5",
+            "link" => "https://bigpotential.org.uk/go/rolletto",
+            "logo" => "https://bigpotential.org.uk/images/rolletto.png",
+            "linkID" => "001",
+            "Tag" => "top-rated",
+        ],
+        "cosmobet" => [
+            "brandName" => "Cosmobet",
+            "bulletPoints" => "
+                150£ up to 500 + 50 free spins
+                Casino Games & Betting
+                Table Games & Live Dealers
+                Bank, Apple Pay, Crypto Deposit
+            ",
+            "bonus" => "PLAY NOW",
+            "rating" => "9.2",
+            "link" => "https://bigpotential.org.uk/go/cosmobet",
+            "logo" => "https://bigpotential.org.uk/images/cosmobet.png",
+            "linkID" => "002",
+            "Tag" => "recommended",
+        ],
+        "velobet" => [
+            "brandName" => "Velobet",
+            "bulletPoints" => "
+                150 Bonus + 70 Free Spins
+                Live Casino Games & Sports Betting
+                10 $/€/£ Gift
+                Fast Withdrawal for UK Customers
+            ",
+            "bonus" => "PLAY NOW",
+            "rating" => "8.9",
+            "link" => "https://bigpotential.org.uk/go/velobet",
+            "logo" => "https://bigpotential.org.uk/images/velobet.png",
+            "linkID" => "003",
+            "Tag" => "popular",
+        ],
+        "betway" => [
+            "brandName" => "Betway",
+            "bulletPoints" => "
+                100% upto £50
+                Best for Sports Betting with Price Boosts
+                Supports all major credit cards
+                Easy to setup Accas with the best odds
+            ",
+            "bonus" => "PLAY NOW",
+            "rating" => "8.5",
+            "link" => "https://bigpotential.org.uk/go/betway",
+            "logo" => "https://bigpotential.org.uk/images/betway.png",
+            "linkID" => "004",
+            "Tag" => "trusted",
+        ],
+        "playojo" => [
+            "brandName" => "PlayOJO",
+            "bulletPoints" => "
+                50 Bonus Spins Welcome Offer
+                Wager-free casino bonuses
+                3,000+ online real money games
+                100+ live casino games
+            ",
+            "bonus" => "PLAY NOW",
+            "rating" => "8.0",
+            "link" => "https://bigpotential.org.uk/go/playojo",
+            "logo" => "https://bigpotential.org.uk/images/playojo.png",
+            "linkID" => "005",
+            "Tag" => "featured",
+        ],
+    ],
 );

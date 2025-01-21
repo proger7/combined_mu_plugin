@@ -297,6 +297,57 @@ function casino_offer_tables_shortcode($atts) {
 
             return $output;
 
+    } elseif ($style === 'casino6') {
+
+                $output = '<div class="bigpotential_jbs_y-9qj bigpotential_kb_c-qth bigpotential_snipcss-hPgoh">';
+
+                $count = 1;
+
+                foreach ($filteredOffers as $arr_key => $offer) {
+                    $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+
+                    $output .= '<div class="bigpotential_jn_wx-sta">';
+                    $output .= '<div class="bigpotential_p_oka-yvo">';
+
+                    if ($count === 1) {
+                        $output .= '<span class="bigpotential_ba-gf-h9a"><span class="bigpotential_lg_dk-942"><span>Best UK Casino Games</span></span><span class="bigpotential_ba-gf-a14" style="border-top-color:#334dfe"></span></span>';
+                    }
+
+                    $output .= '<div class="bigpotential_r_lak-en7">';
+                    $output .= '<div class="bigpotential_jbs_y-y2r">' . esc_html($count) . '</div>';
+                    $output .= '<figure><img fetchpriority="high" decoding="async" width="800" height="540" src="' . esc_url($offer['logo']) . '" class="bigpotential_rg_jas-dod bigpotential_m_jo-img-h2b"></figure>';
+                    $output .= '</div>';
+
+                    $output .= '<div class="bigpotential_jbs_y-9ak">';
+                    $output .= '<div class="bigpotential_ez_o-s16">';
+                    $output .= '<h3 class="bigpotential_lg_dk-fvg bigpotential_m_jo-h3-e1z"><a href="' . esc_url($offerLinkURL) . '" class="bigpotential_m_jo-a-jy3" target="_blank">' . esc_html($offer['brandName']) . '</a></h3>';
+                    $output .= '<div class="bigpotential_jbs_y-e34">';
+
+                    $bulletPoints = preg_split('/\r\n|\r|\n/', trim($offer['bulletPoints']));
+                    foreach ($bulletPoints as $feature) {
+                        if (!empty($feature)) {
+                            $output .= '✔️ ' . esc_html($feature) . '<br>';
+                        }
+                    }
+
+                    $output .= '</div>';
+                    $output .= '</div>';
+                    $output .= '</div>';
+
+                    $output .= '<div class="bigpotential_jbs_y-sxz">';
+                    $output .= '<div><a href="' . esc_url($offerLinkURL) . '" class="bigpotential_gfj_a-i5n bigpotential_m_jo-a-jy3" target="_blank">' . esc_html($offer['bonus']) . '</a></div>';
+                    $output .= '</div>';
+
+                    $output .= '</div>';
+                    $output .= '</div>';
+
+                    $count++;
+                }
+
+                $output .= '</div>';
+
+                return $output;
+
     }
 
     return $output;
