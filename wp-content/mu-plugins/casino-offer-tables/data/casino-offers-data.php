@@ -341,7 +341,7 @@ return array(
             "link" => "https://bigpotential.org.uk/go/rolletto",
             "logo" => "https://bigpotential.org.uk/images/rolletto.png",
             "linkID" => "001",
-            "Tag" => "top-rated",
+            "Tag" => "popular",
         ],
         "cosmobet" => [
             "brandName" => "Cosmobet",

@@ -315,7 +315,7 @@ function casino_offer_tables_shortcode($atts) {
 
                     $output .= '<div class="bigpotential_r_lak-en7">';
                     $output .= '<div class="bigpotential_jbs_y-y2r">' . esc_html($count) . '</div>';
-                    $output .= '<figure><img fetchpriority="high" decoding="async" width="800" height="540" src="' . esc_url($offer['logo']) . '" class="bigpotential_rg_jas-dod bigpotential_m_jo-img-h2b"></figure>';
+                    $output .= '<figure><img fetchpriority="high" decoding="async" width="800" height="540" src="https://casinocdn.co.uk/images/' . esc_attr($arr_key) . '.png" class="bigpotential_rg_jas-dod bigpotential_m_jo-img-h2b"></figure>';
                     $output .= '</div>';
 
                     $output .= '<div class="bigpotential_jbs_y-9ak">';
@@ -347,6 +347,7 @@ function casino_offer_tables_shortcode($atts) {
                 $output .= '</div>';
 
                 return $output;
+
 
     }
 
