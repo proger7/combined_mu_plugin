@@ -110,6 +110,8 @@
     -webkit-box-align: center; 
     -ms-flex-align: center; 
     align-items: center;
+    justify-content: center;
+    border: 2px solid #f3f4f6;
 } 
 
 @media (min-width: 1024px){ 
