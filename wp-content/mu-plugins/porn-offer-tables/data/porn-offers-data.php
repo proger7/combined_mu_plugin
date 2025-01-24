@@ -8,11 +8,13 @@ return array(
             "price" => "9.99",
             "oldPrice" => "29.99",
             "discount" => "67%",
-            "labels" => [
-                "Flash Sale",
-                "32 Bonus Sites"
-            ],
+            "flash_sale" => "yes",
+            "bonus_sites" => 32,
+            "lifetime" => "no",
+            "downloads_included" => "yes",
+            "new_feature" => "yes",
             "Tag" => "Flash Sale",
+            "labels" => [],
             "link" => "https://www.porndiscounts.com/go/brazzers/",
             "logo" => "https://static.porndiscounts.com/data/discounts/discounts/7/indexAH.jpg",
             "linkID" => "001"
@@ -23,11 +25,12 @@ return array(
             "price" => "9.99",
             "oldPrice" => "29.99",
             "discount" => "67%",
-            "labels" => [
-                "Flash Sale",
-                "54 Bonus Sites"
-            ],
+            "flash_sale" => "no",
+            "bonus_sites" => 54,
+            "lifetime" => "yes",
+            "downloads_included" => "no",
             "Tag" => "Premium",
+            "labels" => [],
             "link" => "https://www.porndiscounts.com/go/reality-kings/",
             "logo" => "https://static.porndiscounts.com/data/discounts/discounts/102/indexAH.jpg",
             "linkID" => "002"
@@ -38,11 +41,12 @@ return array(
             "price" => "9.95",
             "oldPrice" => "39.95",
             "discount" => "76%",
-            "labels" => [
-                "32 Bonus Sites",
-                "Downloads Included"
-            ],
+            "flash_sale" => "yes",
+            "bonus_sites" => 0,
+            "lifetime" => "yes",
+            "downloads_included" => "yes",
             "Tag" => "Exclusive",
+            "labels" => [],
             "link" => "https://www.porndiscounts.com/go/evil-angel/",
             "logo" => "https://static.porndiscounts.com/data/discounts/discounts/10/indexAH.jpg",
             "linkID" => "003"

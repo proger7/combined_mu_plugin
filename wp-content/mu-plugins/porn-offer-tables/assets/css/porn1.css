@@ -133,7 +133,7 @@
     position: absolute; 
     width: 130px; 
     height: 92px; 
-    background: url("https://static.prn1_d_porndiscounts.prn1_d_com/templates/Discounts2018/img/PD-label.prn1_d_svg") no-repeat; 
+    background: url("https://static.porndiscounts.com/templates/Discounts2018/img/PD-label.svg") no-repeat; 
     background-size: cover; 
     color: #fff; 
     padding-left: 10px; 
@@ -392,7 +392,10 @@ span .prn1_d_popup-card::after {
     left: 50%; 
     top: 100%; 
     transform: translateX(-50%);
-} 
+}
+.prn1_d_thumbs-item .prn1_d_thumb .prn1_d_content .prn1_d_text a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
 
 @media screen and (min-width: 1024px){ 
   span:hover .prn1_d_popup-card { 

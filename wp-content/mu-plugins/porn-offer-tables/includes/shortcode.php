@@ -18,6 +18,19 @@ function porn_offer_tables_shortcode($atts) {
     $pornOffers = $data['porn' . $styleNumber] ?? [];
     $atts['limit'] = max(1, (int)$atts['limit']);
 
+    foreach ($pornOffers as &$offer) {
+        $offer['labels'] = [];
+        if (isset($offer['bonus_sites']) && $offer['bonus_sites'] > 0) {
+            $offer['labels'][] = '$' . $offer['bonus_sites'] . ' Bonus Sites';
+        }
+        foreach ($offer as $key => $value) {
+            if ($value === 'yes' && !in_array($key, ['brandName', 'description', 'price', 'oldPrice', 'discount', 'link', 'logo', 'linkID', 'Tag', 'labels', 'bonus_sites'], true)) {
+                $label = ucwords(str_replace('_', ' ', $key));
+                $offer['labels'][] = $label;
+            }
+        }
+    }
+
     $filteredOffers = array_filter($pornOffers, function ($offer) use ($atts) {
         if (empty($offer['linkID']) || empty($offer['brandName']) || empty($offer['labels']) || empty($offer['Tag'])) {
             return false;
@@ -33,9 +46,11 @@ function porn_offer_tables_shortcode($atts) {
         return '<p>No porn offers found for the specified tag.</p>';
     }
 
+    $filteredOffers = array_map('unserialize', array_unique(array_map('serialize', $filteredOffers)));
     $keys = array_keys($filteredOffers);
     shuffle($keys);
-    $filteredOffers = array_intersect_key($filteredOffers, array_flip(array_slice($keys, 0, $atts['limit'])));
+    $keys = array_slice($keys, 0, $atts['limit']);
+    $filteredOffers = array_intersect_key($filteredOffers, array_flip($keys));
 
     $output = '';
     porn_offers_table_css($style);
@@ -89,7 +104,6 @@ function porn_offer_tables_shortcode($atts) {
 
         $output .= '</div>';
         $output .= '</div>';
-
     }
 
     return $output;
