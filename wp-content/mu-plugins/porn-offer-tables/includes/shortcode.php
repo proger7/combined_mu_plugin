@@ -52,11 +52,26 @@ function porn_offer_tables_shortcode($atts) {
     $keys = array_slice($keys, 0, $atts['limit']);
     $filteredOffers = array_intersect_key($filteredOffers, array_flip($keys));
 
-    $output = '';
     porn_offers_table_css($style);
 
+    $post_id = get_the_ID();
+    $sidebar_value = get_post_meta($post_id, '_generate-sidebar-layout-meta', true);
+    $sidebar_value = !empty($sidebar_value) ? sanitize_title($sidebar_value) : 'default';
+
+    $sidebar_columns = [
+        'default' => 2,
+        'right-sidebar' => 2,
+        'left-sidebar' => 2,
+        'no-sidebar' => 3,
+        'both-sidebars' => 1,
+        'both-left' => 1,
+        'both-right' => 1
+    ];
+
+    $columns = $sidebar_columns[$sidebar_value] ?? 2;
+
     if ($style === 'porn1') {
-        $output = '<div id="pages-content" class="prn1_d_thumbs-item sort-wrapper">';
+        $output = '<div id="pages-content" class="prn1_d_thumbs-item sort-wrapper" data-columns="' . $columns . '" data-default-columns="' . $columns . '">';
         $output .= '<div id="page-content" class="prn1_d_page-content" data-url="/">';
 
         foreach ($filteredOffers as $arr_key => $offer) {
@@ -68,7 +83,7 @@ function porn_offer_tables_shortcode($atts) {
             $output .= '<div class="prn1_d_item">';
             $output .= '<div class="prn1_d_img-holder">';
             $output .= '<a href="' . esc_url($offerPageURL) . '">';
-            $output .= '<img class="prn1_d_img" loading="lazy" src="' . esc_url($offer['logo']) . '" alt="' . esc_attr($offer['brandName']) . '" width="405" height="228">';
+            $output .= '<img class="prn1_d_img" loading="lazy" src="' . esc_url($offer['logo']) . '" alt="' . esc_attr($offer['brandName']) . '" width="500" height="280">';
             $output .= '</a>';
             $output .= '<div class="prn1_d_content-discount-thumb">' . esc_html($offer['discount']) . '</div>';
             $output .= '<div class="prn1_d_content-status">';
@@ -95,7 +110,7 @@ function porn_offer_tables_shortcode($atts) {
             $output .= '</div>';
             $output .= '</div>';
             $output .= '<div class="prn1_d_row-links">';
-            $output .= '<a class="prn1_d_btn-thumb prn1_d_buy" href="' . esc_url($offerLinkURL) . '" target="_blank" rel="nofollow" onclick="ga(\'send\', \'event\', \'index\', \'click\', \'buynow-' . esc_js($offer['brandName']) . '\');">Buy Now</a>';
+            $output .= '<a class="prn1_d_btn-thumb prn1_d_buy" href="' . esc_url($offerLinkURL) . '" target="_blank" rel="nofollow">Buy Now</a>';
             $output .= '<a href="' . esc_url($offerPageURL) . '" class="prn1_d_btn-thumb prn1_d_now">View Deal</a>';
             $output .= '</div>';
             $output .= '</div>';
@@ -123,3 +138,24 @@ if (!function_exists('porn_offers_table_css')) {
         }
     }
 }
+
+function porn_table_dynamic_columns() {
+    ?>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function updateColumns() {
+                let container = document.querySelector("#pages-content");
+                if (container) {
+                    let defaultColumns = container.getAttribute("data-default-columns");
+                    let newColumns = window.innerWidth < 986 ? 1 : defaultColumns;
+                    container.setAttribute("data-columns", newColumns);
+                }
+            }
+
+            window.addEventListener("resize", updateColumns);
+            updateColumns();
+        });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'porn_table_dynamic_columns');
