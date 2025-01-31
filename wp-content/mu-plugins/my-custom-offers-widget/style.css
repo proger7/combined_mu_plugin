@@ -1,0 +1,327 @@
+  :root { 
+    --base-aa-mybrides: antialiased; 
+    --main-color-mybrides: #07a3cc; 
+    --main-color-rgb-mybrides: 7, 163, 204; 
+    --c-main-mybrides: var(--main-color-mybrides); 
+    --main-width-mybrides: 1170px; 
+    --wrap-padding-mybrides: 35px; 
+    --grid-gutter-mybrides: 30px; 
+    --body-font-mybrides: IBM Plex Sans, system-ui, -apple-system, Segoe UI, sans-serif; 
+    --ui-font-mybrides: var(--body-font-mybrides); 
+    --text-font-mybrides: var(--body-font-mybrides); 
+    --title-font-mybrides: var(--ui-font-mybrides); 
+    --h-font-mybrides: var(--ui-font-mybrides); 
+    --text-size-mybrides: 14px; 
+    --black-700-mybrides: #333; 
+    --black-color-mybrides: var(--black-700-mybrides); 
+    --share-icons-color-mybrides: var(--black-color-mybrides); 
+    --topbar-social-color-mybrides: var(--share-icons-color-mybrides); 
+    --nav-active-color-mybrides: var(--main-color-mybrides); 
+    --nav-hover-color-mybrides: var(--nav-active-color-mybrides); 
+    --nav-drop-active-color-mybrides: var(--nav-active-color-mybrides); 
+    --nav-blip-hover-color-mybrides: var(--nav-hover-color-mybrides); 
+    --title-size-s-mybrides: 16px; 
+    --title-size-n-mybrides: 17px; 
+    --title-size-m-mybrides: 19px; 
+    --title-size-l-mybrides: 24px; 
+    --title-size-xl-mybrides: 28px; 
+    --post-title-size-mybrides: var(--title-size-l-mybrides); 
+    --large-post-title-mybrides: var(--post-title-size-mybrides); 
+    --grid-post-title-mybrides: var(--title-size-m-mybrides); 
+    --grid-post-title-c2-mybrides: var(--grid-post-title-mybrides); 
+    --grid-post-title-c3-mybrides: var(--grid-post-title-mybrides); 
+    --list-post-title-mybrides: var(--title-size-m-mybrides); 
+    --list-post-title-b-mybrides: var(--title-size-m-mybrides); 
+    --overlay-post-title-mybrides: var(--title-size-l-mybrides); 
+    --carousel-post-title-mybrides: calc(var(--title-size-n-mybrides) + 1px); 
+    --w-posts-title-large-mybrides: var(--title-size-s-mybrides); 
+    --excerpt-size-mybrides: var(--text-size-mybrides); 
+    --single-content-size-mybrides: 15px; 
+    --post-content-size-mybrides: var(--single-content-size-mybrides); 
+    --related-posts-title-mybrides: var(--title-size-s-mybrides); 
+    --related-posts-2-title-mybrides: var(--title-size-n-mybrides); 
+    --feat-grid-title-s-mybrides: var(--title-size-n-mybrides); 
+    --feat-grid-title-m-mybrides: calc(var(--title-size-m-mybrides) * 1.1052631579); 
+    --feat-grid-title-l-mybrides: var(--title-size-xl-mybrides); 
+  } 
+}     
+
+:root { 
+    --main-color-mybrides: #c18389; 
+    --main-color-rgb-mybrides: 193,131,137;
+} 
+
+:root { 
+    --cr-accent-color-mybrides: #CD661E; 
+    --cr-accent-color-rgb-mybrides: 205,102,30; 
+    --cr-secondary-color-mybrides: #5562D1; 
+    --cr-secondary-color-rgb-mybrides: 85,98,209; 
+    --cr-btn-text-color-mybrides: #FFFFFF; 
+} 
+
+*  { 
+    box-sizing: border-box;
+} 
+
+@media all{ 
+  *,:before,:after { 
+    -webkit-font-smoothing: var(--base-aa-mybrides);
+  } 
+
+  :selection { 
+    background: rgba(var(--main-color-rgb-mybrides), 0.2);
+  } 
+}     
+
+.mybrides_cpm-advertiser-disclosure { 
+    text-align: right; 
+    font-weight: normal; 
+    padding-bottom: 8px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_cpm-ajax-info  { 
+    text-align: left; 
+    line-height: 20px; 
+    margin-bottom: 18px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_cr-rating-widget-content  { 
+    box-shadow: 0 4px 4px rgba(0,0,0,.08); 
+    border-left: 1px solid #eaebec; 
+    border-right: 1px solid #eaebec; 
+    border-radius: 3px 0 3px 3px; 
+    background: #fff; 
+    margin-top: 22px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_cpm-ajax-info + .mybrides_cr-rating-widget-content  { 
+    margin-top: 0;
+} 
+
+@media all{ 
+  button { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    font-size: 100%; 
+    font-family: inherit;
+  } 
+
+  button { 
+    box-sizing: content-box; 
+    -moz-box-sizing: content-box; 
+    cursor: pointer;
+  } 
+
+  button { 
+    -webkit-appearance: none; 
+    background: var(--main-color-mybrides); 
+    color: #fff; 
+    padding: 13px 20px; 
+    font-family: var(--ui-font-mybrides); 
+    font-size: 11px; 
+    font-weight: 600; 
+    line-height: 1; 
+    height: auto; 
+    letter-spacing: 0.09em; 
+    text-transform: uppercase; 
+    border: 0;
+  } 
+}     
+
+.mybrides_cpm-advertiser-disclosure .mybrides_cpm-ajax-info-btn  { 
+    font-size: 12px; 
+    line-height: 16px; 
+    letter-spacing: normal; 
+    text-transform: none; 
+    text-decoration: none !important; 
+    font-weight: normal; 
+    display: inline-block; 
+    color: #0c127c; 
+    border: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0; 
+    outline: unset; 
+    cursor: pointer;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_cpm-ajax-info .mybrides_cpm-ajax-info-btn  { 
+    font-size: 13px; 
+    line-height: 16px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item  { 
+    padding: 15px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item:first-child  { 
+    background: rgba(var(--cr-secondary-color-rgb-mybrides), 0.02); 
+    border: 1px solid var(--cr-secondary-color-mybrides); 
+    border-radius: 3px; 
+    box-shadow: 0 4px 4px rgba(0,0,0,.08); 
+    position: relative;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item:not(:first-child)  { 
+    border-bottom: 1px solid #eaebec;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item:last-child  { 
+    border-radius: 0 0 3px 3px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-label  { 
+    position: absolute; 
+    top: -22px; 
+    right: -1px; 
+    display: block; 
+    background: var(--cr-secondary-color-mybrides); 
+    padding: 1px 10px; 
+    color: #fff; 
+    font-size: 10px; 
+    font-weight: bold; 
+    line-height: 20px; 
+    text-transform: uppercase; 
+    border-radius: 3px 3px 0 0;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_inner-container  { 
+    display: grid; 
+    grid-gap: 10px; 
+    align-items: center; 
+    grid-template-columns: auto 70px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item.mybrides_with-logo .mybrides_inner-container  { 
+    grid-template-columns: 52px auto 70px;
+} 
+
+.mybrides_partner-link { 
+    cursor: pointer;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo  { 
+    cursor: pointer;
+} 
+
+.mybrides_cr-btn { 
+    display: inline-block; 
+    padding: 10px 12px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none !important; 
+    letter-spacing: normal; 
+    white-space: nowrap; 
+    transition: background .3s; 
+    border: none; 
+    cursor: pointer; 
+    min-width: 110px; 
+    background: var(--cr-accent-color-mybrides); 
+    color: var(--cr-btn-text-color-mybrides); 
+    outline: unset;
+} 
+
+.mybrides_cr-btn.mybrides_small-rounded { 
+    border-radius: 4px;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_cr-btn.mybrides_partner-link  { 
+    min-width: 50px; 
+    padding: 0 6px; 
+    height: 32px; 
+    line-height: 32px; 
+    font-size: 13px;
+} 
+
+.mybrides_cr-btn:hover { 
+    background: rgba(var(--cr-accent-color-rgb-mybrides), 0.75);
+} 
+
+@media all{ 
+  img { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    font-size: 100%; 
+    font-family: inherit;
+  } 
+
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+}     
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo img  { 
+    display: block; 
+    max-height: 52px; 
+    width: 52px; 
+    object-fit: cover;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo img.mybrides_cr-logotype-thumbnail  { 
+    border-radius: 4px; 
+    height: 52px; 
+    min-height: 40px;
+    object-fit: contain;
+} 
+
+@media all{ 
+  img:selection { 
+    background: transparent;
+  } 
+}     
+
+.mybrides_offer-title  { 
+    word-break: break-all;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-title  { 
+    font-size: 16px; 
+    line-height: 1.3; 
+    margin-bottom: 4px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: color .3s;
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-title:hover { 
+    color: var(--cr-accent-color-mybrides);
+} 
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-rating  { 
+    font-size: 14px;
+} 
+
+@media all{ 
+  span { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    font-size: 100%; 
+    font-family: inherit;
+  } 
+}     
+
+.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-rating span  { 
+    font-weight: bold; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E'); 
+    background-position: right center; 
+    background-repeat: no-repeat; 
+    padding-right: 24px;
+} 
+
+@media (max-width: 940px){ 
+  .mybrides_widget:last-child  { 
+    margin-bottom: 0px;
+  } 
+}     
+
+

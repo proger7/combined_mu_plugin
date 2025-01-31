@@ -1,0 +1,185 @@
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] { 
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 15px; 
+    z-index: 3; 
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 50px -10px rgba(198,208,229,.9); 
+    background-color: #fff; 
+    padding: 25px 20px; 
+    color: #04011c;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_title[_ngcontent-themailorderbride-com-c8]  { 
+    font-size: 20px; 
+    font-weight: 700; 
+    line-height: 30px; 
+    letter-spacing: .5px;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_update[_ngcontent-themailorderbride-com-c8]  { 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: .1px;
+} 
+
+.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    margin-top: 15px; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    -webkit-box-pack: justify; 
+    -ms-flex-pack: justify; 
+    justify-content: space-between;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8]  { 
+    margin-top: 20px;
+} 
+
+.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .theamailorderbride_radio[_ngcontent-themailorderbride-com-c8]  { 
+    color: #4178f1; 
+    font-size: 12px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: .1px; 
+    background: #fff; 
+    width: 75px; 
+    height: 36px; 
+    border-radius: 18px; 
+    border: 2px solid #4178f1; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    cursor: pointer; 
+    margin-bottom: 10px;
+} 
+
+.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .theamailorderbride_radio.theamailorderbride_active[_ngcontent-themailorderbride-com-c8]  { 
+    background: #4178f1; 
+    color: #fff;
+} 
+
+.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .theamailorderbride_radio[_ngcontent-themailorderbride-com-c8] + .theamailorderbride_radio[_ngcontent-themailorderbride-com-c8]  { 
+    margin-left: 5px;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8]  { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    margin-bottom: 30px;
+} 
+
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8]  { 
+    width: 103px; 
+    height: 100%; 
+    min-height: 112px; 
+    margin-right: 14px; 
+    position: relative;
+} 
+
+.theamailorderbride_info[_ngcontent-themailorderbride-com-c8] { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-box-align: start; 
+    -ms-flex-align: start; 
+    align-items: flex-start;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8] picture.theamailorderbride_header_img[_ngcontent-themailorderbride-com-c8]  { 
+    position: absolute; 
+    border-radius: 10px; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    right: 0; 
+    overflow: hidden; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    -webkit-box-align: start; 
+    -ms-flex-align: start; 
+    align-items: flex-start; 
+    z-index: 1;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_name[_ngcontent-themailorderbride-com-c8]  { 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 30px; 
+    letter-spacing: .5px;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_place[_ngcontent-themailorderbride-com-c8]  { 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: .1px;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_position[_ngcontent-themailorderbride-com-c8]  { 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: .1px;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8]  { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-item-align: start; 
+    align-self: flex-start; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    padding: 0 10px; 
+    height: 36px; 
+    border-radius: 4px; 
+    background-color: #ed1f5c; 
+    color: #fff; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: .1px; 
+    text-decoration: none; 
+    margin-top: auto;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8]:hover { 
+    background-color: #d80b48;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8] picture.theamailorderbride_header_img[_ngcontent-themailorderbride-com-c8] img[_ngcontent-themailorderbride-com-c8]  { 
+    width: auto; 
+    height: 100%;
+    object-fit: contain;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] span[_ngcontent-themailorderbride-com-c8]  { 
+    margin-left: 10px;
+} 
+
+.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] span {
+    font-size: 80% !important;
+}
