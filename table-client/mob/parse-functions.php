@@ -741,7 +741,7 @@ if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
             $tableHTML .= '</div>';
 
             return $tableHTML;
-    }
+        }
 
         return $tableHTML;
     }

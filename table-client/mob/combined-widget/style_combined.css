@@ -1,5 +1,4 @@
-  /* First widget  */
-  :root { 
+:root { 
     --base-aa-mybrides: antialiased; 
     --main-color-mybrides: #07a3cc; 
     --main-color-rgb-mybrides: 7, 163, 204; 
@@ -348,7 +347,6 @@
 }     
 
 
-/* Second widget  */
 .theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] { 
     position: -webkit-sticky; 
     position: sticky; 
@@ -537,4 +535,3259 @@
 
 
 
-/* Custom  */
+.aimojo_st_comparison-wrapper { 
+    justify-content: center;
+} 
+
+.aimojo_st_comparison-wrapper  { 
+    display: flex; 
+    flex: 1; 
+    width: 100%;
+} 
+
+.aimojo_st_comparison-wrapper  { 
+    gap: 10px;
+} 
+
+.aimojo_st_comparison-wrapper  { 
+    font-size: 14px;
+} 
+
+@media all{ 
+  *,:before,:after { 
+    box-sizing: inherit;
+  } 
+
+  div:-webkit-scrollbar { 
+    width: 0;
+  } 
+
+  :active,:hover { 
+    outline: 0!important; 
+    outline-offset: 0!important;
+  } 
+}     
+
+.aimojo_st_comparison-item { 
+    flex: 1 0 0; 
+    position: relative; 
+    padding-top: 0; 
+    border-top: 1px solid rgba(206,206,206,.5); 
+    border-bottom: 1px solid rgba(206,206,206,.5); 
+    border-right: 1px solid rgba(206,206,206,.5); 
+    scroll-snap-align: start;
+} 
+   
+
+.aimojo_st_comparison-item  { 
+    margin-top: 49px;
+} 
+
+.aimojo_st_comparison-item:first-child  { 
+    border-left: 1px solid rgba(206,206,206,.5);
+} 
+
+.aimojo_st_comparison-item  { 
+    max-width: 350px !important; 
+    border: 2px solid #e5e5e5d1;
+} 
+
+.aimojo_st_comparison-item  { 
+    background: #ffffff; 
+    color: #333333;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-header  { 
+    padding: 0 15px 25px; 
+    text-align: center; 
+    position: relative;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-row-description  { 
+    border-top: 1px solid rgba(206,206,206,.5); 
+    padding: 15px; 
+    font-size: inherit; 
+    line-height: 1.3;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+    text-align: center; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    line-height: 18px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+    text-decoration: none; 
+    position: absolute; 
+    top: -50px; 
+    left: -1px; 
+    right: -1px; 
+    height: 50px; 
+    margin: 0; 
+    padding: 0 15px; 
+    background-color: #ccc; 
+    color: #fff; 
+    z-index: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+    padding: 16px; 
+    background-color: #7635f3; 
+    border-radius: 8px 8px 0 0;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image  { 
+    padding-top: 25px; 
+    display: table; 
+    width: 100%; 
+    table-layout: fixed; 
+    height: 185px; 
+    margin-bottom: 25px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image  { 
+    padding-top: 0px; 
+    display: table; 
+    width: 100%; 
+    table-layout: fixed; 
+    height: auto; 
+    margin-bottom: 25px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-title  { 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 1.5;
+    text-decoration: none;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-rating  { 
+    margin-bottom: 15px; 
+    margin-left: auto!important; 
+    margin-right: auto!important;
+} 
+
+@media all{ 
+  a { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline;
+  } 
+
+  a { 
+    text-decoration: none; 
+    -webkit-transition: all 0.3s ease-in-out; 
+    -moz-transition: all 0.3s ease-in-out; 
+    -ms-transition: all 0.3s ease-in-out; 
+    -o-transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
+  } 
+}     
+
+a { 
+    font-family: Mulish, sans-serif !important;
+} 
+
+@media all{ 
+  .aimojo_st_space-page-content a { 
+    color: #ff2453; 
+    text-decoration: underline;
+  } 
+}     
+
+.aimojo_st_space-page-content a { 
+    color: #ff3535;
+} 
+
+.aimojo_st_space-page-content a { 
+    text-decoration: none; 
+    font-weight: 600;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_gss-item-btn  { 
+    font-size: 16px; 
+    line-height: 1; 
+    padding: 12px 25px; 
+    text-transform: none; 
+    display: inline-block; 
+    background: #2184f9; 
+    color: #fff; 
+    fill: #fff; 
+    border: 0; 
+    text-decoration: none; 
+    outline: 0; 
+    text-shadow: none; 
+    box-shadow: -1px 6px 19px rgba(0,0,0,.2); 
+    border-radius: 4px;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-header > :last-child  { 
+    margin: 0;
+} 
+
+@media all{ 
+  a:hover { 
+    text-decoration: none;
+  } 
+
+  .aimojo_st_space-page-content a:hover { 
+    color: #be2edd;
+  } 
+}     
+
+ .aimojo_st_space-page-content a:hover { 
+    color: #302b63;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+    box-shadow: -1px 6px 13px rgba(0,0,0,.4)!important;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+    background: #fcd43e !important; 
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out;
+} 
+
+.aimojo_st_item-row-title  { 
+    display: none!important;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_item-row-description .aimojo_st_item-row-title  { 
+    display: none; 
+    margin: -15px -15px 15px; 
+    padding: 7px 15px; 
+    border-bottom: 1px solid rgba(206,206,206,.5); 
+    font-weight: 700; 
+    font-size: 14px; 
+    text-transform: uppercase; 
+    text-align: center;
+} 
+
+@media all{ 
+   .aimojo_st_space-page-content a:hover { 
+    color: #be2edd;
+  } 
+}     
+
+.aimojo_st_has-mercury-main-color, .aimojo_st_home-page .aimojo_st_textwidget a:hover, .aimojo_st_space-header-2-top-soc a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-page-content a:hover, .aimojo_st_space-pros-cons ul li a:hover, .aimojo_st_space-pros-cons ol li a:hover, .aimojo_st_space-companies-2-archive-item-desc a:hover, .aimojo_st_space-organizations-3-archive-item-terms-ins a:hover, .aimojo_st_space-organizations-7-archive-item-terms a:hover, .aimojo_st_space-organizations-8-archive-item-terms a:hover, .aimojo_st_space-comments-form-box p.aimojo_st_comment-notes span.aimojo_st_required, form.aimojo_st_comment-form p.aimojo_st_comment-notes span.aimojo_st_required { 
+    color: #302b63;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image  { 
+    display: table-cell; 
+    vertical-align: middle; 
+    width: 100%; 
+    height: 100%;
+} 
+
+@media all{ 
+  strong { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline;
+  } 
+}     
+
+.aimojo_st_comparison-item .aimojo_st_item-rating .aimojo_st_item-stars-rating  { 
+    display: flex; 
+    justify-content: center; 
+    overflow: hidden; 
+    font-size: 1.5rem; 
+    height: 1.5rem; 
+    line-height: 1; 
+    color: #ff5900; 
+    position: relative; 
+    margin: 0 auto;
+} 
+
+@media all{ 
+  img { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline;
+  } 
+
+  img { 
+    max-width: 100%; 
+    height: auto; 
+    -webkit-backface-visibility: hidden;
+  } 
+
+  .aimojo_st_space-content-section img { 
+    border-radius: 5px;
+  } 
+
+  .aimojo_st_space-page-content img { 
+    border-radius: 5px!important;
+  } 
+}     
+
+.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+    max-height: 160px; 
+    width: auto!important; 
+    height: auto!important; 
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%!important;
+} 
+
+.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+    width: 100% !important; 
+    height: 129px !important; 
+    object-fit: contain !important; 
+    background: transparent !important; 
+    margin: 0 auto !important; 
+    display: block !important; 
+    margin-top: 20px !important;
+} 
+
+
+#style-kAalw.aimojo_st_style-kAalw {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-G5y2m.aimojo_st_style-G5y2m {  
+   background-color: #7635f3;  
+}  
+#style-yNlxo.aimojo_st_style-yNlxo {  
+   font-size: 18px;  
+}  
+#style-PMQL4.aimojo_st_style-PMQL4 {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-htejV.aimojo_st_style-htejV {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-VOKMq.aimojo_st_style-VOKMq {  
+   background-color: #000000;  
+}  
+#style-nVqXU.aimojo_st_style-nVqXU {  
+   font-size: 18px;  
+}  
+#style-3BRVH.aimojo_st_style-3BRVH {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-c9b7C.aimojo_st_style-c9b7C {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-oHZNZ.aimojo_st_style-oHZNZ {  
+   background-color: #7635f3;  
+}  
+#style-eMdS2.aimojo_st_style-eMdS2 {  
+   font-size: 18px;  
+}  
+#style-QSNhh.aimojo_st_style-QSNhh {  
+   min-height: auto;  
+    height: 104px;  
+}  
+
+#style-9KM7g.aimojo_st_style-9KM7g {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-o1fJI.aimojo_st_style-o1fJI {  
+   background-color: #7635f3;  
+}  
+#style-iXbas.aimojo_st_style-iXbas {  
+   font-size: 18px;  
+}  
+#style-h7PD1.aimojo_st_style-h7PD1 {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-ftcRh.aimojo_st_style-ftcRh {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-GDvU3.aimojo_st_style-GDvU3 {  
+   background-color: #000000;  
+}  
+#style-AXPiR.aimojo_st_style-AXPiR {  
+   font-size: 18px;  
+}  
+#style-EAGTY.aimojo_st_style-EAGTY {  
+   min-height: auto;  
+    height: 104px;  
+}  
+#style-zCkoP.aimojo_st_style-zCkoP {  
+   min-height: auto;  
+    height: 305px;  
+}  
+#style-5PA2C.aimojo_st_style-5PA2C {  
+   background-color: #7635f3;  
+}  
+#style-Oolhi.aimojo_st_style-Oolhi {  
+   font-size: 18px;  
+}  
+#style-f2QKw.aimojo_st_style-f2QKw {  
+   min-height: auto;  
+    height: 104px;  
+}  
+
+@media (max-width: 650px) {
+    .aimojo_st_comparison-wrapper,
+    .aimojo_st_comparison-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.aimojo_st_comparison-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+    flex: 0 1 calc(var(--item-width) - 16px) !important;
+    max-width: calc(var(--item-width) - 16px) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img {
+        width: 75% !important;
+    }
+    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+        flex: 0 1 calc(50% - 16px) !important;
+        max-width: calc(50% - 16px) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+        flex: 0 1 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+
+.ad_wbc_all_reviews[data-v-5fde7f3a] { 
+    align-items: stretch; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px; 
+    justify-content: flex-start;
+} 
+
+.ad_wbc_all_reviews[data-v-ef4df5c3]  { 
+    width: 70%;
+} 
+
+.ad_wbc_post_preview[data-v-de82ba65] { 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1); 
+    position: relative; 
+    width: 100%;
+} 
+
+.ad_wbc_post_preview[data-v-de82ba65] { 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 3px 6px #0000001a; 
+    position: relative; 
+    width: 100%;
+} 
+
+.ad_wbc_category_content a { 
+    color: #ff2e64; 
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: color .2s;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr[data-v-de82ba65]  { 
+    background-size: cover!important; 
+    border-radius: 10px 10px 0 0; 
+    cursor: pointer; 
+    display: block; 
+    height: 250px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr.ad_wbc_webcam[data-v-de82ba65]  { 
+    background: url(./../images/webcam_card.png) 50% no-repeat;
+} 
+
+.ad_wbc_category_content a:hover { 
+    color: #f2124c;
+} 
+
+.ad_wbc_category_content a:hover, .ad_wbc_category_content span.ad_wbc_link:hover, .ad_wbc_content a:hover, .ad_wbc_content span.ad_wbc_link:hover { 
+    color: #f2124c;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65]  { 
+    align-items: center; 
+    box-shadow: 0 4px 16px -10px rgba(0,0,0,.35); 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65]  { 
+    align-items: center; 
+    box-shadow: 0 4px 16px -10px #00000059; 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65]  { 
+    align-items: center; 
+    display: flex; 
+    height: 156px; 
+    justify-content: center;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter[data-v-de82ba65]  { 
+    align-items: center; 
+    background: radial-gradient(106.37% 106.37% at 50% 0,rgba(255,46,100,.4) 0,rgba(80,42,183,.4) 100%); 
+    display: flex; 
+    height: 100%; 
+    justify-content: center; 
+    left: 0; 
+    padding: 0 15px; 
+    position: absolute; 
+    top: 0; 
+    width: 100%;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter[data-v-de82ba65]  { 
+    align-items: center; 
+    background: radial-gradient(106.37% 106.37% at 50% 0,#ff2e6466 0,#502ab766); 
+    display: flex; 
+    height: 100%; 
+    justify-content: center; 
+    left: 0; 
+    padding: 0 15px; 
+    position: absolute; 
+    top: 0; 
+    width: 100%;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block[data-v-de82ba65]  { 
+    display: flex;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65]  { 
+    border-right: 1px solid #dcdcdc; 
+    height: 100%; 
+    text-align: center; 
+    width: 25%;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online[data-v-de82ba65]  { 
+    position: relative;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65]:last-child  { 
+    border-right: none;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65]  { 
+    color: #fff; 
+    font-family: Leckerli One,cursive; 
+    font-size: 60px; 
+    font-style: normal; 
+    font-weight: 400; 
+    letter-spacing: 1px; 
+    line-height: 62px; 
+    position: relative; 
+    text-align: center; 
+    word-break: break-all; 
+    z-index: 0;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65]::before { 
+    content: attr(data-text); 
+    position: absolute; 
+    -webkit-text-stroke: 8px rgba(255,46,100,.8); 
+    color: rgba(255,46,100,.9); 
+    left: 0; 
+    text-shadow: 0 2px 1px rgba(0,0,0,.4); 
+    top: 0; 
+    z-index: -1;
+} 
+
+.ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65]::before { 
+    content: attr(data-text); 
+    position: absolute; 
+    -webkit-text-stroke: 8px rgba(255,46,100,.8); 
+    color: #ff2e64e6; 
+    left: 0; 
+    text-shadow: 0 2px 1px rgba(0,0,0,.4); 
+    top: 0; 
+    z-index: -1;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block .ad_wbc_title[data-v-de82ba65]  { 
+    color: #333; 
+    cursor: pointer; 
+    display: block; 
+    font-size: 24px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 700; 
+    letter-spacing: 1.1px; 
+    line-height: normal; 
+    margin-bottom: 15px; 
+    text-decoration: none;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block .ad_wbc_title[data-v-de82ba65]:hover { 
+    color: #ff1652;
+} 
+
+.ad_wbc_stars-wrapper[data-v-d9c24a74] { 
+    align-items: center; 
+    display: flex;
+} 
+
+.ad_wbc_btn_pink { 
+    background-color: #fe3367; 
+    border-radius: 60px; 
+    box-shadow: 0 3px 10px 0 rgba(254,51,103,.5); 
+    color: #fff; 
+    cursor: pointer; 
+    display: block; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 12px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 700; 
+    height: 42px; 
+    letter-spacing: 1px; 
+    line-height: 42px; 
+    text-align: center; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    width: 160px;
+} 
+
+.ad_wbc_btn_pink { 
+    background-color: #fe3367; 
+    border-radius: 60px; 
+    box-shadow: 0 3px 10px #fe336780; 
+    color: #fff; 
+    cursor: pointer; 
+    display: block; 
+    font-family: Montserrat,sans-serif; 
+    font-size: 12px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 700; 
+    height: 42px; 
+    letter-spacing: 1px; 
+    line-height: 42px; 
+    text-align: center; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    width: 160px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_btn_pink[data-v-de82ba65]  { 
+    color: #fff; 
+    margin-right: 20px;
+} 
+
+.ad_wbc_btn_pink:hover { 
+    background-color: #ff1652; 
+    color: #fff;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_btn_pink[data-v-de82ba65]:hover { 
+    color: #fff;
+} 
+
+.ad_wbc_read_btn { 
+    border: 2px solid #ff2e64; 
+    border-radius: 60px; 
+    color: #ff2e64; 
+    cursor: pointer; 
+    display: block; 
+    font-size: 12px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 700; 
+    height: 42px; 
+    letter-spacing: 1px; 
+    line-height: 40px; 
+    text-align: center; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    width: 160px;
+} 
+
+.ad_wbc_read_btn:hover { 
+    border: 3px solid #ff2e64; 
+    line-height: 38px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65]  { 
+    font-size: 14px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    line-height: normal; 
+    padding: 40px 0 32px; 
+    text-transform: uppercase;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65]  { 
+    font-size: 24px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 700; 
+    letter-spacing: 1.5px; 
+    line-height: 24px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_text[data-v-de82ba65]::before { 
+    background-color: #63dc08; 
+    border-radius: 5px; 
+    bottom: 3px; 
+    content: ""; 
+    display: inline-block; 
+    height: 10px; 
+    position: relative; 
+    width: 10px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup[data-v-de82ba65]  { 
+    left: 15px; 
+    position: absolute; 
+    top: 15px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text[data-v-de82ba65]  { 
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+} 
+
+.ad_wbc_stars-wrapper .ad_wbc_info[data-v-d9c24a74]  { 
+    display: flex;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup .ad_wbc_image[data-v-de82ba65]  { 
+    background: url(./../images/info.png) 50% no-repeat; 
+    background-size: contain; 
+    cursor: pointer; 
+    height: 15px; 
+    width: 15px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup .ad_wbc_adv_content[data-v-de82ba65]  { 
+    background: #f8f8f9; 
+    border-radius: 8px; 
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1); 
+    color: #333; 
+    display: none; 
+    font-size: 14px; 
+    line-height: 20px; 
+    margin-bottom: 8px; 
+    padding: 10px; 
+    position: absolute; 
+    text-align: left; 
+    top: 25px; 
+    transition: height .7s ease-out; 
+    width: 200px; 
+    z-index: 10;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup .ad_wbc_adv_content[data-v-de82ba65]  { 
+    background: #f8f8f9; 
+    border-radius: 8px; 
+    box-shadow: 0 3px 6px #0000001a; 
+    color: #333; 
+    display: none; 
+    font-size: 14px; 
+    line-height: 20px; 
+    margin-bottom: 8px; 
+    padding: 10px; 
+    position: absolute; 
+    text-align: left; 
+    top: 25px; 
+    transition: height .7s ease-out; 
+    width: 200px; 
+    z-index: 10;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup .ad_wbc_adv_content[data-v-de82ba65]::before { 
+    border-bottom: 8px solid #f8f8f9; 
+    border-left: 8px solid transparent; 
+    border-right: 8px solid transparent; 
+    content: ""; 
+    height: 0; 
+    left: 2px; 
+    position: absolute; 
+    top: -5px; 
+    width: 0;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text .ad_wbc_percent[data-v-de82ba65]  { 
+    font-size: 16px; 
+    letter-spacing: normal;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_men[data-v-de82ba65]  { 
+    margin-right: 15px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_men[data-v-de82ba65]::before { 
+    content: url(./../images/man_pink.svg); 
+    height: 20px; 
+    width: 20px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_women[data-v-de82ba65]::before { 
+    content: url(./../images/woman.svg); 
+    height: 20px; 
+    width: 20px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_safety .ad_wbc_text span[data-v-de82ba65]  { 
+    color: #aaa; 
+    font-size: 16px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 700; 
+    letter-spacing: 1.5px; 
+    line-height: normal; 
+    text-align: center;
+} 
+
+.ad_wbc_stars-wrapper .ad_wbc_info .ad_wbc_score[data-v-d9c24a74]  { 
+    color: #121212; 
+    font-size: 17px; 
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 600; 
+    letter-spacing: normal; 
+    line-height: normal;
+} 
+
+.ad_wbc_stars-wrapper .ad_wbc_info .ad_wbc_stars[data-v-d9c24a74]  { 
+    display: flex; 
+    margin: -6px 0 0 8px;
+} 
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup .ad_wbc_adv_content .ad_wbc_close[data-v-de82ba65]  { 
+    color: #fe3367; 
+    cursor: pointer; 
+    font-size: 16px; 
+    position: absolute; 
+    right: 3px; 
+    top: 0;
+} 
+
+.ad_wbc_stars-wrapper .ad_wbc_info .ad_wbc_stars span[data-v-d9c24a74]  { 
+    height: 19px; 
+    margin-right: 3px; 
+    position: relative; 
+    width: 20px;
+} 
+
+.ad_wbc_stars-wrapper .ad_wbc_info .ad_wbc_stars:not(.ad_wbc_rated) span[data-v-d9c24a74]  { 
+    cursor: pointer;
+} 
+
+.ad_wbc_stars-wrapper .ad_wbc_info .ad_wbc_stars span[data-v-d9c24a74]::before { 
+    color: #ff8a2c; 
+    content: "★"; 
+    font-size: 18px;
+}
+
+.ad_wbc_stars-wrapper .ad_wbc_info .ad_wbc_stars span.ad_wbc_empty[data-v-d9c24a74]:before {
+    color: #ff8a2c;
+    content: "☆";
+    font-size: 18px;
+}
+
+@media (max-width: 650px) {
+    .ad_wbc_all_reviews[data-v-ef4df5c3]  { 
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65] {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 20px 20px;
+        text-align: center;
+    }
+    .ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65] {
+        padding: 0 15px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block[data-v-de82ba65] {
+        margin-bottom: 17px;
+        padding-top: 20px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block .ad_wbc_title[data-v-de82ba65] {
+        font-size: 18px;
+        letter-spacing: .8px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block[data-v-de82ba65] {
+        flex-direction: column;
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_btn_pink[data-v-de82ba65] {
+        margin: auto auto 15px;
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_read_btn[data-v-de82ba65] {
+        margin: auto auto 20px;
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65] {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
+        align-items: center;
+        border-bottom: 1px solid #dcdcdc;
+        border-right: none;
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        padding: 0 15px;
+        text-align: left;
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: .9px;
+        padding: 15px 0;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: normal;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_text[data-v-de82ba65]:before {
+        bottom: 0;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup[data-v-de82ba65] {
+        left: 5px;
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_men {
+    display: none;
+}
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_women {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+}
+
+.ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text .ad_wbc_percent {
+    margin-left: 5px;
+}
+
+
+@media (max-width: 1152px) {
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
+        height: 110px !important;
+    }
+    .ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65]  {
+        word-break: break-word !important;
+    } 
+}
+
+@media (max-width: 450px) {
+    .ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65] {
+        font-size: 1em !important;
+    }
+}
+
+.ad_wbc_all_reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+:root { 
+    --cr-accent-color-inspirationalwomenseries: #f86d6c; 
+    --cr-accent-color-rgb-inspirationalwomenseries: 248,109,108; 
+    --cr-btn-text-color-inspirationalwomenseries: #FFFFFF;
+    --ct-content-bg-color-inspirationalwomenseries: #fff; 
+    --ct-content-text-color-inspirationalwomenseries: #191e23; 
+    --ct-content-link-color-inspirationalwomenseries: #f86d6c; 
+} 
+
+.insp_woman_review-item  { 
+    background: #fff;
+} 
+
+.insp_woman_review-item  { 
+    align-items: center; 
+    background: #fff; 
+    box-shadow: 0 6px 20px rgba(148,160,178,.2); 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+    padding: 20px 30px; 
+    transition: box-shadow .24s ease-in-out; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    gap: 10%;
+} 
+
+.insp_woman_review-item.insp_woman_has-review  { 
+    gap: 4%;
+} 
+
+.insp_woman_review-item:hover  { 
+    box-shadow: 0 8px 36px rgba(0,0,0,.24);
+} 
+
+@media all{ 
+  :focus,:before,:after { 
+    outline: 0; 
+    box-sizing: inherit;
+  } 
+
+  *,:before,:after { 
+    box-sizing: inherit;
+  } 
+}     
+
+.insp_woman_review-logo  { 
+    flex: 1 1 auto; 
+    font-size: 18px; 
+    line-height: 22px; 
+    font-weight: bold;
+} 
+
+.insp_woman_cr-rating-stars { 
+    position: relative; 
+    width: 98px; 
+    height: 17px; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
+} 
+
+.insp_woman_cr-rating-stars  { 
+    flex: 0 0 98px;
+} 
+
+.insp_woman_cr-rating-number  { 
+    flex: 0 0 52px; 
+    text-align: center; 
+    font-size: 34px; 
+    line-height: 1; 
+    color: #333131;
+} 
+
+@media all{ 
+  a { 
+    color: var(--ct-content-link-color-inspirationalwomenseries); 
+    text-decoration: none;
+  } 
+}     
+
+.insp_woman_cr-btn { 
+    display: inline-block; 
+    padding: 10px 12px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none !important; 
+    letter-spacing: normal; 
+    white-space: nowrap; 
+    transition: background .3s; 
+    border: none; 
+    cursor: pointer; 
+    min-width: 110px; 
+    background: var(--cr-accent-color-inspirationalwomenseries); 
+    color: var(--cr-btn-text-color-inspirationalwomenseries); 
+    outline: unset;
+} 
+
+.insp_woman_cr-rating-table a { 
+    text-decoration: none;
+} 
+
+@media all{ 
+  .insp_woman_ct-section-content .insp_woman_ct-content a { 
+    color: var(--ct-content-link-color-inspirationalwomenseries); 
+    text-decoration: underline; 
+    text-decoration-color: rgba(0,0,0,0); 
+    transition: all .15s;
+  } 
+}     
+
+.insp_woman_read-review-link  { 
+    display: flex; 
+    background: none; 
+    text-transform: none;
+} 
+
+.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link::after { 
+    display: block; 
+    padding-left: 5px; 
+    content: "\2192"; 
+    transition: transform .24s ease-in-out;
+} 
+
+.insp_woman_cr-btn:hover { 
+    background: rgba(var(--cr-accent-color-rgb-inspirationalwomenseries), 0.75);
+} 
+
+@media all{ 
+  .insp_woman_ct-section-content .insp_woman_ct-content a:hover { 
+    text-decoration-color: var(--ct-content-link-color-inspirationalwomenseries);
+  } 
+}     
+
+.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link:hover::after { 
+    transform: translateX(10px);
+} 
+
+@media all{ 
+  button,[type="button"] { 
+    -webkit-appearance: button;
+  } 
+}     
+
+.insp_woman_partner-link { 
+    cursor: pointer;
+} 
+
+@media all{ 
+  :where(figure) { 
+    margin: 0 0 1em;
+  } 
+
+  figure { 
+    display: block; 
+    position: relative;
+  } 
+
+  figure  { 
+    max-width: 100%;
+  } 
+
+  figure:not(.insp_woman_wp-block-image)  { 
+    width: auto !important;
+  } 
+}     
+
+.insp_woman_review-logo figure  { 
+    position: relative; 
+    overflow: hidden; 
+    margin: 0 !important;
+} 
+
+div.insp_woman_review-item > div.insp_woman_review-logo > figure  { 
+    margin: 0;
+} 
+
+@media all{ 
+  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed):not(.insp_woman_aligncenter)  { 
+    margin: 0 15px 30px;
+  } 
+}     
+
+.insp_woman_partner-link:not(.insp_woman_offer-title):not(.insp_woman_offer-logo):not(.insp_woman_offer-premium):not(.insp_woman_offer-site):not(.insp_woman_logo):not(.insp_woman_cr-offer-logo):not(.insp_woman_offer-title-col):not(.insp_woman_offer-name):not(.insp_woman_review-title):not(.insp_woman_review-promotion):not(.insp_woman_offer-thumb-title):not(.insp_woman_offer-rating):not(.insp_woman_cr-btn) { 
+    color: var(--cr-accent-color-inspirationalwomenseries); 
+    font-weight: bold; 
+    text-decoration: none;
+} 
+
+.insp_woman_cr-rating-stars .insp_woman_fill  { 
+    position: absolute; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E');
+} 
+
+@media all{ 
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .insp_woman_lazyloaded { 
+    opacity: 1; 
+    transition: opacity .3s;
+  } 
+}     
+
+.insp_woman_cr-rating-table img { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.insp_woman_review-logo figure img  { 
+    display: block; 
+    width: 120px; 
+    z-index: 2;
+} 
+
+@media all{ 
+  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img  { 
+    max-width: 100%; 
+    height: 40px; 
+    object-fit: contain;
+  } 
+
+  figcaption { 
+    display: block; 
+    position: relative;
+  } 
+
+  figcaption { 
+    font-weight: bold; 
+    font-style: italic;
+  } 
+}     
+
+figcaption { 
+    text-align: center;
+} 
+
+.insp_woman_review-logo figure figcaption  { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    font-size: 14px; 
+    opacity: 0; 
+    z-index: 1;
+}
+
+
+@media (max-width: 650px) {
+    .insp_woman_cr-btn {
+        min-width: unset !important;
+        display: flex !important;
+        flex: 0 0 50% !important;
+        justify-content: center !important;
+        margin-top: 11px !important;
+    }
+    .insp_woman_review-item {
+        padding: 10px !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img {
+        max-width: none !important;
+    }
+    .insp_woman_review-logo {
+        display: flex !important;
+        justify-content: center !important;
+        flex: 1 1 100% !important;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .insp_woman_review-item {
+        padding: 20px 10px 10px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .insp_woman_review-item img {
+        margin-bottom: 10px;
+        border-radius: 8px;
+}
+
+    .insp_woman_review-item .insp_woman_cr-rating-stars {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .insp_woman_review-item .insp_woman_cr-btn {
+        margin-top: 15px;
+        background-color: #ff5722;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .insp_woman_review-item .insp_woman_cr-btn:hover {
+        background-color: #e64a19;
+        color: #fff;
+    }
+}
+
+
+:root { 
+    --cr-accent-color-sdx: #7d54cf;
+    --cr-accent-color-light-sdx: #af86ff;
+    --cr-accent-color-rgb-sdx: 125, 84, 207;
+    --cr-secondary-color-sdx: #999999;
+    --cr-secondary-color-light-sdx: #cbcbcb;
+    --cr-secondary-color-rgb-sdx: 153, 153, 153;
+    --cr-btn-text-color-sdx: #FFFFFF;
+    --cr-bar-bg-color-sdx: #FFFFFF;
+    --cr-bar-text-color-sdx: #5562D1;
+    --cr-fixed-bar-bg-color-sdx: #000000;
+    --cr-fixed-bar-link-color-sdx: #9c84ce;
+} 
+
+.wp_shortcode-toplist_cr-rating-table { 
+    text-align: left; 
+    font-style: normal; 
+    box-sizing: border-box;
+} 
+
+.wp_shortcode-toplist_cr-table-style-15 { 
+    margin: 75px 0 !important;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 { 
+    width: 100%; 
+    max-width: 1170px; 
+    margin: 20px auto;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-rating-table *  { 
+    box-sizing: border-box;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head  { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 0; 
+    margin-bottom: 3px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper  { 
+    flex: 1 0 auto; 
+    padding-bottom: 8px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 7px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding-bottom: 8px;
+  } 
+}     
+
+.wp_shortcode-toplist_cpm-advertiser-disclosure { 
+    text-align: right; 
+    font-weight: normal; 
+    padding-bottom: 8px;
+} 
+
+.wp_shortcode-toplist_cr-rating-table .wp_shortcode-toplist_review-item  { 
+    background: #fff;
+} 
+
+.wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+    border-radius: 10px !important;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+    display: flex; 
+    position: relative; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 0 6px rgba(0,0,0,.15); 
+    border-radius: 10px; 
+    border: 2px solid var(--cr-accent-color-sdx); 
+    margin-bottom: 20px; 
+    overflow: hidden;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors  { 
+    position: relative; 
+    padding: 5px 8px; 
+    color: #fff; 
+    background-color: var(--cr-accent-color-sdx); 
+    border-radius: 4px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors::after { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    right: 47%; 
+    bottom: -9px; 
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid rgba(0,0,0,0); 
+    border-right: 10px solid rgba(0,0,0,0); 
+    border-top: 10px solid var(--cr-accent-color-sdx);
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+    flex: 1 0 auto;
+  } 
+}     
+
+.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+    font-size: 12px; 
+    line-height: 16px; 
+    letter-spacing: normal; 
+    text-transform: none; 
+    text-decoration: none !important; 
+    font-weight: normal; 
+    display: inline-block; 
+    color: #0c127c; 
+    border: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0; 
+    outline: unset; 
+    cursor: pointer;
+} 
+
+.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+    color: #A83434;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+    display: none;
+  } 
+}     
+
+.wp_shortcode-toplist_partner-link { 
+    cursor: pointer;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo  { 
+    flex: 0 0 20%;
+  } 
+}     
+
+.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn) { 
+    color: var(--cr-accent-color-sdx); 
+    font-weight: bold; 
+    text-decoration: none;
+} 
+
+.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn):hover { 
+    text-decoration: underline;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_inner-container  { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    min-height: 100px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description  { 
+    flex: 1 1 auto; 
+    align-items: center; 
+    padding: 10px 15px; 
+    font-size: 14px; 
+    line-height: 1.4;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating  { 
+    flex: 0 0 20%; 
+    flex-direction: column; 
+    gap: 10px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score  { 
+    flex: 0 0 120px; 
+    flex-direction: column; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons  { 
+    flex: 0 0 150px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors svg  { 
+    margin-left: 5px;
+  } 
+}     
+
+@media all{ 
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .lazyloaded { 
+    opacity: 1; 
+    transition: opacity .3s;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-rating-table img  { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+    display: block; 
+    height: auto; 
+    max-height: 100px; 
+    width: 100%; 
+    transition: opacity .3s;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo .wp_shortcode-toplist_cr-logotype-logo  { 
+    object-fit: contain;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img:hover { 
+    opacity: .6;
+  } 
+}     
+
+@media all{ 
+  .wp_shortcode-toplist_lt-content p { 
+    font-size: 15px; 
+    line-height: 25px; 
+    margin-bottom: 16px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description p  { 
+    margin: 0; 
+    font-size: 14px; 
+    line-height: 1.5;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-rating-stars { 
+    position: relative; 
+    width: 98px; 
+    height: 17px; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+    display: flex; 
+    position: relative; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 0 6px rgba(0,0,0,.15); 
+    border-radius: 10px; 
+    border: 2px solid var(--cr-accent-color-sdx); 
+    margin-bottom: 20px; 
+    overflow: hidden;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors  { 
+    position: relative; 
+    padding: 5px 8px; 
+    color: #fff; 
+    background-color: var(--cr-accent-color-sdx); 
+    border-radius: 4px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors::after { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    right: 47%; 
+    bottom: -9px; 
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid rgba(0,0,0,0); 
+    border-right: 10px solid rgba(0,0,0,0); 
+    border-top: 10px solid var(--cr-accent-color-sdx);
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+    flex: 1 0 auto;
+  } 
+}     
+
+.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+    font-size: 12px; 
+    line-height: 16px; 
+    letter-spacing: normal; 
+    text-transform: none; 
+    text-decoration: none !important; 
+    font-weight: normal; 
+    display: inline-block; 
+    color: #0c127c; 
+    border: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0; 
+    outline: unset; 
+    cursor: pointer;
+} 
+
+.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+    color: #A83434;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+    display: none;
+  } 
+}     
+
+.wp_shortcode-toplist_partner-link { 
+    cursor: pointer;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo  { 
+    flex: 0 0 20%;
+  } 
+}     
+
+.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn) { 
+    color: var(--cr-accent-color-sdx); 
+    font-weight: bold; 
+    text-decoration: none;
+} 
+
+.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn):hover { 
+    text-decoration: underline;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_inner-container  { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    min-height: 100px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description  { 
+    flex: 1 1 auto; 
+    align-items: center; 
+    padding: 10px 15px; 
+    font-size: 14px; 
+    line-height: 1.4;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating  { 
+    flex: 0 0 20%; 
+    flex-direction: column; 
+    gap: 10px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score  { 
+    flex: 0 0 120px; 
+    flex-direction: column; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons  { 
+    flex: 0 0 150px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors svg  { 
+    margin-left: 5px;
+  } 
+}     
+
+@media all{ 
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .lazyloaded { 
+    opacity: 1; 
+    transition: opacity .3s;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-rating-table img  { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+    display: block; 
+    height: auto; 
+    max-height: 100px; 
+    width: 100%; 
+    transition: opacity .3s;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo .wp_shortcode-toplist_cr-logotype-logo  { 
+    object-fit: contain;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img:hover { 
+    opacity: .6;
+  } 
+}     
+
+@media all{ 
+  .wp_shortcode-toplist_lt-content p { 
+    font-size: 15px; 
+    line-height: 25px; 
+    margin-bottom: 16px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description p  { 
+    margin: 0; 
+    font-size: 14px; 
+    line-height: 1.5;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-rating-stars { 
+    position: relative; 
+    width: 98px; 
+    height: 17px; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating .wp_shortcode-toplist_cr-rating-stars  { 
+    transform: scale(1.1);
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box  { 
+    text-align: center;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-stars  { 
+    display: none;
+  } 
+}     
+
+@media all{ 
+  [type="button"] { 
+    -webkit-appearance: button;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-btn { 
+    display: inline-block; 
+    padding: 10px 12px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none !important; 
+    letter-spacing: normal; 
+    white-space: nowrap; 
+    transition: background .3s; 
+    border: none; 
+    cursor: pointer; 
+    min-width: 110px; 
+    background: var(--cr-accent-color-sdx); 
+    color: var(--cr-btn-text-color-sdx); 
+    outline: unset;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_cr-btn  { 
+    width: 100%;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-btn:hover { 
+    background: rgba(var(--cr-accent-color-rgb-sdx), 0.75);
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_swipe-singles  { 
+    text-transform: uppercase; 
+    font-size: 14px; 
+    color: #262424 !important;
+  } 
+}     
+
+.wp_shortcode-toplist_cr-rating-stars .wp_shortcode-toplist_fill  { 
+    position: absolute; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E');
+} 
+
+.wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-number  { 
+    color: #A83434;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-number  { 
+    font-size: 28px; 
+    font-weight: bold; 
+    color: var(--cr-accent-color-sdx);
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_cr-rating-number  { 
+    line-height: 1;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_our-score  { 
+    white-space: nowrap;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_text-score  { 
+    display: none;
+  } 
+} 
+
+@media (max-width: 991px){ 
+  .wp_shortcode-toplist_cr-table-style-15 { 
+    margin: 60px 0 !important;
+  } 
+}
+
+@media (max-width: 991px){ 
+  .wp_shortcode-toplist_cr-table-style-15 { 
+    margin: 20px 15px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head  { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-bottom: 10px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list  { 
+    z-index: 1;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper  { 
+    display: none;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+    display: flex !important; 
+    align-items: center; 
+    gap: 8px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+    font-weight: bold; 
+    font-size: 14px !important; 
+    line-height: 1;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+    padding-bottom: 8px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    line-height: 1.4; 
+    color: #333;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_cpm-advertiser-disclosure  { 
+    max-width: 130px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+    display: flex; 
+    position: relative; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 0 6px rgba(0,0,0,.15); 
+    border-radius: 4px; 
+    border: 2px solid var(--cr-accent-color-sdx); 
+    margin-bottom: 20px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+    display: block !important; 
+    flex: 0 0 auto;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+    display: none;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+    background: var(--button-hover, linear-gradient(180deg, #DA5353 -15.28%, #530202 140.28%)) !important;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+    position: absolute; 
+    top: -14px; 
+    left: calc(50% - 65px); 
+    padding: 4px 10px; 
+    border-radius: 4px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    background-color: #15b379; 
+    color: #fff; 
+    z-index: 2;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo  { 
+    order: 1; 
+    flex: 1; 
+    margin-top: 5px; 
+    margin-right: 15px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description  { 
+    order: 3; 
+    align-items: start; 
+    margin: 10px auto 0 auto; 
+    width: 100%; 
+    font-size: 14px; 
+    line-height: 1.4; 
+    color: #333;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating  { 
+    display: none;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score  { 
+    order: 2; 
+    align-self: stretch; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 5px auto 0; 
+    min-width: 130px; 
+    color: #333;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons  { 
+    order: 4; 
+    width: 100%; 
+    margin: 10px auto 0 auto;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+    max-width: 180px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+    display: block; 
+    object-fit: cover; 
+    border-radius: 4px; 
+    width: 100%;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo .wp_shortcode-toplist_cr-logotype-logo  { 
+    object-fit: contain;
+  } 
+}     
+
+@media (max-width: 1200px){ 
+  .wp_shortcode-toplist_lt-content p { 
+    line-height: 24px;
+  } 
+}     
+
+@media (max-width: 991px){ 
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box  { 
+    display: flex; 
+    align-items: end; 
+    gap: 5px; 
+    margin-bottom: 5px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-stars  { 
+    transform: scale(1.1);
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_cr-btn  { 
+    width: 100%; 
+    padding: 12px;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_swipe-singles  { 
+    display: none;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_cr-rating-number  { 
+    font-size: 25px !important;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_cr-rating-number  { 
+    font-size: 32px; 
+    font-weight: bold; 
+    line-height: 1;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_our-score  { 
+    display: none;
+  } 
+
+  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_text-score  { 
+    font-size: 14px;
+  } 
+}
+
+
+@media (min-width: 768px) { 
+    .wp_shortcode-toplist_mobile-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) { 
+    .wp_shortcode-toplist_mobile-only {
+        display: block !important;
+    }
+}
+
+
+:root { 
+    --cr-accent-color-md: #a83434; 
+    --cr-accent-color-rgb-md: 168,52,52; 
+    --cr-btn-text-color-md: #FFFFFF;
+    --lt-content-bg-color-md: #f8f8f8; 
+    --lt-content-text-color-md: #1f1e1e; 
+} 
+
+.wp_shortcode-bridelist_cr-rating-table { 
+    text-align: left; 
+    font-style: normal; 
+    box-sizing: border-box;
+} 
+
+.wp_shortcode-bridelist_cr-table-style-15 { 
+    margin: 75px 0 !important;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 { 
+    width: 100%; 
+    max-width: 1170px; 
+    margin: 20px auto;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-rating-table *  { 
+    box-sizing: border-box;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head  { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 0; 
+    margin-bottom: 3px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper  { 
+    flex: 1 0 auto; 
+    padding-bottom: 8px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 7px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding-bottom: 8px;
+  } 
+}     
+
+.wp_shortcode-bridelist_cpm-advertiser-disclosure { 
+    text-align: right; 
+    font-weight: normal; 
+    padding-bottom: 8px;
+} 
+
+.wp_shortcode-bridelist_cr-rating-table .wp_shortcode-bridelist_review-item  { 
+    background: #fff;
+} 
+
+.wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+    border-radius: 0 !important;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+    display: flex; 
+    position: relative; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 0 6px rgba(0,0,0,.15); 
+    border-radius: 10px; 
+    border: 2px solid var(--cr-accent-color-md); 
+    margin-bottom: 20px; 
+    overflow: hidden;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors  { 
+    position: relative; 
+    padding: 5px 8px; 
+    color: #fff; 
+    background-color: var(--cr-accent-color-md); 
+    border-radius: 4px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors::after { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    right: 47%; 
+    bottom: -9px; 
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid rgba(0,0,0,0); 
+    border-right: 10px solid rgba(0,0,0,0); 
+    border-top: 10px solid var(--cr-accent-color-md);
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+    flex: 1 0 auto;
+  } 
+}     
+
+.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+    font-size: 12px; 
+    line-height: 16px; 
+    letter-spacing: normal; 
+    text-transform: none; 
+    text-decoration: none !important; 
+    font-weight: normal; 
+    display: inline-block; 
+    color: #0c127c; 
+    border: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0; 
+    outline: unset; 
+    cursor: pointer;
+} 
+
+.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+    color: #A83434;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+    display: none;
+  } 
+}     
+
+.wp_shortcode-bridelist_partner-link { 
+    cursor: pointer;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo  { 
+    flex: 0 0 20%;
+  } 
+}     
+
+.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn) { 
+    color: var(--cr-accent-color-md); 
+    font-weight: bold; 
+    text-decoration: none;
+} 
+
+.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn):hover { 
+    text-decoration: underline;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_inner-container  { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    min-height: 100px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description  { 
+    flex: 1 1 auto; 
+    align-items: center; 
+    padding: 10px 15px; 
+    font-size: 14px; 
+    line-height: 1.4;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating  { 
+    flex: 0 0 20%; 
+    flex-direction: column; 
+    gap: 10px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score  { 
+    flex: 0 0 120px; 
+    flex-direction: column; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons  { 
+    flex: 0 0 150px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors svg  { 
+    margin-left: 5px;
+  } 
+}     
+
+@media all{ 
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .lazyloaded { 
+    opacity: 1; 
+    transition: opacity .3s;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-rating-table img  { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+    display: block; 
+    height: auto; 
+    max-height: 100px; 
+    width: 100%; 
+    transition: opacity .3s;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo .wp_shortcode-bridelist_cr-logotype-logo  { 
+    object-fit: contain;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img:hover { 
+    opacity: .6;
+  } 
+}     
+
+@media all{ 
+  .wp_shortcode-bridelist_lt-content p { 
+    font-size: 15px; 
+    line-height: 25px; 
+    margin-bottom: 16px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description p  { 
+    margin: 0; 
+    font-size: 14px; 
+    line-height: 1.5;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-rating-stars { 
+    position: relative; 
+    width: 98px; 
+    height: 17px; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+    display: flex; 
+    position: relative; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 0 6px rgba(0,0,0,.15); 
+    border-radius: 10px; 
+    border: 2px solid var(--cr-accent-color-md); 
+    margin-bottom: 20px; 
+    overflow: hidden;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors  { 
+    position: relative; 
+    padding: 5px 8px; 
+    color: #fff; 
+    background-color: var(--cr-accent-color-md); 
+    border-radius: 4px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors::after { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    right: 47%; 
+    bottom: -9px; 
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid rgba(0,0,0,0); 
+    border-right: 10px solid rgba(0,0,0,0); 
+    border-top: 10px solid var(--cr-accent-color-md);
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+    flex: 1 0 auto;
+  } 
+}     
+
+.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+    font-size: 12px; 
+    line-height: 16px; 
+    letter-spacing: normal; 
+    text-transform: none; 
+    text-decoration: none !important; 
+    font-weight: normal; 
+    display: inline-block; 
+    color: #0c127c; 
+    border: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0; 
+    outline: unset; 
+    cursor: pointer;
+} 
+
+.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+    color: #A83434;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+    display: none;
+  } 
+}     
+
+.wp_shortcode-bridelist_partner-link { 
+    cursor: pointer;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo  { 
+    flex: 0 0 20%;
+  } 
+}     
+
+.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn) { 
+    color: var(--cr-accent-color-md); 
+    font-weight: bold; 
+    text-decoration: none;
+} 
+
+.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn):hover { 
+    text-decoration: underline;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_inner-container  { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    min-height: 100px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description  { 
+    flex: 1 1 auto; 
+    align-items: center; 
+    padding: 10px 15px; 
+    font-size: 14px; 
+    line-height: 1.4;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating  { 
+    flex: 0 0 20%; 
+    flex-direction: column; 
+    gap: 10px; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score  { 
+    flex: 0 0 120px; 
+    flex-direction: column; 
+    font-size: 14px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons  { 
+    flex: 0 0 150px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors svg  { 
+    margin-left: 5px;
+  } 
+}     
+
+@media all{ 
+  img { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .lazyloaded { 
+    opacity: 1; 
+    transition: opacity .3s;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-rating-table img  { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+    display: block; 
+    height: auto; 
+    max-height: 100px; 
+    width: 100%; 
+    transition: opacity .3s;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo .wp_shortcode-bridelist_cr-logotype-logo  { 
+    object-fit: contain;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img:hover { 
+    opacity: .6;
+  } 
+}     
+
+@media all{ 
+  .wp_shortcode-bridelist_lt-content p { 
+    font-size: 15px; 
+    line-height: 25px; 
+    margin-bottom: 16px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description p  { 
+    margin: 0; 
+    font-size: 14px; 
+    line-height: 1.5;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-rating-stars { 
+    position: relative; 
+    width: 98px; 
+    height: 17px; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating .wp_shortcode-bridelist_cr-rating-stars  { 
+    transform: scale(1.1);
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box  { 
+    text-align: center;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-stars  { 
+    display: none;
+  } 
+}     
+
+@media all{ 
+  [type="button"] { 
+    -webkit-appearance: button;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-btn { 
+    display: inline-block; 
+    padding: 10px 12px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: none !important; 
+    letter-spacing: normal; 
+    white-space: nowrap; 
+    transition: background .3s; 
+    border: none; 
+    cursor: pointer; 
+    min-width: 110px; 
+    background: var(--cr-accent-color-md); 
+    color: var(--cr-btn-text-color-md); 
+    outline: unset;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_cr-btn  { 
+    width: 100%;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-btn:hover { 
+    background: rgba(var(--cr-accent-color-rgb-md), 0.75);
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_swipe-singles  { 
+    text-transform: uppercase; 
+    font-size: 14px; 
+    color: #262424 !important;
+  } 
+}     
+
+.wp_shortcode-bridelist_cr-rating-stars .wp_shortcode-bridelist_fill  { 
+    position: absolute; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E');
+} 
+
+.wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-number  { 
+    color: #A83434;
+} 
+
+@media (min-width: 992px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-number  { 
+    font-size: 28px; 
+    font-weight: bold; 
+    color: var(--cr-accent-color-md);
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_cr-rating-number  { 
+    line-height: 1;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_our-score  { 
+    white-space: nowrap;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_text-score  { 
+    display: none;
+  } 
+} 
+
+@media (max-width: 991px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 { 
+    margin: 60px 0 !important;
+  } 
+}
+
+@media (max-width: 991px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 { 
+    margin: 20px 15px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head  { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-bottom: 10px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list  { 
+    z-index: 1;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper  { 
+    display: none;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+    display: flex !important; 
+    align-items: center; 
+    gap: 8px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+    font-weight: bold; 
+    font-size: 14px !important; 
+    line-height: 1;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+    padding-bottom: 8px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    line-height: 1.4; 
+    color: #333;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_cpm-advertiser-disclosure  { 
+    max-width: 130px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+    display: flex; 
+    position: relative; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 0 6px rgba(0,0,0,.15); 
+    border-radius: 4px; 
+    border: 2px solid var(--cr-accent-color-md); 
+    margin-bottom: 20px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+    display: block !important; 
+    flex: 0 0 auto;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+    display: none;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+    background: var(--button-hover, linear-gradient(180deg, #DA5353 -15.28%, #530202 140.28%)) !important;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+    position: absolute; 
+    top: -14px; 
+    left: calc(50% - 65px); 
+    padding: 4px 10px; 
+    border-radius: 4px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    background-color: #15b379; 
+    color: #fff; 
+    z-index: 2;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo  { 
+    order: 1; 
+    flex: 1; 
+    margin-top: 5px; 
+    margin-right: 15px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description  { 
+    order: 3; 
+    align-items: start; 
+    margin: 10px auto 0 auto; 
+    width: 100%; 
+    font-size: 14px; 
+    line-height: 1.4; 
+    color: #333;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating  { 
+    display: none;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score  { 
+    order: 2; 
+    align-self: stretch; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 5px auto 0; 
+    min-width: 130px; 
+    color: #333;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons  { 
+    order: 4; 
+    width: 100%; 
+    margin: 10px auto 0 auto;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+    max-width: 180px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+    display: block; 
+    object-fit: cover; 
+    border-radius: 4px; 
+    width: 100%;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo .wp_shortcode-bridelist_cr-logotype-logo  { 
+    object-fit: contain;
+  } 
+}     
+
+@media (max-width: 1200px){ 
+  .wp_shortcode-bridelist_lt-content p { 
+    line-height: 24px;
+  } 
+}     
+
+@media (max-width: 991px){ 
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box  { 
+    display: flex; 
+    align-items: end; 
+    gap: 5px; 
+    margin-bottom: 5px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-stars  { 
+    transform: scale(1.1);
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_cr-btn  { 
+    width: 100%; 
+    padding: 12px;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_swipe-singles  { 
+    display: none;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_cr-rating-number  { 
+    font-size: 25px !important;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_cr-rating-number  { 
+    font-size: 32px; 
+    font-weight: bold; 
+    line-height: 1;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_our-score  { 
+    display: none;
+  } 
+
+  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_text-score  { 
+    font-size: 14px;
+  } 
+}
+
+@media (min-width: 768px) { 
+    .wp_shortcode-bridelist_mobile-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) { 
+    .wp_shortcode-bridelist_mobile-only {
+        display: block !important;
+    }
+} 
+
+:root {
+    --cr-accent-color: #e65572;
+    --cr-accent-color-light: #ff87a4;
+    --cr-accent-color-rgb: 230, 85, 114;
+    --cr-secondary-color: #5c97fd;
+    --cr-secondary-color-light: #8ec9ff;
+    --cr-secondary-color-rgb: 92, 151, 253;
+    --cr-btn-text-color: #FFFFFF;
+    --cr-bar-bg-color: #FFFFFF;
+    --cr-bar-text-color: #5c97fd;
+    --cr-fixed-bar-bg-color: #ffffff;
+    --cr-fixed-bar-link-color: #5c97fd;
+}
+.shortcode-wp_cr-table-style-23 {
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+}
+.shortcode-wp_cr-rating-table {
+    text-align: left;
+    font-style: normal;
+    box-sizing: border-box;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 8px;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_editors-choice {
+    position: relative;
+    padding: 5px 8px;
+    color: #fff;
+    background-color: var(--cr-secondary-color);
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_editors-choice:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: -7px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-top: 10px solid var(--cr-secondary-color);
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_rating-meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 4px 0;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_reviews-updated {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .03em;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_reviews-updated svg {
+    flex: 1 0 auto;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list {
+    border-radius: 15px;
+    border: 1px solid #d5dcf0;
+    background-color: #fff;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight {
+    border-radius: 15px;
+    border: 1px solid var(--cr-secondary-color);
+    background-color: rgba(var(--cr-secondary-color-rgb), 0.15);
+    box-shadow: 0 4px 12px rgba(var(--cr-secondary-color-rgb), 0.3);
+    position: relative;
+    left: -1px;
+    top: -1px;
+    width: unset;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item {
+    padding: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+}
+.shortcode-wp_cr-rating-table .shortcode-wp_review-item {
+    background: #fff;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo.shortcode-wp_type-logo {
+    padding: 20px;
+    width: 100%;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight .shortcode-wp_review-info-block, .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight .shortcode-wp_review-item-logo {
+    background: #fff;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo {
+    flex: 1 1 215px;
+    background: #f7f7f7;
+    border: 1px solid #c2c9dc;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo .shortcode-wp_cr-logotype-logo {
+    object-fit: contain;
+    max-height: 50px;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo img {
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: opacity .3s;
+}
+.shortcode-wp_cr-rating-table img {
+    max-width: 100%;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block.shortcode-wp_rating-block {
+    flex: 1 1 215px;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block {
+    flex: 0 0 auto;
+    padding: 10px 15px 20px;
+    background: #f7f7f7;
+    color: #403e4c;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 15px;
+    min-width: max-content;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_tip {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #dddfe0;
+    transition: background-color .3s;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_rating {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.shortcode-wp_cr-rating-stars {
+    position: relative;
+    width: 98px;
+    height: 17px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 61 51.9'%3E%3Cpolygon points='26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9' fill='%23ddd'/%3E%3C/svg%3E");
+}
+.shortcode-wp_cr-rating-stars .shortcode-wp_fill {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 61 51.9'%3E%3Cpolygon points='26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9' fill='%23F0CE4A'/%3E%3C/svg%3E");
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_user-rating {
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons {
+    flex: 1 1 180px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons .shortcode-wp_cr-btn {
+    width: 100%;
+}
+.shortcode-wp_cr-btn.shortcode-wp_small-rounded {
+    border-radius: 4px;
+}
+.shortcode-wp_cr-btn {
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    letter-spacing: normal;
+    white-space: nowrap;
+    transition: background .3s;
+    border: none;
+    cursor: pointer;
+    min-width: 110px;
+    background: var(--cr-accent-color);
+    color: var(--cr-btn-text-color);
+    outline: unset;
+}
+.shortcode-wp_cr-btn.shortcode-wp_cr-btn-plain {
+    padding: 0;
+    display: none;
+    text-align: left;
+    text-transform: none;
+    background: rgba(0, 0, 0, 0);
+    color: var(--cr-accent-color);
+    min-width: 0;
+}
+.shortcode-wp_cr-btn.shortcode-wp_small-rounded {
+    border-radius: 4px;
+}
+.shortcode-wp_ct-section-content .shortcode-wp_ct-content h2 {
+    font-size: 26px;
+    line-height: 42px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.shortcode-wp_ct-section-content .shortcode-wp_ct-content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.shortcode-wp_cpm-toc-nav {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    background: var(--ct-content-blocks-bg-color);
+    color: var(--ct-content-text-color);
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(var(--ct-color-primary-rgb), 0.15);
+    user-select: none;
+    margin-bottom: 20px;
+}
+.shortcode-wp_cpm-toc-nav .shortcode-wp_cpm-toc-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+    transition: color .3s;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+.shortcode-wp_cpm-toc-nav .shortcode-wp_cpm-toc-title .shortcode-wp_cpm-icon-chevron {
+    display: block;
+    width: 16px;
+    height: 16px;
+    transition: transform .3s;
+}
+.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list {
+    padding-bottom: 20px;
+    font-size: 15px;
+    display: none;
+    padding-left: 0;
+}
+.shortcode-wp_ct-section-content .shortcode-wp_ct-content ol {
+    list-style: decimal;
+}
+.shortcode-wp_ct-section-content .shortcode-wp_ct-content ul, .shortcode-wp_ct-section-content .shortcode-wp_ct-content ol {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    padding-left: 30px;
+}
+.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list li {
+    padding-right: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list>li {
+    display: block;
+    border-top: 1px solid rgba(var(--ct-color-primary-rgb), 0.1);
+    position: relative;
+    margin: 0 0 8px;
+    list-style: none;
+    counter-increment: ol-number;
+    padding: 8px 0 0 20px;
+}
+.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list a {
+    color: var(--ct-content-text-color);
+    font-weight: normal;
+}
+.shortcode-wp_ct-section-content .shortcode-wp_ct-content a {
+    color: var(--ct-content-link-color);
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    transition: all .15s;
+}
+
+
+@media (max-width: 600px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_table-head  { 
+    flex-direction: column-reverse; 
+    align-items: flex-start; 
+    gap: 16px;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_rating-meta  { 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 4px; 
+    padding: 0;
+  } 
+}     
+
+@media (max-width: 700px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item  { 
+    gap: 12px;
+  } 
+}     
+
+@media (max-width: 600px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item  { 
+    padding: 20px 15px; 
+    flex-wrap: wrap; 
+    gap: 12px;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.highlight  { 
+    padding: 25px 15px; 
+    margin-bottom: 15px;
+  } 
+}     
+
+@media (max-width: 700px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo  { 
+    flex: 1 1 150px;
+  } 
+}     
+
+@media (max-width: 600px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo  { 
+    flex: auto !important;
+  } 
+}     
+
+@media (max-width: 700px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block  { 
+    padding: 12px 12px 14px;
+  } 
+}     
+
+@media (max-width: 600px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block  { 
+    flex: 1 0 calc(50% - 6px) !important;
+  } 
+}     
+
+@media (max-width: 700px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block.rating-block  { 
+    flex: 1 1 auto;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons  { 
+    flex: 1 1 120px;
+  } 
+}     
+
+@media (max-width: 600px){ 
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons  { 
+    flex: 0 0 100%;
+  } 
+}     
+
+@media (max-width: 700px){
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block-label  { 
+    margin-bottom: 8px;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_rating  { 
+    gap: 6px;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_user-rating  { 
+    font-size: 25px;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_tip  { 
+    width: 16px; 
+    height: 16px; 
+    line-height: 16px;
+  } 
+
+  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_rating .shortcode-wp_cr-rating-stars  { 
+    width: 17px; 
+    height: 15px;
+  } 
+}
+
+.prn1_d_thumbs-item .prn1_d_thumb .prn1_d_content .prn1_d_price {
+    word-break: normal;
+}
