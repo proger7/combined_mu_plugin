@@ -545,62 +545,76 @@ if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
             $tableHTML .= '</div>';
         } elseif ($style == 'style4') {
 
-            $updatedOffersArray = include __DIR__ . '/offers-mail-bride-data.php';
+                $newOffersArray = include __DIR__ . '/offers-mail-bride-data.php';
 
-            $tableHTML = '<div class="mailbride_site_review-table-wrapper">';
-            foreach ($updatedOffersArray['brands'] as $arr_key => $offer) {
-                $highlightClass = $arr_key === "sofia-date" ? 'mailbride_site_highlight-review' : '';
-                $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
-                $ratingFormatted = number_format($offer['rating'], 1);
-                $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+                $atts = shortcode_atts([
+                    'offers' => '',
+                ], $atts);
 
-                $tableHTML .= '<div class="mailbride_site_review-item ' . esc_attr($highlightClass) . ' mailbride_site_snipcss0-0-0-1">';
-                $tableHTML .= '    <div class="mailbride_site_review-image mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-1-1-2">';
-                $tableHTML .= '        <img decoding="async" src="' . esc_url($imageSrc) . '" width="245" height="300" alt="' . esc_attr($offer['brandName']) . ' Logo" class="mailbride_site_cr-logotype-thumbnail mailbride_site_lazyloaded mailbride_site_snipcss0-2-2-3">';
-                $tableHTML .= '    </div>';
-                $tableHTML .= '    <div class="mailbride_site_review-info mailbride_site_snipcss0-1-1-4">';
-                $tableHTML .= '        <div class="mailbride_site_review-name-rating mailbride_site_snipcss0-2-4-5">';
-                $tableHTML .= '            <div class="mailbride_site_review-name mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-3-5-6">' . esc_html($offer['brandName']) . '</div>';
-                $tableHTML .= '            <div class="mailbride_site_review-rating mailbride_site_snipcss0-3-5-7">';
-                $tableHTML .= '                <div class="mailbride_site_cr-rating-number mailbride_site_snipcss0-4-7-8">' . esc_html($ratingFormatted) . '</div>';
-                $tableHTML .= '                <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="mailbride_site_snipcss0-4-7-9">';
-                $tableHTML .= '                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.23321 15.4298C4.33232 15.4764 4.44065 15.5003 4.55029 15.5C4.66963 15.4926 4.78533 15.4564 4.88727 15.3943L7.991 13.7787L11.0947 15.3943C11.2164 15.4559 11.3529 15.4827 11.489 15.4716C11.6252 15.4606 11.7555 15.4121 11.8655 15.3317C11.9754 15.2513 12.0607 15.1421 12.1117 15.0164C12.1628 14.8906 12.1775 14.7532 12.1544 14.6196L11.5736 11.2078L14.0787 8.7822C14.1769 8.687 14.2463 8.56645 14.2791 8.43416C14.3119 8.30187 14.3068 8.16311 14.2644 8.03354C14.2219 7.90397 14.1439 7.78876 14.039 7.70091C13.9341 7.61306 13.8066 7.55607 13.6708 7.53637L10.2079 7.03452L8.65165 3.91775C8.59197 3.79276 8.49779 3.68715 8.38006 3.61321C8.26233 3.53926 8.12588 3.5 7.98656 3.5C7.84725 3.5 7.71079 3.53926 7.59306 3.61321C7.47533 3.68715 7.38115 3.79276 7.32148 3.91775L5.77405 7.03452L2.32005 7.53197C2.18427 7.55167 2.05674 7.60866 1.95185 7.69651C1.84697 7.78436 1.76891 7.89957 1.72649 8.02914C1.68406 8.1587 1.67897 8.29746 1.71177 8.42975C1.74457 8.56205 1.81397 8.6826 1.91213 8.7778L4.41728 11.1946L3.82757 14.6196C3.80511 14.7261 3.80691 14.8363 3.83285 14.9421C3.85878 15.0478 3.90818 15.1465 3.97745 15.2309C4.04672 15.3153 4.1341 15.3832 4.23321 15.4298Z" fill="#F1C862"></path>';
-                $tableHTML .= '                </svg>';
-                $tableHTML .= '            </div>';
-                $tableHTML .= '        </div>';
-                $tableHTML .= '        <button class="mailbride_site_cr-btn mailbride_site_square mailbride_site_big-size mailbride_site_review-mobile-button mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-2-4-10" type="button">Visit Site</button>';
-                $tableHTML .= '        <div class="mailbride_site_review-pros-cons mailbride_site_snipcss0-2-4-11">';
-                $tableHTML .= '            <ul class="mailbride_site_cr-cpm_offer_pros-list mailbride_site_snipcss0-3-11-12">';
-                foreach ($offer['pros'] as $pro) {
-                    $tableHTML .= '                <li class="mailbride_site_snipcss0-4-12-13">' . esc_html($pro) . '</li>';
+                $offerKeys = array_filter(array_map('trim', explode(',', $atts['offers'])));
+                $filteredOffersArray = array_intersect_key($newOffersArray['brands'], array_flip($offerKeys));
+
+                if (empty($filteredOffersArray)) {
+                    return '<p>No offers found for the specified keys.</p>';
                 }
-                $tableHTML .= '            </ul>';
-                $tableHTML .= '            <ul class="mailbride_site_cr-cpm_offer_cons-list mailbride_site_snipcss0-3-11-16">';
-                foreach ($offer['cons'] as $con) {
-                    $tableHTML .= '                <li class="mailbride_site_snipcss0-4-16-17">' . esc_html($con) . '</li>';
+
+                $tableHTML = '<div class="mailbride_site_review-table-wrapper">';
+                foreach ($filteredOffersArray as $arr_key => $offer) {
+                    $highlightClass = $arr_key === "sofia-date" ? 'mailbride_site_highlight-review' : '';
+                    $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
+                    $ratingFormatted = number_format($offer['rating'], 1);
+                    $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
+
+                    $tableHTML .= '<div class="mailbride_site_review-item ' . esc_attr($highlightClass) . ' mailbride_site_snipcss0-0-0-1">';
+                    $tableHTML .= '    <div class="mailbride_site_review-image mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-1-1-2">';
+
+                    $tableHTML .= '        <img decoding="async" src="' . esc_url($imageSrc) . '" width="245" height="300" alt="' . esc_attr($offer['brandName']) . ' Logo" class="mailbride_site_cr-logotype-thumbnail mailbride_site_lazyloaded mailbride_site_snipcss0-2-2-3">';
+
+                    $tableHTML .= '    </div>';
+                    $tableHTML .= '    <div class="mailbride_site_review-info mailbride_site_snipcss0-1-1-4">';
+                    $tableHTML .= '        <div class="mailbride_site_review-name-rating mailbride_site_snipcss0-2-4-5">';
+                    $tableHTML .= '            <div class="mailbride_site_review-name mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-3-5-6">' . esc_html($offer['brandName']) . '</div>';
+                    $tableHTML .= '            <div class="mailbride_site_review-rating mailbride_site_snipcss0-3-5-7">';
+                    $tableHTML .= '                <div class="mailbride_site_cr-rating-number mailbride_site_snipcss0-4-7-8">' . esc_html($ratingFormatted) . '</div>';
+                    $tableHTML .= '                <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="mailbride_site_snipcss0-4-7-9">';
+                    $tableHTML .= '                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.23321 15.4298C4.33232 15.4764 4.44065 15.5003 4.55029 15.5C4.66963 15.4926 4.78533 15.4564 4.88727 15.3943L7.991 13.7787L11.0947 15.3943C11.2164 15.4559 11.3529 15.4827 11.489 15.4716C11.6252 15.4606 11.7555 15.4121 11.8655 15.3317C11.9754 15.2513 12.0607 15.1421 12.1117 15.0164C12.1628 14.8906 12.1775 14.7532 12.1544 14.6196L11.5736 11.2078L14.0787 8.7822C14.1769 8.687 14.2463 8.56645 14.2791 8.43416C14.3119 8.30187 14.3068 8.16311 14.2644 8.03354C14.2219 7.90397 14.1439 7.78876 14.039 7.70091C13.9341 7.61306 13.8066 7.55607 13.6708 7.53637L10.2079 7.03452L8.65165 3.91775C8.59197 3.79276 8.49779 3.68715 8.38006 3.61321C8.26233 3.53926 8.12588 3.5 7.98656 3.5C7.84725 3.5 7.71079 3.53926 7.59306 3.61321C7.47533 3.68715 7.38115 3.79276 7.32148 3.91775L5.77405 7.03452L2.32005 7.53197C2.18427 7.55167 2.05674 7.60866 1.95185 7.69651C1.84697 7.78436 1.76891 7.89957 1.72649 8.02914C1.68406 8.1587 1.67897 8.29746 1.71177 8.42975C1.74457 8.56205 1.81397 8.6826 1.91213 8.7778L4.41728 11.1946L3.82757 14.6196C3.80511 14.7261 3.80691 14.8363 3.83285 14.9421C3.85878 15.0478 3.90818 15.1465 3.97745 15.2309C4.04672 15.3153 4.1341 15.3832 4.23321 15.4298Z" fill="#F1C862"></path>';
+                    $tableHTML .= '                </svg>';
+                    $tableHTML .= '            </div>';
+                    $tableHTML .= '        </div>';
+                    $tableHTML .= '        <button class="mailbride_site_cr-btn mailbride_site_square mailbride_site_big-size mailbride_site_review-mobile-button mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-2-4-10" type="button">Visit Site</button>';
+                    $tableHTML .= '        <div class="mailbride_site_review-pros-cons mailbride_site_snipcss0-2-4-11">';
+                    $tableHTML .= '            <ul class="mailbride_site_cr-cpm_offer_pros-list mailbride_site_snipcss0-3-11-12">';
+                    foreach ($offer['pros'] as $pro) {
+                        $tableHTML .= '                <li class="mailbride_site_snipcss0-4-12-13">' . esc_html($pro) . '</li>';
+                    }
+                    $tableHTML .= '            </ul>';
+                    $tableHTML .= '            <ul class="mailbride_site_cr-cpm_offer_cons-list mailbride_site_snipcss0-3-11-16">';
+                    foreach ($offer['cons'] as $con) {
+                        $tableHTML .= '                <li class="mailbride_site_snipcss0-4-16-17">' . esc_html($con) . '</li>';
+                    }
+                    $tableHTML .= '            </ul>';
+                    $tableHTML .= '        </div>';
+                    $tableHTML .= '        <div class="mailbride_site_review-special-offer mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-2-4-19"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none" class="snipcss0-3-19-20">
+                        <path d="M6.25782 3.98155H1.99336C1.70327 3.98155 1.42513 4.09676 1.22013 4.3019C1.01511 4.50693 0.899902 4.78505 0.899902 5.07501V6.93388C0.899902 7.09496 1.03036 7.22554 1.19145 7.22554H6.29413L6.25782 3.98155Z" fill="#F02E73"></path>
+                        <path d="M11.9803 3.98155H7.71582V7.22535H12.8185L12.8186 7.22548C12.8959 7.22548 12.9701 7.19472 13.0247 7.14005C13.0794 7.08537 13.1102 7.01118 13.1102 6.9338V5.07493C13.1103 4.7785 12.9901 4.49478 12.7771 4.28865C12.5641 4.0824 12.2766 3.97161 11.9802 3.98148L11.9803 3.98155Z" fill="#F02E73"></path>
+                        <path d="M6.25744 8.31911H1.51904V12.3793C1.51904 12.6692 1.63425 12.9474 1.83927 13.1525C2.04441 13.3575 2.32254 13.4727 2.6125 13.4727H6.25744V8.31911Z" fill="#F02E73"></path>
+                        <path d="M7.71582 8.31911V13.4727H11.3608C11.6507 13.4727 11.9289 13.3575 12.134 13.1525C12.339 12.9473 12.4542 12.6692 12.4542 12.3793V8.31911H7.71582Z" fill="#F02E73"></path>
+                        <path d="M10.3401 0.511648C10.1712 0.511282 10.0027 0.528489 9.83718 0.562659C9.30423 0.61123 8.80378 0.839806 8.41813 1.21092C8.03261 1.58191 7.78486 2.07312 7.71582 2.60386C7.71765 2.67805 7.74987 2.74823 7.80503 2.79789C7.86019 2.84756 7.93341 2.87221 8.00749 2.86623H10.1215C10.7631 2.86623 11.8274 2.72772 11.8274 1.78731H11.8273C11.8113 1.41644 11.6424 1.06863 11.3605 0.826881C11.0787 0.585125 10.7093 0.471009 10.3401 0.511654L10.3401 0.511648Z" fill="#F02E73"></path>
+                        <path d="M6.25781 2.6038C6.18935 2.07538 5.94368 1.58576 5.56109 1.21502C5.17838 0.844273 4.68133 0.614335 4.15107 0.562599C3.98559 0.528427 3.81707 0.511223 3.64802 0.511588C3.27434 0.462164 2.897 0.57224 2.60852 0.814971C2.32003 1.0577 2.14699 1.41062 2.13184 1.78724C2.13184 2.72767 3.19611 2.86616 3.83756 2.86616H6.02447C6.2578 2.86616 6.2578 2.60379 6.2578 2.60379L6.25781 2.6038Z" fill="#F02E73"></path>
+                    </svg>';
+                    $tableHTML .= '            ' . esc_html($offer['shortDescription']) . '';
+                    $tableHTML .= '        </div>';
+                    $tableHTML .= '        <div class="mailbride_site_review-buttons mailbride_site_snipcss0-2-4-21">';
+                    $tableHTML .= '            <a href="' . esc_url($offerLinkURL) . '" class="mailbride_site_cr-btn mailbride_site_square mailbride_site_big-size mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-3-21-22" target="_blank">Visit Site</a>';
+                    $tableHTML .= '        </div>';
+                    $tableHTML .= '    </div>';
+                    $tableHTML .= '</div>';
                 }
-                $tableHTML .= '            </ul>';
-                $tableHTML .= '        </div>';
-                $tableHTML .= '        <div class="mailbride_site_review-special-offer mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-2-4-19"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none" class="snipcss0-3-19-20">
-                    <path d="M6.25782 3.98155H1.99336C1.70327 3.98155 1.42513 4.09676 1.22013 4.3019C1.01511 4.50693 0.899902 4.78505 0.899902 5.07501V6.93388C0.899902 7.09496 1.03036 7.22554 1.19145 7.22554H6.29413L6.25782 3.98155Z" fill="#F02E73"></path>
-                    <path d="M11.9803 3.98155H7.71582V7.22535H12.8185L12.8186 7.22548C12.8959 7.22548 12.9701 7.19472 13.0247 7.14005C13.0794 7.08537 13.1102 7.01118 13.1102 6.9338V5.07493C13.1103 4.7785 12.9901 4.49478 12.7771 4.28865C12.5641 4.0824 12.2766 3.97161 11.9802 3.98148L11.9803 3.98155Z" fill="#F02E73"></path>
-                    <path d="M6.25744 8.31911H1.51904V12.3793C1.51904 12.6692 1.63425 12.9474 1.83927 13.1525C2.04441 13.3575 2.32254 13.4727 2.6125 13.4727H6.25744V8.31911Z" fill="#F02E73"></path>
-                    <path d="M7.71582 8.31911V13.4727H11.3608C11.6507 13.4727 11.9289 13.3575 12.134 13.1525C12.339 12.9473 12.4542 12.6692 12.4542 12.3793V8.31911H7.71582Z" fill="#F02E73"></path>
-                    <path d="M10.3401 0.511648C10.1712 0.511282 10.0027 0.528489 9.83718 0.562659C9.30423 0.61123 8.80378 0.839806 8.41813 1.21092C8.03261 1.58191 7.78486 2.07312 7.71582 2.60386C7.71765 2.67805 7.74987 2.74823 7.80503 2.79789C7.86019 2.84756 7.93341 2.87221 8.00749 2.86623H10.1215C10.7631 2.86623 11.8274 2.72772 11.8274 1.78731H11.8273C11.8113 1.41644 11.6424 1.06863 11.3605 0.826881C11.0787 0.585125 10.7093 0.471009 10.3401 0.511654L10.3401 0.511648Z" fill="#F02E73"></path>
-                    <path d="M6.25781 2.6038C6.18935 2.07538 5.94368 1.58576 5.56109 1.21502C5.17838 0.844273 4.68133 0.614335 4.15107 0.562599C3.98559 0.528427 3.81707 0.511223 3.64802 0.511588C3.27434 0.462164 2.897 0.57224 2.60852 0.814971C2.32003 1.0577 2.14699 1.41062 2.13184 1.78724C2.13184 2.72767 3.19611 2.86616 3.83756 2.86616H6.02447C6.2578 2.86616 6.2578 2.60379 6.2578 2.60379L6.25781 2.6038Z" fill="#F02E73"></path>
-                </svg>';
-                $tableHTML .= '            ' . esc_html($offer['shortDescription']) . '';
-                $tableHTML .= '        </div>';
-                $tableHTML .= '        <div class="mailbride_site_review-buttons mailbride_site_snipcss0-2-4-21">';
-                $tableHTML .= '            <a href="' . esc_url($offerLinkURL) . '" class="mailbride_site_cr-btn mailbride_site_square mailbride_site_big-size mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-3-21-22" target="_blank">Visit Site</a>';
-                $tableHTML .= '        </div>';
-                $tableHTML .= '    </div>';
                 $tableHTML .= '</div>';
-            }
-            $tableHTML .= '</div>';
 
 
-            return $tableHTML;
+                return $tableHTML;
+
         } elseif ($style == 'style5') {
 
             $updatedOffersArray = include __DIR__ . '/offers-hookupguru-data.php';
