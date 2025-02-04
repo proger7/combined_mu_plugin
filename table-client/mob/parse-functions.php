@@ -709,15 +709,29 @@ if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
             $tableHTML .= '</div>';
 
         } elseif ($style == 'top1') {
+            
             $updatedOffersArray = include __DIR__ . '/offers-aimojo-data.php';
 
-            $count = count($updatedOffersArray);
+            $atts = shortcode_atts([
+                'tag' => '',
+                'style' => 'top1',
+            ], $atts);
+
+            $filteredOffersArray = array_filter($updatedOffersArray, function ($offer) use ($atts) {
+                if (empty($atts['tag'])) {
+                    return true;
+                }
+                $tags = isset($offer['Tag']) ? (is_array($offer['Tag']) ? $offer['Tag'] : explode(',', $offer['Tag'])) : [];
+                return in_array($atts['tag'], $tags);
+            });
+
+            $count = count($filteredOffersArray);
             $columns = $count > 3 ? 3 : $count;
             $width = 100 / $columns;
 
             $tableHTML = '<div class="aimojo_st_comparison-wrapper aimojo_st_snipcss0-0-0-1 aimojo_st_snipcss-vno3X" style="--item-width: ' . $width . '%;">';
 
-            foreach ($updatedOffersArray as $arr_key => $offer) {
+            foreach ($filteredOffersArray as $arr_key => $offer) {
                 $imageSrc = "https://cdn.cdndating.net/images/" . esc_attr($arr_key) . ".png";
                 $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
                 $labelName = esc_html($offer['labelName']);
@@ -728,11 +742,11 @@ if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
                 $tableHTML .= '<div class="aimojo_st_comparison-item aimojo_st_snipcss0-1-1-2">';
                 $tableHTML .= '    <div class="aimojo_st_item-header aimojo_st_snipcss0-2-2-3 aimojo_st_style-9KM7g" data-match-height="itemHeader">';
                 $tableHTML .= '        <div class="aimojo_st_item-badge aimojo_st_snipcss0-3-3-4 aimojo_st_style-o1fJI">' . $labelName . '</div>';
-                $tableHTML .= '        <div class="aimojo_st_product-image aimojo_st_snipcss0-3-3-5">';
+                $tableHTML .= '        <a href="' . esc_url($offerLinkURL) . '" target="_blank" class="aimojo_st_product-image aimojo_st_snipcss0-3-3-5">';
                 $tableHTML .= '            <div class="aimojo_st_image aimojo_st_snipcss0-4-5-6">';
                 $tableHTML .= '                <img fetchpriority="high" decoding="async" src="' . esc_url($imageSrc) . '" class="aimojo_st_attachment-full aimojo_st_size-full aimojo_st_snipcss0-5-6-7" width="160" height="160" alt="' . $brandName . ' Logo">';
                 $tableHTML .= '            </div>';
-                $tableHTML .= '        </div>';
+                $tableHTML .= '        </a>';
                 $tableHTML .= '        <div class="aimojo_st_item-title aimojo_st_snipcss0-3-3-8 aimojo_st_style-iXbas"><strong>' . $brandName . '</strong></div>';
                 $tableHTML .= '        <div class="aimojo_st_item-rating aimojo_st_snipcss0-3-3-10">';
                 $tableHTML .= '            <div class="aimojo_st_item-stars-rating aimojo_st_snipcss0-4-10-11">';
@@ -755,6 +769,7 @@ if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
             $tableHTML .= '</div>';
 
             return $tableHTML;
+
         }
 
         return $tableHTML;

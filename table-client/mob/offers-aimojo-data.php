@@ -11,6 +11,7 @@ return array(
             ✔ The Hottest NSFW AI Art Generator
         ",
         "labelButton" => "Try for Free",
+        "Tag" => "online123",
     ),
     "ashley-madison" => array(
         "labelName" => "#1 NSFW ART GENERATOR",
@@ -22,6 +23,7 @@ return array(
             ✔ Explicit Adult-oriented Image & Videos
         ",
         "labelButton" => "Start Free Trial",
+        "Tag" => "online",
     ),
     "adultfriendfinder" => array(
         "labelName" => "HIGHLY RECOMMENDED",
@@ -33,6 +35,7 @@ return array(
             ✔ Produce Realistic Fetish Content
         ",
         "labelButton" => "Start for Free",
+        "Tag" => "online123",
     ),
     "friend-finder" => array(
         "labelName" => "HIGHLY RECOMMENDED",
@@ -44,5 +47,6 @@ return array(
             ✔ Produce Realistic Fetish Content
         ",
         "labelButton" => "Start for Free",
+        "Tag" => "online",
     ),
 );
