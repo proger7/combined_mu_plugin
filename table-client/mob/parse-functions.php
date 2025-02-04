@@ -566,11 +566,11 @@ if ( ! function_exists( 'customUpdatedTableLayouts' ) ) {
                     $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
 
                     $tableHTML .= '<div class="mailbride_site_review-item ' . esc_attr($highlightClass) . ' mailbride_site_snipcss0-0-0-1">';
-                    $tableHTML .= '    <div class="mailbride_site_review-image mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-1-1-2">';
+                    $tableHTML .= '    <a href="' . esc_url($offerLinkURL) . '" target="_blank" class="mailbride_site_review-image mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-1-1-2">';
 
                     $tableHTML .= '        <img decoding="async" src="' . esc_url($imageSrc) . '" width="245" height="300" alt="' . esc_attr($offer['brandName']) . ' Logo" class="mailbride_site_cr-logotype-thumbnail mailbride_site_lazyloaded mailbride_site_snipcss0-2-2-3">';
 
-                    $tableHTML .= '    </div>';
+                    $tableHTML .= '    </a>';
                     $tableHTML .= '    <div class="mailbride_site_review-info mailbride_site_snipcss0-1-1-4">';
                     $tableHTML .= '        <div class="mailbride_site_review-name-rating mailbride_site_snipcss0-2-4-5">';
                     $tableHTML .= '            <div class="mailbride_site_review-name mailbride_site_partner-link mailbride_site_data-339-reviews-table mailbride_site_snipcss0-3-5-6">' . esc_html($offer['brandName']) . '</div>';
