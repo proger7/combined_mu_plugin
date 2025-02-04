@@ -4136,3 +4136,33 @@ ul li  {
         justify-content: space-between;
     }
 }
+
+
+@media (max-width: 650px) {
+    .ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65] {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        height: auto;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
+        border-right: none;
+        border-bottom: none;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
