@@ -654,3 +654,28 @@ span .prn1_d_popup-card::after {
         padding: 8px;
     }
 }
+
+
+/* Buttom Mobile  */
+@media screen and (max-width: 768px) {
+    .prn1_d_btn-thumb {
+        font-size: 16px;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prn1_d_btn-thumb.prn1_d_buy {
+        background: #e72948;
+        font-weight: bold;
+    }
+
+    .prn1_d_btn-thumb.prn1_d_now {
+        background: #01b3be;
+        font-weight: bold;
+    }
+
+    .prn1_d_btn-thumb:hover {
+        opacity: 0.9;
+    }
+}
