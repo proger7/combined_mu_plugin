@@ -1464,6 +1464,9 @@ a {
 }
 
 
+
+
+
 @media (max-width: 1152px) {
     .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
         height: 110px !important;
@@ -1472,6 +1475,56 @@ a {
         word-break: break-word !important;
     } 
 }
+
+@media (max-width: 1152px) {
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
+        height: unset;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
+        display: flex;
+        flex-direction: column;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65] {
+        height: 100%;
+        padding: 18px 0;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_gender .ad_wbc_text .ad_wbc_women[data-v-de82ba65]::before {
+        display: flex;
+        align-items: center;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65],
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+        height: auto !important;
+        line-height: 1.2;
+        margin: 0;
+        padding: 2px 5px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65], .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+        line-height: 1.5;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second {
+        padding: 5px 10px;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+        font-size: 14px;
+    }
+
+    .ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65] {
+        word-break: break-word !important;
+        text-align: center;
+    }
+}
+
+
+
 
 @media (max-width: 450px) {
     .ad_wbc_post_preview .ad_wbc_post_img_pr .ad_wbc_filter .ad_wbc_title_logo[data-v-de82ba65] {
