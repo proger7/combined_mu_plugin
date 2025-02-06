@@ -1435,82 +1435,6 @@ a {
     font-size: 18px;
 }
 
-@media (max-width: 650px) {
-    .ad_wbc_all_reviews[data-v-ef4df5c3]  { 
-        width: 100%;
-    }
-    .ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65] {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding: 0 20px 20px;
-        text-align: center;
-    }
-    .ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65] {
-        padding: 0 15px;
-    }
-    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block[data-v-de82ba65] {
-        margin-bottom: 17px;
-        padding-top: 20px;
-    }
-    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block .ad_wbc_title[data-v-de82ba65] {
-        font-size: 18px;
-        letter-spacing: .8px;
-    }
-    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block[data-v-de82ba65] {
-        flex-direction: column;
-        width: 100%;
-    }
-    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_btn_pink[data-v-de82ba65] {
-        margin: auto auto 15px;
-        width: 100%;
-    }
-    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_read_btn[data-v-de82ba65] {
-        margin: auto auto 20px;
-        width: 100%;
-    }
-    .ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65] {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
-        align-items: center;
-        border-bottom: 1px solid #dcdcdc;
-        border-right: none;
-        display: flex;
-        height: 100%;
-        justify-content: space-between;
-        padding: 0 15px;
-        text-align: left;
-        width: 100%;
-    }
-    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: .9px;
-        padding: 15px 0;
-    }
-    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
-        font-size: 18px;
-        letter-spacing: 1px;
-        line-height: normal;
-    }
-    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_text[data-v-de82ba65]:before {
-        bottom: 0;
-    }
-    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block.ad_wbc_online .ad_wbc_info_popup[data-v-de82ba65] {
-        left: 5px;
-        top: 0;
-    }
-}
-
-
-
-
-
-
-
-
 
 
 .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
@@ -4138,31 +4062,98 @@ ul li  {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fix spaces in style5 */
+
 @media (max-width: 650px) {
+    .ad_wbc_all_reviews[data-v-ef4df5c3] { 
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info[data-v-de82ba65] {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 10px 10px;
+        text-align: center;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block[data-v-de82ba65] {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_first_block .ad_wbc_title[data-v-de82ba65] {
+        font-size: 14px;
+        letter-spacing: .5px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block[data-v-de82ba65] {
+        flex-direction: column;
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_btn_pink[data-v-de82ba65],
+    .ad_wbc_post_preview .ad_wbc_info .ad_wbc_second_block .ad_wbc_read_btn[data-v-de82ba65] {
+        margin: auto auto 10px;
+        width: 90%;
+        font-size: 12px;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65] {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
+        align-items: center;
+        border-bottom: 1px solid #dcdcdc;
+        border-right: none;
+        display: flex;
+        height: 75px;
+        justify-content: space-between;
+        padding: 5px 10px;
+        text-align: left;
+        width: 100%;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .7px;
+        padding: 10px 0;
+    }
+    .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
+        font-size: 14px;
+        letter-spacing: .7px;
+        line-height: normal;
+    }
     .ad_wbc_post_preview .ad_wbc_info_second[data-v-de82ba65] {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
+        grid-gap: 5px;
         height: auto;
     }
-
     .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block[data-v-de82ba65] {
         border-right: none;
         border-bottom: none;
         text-align: center;
-        padding: 15px;
+        padding: 10px;
     }
-
     .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_header[data-v-de82ba65] {
         display: flex;
         align-items: center;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
         text-transform: uppercase;
     }
-
     .ad_wbc_post_preview .ad_wbc_info_second .ad_wbc_block .ad_wbc_text[data-v-de82ba65] {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
     }
 }
+
+
