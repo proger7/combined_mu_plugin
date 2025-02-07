@@ -7,6 +7,7 @@ Description: A widget to display offers and profiles data from a PHP array.
 function combined_widget_enqueue_scripts() {
     wp_enqueue_style('combined-offers-style', site_url('/table-client/mob/combined-widget/style_combined.css'));
     wp_enqueue_script('combined-filter', site_url('/table-client/mob/combined-widget/filter.js'), array('jquery'), null, true);
+    wp_localize_script('combined-filter', 'ajax_params', array('ajax_url' => admin_url('admin-ajax.php')));
 }
 add_action('wp_enqueue_scripts', 'combined_widget_enqueue_scripts');
 
@@ -61,57 +62,60 @@ function combined_offers_widget($allowed_offers = []) {
     echo '</div>';
 }
 
+
 function combined_profiles_widget() {
     $data = include plugin_dir_path(__FILE__) . 'offers-data2.php';
     $models = $data['models'];
+    $tags = array_unique(array_column($models, 'Tag'));
 
     echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snippet_wrapper">';
     echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snippet_title">TOP RATED PROFILES</div>';
     echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snippet_filter">';
     echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_filter">';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_radio theamailorderbride_active ng-star-inserted">RUSSIA </div>';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_radio ng-star-inserted">UKRAINE </div>';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_radio ng-star-inserted">ASIA </div>';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_radio ng-star-inserted">LATIN </div>';
-    echo '</div>';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snippet_girls">';
-
-    foreach ($models as $key => $model) {
-        $i = 1;
-        $imageUrl = "https://cdn.cdndating.net/images/models/{$key}{$i}.png";
-        $profileLink = site_url() . "/profile.php?name=" . urlencode($key) . "&tag=" . urlencode($model['Tag']);
-
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_girl ng-star-inserted">';
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_image">';
-        echo '<picture _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_header_img">';
-        echo '<img _ngcontent-themailorderbride-com-c8="" alt="' . esc_attr($model['Name']) . '" src="' . esc_url($imageUrl) . '" class="ng-lazyloaded">';
-        echo '</picture>';
-        echo '</div>';
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_info">';
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_name">' . esc_html($model['Name']) . '</div>';
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_place">' . esc_html($model['Location']) . '</div>';
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_position">' . esc_html($model['Occupation']) . ', ' . esc_html($model['Age']) . '</div>';
-        echo '<a _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_send_msg" rel="nofollow noopener" target="_blank" href="' . esc_url($profileLink) . '">';
-        echo '<svg _ngcontent-themailorderbride-com-c8="" height="14" viewBox="0 0 19 14" width="19" class="theamailorderbride_snipcss0-6-20-21">
-                        <defs _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snipcss0-7-21-22">
-                            <path _ngcontent-themailorderbride-com-c8="" d="M176.27 6514c.954 0 1.73.75 1.73 1.67v10.66c0 .92-.776 1.67-1.73 1.67h-15.54c-.954 0-1.73-.75-1.73-1.67v-10.66c0-.92.776-1.67 1.73-1.67zm-4.639 7l5.117 4.938v-9.876zm-3.096 1.28l7.328-7.072h-14.72zm-7.398 4.502h14.716l-5.113-4.928-1.766 1.702a.644.644 0 0 1-.883.001l-1.812-1.73zm-.885-10.726v9.882l5.142-4.962z" id="lehoa"></path>
-                        </defs>
-                        <g _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snipcss0-7-21-23">
-                            <g _ngcontent-themailorderbride-com-c8="" clip-path="url(#clip-3F218ABA-BE53-473A-A105-5DFF1E6DD12C)" transform="translate(-159 -6514)" class="theamailorderbride_snipcss0-8-23-24">
-                                <use _ngcontent-themailorderbride-com-c8="" xlink:href="#lehoa" fill="#fff" class="theamailorderbride_snipcss0-9-24-25"></use>
-                            </g>
-                        </g>
-                    </svg>';
-        echo '<span _ngcontent-themailorderbride-com-c8="">Send Message</span>';
-        echo '</a>';
-        echo '</div>';
-        echo '</div>';
+    foreach ($tags as $tag) {
+        echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_radio" data-tag="' . esc_attr($tag) . '">' . esc_html($tag) . '</div>';
     }
-
+    echo '</div>';
+    echo '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_snippet_girls" id="filtered-models">';
+    foreach ($models as $key => $model) {
+        echo render_model_html($key, $model);
+    }
     echo '</div>';
     echo '</div>';
     echo '</div>';
 }
+
+function render_model_html($key, $model) {
+    $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
+    $profileLink = site_url() . "/profile.php?name=" . urlencode($key) . "&tag=" . urlencode($model['Tag']);
+    return '<div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_girl" data-tag="' . esc_attr($model['Tag']) . '">
+                <div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_image">
+                    <picture _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_header_img">
+                        <img _ngcontent-themailorderbride-com-c8="" alt="' . esc_attr($model['Name']) . '" src="' . esc_url($imageUrl) . '" class="ng-lazyloaded">
+                    </picture>
+                </div>
+                <div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_info">
+                    <div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_name">' . esc_html($model['Name']) . '</div>
+                    <div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_place">' . esc_html($model['Location']) . '</div>
+                    <div _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_position">' . esc_html($model['Occupation']) . ', ' . esc_html($model['Age']) . '</div>
+                    <a _ngcontent-themailorderbride-com-c8="" class="theamailorderbride_send_msg" href="' . esc_url($profileLink) . '">Send Message</a>
+                </div>
+            </div>';
+}
+
+function filter_models_ajax() {
+    $data = include plugin_dir_path(__FILE__) . 'offers-data2.php';
+    $models = $data['models'];
+    $tag = isset($_POST['tag']) ? sanitize_text_field($_POST['tag']) : '';
+    $filtered = array_filter($models, fn($model) => $model['Tag'] === $tag);
+    foreach ($filtered as $key => $model) {
+        echo render_model_html($key, $model);
+    }
+    wp_die();
+}
+add_action('wp_ajax_filter_models', 'filter_models_ajax');
+add_action('wp_ajax_nopriv_filter_models', 'filter_models_ajax');
+
 
 class Combined_Widget extends WP_Widget {
     public function __construct() {

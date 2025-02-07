@@ -7,7 +7,7 @@ return [
             "Location" => "Mexico",
             "Occupation" => "Singer",
             "Interests" => "Making Tacos",
-            "Tag" => "latina",
+            "Tag" => "Ukraine",
         ),
         "irina" => array(
             "Name" => "Irina",
@@ -15,7 +15,7 @@ return [
             "Location" => "Odesa, Ukraine",
             "Occupation" => "Nurse",
             "Interests" => "Tennis, and helping people",
-            "Tag" => "ua",
+            "Tag" => "Latin",
         ),
     ],
     'brands' => [
