@@ -73,22 +73,22 @@
   } 
 }     
 
-.mybrides_cpm-advertiser-disclosure { 
+.widget_offers_mybrides_cpm-advertiser-disclosure { 
     text-align: right; 
     font-weight: normal; 
     padding-bottom: 8px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_cpm-ajax-info  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_cpm-ajax-info  { 
     text-align: left; 
     line-height: 20px; 
     margin-bottom: 18px;
 }
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] {
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] {
     height: 30px !important;
 }
 
-.mybrides_cpm-widget-style-5 .mybrides_cr-rating-widget-content  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_cr-rating-widget-content  { 
     box-shadow: 0 4px 4px rgba(0,0,0,.08); 
     border-left: 1px solid #eaebec; 
     border-right: 1px solid #eaebec; 
@@ -97,7 +97,7 @@
     margin-top: 22px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_cpm-ajax-info + .mybrides_cr-rating-widget-content  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_cpm-ajax-info + .widget_offers_mybrides_cr-rating-widget-content  { 
     margin-top: 0;
 } 
 
@@ -133,7 +133,7 @@
   } 
 }     
 
-.mybrides_cpm-advertiser-disclosure .mybrides_cpm-ajax-info-btn  { 
+.widget_offers_mybrides_cpm-advertiser-disclosure .widget_offers_mybrides_cpm-ajax-info-btn  { 
     font-size: 12px; 
     line-height: 16px; 
     letter-spacing: normal; 
@@ -150,16 +150,16 @@
     cursor: pointer;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_cpm-ajax-info .mybrides_cpm-ajax-info-btn  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_cpm-ajax-info .widget_offers_mybrides_cpm-ajax-info-btn  { 
     font-size: 13px; 
     line-height: 16px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item  { 
     padding: 15px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item:first-child  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item:first-child  { 
     background: rgba(var(--cr-secondary-color-rgb-mybrides), 0.02); 
     border: 1px solid var(--cr-secondary-color-mybrides); 
     border-radius: 3px; 
@@ -167,15 +167,15 @@
     position: relative;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item:not(:first-child)  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item:not(:first-child)  { 
     border-bottom: 1px solid #eaebec;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item:last-child  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item:last-child  { 
     border-radius: 0 0 3px 3px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-label  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-label  { 
     position: absolute; 
     top: -22px; 
     right: -1px; 
@@ -190,26 +190,26 @@
     border-radius: 3px 3px 0 0;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_inner-container  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_inner-container  { 
     display: grid; 
     grid-gap: 10px; 
     align-items: center; 
     grid-template-columns: auto 70px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item.mybrides_with-logo .mybrides_inner-container  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item.widget_offers_mybrides_with-logo .widget_offers_mybrides_inner-container  { 
     grid-template-columns: 52px auto 70px;
 } 
 
-.mybrides_partner-link { 
+.widget_offers_mybrides_partner-link { 
     cursor: pointer;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-logo  { 
     cursor: pointer;
 } 
 
-.mybrides_cr-btn { 
+.widget_offers_mybrides_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -229,11 +229,11 @@
     outline: unset;
 } 
 
-.mybrides_cr-btn.mybrides_small-rounded { 
+.widget_offers_mybrides_cr-btn.widget_offers_mybrides_small-rounded { 
     border-radius: 4px;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_cr-btn.mybrides_partner-link  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_cr-btn.widget_offers_mybrides_partner-link  { 
     min-width: 50px; 
     padding: 0 6px; 
     height: 32px; 
@@ -241,7 +241,7 @@
     font-size: 13px;
 } 
 
-.mybrides_cr-btn:hover { 
+.widget_offers_mybrides_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-mybrides), 0.75);
 } 
 
@@ -261,14 +261,14 @@
   } 
 }     
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo img  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-logo img  { 
     display: block; 
     max-height: 52px; 
     width: 52px; 
     object-fit: cover;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo img.mybrides_cr-logotype-thumbnail  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-logo img.widget_offers_mybrides_cr-logotype-thumbnail  { 
     border-radius: 4px; 
     height: 52px; 
     min-height: 40px;
@@ -281,11 +281,11 @@
   } 
 }     
 
-.mybrides_offer-title  { 
+.widget_offers_mybrides_offer-title  { 
     word-break: break-all;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-title  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-info .widget_offers_mybrides_offer-title  { 
     font-size: 16px; 
     line-height: 1.3; 
     margin-bottom: 4px; 
@@ -294,11 +294,11 @@
     transition: color .3s;
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-title:hover { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-info .widget_offers_mybrides_offer-title:hover { 
     color: var(--cr-accent-color-mybrides);
 } 
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-rating  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-info .widget_offers_mybrides_offer-rating  { 
     font-size: 14px;
 } 
 
@@ -313,7 +313,7 @@
   } 
 }     
 
-.mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-info .mybrides_offer-rating span  { 
+.widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-info .widget_offers_mybrides_offer-rating span  { 
     font-weight: bold; 
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E'); 
     background-position: right center; 
@@ -322,35 +322,35 @@
 } 
 
 @media (max-width: 940px){
-  .mybrides_widget:last-child  { 
+  .widget_offers_mybrides_widget:last-child  { 
     margin-bottom: 0px;
   } 
 }
 
 @media (max-width: 1100px) {
-    .mybrides_cpm-widget-style-5 .mybrides_review-item .mybrides_offer-logo {
+    .widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item .widget_offers_mybrides_offer-logo {
         display: flex;
         justify-content: center;
     }
-    .mybrides_cpm-widget-style-5 .mybrides_review-item.mybrides_with-logo .mybrides_inner-container {
+    .widget_offers_mybrides_cpm-widget-style-5 .widget_offers_mybrides_review-item.widget_offers_mybrides_with-logo .widget_offers_mybrides_inner-container {
         grid-template-columns: auto;
     }
-    .theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] {
+    .widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8] {
+    .widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_image[_ngcontent-themailorderbride-com-c8] {
         width: 100%;
     }
-    .theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] {
+    .widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] {
         padding: 5px 10px !important;
     }
 }     
 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] { 
     position: -webkit-sticky; 
     position: sticky; 
     top: 15px; 
@@ -363,21 +363,21 @@
     color: #04011c;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_title[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_title[_ngcontent-themailorderbride-com-c8]  { 
     font-size: 20px; 
     font-weight: 700; 
     line-height: 30px; 
     letter-spacing: .5px;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_update[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_update[_ngcontent-themailorderbride-com-c8]  { 
     font-size: 14px; 
     font-weight: 400; 
     line-height: 20px; 
     letter-spacing: .1px;
 } 
 
-.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] { 
+.widget_models_theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] { 
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex; 
@@ -389,11 +389,11 @@
     justify-content: space-between;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8]  { 
     margin-top: 20px;
 } 
 
-.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .theamailorderbride_radio[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_radio[_ngcontent-themailorderbride-com-c8]  { 
     color: #4178f1; 
     font-size: 12px; 
     font-weight: 700; 
@@ -417,16 +417,16 @@
     margin-bottom: 10px;
 } 
 
-.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .theamailorderbride_radio.theamailorderbride_active[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_radio.widget_models_theamailorderbride_active[_ngcontent-themailorderbride-com-c8]  { 
     background: #4178f1; 
     color: #fff;
 } 
 
-.theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .theamailorderbride_radio[_ngcontent-themailorderbride-com-c8] + .theamailorderbride_radio[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_filter[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_radio[_ngcontent-themailorderbride-com-c8] + .widget_models_theamailorderbride_radio[_ngcontent-themailorderbride-com-c8]  { 
     margin-left: 5px;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8]  { 
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex; 
@@ -434,7 +434,7 @@
 } 
 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_image[_ngcontent-themailorderbride-com-c8]  { 
     width: 103px; 
     height: 100%; 
     min-height: 112px; 
@@ -442,7 +442,7 @@
     position: relative;
 } 
 
-.theamailorderbride_info[_ngcontent-themailorderbride-com-c8] { 
+.widget_models_theamailorderbride_info[_ngcontent-themailorderbride-com-c8] { 
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex; 
@@ -455,7 +455,7 @@
     align-items: flex-start;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8] picture.theamailorderbride_header_img[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_image[_ngcontent-themailorderbride-com-c8] picture.widget_models_theamailorderbride_header_img[_ngcontent-themailorderbride-com-c8]  { 
     position: absolute; 
     border-radius: 10px; 
     width: 100%; 
@@ -475,28 +475,28 @@
     z-index: 1;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_name[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_name[_ngcontent-themailorderbride-com-c8]  { 
     font-size: 18px; 
     font-weight: 700; 
     line-height: 30px; 
     letter-spacing: .5px;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_place[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_place[_ngcontent-themailorderbride-com-c8]  { 
     font-size: 14px; 
     font-weight: 400; 
     line-height: 20px; 
     letter-spacing: .1px;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_position[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_position[_ngcontent-themailorderbride-com-c8]  { 
     font-size: 14px; 
     font-weight: 400; 
     line-height: 20px; 
     letter-spacing: .1px;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8]  { 
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex; 
@@ -517,23 +517,25 @@
     margin-top: auto;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8]:hover { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8]:hover { 
     background-color: #d80b48;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_image[_ngcontent-themailorderbride-com-c8] picture.theamailorderbride_header_img[_ngcontent-themailorderbride-com-c8] img[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_image[_ngcontent-themailorderbride-com-c8] picture.widget_models_theamailorderbride_header_img[_ngcontent-themailorderbride-com-c8] img[_ngcontent-themailorderbride-com-c8]  { 
     width: auto; 
     height: 100%;
     object-fit: contain;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] span[_ngcontent-themailorderbride-com-c8]  { 
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] span[_ngcontent-themailorderbride-com-c8]  { 
     margin-left: 10px;
 } 
 
-.theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] span {
+.widget_models_theamailorderbride_snippet_wrapper[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_snippet_girls[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_girl[_ngcontent-themailorderbride-com-c8] .widget_models_theamailorderbride_send_msg[_ngcontent-themailorderbride-com-c8] span {
     font-size: 80% !important;
 }
+
+/* finish styles widget  */
 
 
 
