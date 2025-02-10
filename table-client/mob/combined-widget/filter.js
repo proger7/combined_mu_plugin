@@ -23,4 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
             .catch(error => console.error("Error fetching filtered models:", error));
         });
     });
+
+    if (filters.length > 0) {
+        filters[0].classList.add("theamailorderbride_active");
+        filters[0].click();
+    }
 });
