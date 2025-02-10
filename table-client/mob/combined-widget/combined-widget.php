@@ -108,11 +108,14 @@ function filter_models_ajax() {
     $models = $data['models'];
     $tag = isset($_POST['tag']) ? sanitize_text_field($_POST['tag']) : '';
     $filtered = array_filter($models, fn($model) => $model['Tag'] === $tag);
+    $filtered = array_slice($filtered, 0, 3);
+
     foreach ($filtered as $key => $model) {
         echo render_model_html($key, $model);
     }
     wp_die();
 }
+
 add_action('wp_ajax_filter_models', 'filter_models_ajax');
 add_action('wp_ajax_nopriv_filter_models', 'filter_models_ajax');
 
