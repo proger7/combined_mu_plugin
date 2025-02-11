@@ -26,8 +26,8 @@ function combined_offers_widget($allowed_offers = []) {
         return;
     }
 
-    echo '<div class="widget_offers_mybrides_cpm-widget-style-5">';
-    echo '<div class="widget_offers_mybrides_cr-rating-widget-content">';
+    echo '<div class="a9x3p_cpm-widget-style-5">';
+    echo '<div class="a9x3p_cr-rating-widget-content">';
 
     $rating = 5.0;
     $minRating = 3.8;
@@ -45,17 +45,17 @@ function combined_offers_widget($allowed_offers = []) {
             $rating = max($rating, $minRating);
         }
 
-        echo '<div class="widget_offers_mybrides_review-item widget_offers_mybrides_with-logo">';
-        echo '<div class="widget_offers_mybrides_offer-label"> Best Of The Month </div>';
-        echo '<div class="widget_offers_mybrides_inner-container">';
-        echo '<div class="widget_offers_mybrides_offer-logo widget_offers_mybrides_partner-link">';
-        echo '<img src="' . esc_url($imageSrc) . '" width="72" height="72" class="widget_offers_mybrides_cr-logotype-thumbnail">';
+        echo '<div class="a9x3p_review-item a9x3p_with-logo">';
+        echo '<div class="a9x3p_offer-label"> Best Of The Month </div>';
+        echo '<div class="a9x3p_inner-container">';
+        echo '<div class="a9x3p_offer-logo a9x3p_partner-link">';
+        echo '<img src="' . esc_url($imageSrc) . '" width="72" height="72" class="a9x3p_cr-logotype-thumbnail">';
         echo '</div>';
-        echo '<div class="widget_offers_mybrides_offer-info">';
-        echo '<div class="widget_offers_mybrides_offer-title widget_offers_mybrides_partner-link">' . esc_html($offer['brandName']) . '</div>';
-        echo '<div class="widget_offers_mybrides_offer-rating"> Score: <span>' . number_format($rating, 1) . '/5</span></div>';
+        echo '<div class="a9x3p_offer-info">';
+        echo '<div class="a9x3p_offer-title a9x3p_partner-link">' . esc_html($offer['brandName']) . '</div>';
+        echo '<div class="a9x3p_offer-rating"> Score: <span>' . number_format($rating, 1) . '/5</span></div>';
         echo '</div>';
-        echo '<a href="' . esc_url($offerLinkURL) . '" class="widget_offers_mybrides_cr-btn widget_offers_mybrides_small-rounded widget_offers_mybrides_partner-link">Visit</a>';
+        echo '<a href="' . esc_url($offerLinkURL) . '" class="a9x3p_cr-btn a9x3p_small-rounded a9x3p_partner-link">Visit</a>';
         echo '</div>';
         echo '</div>';
     }
@@ -70,15 +70,15 @@ function combined_profiles_widget() {
     $models = $data['models'];
     $tags = array_unique(array_column($models, 'Tag'));
 
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_snippet_wrapper">';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_snippet_title">TOP RATED PROFILES</div>';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_snippet_filter">';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_filter">';
+    echo '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_snippet_wrapper">';
+    echo '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_snippet_title">TOP RATED PROFILES</div>';
+    echo '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_snippet_filter">';
+    echo '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_filter">';
     foreach ($tags as $tag) {
-        echo '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_radio" data-tag="' . esc_attr($tag) . '">' . esc_html($tag) . '</div>';
+        echo '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_radio" data-tag="' . esc_attr($tag) . '">' . esc_html($tag) . '</div>';
     }
     echo '</div>';
-    echo '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_snippet_girls" id="filtered-models">';
+    echo '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_snippet_girls" id="filtered-models">';
     foreach ($models as $key => $model) {
         echo render_model_html($key, $model);
     }
@@ -90,17 +90,17 @@ function combined_profiles_widget() {
 function render_model_html($key, $model) {
     $imageUrl = "https://cdn.cdndating.net/images/models/{$key}1.png";
     $profileLink = site_url() . "/profile.php?name=" . urlencode($key) . "&tag=" . urlencode($model['Tag']);
-    return '<div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_girl" data-tag="' . esc_attr($model['Tag']) . '">
-                <div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_image">
-                    <picture _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_header_img">
+    return '<div _ngcontent-themailorderbride-com-c8="" class="g1r5y_girl" data-tag="' . esc_attr($model['Tag']) . '">
+                <div _ngcontent-themailorderbride-com-c8="" class="g1r5y_image">
+                    <picture _ngcontent-themailorderbride-com-c8="" class="g1r5y_header_img">
                         <img _ngcontent-themailorderbride-com-c8="" alt="' . esc_attr($model['Name']) . '" src="' . esc_url($imageUrl) . '" class="ng-lazyloaded">
                     </picture>
                 </div>
-                <div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_info">
-                    <div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_name">' . esc_html($model['Name']) . '</div>
-                    <div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_place">' . esc_html($model['Location']) . '</div>
-                    <div _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_position">' . esc_html($model['Occupation']) . ', ' . esc_html($model['Age']) . '</div>
-                    <a _ngcontent-themailorderbride-com-c8="" class="widget_models_theamailorderbride_send_msg" href="' . esc_url($profileLink) . '">Send Message</a>
+                <div _ngcontent-themailorderbride-com-c8="" class="g1r5y_info">
+                    <div _ngcontent-themailorderbride-com-c8="" class="g1r5y_name">' . esc_html($model['Name']) . '</div>
+                    <div _ngcontent-themailorderbride-com-c8="" class="g1r5y_place">' . esc_html($model['Location']) . '</div>
+                    <div _ngcontent-themailorderbride-com-c8="" class="g1r5y_position">' . esc_html($model['Occupation']) . ', ' . esc_html($model['Age']) . '</div>
+                    <a _ngcontent-themailorderbride-com-c8="" class="g1r5y_send_msg" href="' . esc_url($profileLink) . '">Send Message</a>
                 </div>
             </div>';
 }
