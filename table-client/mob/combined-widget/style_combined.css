@@ -539,21 +539,21 @@
 
 
 
-.aimojo_st_comparison-wrapper { 
+.wGuu8hjkhgjj_comparison-wrapper { 
     justify-content: center;
 } 
 
-.aimojo_st_comparison-wrapper  { 
+.wGuu8hjkhgjj_comparison-wrapper  { 
     display: flex; 
     flex: 1; 
     width: 100%;
 } 
 
-.aimojo_st_comparison-wrapper  { 
+.wGuu8hjkhgjj_comparison-wrapper  { 
     gap: 10px;
 } 
 
-.aimojo_st_comparison-wrapper  { 
+.wGuu8hjkhgjj_comparison-wrapper  { 
     font-size: 14px;
 } 
 
@@ -572,7 +572,7 @@
   } 
 }     
 
-.aimojo_st_comparison-item { 
+.wGuu8hjkhgjj_comparison-item { 
     flex: 1 0 0; 
     position: relative; 
     padding-top: 0; 
@@ -583,38 +583,38 @@
 } 
    
 
-.aimojo_st_comparison-item  { 
+.wGuu8hjkhgjj_comparison-item  { 
     margin-top: 49px;
 } 
 
-.aimojo_st_comparison-item:first-child  { 
+.wGuu8hjkhgjj_comparison-item:first-child  { 
     border-left: 1px solid rgba(206,206,206,.5);
 } 
 
-.aimojo_st_comparison-item  { 
+.wGuu8hjkhgjj_comparison-item  { 
     max-width: 350px !important; 
     border: 2px solid #e5e5e5d1;
 } 
 
-.aimojo_st_comparison-item  { 
+.wGuu8hjkhgjj_comparison-item  { 
     background: #ffffff; 
     color: #333333;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-header  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-header  { 
     padding: 0 15px 25px; 
     text-align: center; 
     position: relative;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-row-description  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-row-description  { 
     border-top: 1px solid rgba(206,206,206,.5); 
     padding: 15px; 
     font-size: inherit; 
     line-height: 1.3;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-badge  { 
     text-align: center; 
     font-weight: 600; 
     text-transform: uppercase; 
@@ -622,7 +622,7 @@
     line-height: 18px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-badge  { 
     text-decoration: none; 
     position: absolute; 
     top: -50px; 
@@ -639,13 +639,13 @@
     justify-content: center;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-badge  { 
     padding: 16px; 
     background-color: #7635f3; 
     border-radius: 8px 8px 0 0;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image  { 
     padding-top: 25px; 
     display: table; 
     width: 100%; 
@@ -654,7 +654,7 @@
     margin-bottom: 25px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image  { 
     padding-top: 0px; 
     display: table; 
     width: 100%; 
@@ -663,7 +663,7 @@
     margin-bottom: 25px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-title  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-title  { 
     margin-top: 0; 
     margin-bottom: 0; 
     font-weight: 600; 
@@ -672,7 +672,7 @@
     text-decoration: none;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-rating  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-rating  { 
     margin-bottom: 15px; 
     margin-left: auto!important; 
     margin-right: auto!important;
@@ -702,22 +702,22 @@ a {
 } 
 
 @media all{ 
-  .aimojo_st_space-page-content a { 
+  .wGuu8hjkhgjj_space-page-content a { 
     color: #ff2453; 
     text-decoration: underline;
   } 
 }     
 
-.aimojo_st_space-page-content a { 
+.wGuu8hjkhgjj_space-page-content a { 
     color: #ff3535;
 } 
 
-.aimojo_st_space-page-content a { 
+.wGuu8hjkhgjj_space-page-content a { 
     text-decoration: none; 
     font-weight: 600;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_gss-item-btn  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_gss-item-btn  { 
     font-size: 16px; 
     line-height: 1; 
     padding: 12px 25px; 
@@ -734,7 +734,7 @@ a {
     border-radius: 4px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-header > :last-child  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-header > :last-child  { 
     margin: 0;
 } 
 
@@ -743,30 +743,30 @@ a {
     text-decoration: none;
   } 
 
-  .aimojo_st_space-page-content a:hover { 
+  .wGuu8hjkhgjj_space-page-content a:hover { 
     color: #be2edd;
   } 
 }     
 
- .aimojo_st_space-page-content a:hover { 
+ .wGuu8hjkhgjj_space-page-content a:hover { 
     color: #302b63;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_gss-item-btn:hover { 
     box-shadow: -1px 6px 13px rgba(0,0,0,.4)!important;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_gss-item-btn:hover { 
     background: #fcd43e !important; 
     transform: scale(1.05); 
     transition: all 0.3s ease-in-out;
 } 
 
-.aimojo_st_item-row-title  { 
+.wGuu8hjkhgjj_item-row-title  { 
     display: none!important;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-row-description .aimojo_st_item-row-title  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-row-description .wGuu8hjkhgjj_item-row-title  { 
     display: none; 
     margin: -15px -15px 15px; 
     padding: 7px 15px; 
@@ -778,16 +778,16 @@ a {
 } 
 
 @media all{ 
-   .aimojo_st_space-page-content a:hover { 
+   .wGuu8hjkhgjj_space-page-content a:hover { 
     color: #be2edd;
   } 
 }     
 
-.aimojo_st_has-mercury-main-color, .aimojo_st_home-page .aimojo_st_textwidget a:hover, .aimojo_st_space-header-2-top-soc a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-page-content a:hover, .aimojo_st_space-pros-cons ul li a:hover, .aimojo_st_space-pros-cons ol li a:hover, .aimojo_st_space-companies-2-archive-item-desc a:hover, .aimojo_st_space-organizations-3-archive-item-terms-ins a:hover, .aimojo_st_space-organizations-7-archive-item-terms a:hover, .aimojo_st_space-organizations-8-archive-item-terms a:hover, .aimojo_st_space-comments-form-box p.aimojo_st_comment-notes span.aimojo_st_required, form.aimojo_st_comment-form p.aimojo_st_comment-notes span.aimojo_st_required { 
+.wGuu8hjkhgjj_has-mercury-main-color, .wGuu8hjkhgjj_home-page .wGuu8hjkhgjj_textwidget a:hover, .wGuu8hjkhgjj_space-header-2-top-soc a:hover, .wGuu8hjkhgjj_space-header-menu ul.wGuu8hjkhgjj_main-menu li a:hover, .wGuu8hjkhgjj_space-header-menu ul.wGuu8hjkhgjj_main-menu li:hover a, .wGuu8hjkhgjj_space-header-2-nav ul.wGuu8hjkhgjj_main-menu li a:hover, .wGuu8hjkhgjj_space-header-2-nav ul.wGuu8hjkhgjj_main-menu li:hover a, .wGuu8hjkhgjj_space-page-content a:hover, .wGuu8hjkhgjj_space-pros-cons ul li a:hover, .wGuu8hjkhgjj_space-pros-cons ol li a:hover, .wGuu8hjkhgjj_space-companies-2-archive-item-desc a:hover, .wGuu8hjkhgjj_space-organizations-3-archive-item-terms-ins a:hover, .wGuu8hjkhgjj_space-organizations-7-archive-item-terms a:hover, .wGuu8hjkhgjj_space-organizations-8-archive-item-terms a:hover, .wGuu8hjkhgjj_space-comments-form-box p.wGuu8hjkhgjj_comment-notes span.wGuu8hjkhgjj_required, form.wGuu8hjkhgjj_comment-form p.wGuu8hjkhgjj_comment-notes span.wGuu8hjkhgjj_required { 
     color: #302b63;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image  { 
     display: table-cell; 
     vertical-align: middle; 
     width: 100%; 
@@ -804,7 +804,7 @@ a {
   } 
 }     
 
-.aimojo_st_comparison-item .aimojo_st_item-rating .aimojo_st_item-stars-rating  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-rating .wGuu8hjkhgjj_item-stars-rating  { 
     display: flex; 
     justify-content: center; 
     overflow: hidden; 
@@ -831,16 +831,16 @@ a {
     -webkit-backface-visibility: hidden;
   } 
 
-  .aimojo_st_space-content-section img { 
+  .wGuu8hjkhgjj_space-content-section img { 
     border-radius: 5px;
   } 
 
-  .aimojo_st_space-page-content img { 
+  .wGuu8hjkhgjj_space-page-content img { 
     border-radius: 5px!important;
   } 
 }     
 
-.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image img  { 
     max-height: 160px; 
     width: auto!important; 
     height: auto!important; 
@@ -849,7 +849,7 @@ a {
     max-width: 100%!important;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image img  { 
     width: 100% !important; 
     height: 129px !important; 
     object-fit: contain !important; 
@@ -860,95 +860,95 @@ a {
 } 
 
 
-#style-kAalw.aimojo_st_style-kAalw {  
+#style-kAalw.wGuu8hjkhgjj_style-kAalw {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-G5y2m.aimojo_st_style-G5y2m {  
+#style-G5y2m.wGuu8hjkhgjj_style-G5y2m {  
    background-color: #7635f3;  
 }  
-#style-yNlxo.aimojo_st_style-yNlxo {  
+#style-yNlxo.wGuu8hjkhgjj_style-yNlxo {  
    font-size: 18px;  
 }  
-#style-PMQL4.aimojo_st_style-PMQL4 {  
+#style-PMQL4.wGuu8hjkhgjj_style-PMQL4 {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-htejV.aimojo_st_style-htejV {  
+#style-htejV.wGuu8hjkhgjj_style-htejV {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-VOKMq.aimojo_st_style-VOKMq {  
+#style-VOKMq.wGuu8hjkhgjj_style-VOKMq {  
    background-color: #000000;  
 }  
-#style-nVqXU.aimojo_st_style-nVqXU {  
+#style-nVqXU.wGuu8hjkhgjj_style-nVqXU {  
    font-size: 18px;  
 }  
-#style-3BRVH.aimojo_st_style-3BRVH {  
+#style-3BRVH.wGuu8hjkhgjj_style-3BRVH {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-c9b7C.aimojo_st_style-c9b7C {  
+#style-c9b7C.wGuu8hjkhgjj_style-c9b7C {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-oHZNZ.aimojo_st_style-oHZNZ {  
+#style-oHZNZ.wGuu8hjkhgjj_style-oHZNZ {  
    background-color: #7635f3;  
 }  
-#style-eMdS2.aimojo_st_style-eMdS2 {  
+#style-eMdS2.wGuu8hjkhgjj_style-eMdS2 {  
    font-size: 18px;  
 }  
-#style-QSNhh.aimojo_st_style-QSNhh {  
+#style-QSNhh.wGuu8hjkhgjj_style-QSNhh {  
    min-height: auto;  
     height: 104px;  
 }  
 
-#style-9KM7g.aimojo_st_style-9KM7g {  
+#style-9KM7g.wGuu8hjkhgjj_style-9KM7g {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-o1fJI.aimojo_st_style-o1fJI {  
+#style-o1fJI.wGuu8hjkhgjj_style-o1fJI {  
    background-color: #7635f3;  
 }  
-#style-iXbas.aimojo_st_style-iXbas {  
+#style-iXbas.wGuu8hjkhgjj_style-iXbas {  
    font-size: 18px;  
 }  
-#style-h7PD1.aimojo_st_style-h7PD1 {  
+#style-h7PD1.wGuu8hjkhgjj_style-h7PD1 {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-ftcRh.aimojo_st_style-ftcRh {  
+#style-ftcRh.wGuu8hjkhgjj_style-ftcRh {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-GDvU3.aimojo_st_style-GDvU3 {  
+#style-GDvU3.wGuu8hjkhgjj_style-GDvU3 {  
    background-color: #000000;  
 }  
-#style-AXPiR.aimojo_st_style-AXPiR {  
+#style-AXPiR.wGuu8hjkhgjj_style-AXPiR {  
    font-size: 18px;  
 }  
-#style-EAGTY.aimojo_st_style-EAGTY {  
+#style-EAGTY.wGuu8hjkhgjj_style-EAGTY {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-zCkoP.aimojo_st_style-zCkoP {  
+#style-zCkoP.wGuu8hjkhgjj_style-zCkoP {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-5PA2C.aimojo_st_style-5PA2C {  
+#style-5PA2C.wGuu8hjkhgjj_style-5PA2C {  
    background-color: #7635f3;  
 }  
-#style-Oolhi.aimojo_st_style-Oolhi {  
+#style-Oolhi.wGuu8hjkhgjj_style-Oolhi {  
    font-size: 18px;  
 }  
-#style-f2QKw.aimojo_st_style-f2QKw {  
+#style-f2QKw.wGuu8hjkhgjj_style-f2QKw {  
    min-height: auto;  
     height: 104px;  
 }  
 
 @media (max-width: 650px) {
-    .aimojo_st_comparison-wrapper,
-    .aimojo_st_comparison-item {
+    .wGuu8hjkhgjj_comparison-wrapper,
+    .wGuu8hjkhgjj_comparison-item {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -959,13 +959,13 @@ a {
 
 
 
-.aimojo_st_comparison-wrapper {
+.wGuu8hjkhgjj_comparison-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-between;
 }
-.aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+.wGuu8hjkhgjj_comparison-wrapper .wGuu8hjkhgjj_comparison-item {
     flex: 0 1 calc(var(--item-width) - 16px) !important;
     max-width: calc(var(--item-width) - 16px) !important;
     display: flex;
@@ -975,17 +975,17 @@ a {
 }
 
 @media (max-width: 992px) {
-    .aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img {
+    .wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image img {
         width: 75% !important;
     }
-    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+    .wGuu8hjkhgjj_comparison-wrapper .wGuu8hjkhgjj_comparison-item {
         flex: 0 1 calc(50% - 16px) !important;
         max-width: calc(50% - 16px) !important;
     }
 }
 
 @media (max-width: 480px) {
-    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+    .wGuu8hjkhgjj_comparison-wrapper .wGuu8hjkhgjj_comparison-item {
         flex: 0 1 100% !important;
         max-width: 100% !important;
     }
@@ -1554,11 +1554,11 @@ a {
     --ct-content-link-color-inspirationalwomenseries: #f86d6c; 
 } 
 
-.insp_woman_review-item  { 
+.jUfg678Gghhhtg_review-item  { 
     background: #fff;
 } 
 
-.insp_woman_review-item  { 
+.jUfg678Gghhhtg_review-item  { 
     align-items: center; 
     background: #fff; 
     box-shadow: 0 6px 20px rgba(148,160,178,.2); 
@@ -1571,11 +1571,11 @@ a {
     gap: 10%;
 } 
 
-.insp_woman_review-item.insp_woman_has-review  { 
+.jUfg678Gghhhtg_review-item.jUfg678Gghhhtg_has-review  { 
     gap: 4%;
 } 
 
-.insp_woman_review-item:hover  { 
+.jUfg678Gghhhtg_review-item:hover  { 
     box-shadow: 0 8px 36px rgba(0,0,0,.24);
 } 
 
@@ -1590,25 +1590,25 @@ a {
   } 
 }     
 
-.insp_woman_review-logo  { 
+.jUfg678Gghhhtg_review-logo  { 
     flex: 1 1 auto; 
     font-size: 18px; 
     line-height: 22px; 
     font-weight: bold;
 } 
 
-.insp_woman_cr-rating-stars { 
+.jUfg678Gghhhtg_cr-rating-stars { 
     position: relative; 
     width: 98px; 
     height: 17px; 
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
 } 
 
-.insp_woman_cr-rating-stars  { 
+.jUfg678Gghhhtg_cr-rating-stars  { 
     flex: 0 0 98px;
 } 
 
-.insp_woman_cr-rating-number  { 
+.jUfg678Gghhhtg_cr-rating-number  { 
     flex: 0 0 52px; 
     text-align: center; 
     font-size: 34px; 
@@ -1623,7 +1623,7 @@ a {
   } 
 }     
 
-.insp_woman_cr-btn { 
+.jUfg678Gghhhtg_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -1643,12 +1643,12 @@ a {
     outline: unset;
 } 
 
-.insp_woman_cr-rating-table a { 
+.jUfg678Gghhhtg_cr-rating-table a { 
     text-decoration: none;
 } 
 
 @media all{ 
-  .insp_woman_ct-section-content .insp_woman_ct-content a { 
+  .jUfg678Gghhhtg_ct-section-content .jUfg678Gghhhtg_ct-content a { 
     color: var(--ct-content-link-color-inspirationalwomenseries); 
     text-decoration: underline; 
     text-decoration-color: rgba(0,0,0,0); 
@@ -1656,30 +1656,30 @@ a {
   } 
 }     
 
-.insp_woman_read-review-link  { 
+.jUfg678Gghhhtg_read-review-link  { 
     display: flex; 
     background: none; 
     text-transform: none;
 } 
 
-.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link::after { 
+.jUfg678Gghhhtg_cr-table-style-14 .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_read-review-link::after { 
     display: block; 
     padding-left: 5px; 
     content: "\2192"; 
     transition: transform .24s ease-in-out;
 } 
 
-.insp_woman_cr-btn:hover { 
+.jUfg678Gghhhtg_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-inspirationalwomenseries), 0.75);
 } 
 
 @media all{ 
-  .insp_woman_ct-section-content .insp_woman_ct-content a:hover { 
+  .jUfg678Gghhhtg_ct-section-content .jUfg678Gghhhtg_ct-content a:hover { 
     text-decoration-color: var(--ct-content-link-color-inspirationalwomenseries);
   } 
 }     
 
-.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link:hover::after { 
+.jUfg678Gghhhtg_cr-table-style-14 .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_read-review-link:hover::after { 
     transform: translateX(10px);
 } 
 
@@ -1689,7 +1689,7 @@ a {
   } 
 }     
 
-.insp_woman_partner-link { 
+.jUfg678Gghhhtg_partner-link { 
     cursor: pointer;
 } 
 
@@ -1707,34 +1707,34 @@ a {
     max-width: 100%;
   } 
 
-  figure:not(.insp_woman_wp-block-image)  { 
+  figure:not(.jUfg678Gghhhtg_wp-block-image)  { 
     width: auto !important;
   } 
 }     
 
-.insp_woman_review-logo figure  { 
+.jUfg678Gghhhtg_review-logo figure  { 
     position: relative; 
     overflow: hidden; 
     margin: 0 !important;
 } 
 
-div.insp_woman_review-item > div.insp_woman_review-logo > figure  { 
+div.jUfg678Gghhhtg_review-item > div.jUfg678Gghhhtg_review-logo > figure  { 
     margin: 0;
 } 
 
 @media all{ 
-  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed):not(.insp_woman_aligncenter)  { 
+  figure:not(.jUfg678Gghhhtg_wp-block-media-text__media):not(.jUfg678Gghhhtg_wp-block-embed):not(.jUfg678Gghhhtg_aligncenter)  { 
     margin: 0 15px 30px;
   } 
 }     
 
-.insp_woman_partner-link:not(.insp_woman_offer-title):not(.insp_woman_offer-logo):not(.insp_woman_offer-premium):not(.insp_woman_offer-site):not(.insp_woman_logo):not(.insp_woman_cr-offer-logo):not(.insp_woman_offer-title-col):not(.insp_woman_offer-name):not(.insp_woman_review-title):not(.insp_woman_review-promotion):not(.insp_woman_offer-thumb-title):not(.insp_woman_offer-rating):not(.insp_woman_cr-btn) { 
+.jUfg678Gghhhtg_partner-link:not(.jUfg678Gghhhtg_offer-title):not(.jUfg678Gghhhtg_offer-logo):not(.jUfg678Gghhhtg_offer-premium):not(.jUfg678Gghhhtg_offer-site):not(.jUfg678Gghhhtg_logo):not(.jUfg678Gghhhtg_cr-offer-logo):not(.jUfg678Gghhhtg_offer-title-col):not(.jUfg678Gghhhtg_offer-name):not(.jUfg678Gghhhtg_review-title):not(.jUfg678Gghhhtg_review-promotion):not(.jUfg678Gghhhtg_offer-thumb-title):not(.jUfg678Gghhhtg_offer-rating):not(.jUfg678Gghhhtg_cr-btn) { 
     color: var(--cr-accent-color-inspirationalwomenseries); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.insp_woman_cr-rating-stars .insp_woman_fill  { 
+.jUfg678Gghhhtg_cr-rating-stars .jUfg678Gghhhtg_fill  { 
     position: absolute; 
     height: 100%; 
     top: 0; 
@@ -1748,25 +1748,25 @@ div.insp_woman_review-item > div.insp_woman_review-logo > figure  {
     height: auto;
   } 
 
-  .insp_woman_lazyloaded { 
+  .jUfg678Gghhhtg_lazyloaded { 
     opacity: 1; 
     transition: opacity .3s;
   } 
 }     
 
-.insp_woman_cr-rating-table img { 
+.jUfg678Gghhhtg_cr-rating-table img { 
     max-width: 100%; 
     height: auto;
 } 
 
-.insp_woman_review-logo figure img  { 
+.jUfg678Gghhhtg_review-logo figure img  { 
     display: block; 
     width: 120px; 
     z-index: 2;
 } 
 
 @media all{ 
-  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img  { 
+  figure:not(.jUfg678Gghhhtg_wp-block-media-text__media):not(.jUfg678Gghhhtg_wp-block-embed) img  { 
     max-width: 100%; 
     height: 40px; 
     object-fit: contain;
@@ -1787,7 +1787,7 @@ figcaption {
     text-align: center;
 } 
 
-.insp_woman_review-logo figure figcaption  { 
+.jUfg678Gghhhtg_review-logo figure figcaption  { 
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -1798,22 +1798,22 @@ figcaption {
 
 
 @media (max-width: 650px) {
-    .insp_woman_cr-btn {
+    .jUfg678Gghhhtg_cr-btn {
         min-width: unset !important;
         display: flex !important;
         flex: 0 0 50% !important;
         justify-content: center !important;
         margin-top: 11px !important;
     }
-    .insp_woman_review-item {
+    .jUfg678Gghhhtg_review-item {
         padding: 10px !important;
         flex-wrap: wrap;
         justify-content: center;
     }
-    figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img {
+    figure:not(.jUfg678Gghhhtg_wp-block-media-text__media):not(.jUfg678Gghhhtg_wp-block-embed) img {
         max-width: none !important;
     }
-    .insp_woman_review-logo {
+    .jUfg678Gghhhtg_review-logo {
         display: flex !important;
         justify-content: center !important;
         flex: 1 1 100% !important;
@@ -1822,7 +1822,7 @@ figcaption {
 
 
 @media (max-width: 650px) {
-    .insp_woman_review-item {
+    .jUfg678Gghhhtg_review-item {
         padding: 20px 10px 10px;
         border: 2px solid #ddd;
         border-radius: 10px;
@@ -1832,18 +1832,18 @@ figcaption {
         text-align: center;
     }
 
-    .insp_woman_review-item img {
+    .jUfg678Gghhhtg_review-item img {
         margin-bottom: 10px;
         border-radius: 8px;
 }
 
-    .insp_woman_review-item .insp_woman_cr-rating-stars {
+    .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_cr-rating-stars {
         margin-top: 10px;
         font-size: 14px;
         color: #666;
     }
 
-    .insp_woman_review-item .insp_woman_cr-btn {
+    .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_cr-btn {
         margin-top: 15px;
         background-color: #ff5722;
         color: #fff;
@@ -1853,7 +1853,7 @@ figcaption {
         text-transform: uppercase;
     }
 
-    .insp_woman_review-item .insp_woman_cr-btn:hover {
+    .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_cr-btn:hover {
         background-color: #e64a19;
         color: #fff;
     }
@@ -1874,30 +1874,30 @@ figcaption {
     --cr-fixed-bar-link-color-sdx: #9c84ce;
 } 
 
-.wp_shortcode-toplist_cr-rating-table { 
+.оГЕр5оргпг9ор_cr-rating-table { 
     text-align: left; 
     font-style: normal; 
     box-sizing: border-box;
 } 
 
-.wp_shortcode-toplist_cr-table-style-15 { 
+.оГЕр5оргпг9ор_cr-table-style-15 { 
     margin: 75px 0 !important;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 { 
+  .оГЕр5оргпг9ор_cr-table-style-15 { 
     width: 100%; 
     max-width: 1170px; 
     margin: 20px auto;
   } 
 }     
 
-.wp_shortcode-toplist_cr-rating-table *  { 
+.оГЕр5оргпг9ор_cr-rating-table *  { 
     box-sizing: border-box;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head  { 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -1905,12 +1905,12 @@ figcaption {
     margin-bottom: 3px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper  { 
     flex: 1 0 auto; 
     padding-bottom: 8px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated  { 
     display: flex; 
     align-items: center; 
     justify-content: flex-start; 
@@ -1921,22 +1921,22 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-toplist_cpm-advertiser-disclosure { 
+.оГЕр5оргпг9ор_cpm-advertiser-disclosure { 
     text-align: right; 
     font-weight: normal; 
     padding-bottom: 8px;
 } 
 
-.wp_shortcode-toplist_cr-rating-table .wp_shortcode-toplist_review-item  { 
+.оГЕр5оргпг9ор_cr-rating-table .оГЕр5оргпг9ор_review-item  { 
     background: #fff;
 } 
 
-.wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+.оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item  { 
     border-radius: 10px !important;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item  { 
     display: flex; 
     position: relative; 
     justify-content: space-between; 
@@ -1951,7 +1951,7 @@ figcaption {
     overflow: hidden;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper .оГЕр5оргпг9ор_review-visitors  { 
     position: relative; 
     padding: 5px 8px; 
     color: #fff; 
@@ -1960,7 +1960,7 @@ figcaption {
     font-size: 14px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors::after { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper .оГЕр5оргпг9ор_review-visitors::after { 
     content: ""; 
     display: block; 
     position: absolute; 
@@ -1973,12 +1973,12 @@ figcaption {
     border-top: 10px solid var(--cr-accent-color-sdx);
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated svg  { 
     flex: 1 0 auto;
   } 
 }     
 
-.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+.оГЕр5оргпг9ор_cpm-advertiser-disclosure .оГЕр5оргпг9ор_cpm-ajax-info-btn  { 
     font-size: 12px; 
     line-height: 16px; 
     letter-spacing: normal; 
@@ -1995,38 +1995,38 @@ figcaption {
     cursor: pointer;
 } 
 
-.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+.оГЕр5оргпг9ор_cpm-advertiser-disclosure .оГЕр5оргпг9ор_cpm-ajax-info-btn  { 
     color: #A83434;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-site-label  { 
     display: none;
   } 
 }     
 
-.wp_shortcode-toplist_partner-link { 
+.оГЕр5оргпг9ор_partner-link { 
     cursor: pointer;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo  { 
     flex: 0 0 20%;
   } 
 }     
 
-.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn) { 
+.оГЕр5оргпг9ор_partner-link:not(.оГЕр5оргпг9ор_offer-title):not(.оГЕр5оргпг9ор_offer-logo):not(.оГЕр5оргпг9ор_offer-premium):not(.оГЕр5оргпг9ор_offer-site):not(.оГЕр5оргпг9ор_logo):not(.оГЕр5оргпг9ор_cr-offer-logo):not(.оГЕр5оргпг9ор_offer-title-col):not(.оГЕр5оргпг9ор_offer-name):not(.оГЕр5оргпг9ор_review-title):not(.оГЕр5оргпг9ор_review-promotion):not(.оГЕр5оргпг9ор_offer-thumb-title):not(.оГЕр5оргпг9ор_offer-rating):not(.оГЕр5оргпг9ор_cr-btn) { 
     color: var(--cr-accent-color-sdx); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn):hover { 
+.оГЕр5оргпг9ор_partner-link:not(.оГЕр5оргпг9ор_offer-title):not(.оГЕр5оргпг9ор_offer-logo):not(.оГЕр5оргпг9ор_offer-premium):not(.оГЕр5оргпг9ор_offer-site):not(.оГЕр5оргпг9ор_logo):not(.оГЕр5оргпг9ор_cr-offer-logo):not(.оГЕр5оргпг9ор_offer-title-col):not(.оГЕр5оргпг9ор_offer-name):not(.оГЕр5оргпг9ор_review-title):not(.оГЕр5оргпг9ор_review-promotion):not(.оГЕр5оргпг9ор_offer-thumb-title):not(.оГЕр5оргпг9ор_offer-rating):not(.оГЕр5оргпг9ор_cr-btn):hover { 
     text-decoration: underline;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_inner-container  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_inner-container  { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -2035,7 +2035,7 @@ figcaption {
     min-height: 100px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-description  { 
     flex: 1 1 auto; 
     align-items: center; 
     padding: 10px 15px; 
@@ -2043,20 +2043,20 @@ figcaption {
     line-height: 1.4;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-rating  { 
     flex: 0 0 20%; 
     flex-direction: column; 
     gap: 10px; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score  { 
     flex: 0 0 120px; 
     flex-direction: column; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons  { 
     flex: 0 0 150px; 
     display: flex; 
     flex-direction: column; 
@@ -2064,7 +2064,7 @@ figcaption {
     gap: 10px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors svg  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper .оГЕр5оргпг9ор_review-visitors svg  { 
     margin-left: 5px;
   } 
 }     
@@ -2081,13 +2081,13 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-toplist_cr-rating-table img  { 
+.оГЕр5оргпг9ор_cr-rating-table img  { 
     max-width: 100%; 
     height: auto;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo img  { 
     display: block; 
     height: auto; 
     max-height: 100px; 
@@ -2095,30 +2095,30 @@ figcaption {
     transition: opacity .3s;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo .wp_shortcode-toplist_cr-logotype-logo  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo .оГЕр5оргпг9ор_cr-logotype-logo  { 
     object-fit: contain;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img:hover { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo img:hover { 
     opacity: .6;
   } 
 }     
 
 @media all{ 
-  .wp_shortcode-toplist_lt-content p { 
+  .оГЕр5оргпг9ор_lt-content p { 
     font-size: 15px; 
     line-height: 25px; 
     margin-bottom: 16px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description p  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-description p  { 
     margin: 0; 
     font-size: 14px; 
     line-height: 1.5;
   } 
 }     
 
-.wp_shortcode-toplist_cr-rating-stars { 
+.оГЕр5оргпг9ор_cr-rating-stars { 
     position: relative; 
     width: 98px; 
     height: 17px; 
@@ -2126,7 +2126,7 @@ figcaption {
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item  { 
     display: flex; 
     position: relative; 
     justify-content: space-between; 
@@ -2141,7 +2141,7 @@ figcaption {
     overflow: hidden;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper .оГЕр5оргпг9ор_review-visitors  { 
     position: relative; 
     padding: 5px 8px; 
     color: #fff; 
@@ -2150,7 +2150,7 @@ figcaption {
     font-size: 14px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors::after { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper .оГЕр5оргпг9ор_review-visitors::after { 
     content: ""; 
     display: block; 
     position: absolute; 
@@ -2163,12 +2163,12 @@ figcaption {
     border-top: 10px solid var(--cr-accent-color-sdx);
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated svg  { 
     flex: 1 0 auto;
   } 
 }     
 
-.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+.оГЕр5оргпг9ор_cpm-advertiser-disclosure .оГЕр5оргпг9ор_cpm-ajax-info-btn  { 
     font-size: 12px; 
     line-height: 16px; 
     letter-spacing: normal; 
@@ -2185,38 +2185,38 @@ figcaption {
     cursor: pointer;
 } 
 
-.wp_shortcode-toplist_cpm-advertiser-disclosure .wp_shortcode-toplist_cpm-ajax-info-btn  { 
+.оГЕр5оргпг9ор_cpm-advertiser-disclosure .оГЕр5оргпг9ор_cpm-ajax-info-btn  { 
     color: #A83434;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-site-label  { 
     display: none;
   } 
 }     
 
-.wp_shortcode-toplist_partner-link { 
+.оГЕр5оргпг9ор_partner-link { 
     cursor: pointer;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo  { 
     flex: 0 0 20%;
   } 
 }     
 
-.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn) { 
+.оГЕр5оргпг9ор_partner-link:not(.оГЕр5оргпг9ор_offer-title):not(.оГЕр5оргпг9ор_offer-logo):not(.оГЕр5оргпг9ор_offer-premium):not(.оГЕр5оргпг9ор_offer-site):not(.оГЕр5оргпг9ор_logo):not(.оГЕр5оргпг9ор_cr-offer-logo):not(.оГЕр5оргпг9ор_offer-title-col):not(.оГЕр5оргпг9ор_offer-name):not(.оГЕр5оргпг9ор_review-title):not(.оГЕр5оргпг9ор_review-promotion):not(.оГЕр5оргпг9ор_offer-thumb-title):not(.оГЕр5оргпг9ор_offer-rating):not(.оГЕр5оргпг9ор_cr-btn) { 
     color: var(--cr-accent-color-sdx); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.wp_shortcode-toplist_partner-link:not(.wp_shortcode-toplist_offer-title):not(.wp_shortcode-toplist_offer-logo):not(.wp_shortcode-toplist_offer-premium):not(.wp_shortcode-toplist_offer-site):not(.wp_shortcode-toplist_logo):not(.wp_shortcode-toplist_cr-offer-logo):not(.wp_shortcode-toplist_offer-title-col):not(.wp_shortcode-toplist_offer-name):not(.wp_shortcode-toplist_review-title):not(.wp_shortcode-toplist_review-promotion):not(.wp_shortcode-toplist_offer-thumb-title):not(.wp_shortcode-toplist_offer-rating):not(.wp_shortcode-toplist_cr-btn):hover { 
+.оГЕр5оргпг9ор_partner-link:not(.оГЕр5оргпг9ор_offer-title):not(.оГЕр5оргпг9ор_offer-logo):not(.оГЕр5оргпг9ор_offer-premium):not(.оГЕр5оргпг9ор_offer-site):not(.оГЕр5оргпг9ор_logo):not(.оГЕр5оргпг9ор_cr-offer-logo):not(.оГЕр5оргпг9ор_offer-title-col):not(.оГЕр5оргпг9ор_offer-name):not(.оГЕр5оргпг9ор_review-title):not(.оГЕр5оргпг9ор_review-promotion):not(.оГЕр5оргпг9ор_offer-thumb-title):not(.оГЕр5оргпг9ор_offer-rating):not(.оГЕр5оргпг9ор_cr-btn):hover { 
     text-decoration: underline;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_inner-container  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_inner-container  { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -2225,7 +2225,7 @@ figcaption {
     min-height: 100px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-description  { 
     flex: 1 1 auto; 
     align-items: center; 
     padding: 10px 15px; 
@@ -2233,20 +2233,20 @@ figcaption {
     line-height: 1.4;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-rating  { 
     flex: 0 0 20%; 
     flex-direction: column; 
     gap: 10px; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score  { 
     flex: 0 0 120px; 
     flex-direction: column; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons  { 
     flex: 0 0 150px; 
     display: flex; 
     flex-direction: column; 
@@ -2254,7 +2254,7 @@ figcaption {
     gap: 10px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper .wp_shortcode-toplist_review-visitors svg  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper .оГЕр5оргпг9ор_review-visitors svg  { 
     margin-left: 5px;
   } 
 }     
@@ -2271,13 +2271,13 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-toplist_cr-rating-table img  { 
+.оГЕр5оргпг9ор_cr-rating-table img  { 
     max-width: 100%; 
     height: auto;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo img  { 
     display: block; 
     height: auto; 
     max-height: 100px; 
@@ -2285,30 +2285,30 @@ figcaption {
     transition: opacity .3s;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo .wp_shortcode-toplist_cr-logotype-logo  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo .оГЕр5оргпг9ор_cr-logotype-logo  { 
     object-fit: contain;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img:hover { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo img:hover { 
     opacity: .6;
   } 
 }     
 
 @media all{ 
-  .wp_shortcode-toplist_lt-content p { 
+  .оГЕр5оргпг9ор_lt-content p { 
     font-size: 15px; 
     line-height: 25px; 
     margin-bottom: 16px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description p  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-description p  { 
     margin: 0; 
     font-size: 14px; 
     line-height: 1.5;
   } 
 }     
 
-.wp_shortcode-toplist_cr-rating-stars { 
+.оГЕр5оргпг9ор_cr-rating-stars { 
     position: relative; 
     width: 98px; 
     height: 17px; 
@@ -2316,15 +2316,15 @@ figcaption {
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating .wp_shortcode-toplist_cr-rating-stars  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-rating .оГЕр5оргпг9ор_cr-rating-stars  { 
     transform: scale(1.1);
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box  { 
     text-align: center;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-stars  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_cr-rating-stars  { 
     display: none;
   } 
 }     
@@ -2335,7 +2335,7 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-toplist_cr-btn { 
+.оГЕр5оргпг9ор_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -2356,24 +2356,24 @@ figcaption {
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_cr-btn  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons .оГЕр5оргпг9ор_cr-btn  { 
     width: 100%;
   } 
 }     
 
-.wp_shortcode-toplist_cr-btn:hover { 
+.оГЕр5оргпг9ор_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-sdx), 0.75);
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_swipe-singles  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons .оГЕр5оргпг9ор_swipe-singles  { 
     text-transform: uppercase; 
     font-size: 14px; 
     color: #262424 !important;
   } 
 }     
 
-.wp_shortcode-toplist_cr-rating-stars .wp_shortcode-toplist_fill  { 
+.оГЕр5оргпг9ор_cr-rating-stars .оГЕр5оргпг9ор_fill  { 
     position: absolute; 
     height: 100%; 
     top: 0; 
@@ -2381,42 +2381,42 @@ figcaption {
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E');
 } 
 
-.wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-number  { 
+.оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_cr-rating-number  { 
     color: #A83434;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-number  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_cr-rating-number  { 
     font-size: 28px; 
     font-weight: bold; 
     color: var(--cr-accent-color-sdx);
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_cr-rating-number  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_cr-rating-number  { 
     line-height: 1;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_our-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_our-score  { 
     white-space: nowrap;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_text-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_text-score  { 
     display: none;
   } 
 } 
 
 @media (max-width: 991px){ 
-  .wp_shortcode-toplist_cr-table-style-15 { 
+  .оГЕр5оргпг9ор_cr-table-style-15 { 
     margin: 60px 0 !important;
   } 
 }
 
 @media (max-width: 991px){ 
-  .wp_shortcode-toplist_cr-table-style-15 { 
+  .оГЕр5оргпг9ор_cr-table-style-15 { 
     margin: 20px 15px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head  { 
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
@@ -2424,27 +2424,27 @@ figcaption {
     margin-bottom: 10px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list  { 
     z-index: 1;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_visitors-wrapper  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_visitors-wrapper  { 
     display: none;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated  { 
     display: flex !important; 
     align-items: center; 
     gap: 8px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated  { 
     font-weight: bold; 
     font-size: 14px !important; 
     line-height: 1;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated  { 
     padding-bottom: 8px; 
     font-size: 20px; 
     font-weight: bold; 
@@ -2452,11 +2452,11 @@ figcaption {
     color: #333;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_cpm-advertiser-disclosure  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_cpm-advertiser-disclosure  { 
     max-width: 130px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item  { 
     display: flex; 
     position: relative; 
     justify-content: space-between; 
@@ -2470,20 +2470,20 @@ figcaption {
     margin-bottom: 20px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated svg  { 
     display: block !important; 
     flex: 0 0 auto;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_table-head .wp_shortcode-toplist_reviews-updated svg  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_table-head .оГЕр5оргпг9ор_reviews-updated svg  { 
     display: none;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-site-label  { 
     background: var(--button-hover, linear-gradient(180deg, #DA5353 -15.28%, #530202 140.28%)) !important;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-site-label  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-site-label  { 
     position: absolute; 
     top: -14px; 
     left: calc(50% - 65px); 
@@ -2498,14 +2498,14 @@ figcaption {
     z-index: 2;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo  { 
     order: 1; 
     flex: 1; 
     margin-top: 5px; 
     margin-right: 15px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-description  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-description  { 
     order: 3; 
     align-items: start; 
     margin: 10px auto 0 auto; 
@@ -2515,11 +2515,11 @@ figcaption {
     color: #333;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-rating  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-rating  { 
     display: none;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score  { 
     order: 2; 
     align-self: stretch; 
     display: flex; 
@@ -2529,83 +2529,83 @@ figcaption {
     color: #333;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons  { 
     order: 4; 
     width: 100%; 
     margin: 10px auto 0 auto;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo img  { 
     max-width: 180px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo img  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo img  { 
     display: block; 
     object-fit: cover; 
     border-radius: 4px; 
     width: 100%;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-logo .wp_shortcode-toplist_cr-logotype-logo  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-logo .оГЕр5оргпг9ор_cr-logotype-logo  { 
     object-fit: contain;
   } 
 }     
 
 @media (max-width: 1200px){ 
-  .wp_shortcode-toplist_lt-content p { 
+  .оГЕр5оргпг9ор_lt-content p { 
     line-height: 24px;
   } 
 }     
 
 @media (max-width: 991px){ 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box  { 
     display: flex; 
     align-items: end; 
     gap: 5px; 
     margin-bottom: 5px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_cr-rating-stars  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_cr-rating-stars  { 
     transform: scale(1.1);
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_cr-btn  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons .оГЕр5оргпг9ор_cr-btn  { 
     width: 100%; 
     padding: 12px;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-buttons .wp_shortcode-toplist_swipe-singles  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-buttons .оГЕр5оргпг9ор_swipe-singles  { 
     display: none;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_cr-rating-number  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_cr-rating-number  { 
     font-size: 25px !important;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_cr-rating-number  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_cr-rating-number  { 
     font-size: 32px; 
     font-weight: bold; 
     line-height: 1;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_our-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_our-score  { 
     display: none;
   } 
 
-  .wp_shortcode-toplist_cr-table-style-15 .wp_shortcode-toplist_reviews-list .wp_shortcode-toplist_review-item .wp_shortcode-toplist_review-score .wp_shortcode-toplist_score-box .wp_shortcode-toplist_text-score  { 
+  .оГЕр5оргпг9ор_cr-table-style-15 .оГЕр5оргпг9ор_reviews-list .оГЕр5оргпг9ор_review-item .оГЕр5оргпг9ор_review-score .оГЕр5оргпг9ор_score-box .оГЕр5оргпг9ор_text-score  { 
     font-size: 14px;
   } 
 }
 
 
 @media (min-width: 768px) { 
-    .wp_shortcode-toplist_mobile-only {
+    .оГЕр5оргпг9ор_mobile-only {
         display: none !important;
     }
 }
 
 @media (max-width: 767px) { 
-    .wp_shortcode-toplist_mobile-only {
+    .оГЕр5оргпг9ор_mobile-only {
         display: block !important;
     }
 }
@@ -2619,30 +2619,30 @@ figcaption {
     --lt-content-text-color-md: #1f1e1e; 
 } 
 
-.wp_shortcode-bridelist_cr-rating-table { 
+.isd8Hgh34j_cr-rating-table { 
     text-align: left; 
     font-style: normal; 
     box-sizing: border-box;
 } 
 
-.wp_shortcode-bridelist_cr-table-style-15 { 
+.isd8Hgh34j_cr-table-style-15 { 
     margin: 75px 0 !important;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 { 
+  .isd8Hgh34j_cr-table-style-15 { 
     width: 100%; 
     max-width: 1170px; 
     margin: 20px auto;
   } 
 }     
 
-.wp_shortcode-bridelist_cr-rating-table *  { 
+.isd8Hgh34j_cr-rating-table *  { 
     box-sizing: border-box;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head  { 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -2650,12 +2650,12 @@ figcaption {
     margin-bottom: 3px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper  { 
     flex: 1 0 auto; 
     padding-bottom: 8px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated  { 
     display: flex; 
     align-items: center; 
     justify-content: flex-start; 
@@ -2666,22 +2666,22 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-bridelist_cpm-advertiser-disclosure { 
+.isd8Hgh34j_cpm-advertiser-disclosure { 
     text-align: right; 
     font-weight: normal; 
     padding-bottom: 8px;
 } 
 
-.wp_shortcode-bridelist_cr-rating-table .wp_shortcode-bridelist_review-item  { 
+.isd8Hgh34j_cr-rating-table .isd8Hgh34j_review-item  { 
     background: #fff;
 } 
 
-.wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+.isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item  { 
     border-radius: 0 !important;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item  { 
     display: flex; 
     position: relative; 
     justify-content: space-between; 
@@ -2696,7 +2696,7 @@ figcaption {
     overflow: hidden;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper .isd8Hgh34j_review-visitors  { 
     position: relative; 
     padding: 5px 8px; 
     color: #fff; 
@@ -2705,7 +2705,7 @@ figcaption {
     font-size: 14px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors::after { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper .isd8Hgh34j_review-visitors::after { 
     content: ""; 
     display: block; 
     position: absolute; 
@@ -2718,12 +2718,12 @@ figcaption {
     border-top: 10px solid var(--cr-accent-color-md);
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated svg  { 
     flex: 1 0 auto;
   } 
 }     
 
-.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+.isd8Hgh34j_cpm-advertiser-disclosure .isd8Hgh34j_cpm-ajax-info-btn  { 
     font-size: 12px; 
     line-height: 16px; 
     letter-spacing: normal; 
@@ -2740,38 +2740,38 @@ figcaption {
     cursor: pointer;
 } 
 
-.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+.isd8Hgh34j_cpm-advertiser-disclosure .isd8Hgh34j_cpm-ajax-info-btn  { 
     color: #A83434;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-site-label  { 
     display: none;
   } 
 }     
 
-.wp_shortcode-bridelist_partner-link { 
+.isd8Hgh34j_partner-link { 
     cursor: pointer;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo  { 
     flex: 0 0 20%;
   } 
 }     
 
-.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn) { 
+.isd8Hgh34j_partner-link:not(.isd8Hgh34j_offer-title):not(.isd8Hgh34j_offer-logo):not(.isd8Hgh34j_offer-premium):not(.isd8Hgh34j_offer-site):not(.isd8Hgh34j_logo):not(.isd8Hgh34j_cr-offer-logo):not(.isd8Hgh34j_offer-title-col):not(.isd8Hgh34j_offer-name):not(.isd8Hgh34j_review-title):not(.isd8Hgh34j_review-promotion):not(.isd8Hgh34j_offer-thumb-title):not(.isd8Hgh34j_offer-rating):not(.isd8Hgh34j_cr-btn) { 
     color: var(--cr-accent-color-md); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn):hover { 
+.isd8Hgh34j_partner-link:not(.isd8Hgh34j_offer-title):not(.isd8Hgh34j_offer-logo):not(.isd8Hgh34j_offer-premium):not(.isd8Hgh34j_offer-site):not(.isd8Hgh34j_logo):not(.isd8Hgh34j_cr-offer-logo):not(.isd8Hgh34j_offer-title-col):not(.isd8Hgh34j_offer-name):not(.isd8Hgh34j_review-title):not(.isd8Hgh34j_review-promotion):not(.isd8Hgh34j_offer-thumb-title):not(.isd8Hgh34j_offer-rating):not(.isd8Hgh34j_cr-btn):hover { 
     text-decoration: underline;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_inner-container  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_inner-container  { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -2780,7 +2780,7 @@ figcaption {
     min-height: 100px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-description  { 
     flex: 1 1 auto; 
     align-items: center; 
     padding: 10px 15px; 
@@ -2788,20 +2788,20 @@ figcaption {
     line-height: 1.4;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-rating  { 
     flex: 0 0 20%; 
     flex-direction: column; 
     gap: 10px; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score  { 
     flex: 0 0 120px; 
     flex-direction: column; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons  { 
     flex: 0 0 150px; 
     display: flex; 
     flex-direction: column; 
@@ -2809,7 +2809,7 @@ figcaption {
     gap: 10px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors svg  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper .isd8Hgh34j_review-visitors svg  { 
     margin-left: 5px;
   } 
 }     
@@ -2826,13 +2826,13 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-bridelist_cr-rating-table img  { 
+.isd8Hgh34j_cr-rating-table img  { 
     max-width: 100%; 
     height: auto;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo img  { 
     display: block; 
     height: auto; 
     max-height: 100px; 
@@ -2840,30 +2840,30 @@ figcaption {
     transition: opacity .3s;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo .wp_shortcode-bridelist_cr-logotype-logo  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo .isd8Hgh34j_cr-logotype-logo  { 
     object-fit: contain;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img:hover { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo img:hover { 
     opacity: .6;
   } 
 }     
 
 @media all{ 
-  .wp_shortcode-bridelist_lt-content p { 
+  .isd8Hgh34j_lt-content p { 
     font-size: 15px; 
     line-height: 25px; 
     margin-bottom: 16px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description p  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-description p  { 
     margin: 0; 
     font-size: 14px; 
     line-height: 1.5;
   } 
 }     
 
-.wp_shortcode-bridelist_cr-rating-stars { 
+.isd8Hgh34j_cr-rating-stars { 
     position: relative; 
     width: 98px; 
     height: 17px; 
@@ -2871,7 +2871,7 @@ figcaption {
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item  { 
     display: flex; 
     position: relative; 
     justify-content: space-between; 
@@ -2886,7 +2886,7 @@ figcaption {
     overflow: hidden;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper .isd8Hgh34j_review-visitors  { 
     position: relative; 
     padding: 5px 8px; 
     color: #fff; 
@@ -2895,7 +2895,7 @@ figcaption {
     font-size: 14px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors::after { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper .isd8Hgh34j_review-visitors::after { 
     content: ""; 
     display: block; 
     position: absolute; 
@@ -2908,12 +2908,12 @@ figcaption {
     border-top: 10px solid var(--cr-accent-color-md);
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated svg  { 
     flex: 1 0 auto;
   } 
 }     
 
-.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+.isd8Hgh34j_cpm-advertiser-disclosure .isd8Hgh34j_cpm-ajax-info-btn  { 
     font-size: 12px; 
     line-height: 16px; 
     letter-spacing: normal; 
@@ -2930,38 +2930,38 @@ figcaption {
     cursor: pointer;
 } 
 
-.wp_shortcode-bridelist_cpm-advertiser-disclosure .wp_shortcode-bridelist_cpm-ajax-info-btn  { 
+.isd8Hgh34j_cpm-advertiser-disclosure .isd8Hgh34j_cpm-ajax-info-btn  { 
     color: #A83434;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-site-label  { 
     display: none;
   } 
 }     
 
-.wp_shortcode-bridelist_partner-link { 
+.isd8Hgh34j_partner-link { 
     cursor: pointer;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo  { 
     flex: 0 0 20%;
   } 
 }     
 
-.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn) { 
+.isd8Hgh34j_partner-link:not(.isd8Hgh34j_offer-title):not(.isd8Hgh34j_offer-logo):not(.isd8Hgh34j_offer-premium):not(.isd8Hgh34j_offer-site):not(.isd8Hgh34j_logo):not(.isd8Hgh34j_cr-offer-logo):not(.isd8Hgh34j_offer-title-col):not(.isd8Hgh34j_offer-name):not(.isd8Hgh34j_review-title):not(.isd8Hgh34j_review-promotion):not(.isd8Hgh34j_offer-thumb-title):not(.isd8Hgh34j_offer-rating):not(.isd8Hgh34j_cr-btn) { 
     color: var(--cr-accent-color-md); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.wp_shortcode-bridelist_partner-link:not(.wp_shortcode-bridelist_offer-title):not(.wp_shortcode-bridelist_offer-logo):not(.wp_shortcode-bridelist_offer-premium):not(.wp_shortcode-bridelist_offer-site):not(.wp_shortcode-bridelist_logo):not(.wp_shortcode-bridelist_cr-offer-logo):not(.wp_shortcode-bridelist_offer-title-col):not(.wp_shortcode-bridelist_offer-name):not(.wp_shortcode-bridelist_review-title):not(.wp_shortcode-bridelist_review-promotion):not(.wp_shortcode-bridelist_offer-thumb-title):not(.wp_shortcode-bridelist_offer-rating):not(.wp_shortcode-bridelist_cr-btn):hover { 
+.isd8Hgh34j_partner-link:not(.isd8Hgh34j_offer-title):not(.isd8Hgh34j_offer-logo):not(.isd8Hgh34j_offer-premium):not(.isd8Hgh34j_offer-site):not(.isd8Hgh34j_logo):not(.isd8Hgh34j_cr-offer-logo):not(.isd8Hgh34j_offer-title-col):not(.isd8Hgh34j_offer-name):not(.isd8Hgh34j_review-title):not(.isd8Hgh34j_review-promotion):not(.isd8Hgh34j_offer-thumb-title):not(.isd8Hgh34j_offer-rating):not(.isd8Hgh34j_cr-btn):hover { 
     text-decoration: underline;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_inner-container  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_inner-container  { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -2970,7 +2970,7 @@ figcaption {
     min-height: 100px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-description  { 
     flex: 1 1 auto; 
     align-items: center; 
     padding: 10px 15px; 
@@ -2978,20 +2978,20 @@ figcaption {
     line-height: 1.4;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-rating  { 
     flex: 0 0 20%; 
     flex-direction: column; 
     gap: 10px; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score  { 
     flex: 0 0 120px; 
     flex-direction: column; 
     font-size: 14px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons  { 
     flex: 0 0 150px; 
     display: flex; 
     flex-direction: column; 
@@ -2999,7 +2999,7 @@ figcaption {
     gap: 10px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper .wp_shortcode-bridelist_review-visitors svg  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper .isd8Hgh34j_review-visitors svg  { 
     margin-left: 5px;
   } 
 }     
@@ -3016,13 +3016,13 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-bridelist_cr-rating-table img  { 
+.isd8Hgh34j_cr-rating-table img  { 
     max-width: 100%; 
     height: auto;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo img  { 
     display: block; 
     height: auto; 
     max-height: 100px; 
@@ -3030,30 +3030,30 @@ figcaption {
     transition: opacity .3s;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo .wp_shortcode-bridelist_cr-logotype-logo  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo .isd8Hgh34j_cr-logotype-logo  { 
     object-fit: contain;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img:hover { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo img:hover { 
     opacity: .6;
   } 
 }     
 
 @media all{ 
-  .wp_shortcode-bridelist_lt-content p { 
+  .isd8Hgh34j_lt-content p { 
     font-size: 15px; 
     line-height: 25px; 
     margin-bottom: 16px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description p  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-description p  { 
     margin: 0; 
     font-size: 14px; 
     line-height: 1.5;
   } 
 }     
 
-.wp_shortcode-bridelist_cr-rating-stars { 
+.isd8Hgh34j_cr-rating-stars { 
     position: relative; 
     width: 98px; 
     height: 17px; 
@@ -3061,15 +3061,15 @@ figcaption {
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating .wp_shortcode-bridelist_cr-rating-stars  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-rating .isd8Hgh34j_cr-rating-stars  { 
     transform: scale(1.1);
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box  { 
     text-align: center;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-stars  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_cr-rating-stars  { 
     display: none;
   } 
 }     
@@ -3080,7 +3080,7 @@ figcaption {
   } 
 }     
 
-.wp_shortcode-bridelist_cr-btn { 
+.isd8Hgh34j_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -3101,24 +3101,24 @@ figcaption {
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_cr-btn  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons .isd8Hgh34j_cr-btn  { 
     width: 100%;
   } 
 }     
 
-.wp_shortcode-bridelist_cr-btn:hover { 
+.isd8Hgh34j_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-md), 0.75);
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_swipe-singles  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons .isd8Hgh34j_swipe-singles  { 
     text-transform: uppercase; 
     font-size: 14px; 
     color: #262424 !important;
   } 
 }     
 
-.wp_shortcode-bridelist_cr-rating-stars .wp_shortcode-bridelist_fill  { 
+.isd8Hgh34j_cr-rating-stars .isd8Hgh34j_fill  { 
     position: absolute; 
     height: 100%; 
     top: 0; 
@@ -3126,42 +3126,42 @@ figcaption {
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23F0CE4A"/%3E%3C/svg%3E');
 } 
 
-.wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-number  { 
+.isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_cr-rating-number  { 
     color: #A83434;
 } 
 
 @media (min-width: 992px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-number  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_cr-rating-number  { 
     font-size: 28px; 
     font-weight: bold; 
     color: var(--cr-accent-color-md);
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_cr-rating-number  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_cr-rating-number  { 
     line-height: 1;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_our-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_our-score  { 
     white-space: nowrap;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_text-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_text-score  { 
     display: none;
   } 
 } 
 
 @media (max-width: 991px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 { 
+  .isd8Hgh34j_cr-table-style-15 { 
     margin: 60px 0 !important;
   } 
 }
 
 @media (max-width: 991px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 { 
+  .isd8Hgh34j_cr-table-style-15 { 
     margin: 20px 15px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head  { 
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
@@ -3169,27 +3169,27 @@ figcaption {
     margin-bottom: 10px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list  { 
     z-index: 1;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_visitors-wrapper  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_visitors-wrapper  { 
     display: none;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated  { 
     display: flex !important; 
     align-items: center; 
     gap: 8px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated  { 
     font-weight: bold; 
     font-size: 14px !important; 
     line-height: 1;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated  { 
     padding-bottom: 8px; 
     font-size: 20px; 
     font-weight: bold; 
@@ -3197,11 +3197,11 @@ figcaption {
     color: #333;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_cpm-advertiser-disclosure  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_cpm-advertiser-disclosure  { 
     max-width: 130px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item  { 
     display: flex; 
     position: relative; 
     justify-content: space-between; 
@@ -3215,20 +3215,20 @@ figcaption {
     margin-bottom: 20px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated svg  { 
     display: block !important; 
     flex: 0 0 auto;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_table-head .wp_shortcode-bridelist_reviews-updated svg  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_table-head .isd8Hgh34j_reviews-updated svg  { 
     display: none;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-site-label  { 
     background: var(--button-hover, linear-gradient(180deg, #DA5353 -15.28%, #530202 140.28%)) !important;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-site-label  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-site-label  { 
     position: absolute; 
     top: -14px; 
     left: calc(50% - 65px); 
@@ -3243,14 +3243,14 @@ figcaption {
     z-index: 2;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo  { 
     order: 1; 
     flex: 1; 
     margin-top: 5px; 
     margin-right: 15px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-description  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-description  { 
     order: 3; 
     align-items: start; 
     margin: 10px auto 0 auto; 
@@ -3260,11 +3260,11 @@ figcaption {
     color: #333;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-rating  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-rating  { 
     display: none;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score  { 
     order: 2; 
     align-self: stretch; 
     display: flex; 
@@ -3274,82 +3274,82 @@ figcaption {
     color: #333;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons  { 
     order: 4; 
     width: 100%; 
     margin: 10px auto 0 auto;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo img  { 
     max-width: 180px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo img  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo img  { 
     display: block; 
     object-fit: cover; 
     border-radius: 4px; 
     width: 100%;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-logo .wp_shortcode-bridelist_cr-logotype-logo  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-logo .isd8Hgh34j_cr-logotype-logo  { 
     object-fit: contain;
   } 
 }     
 
 @media (max-width: 1200px){ 
-  .wp_shortcode-bridelist_lt-content p { 
+  .isd8Hgh34j_lt-content p { 
     line-height: 24px;
   } 
 }     
 
 @media (max-width: 991px){ 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box  { 
     display: flex; 
     align-items: end; 
     gap: 5px; 
     margin-bottom: 5px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_cr-rating-stars  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_cr-rating-stars  { 
     transform: scale(1.1);
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_cr-btn  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons .isd8Hgh34j_cr-btn  { 
     width: 100%; 
     padding: 12px;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-buttons .wp_shortcode-bridelist_swipe-singles  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-buttons .isd8Hgh34j_swipe-singles  { 
     display: none;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_cr-rating-number  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_cr-rating-number  { 
     font-size: 25px !important;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_cr-rating-number  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_cr-rating-number  { 
     font-size: 32px; 
     font-weight: bold; 
     line-height: 1;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_our-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_our-score  { 
     display: none;
   } 
 
-  .wp_shortcode-bridelist_cr-table-style-15 .wp_shortcode-bridelist_reviews-list .wp_shortcode-bridelist_review-item .wp_shortcode-bridelist_review-score .wp_shortcode-bridelist_score-box .wp_shortcode-bridelist_text-score  { 
+  .isd8Hgh34j_cr-table-style-15 .isd8Hgh34j_reviews-list .isd8Hgh34j_review-item .isd8Hgh34j_review-score .isd8Hgh34j_score-box .isd8Hgh34j_text-score  { 
     font-size: 14px;
   } 
 }
 
 @media (min-width: 768px) { 
-    .wp_shortcode-bridelist_mobile-only {
+    .isd8Hgh34j_mobile-only {
         display: none !important;
     }
 }
 
 @media (max-width: 767px) { 
-    .wp_shortcode-bridelist_mobile-only {
+    .isd8Hgh34j_mobile-only {
         display: block !important;
     }
 } 
@@ -3367,24 +3367,24 @@ figcaption {
     --cr-fixed-bar-bg-color: #ffffff;
     --cr-fixed-bar-link-color: #5c97fd;
 }
-.shortcode-wp_cr-table-style-23 {
+.sdJ8dsh97_cr-table-style-23 {
     width: 100%;
     max-width: 850px;
     margin: 20px auto;
 }
-.shortcode-wp_cr-rating-table {
+.sdJ8dsh97_cr-rating-table {
     text-align: left;
     font-style: normal;
     box-sizing: border-box;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     margin-bottom: 8px;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_editors-choice {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head .sdJ8dsh97_editors-choice {
     position: relative;
     padding: 5px 8px;
     color: #fff;
@@ -3395,7 +3395,7 @@ figcaption {
     max-width: 220px;
     text-align: center;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_editors-choice:after {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head .sdJ8dsh97_editors-choice:after {
     content: "";
     display: block;
     position: absolute;
@@ -3407,14 +3407,14 @@ figcaption {
     border-right: 10px solid rgba(0, 0, 0, 0);
     border-top: 10px solid var(--cr-secondary-color);
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_rating-meta {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head .sdJ8dsh97_rating-meta {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
     padding: 4px 0;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_reviews-updated {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head .sdJ8dsh97_reviews-updated {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -3423,15 +3423,15 @@ figcaption {
     line-height: 20px;
     letter-spacing: .03em;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_reviews-updated svg {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head .sdJ8dsh97_reviews-updated svg {
     flex: 1 0 auto;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list {
     border-radius: 15px;
     border: 1px solid #d5dcf0;
     background-color: #fff;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item.sdJ8dsh97_highlight {
     border-radius: 15px;
     border: 1px solid var(--cr-secondary-color);
     background-color: rgba(var(--cr-secondary-color-rgb), 0.15);
@@ -3441,7 +3441,7 @@ figcaption {
     top: -1px;
     width: unset;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item {
     padding: 20px;
     display: flex;
     position: relative;
@@ -3449,17 +3449,17 @@ figcaption {
     align-items: stretch;
     gap: 24px;
 }
-.shortcode-wp_cr-rating-table .shortcode-wp_review-item {
+.sdJ8dsh97_cr-rating-table .sdJ8dsh97_review-item {
     background: #fff;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo.shortcode-wp_type-logo {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-item-logo.sdJ8dsh97_type-logo {
     padding: 20px;
     width: 100%;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight .shortcode-wp_review-info-block, .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.shortcode-wp_highlight .shortcode-wp_review-item-logo {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item.sdJ8dsh97_highlight .sdJ8dsh97_review-info-block, .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item.sdJ8dsh97_highlight .sdJ8dsh97_review-item-logo {
     background: #fff;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-item-logo {
     flex: 1 1 215px;
     background: #f7f7f7;
     border: 1px solid #c2c9dc;
@@ -3469,23 +3469,23 @@ figcaption {
     align-items: center;
     justify-content: center;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo .shortcode-wp_cr-logotype-logo {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-item-logo .sdJ8dsh97_cr-logotype-logo {
     object-fit: contain;
     max-height: 50px;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo img {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-item-logo img {
     display: block;
     height: auto;
     width: 100%;
     transition: opacity .3s;
 }
-.shortcode-wp_cr-rating-table img {
+.sdJ8dsh97_cr-rating-table img {
     max-width: 100%;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block.shortcode-wp_rating-block {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block.sdJ8dsh97_rating-block {
     flex: 1 1 215px;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block {
     flex: 0 0 auto;
     padding: 10px 15px 20px;
     background: #f7f7f7;
@@ -3494,7 +3494,7 @@ figcaption {
     font-size: 14px;
     line-height: 1.4;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block-label {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block-label {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3502,7 +3502,7 @@ figcaption {
     margin-bottom: 15px;
     min-width: max-content;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_tip {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block .sdJ8dsh97_tip {
     flex: 0 0 auto;
     width: 18px;
     height: 18px;
@@ -3515,7 +3515,7 @@ figcaption {
     text-align: center;
     cursor: pointer;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_rating {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block .sdJ8dsh97_rating {
     font-size: 20px;
     line-height: 24px;
     font-weight: bold;
@@ -3524,26 +3524,26 @@ figcaption {
     justify-content: center;
     gap: 8px;
 }
-.shortcode-wp_cr-rating-stars {
+.sdJ8dsh97_cr-rating-stars {
     position: relative;
     width: 98px;
     height: 17px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 61 51.9'%3E%3Cpolygon points='26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9' fill='%23ddd'/%3E%3C/svg%3E");
 }
-.shortcode-wp_cr-rating-stars .shortcode-wp_fill {
+.sdJ8dsh97_cr-rating-stars .sdJ8dsh97_fill {
     position: absolute;
     height: 100%;
     top: 0;
     left: 0;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 61 51.9'%3E%3Cpolygon points='26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9' fill='%23F0CE4A'/%3E%3C/svg%3E");
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_user-rating {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_user-rating {
     text-align: center;
     font-size: 30px;
     line-height: 24px;
     font-weight: bold;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-buttons {
     flex: 1 1 180px;
     justify-content: center;
     display: flex;
@@ -3551,13 +3551,13 @@ figcaption {
     align-items: center;
     gap: 10px;
 }
-.shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons .shortcode-wp_cr-btn {
+.sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-buttons .sdJ8dsh97_cr-btn {
     width: 100%;
 }
-.shortcode-wp_cr-btn.shortcode-wp_small-rounded {
+.sdJ8dsh97_cr-btn.sdJ8dsh97_small-rounded {
     border-radius: 4px;
 }
-.shortcode-wp_cr-btn {
+.sdJ8dsh97_cr-btn {
     display: inline-block;
     padding: 10px 12px;
     font-size: 14px;
@@ -3576,7 +3576,7 @@ figcaption {
     color: var(--cr-btn-text-color);
     outline: unset;
 }
-.shortcode-wp_cr-btn.shortcode-wp_cr-btn-plain {
+.sdJ8dsh97_cr-btn.sdJ8dsh97_cr-btn-plain {
     padding: 0;
     display: none;
     text-align: left;
@@ -3585,21 +3585,21 @@ figcaption {
     color: var(--cr-accent-color);
     min-width: 0;
 }
-.shortcode-wp_cr-btn.shortcode-wp_small-rounded {
+.sdJ8dsh97_cr-btn.sdJ8dsh97_small-rounded {
     border-radius: 4px;
 }
-.shortcode-wp_ct-section-content .shortcode-wp_ct-content h2 {
+.sdJ8dsh97_ct-section-content .sdJ8dsh97_ct-content h2 {
     font-size: 26px;
     line-height: 42px;
     margin-top: 30px;
     margin-bottom: 16px;
 }
-.shortcode-wp_ct-section-content .shortcode-wp_ct-content p {
+.sdJ8dsh97_ct-section-content .sdJ8dsh97_ct-content p {
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 16px;
 }
-.shortcode-wp_cpm-toc-nav {
+.sdJ8dsh97_cpm-toc-nav {
     position: relative;
     display: block;
     width: 100%;
@@ -3611,7 +3611,7 @@ figcaption {
     user-select: none;
     margin-bottom: 20px;
 }
-.shortcode-wp_cpm-toc-nav .shortcode-wp_cpm-toc-title {
+.sdJ8dsh97_cpm-toc-nav .sdJ8dsh97_cpm-toc-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -3622,34 +3622,34 @@ figcaption {
     line-height: 1.3;
     font-weight: bold;
 }
-.shortcode-wp_cpm-toc-nav .shortcode-wp_cpm-toc-title .shortcode-wp_cpm-icon-chevron {
+.sdJ8dsh97_cpm-toc-nav .sdJ8dsh97_cpm-toc-title .sdJ8dsh97_cpm-icon-chevron {
     display: block;
     width: 16px;
     height: 16px;
     transition: transform .3s;
 }
-.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list {
+.sdJ8dsh97_cpm-toc-nav ol.sdJ8dsh97_cpm-toc-list {
     padding-bottom: 20px;
     font-size: 15px;
     display: none;
     padding-left: 0;
 }
-.shortcode-wp_ct-section-content .shortcode-wp_ct-content ol {
+.sdJ8dsh97_ct-section-content .sdJ8dsh97_ct-content ol {
     list-style: decimal;
 }
-.shortcode-wp_ct-section-content .shortcode-wp_ct-content ul, .shortcode-wp_ct-section-content .shortcode-wp_ct-content ol {
+.sdJ8dsh97_ct-section-content .sdJ8dsh97_ct-content ul, .sdJ8dsh97_ct-section-content .sdJ8dsh97_ct-content ol {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 16px;
     padding-left: 30px;
 }
-.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list li {
+.sdJ8dsh97_cpm-toc-nav ol.sdJ8dsh97_cpm-toc-list li {
     padding-right: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
-.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list>li {
+.sdJ8dsh97_cpm-toc-nav ol.sdJ8dsh97_cpm-toc-list>li {
     display: block;
     border-top: 1px solid rgba(var(--ct-color-primary-rgb), 0.1);
     position: relative;
@@ -3658,11 +3658,11 @@ figcaption {
     counter-increment: ol-number;
     padding: 8px 0 0 20px;
 }
-.shortcode-wp_cpm-toc-nav ol.shortcode-wp_cpm-toc-list a {
+.sdJ8dsh97_cpm-toc-nav ol.sdJ8dsh97_cpm-toc-list a {
     color: var(--ct-content-text-color);
     font-weight: normal;
 }
-.shortcode-wp_ct-section-content .shortcode-wp_ct-content a {
+.sdJ8dsh97_ct-section-content .sdJ8dsh97_ct-content a {
     color: var(--ct-content-link-color);
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0);
@@ -3671,13 +3671,13 @@ figcaption {
 
 
 @media (max-width: 600px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_table-head  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head  { 
     flex-direction: column-reverse; 
     align-items: flex-start; 
     gap: 16px;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_table-head .shortcode-wp_rating-meta  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_table-head .sdJ8dsh97_rating-meta  { 
     flex-direction: column; 
     align-items: flex-start; 
     gap: 4px; 
@@ -3686,84 +3686,84 @@ figcaption {
 }     
 
 @media (max-width: 700px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item  { 
     gap: 12px;
   } 
 }     
 
 @media (max-width: 600px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item  { 
     padding: 20px 15px; 
     flex-wrap: wrap; 
     gap: 12px;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item.highlight  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item.highlight  { 
     padding: 25px 15px; 
     margin-bottom: 15px;
   } 
 }     
 
 @media (max-width: 700px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-item-logo  { 
     flex: 1 1 150px;
   } 
 }     
 
 @media (max-width: 600px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-item-logo  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-item-logo  { 
     flex: auto !important;
   } 
 }     
 
 @media (max-width: 700px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block  { 
     padding: 12px 12px 14px;
   } 
 }     
 
 @media (max-width: 600px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block  { 
     flex: 1 0 calc(50% - 6px) !important;
   } 
 }     
 
 @media (max-width: 700px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block.rating-block  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block.rating-block  { 
     flex: 1 1 auto;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-buttons  { 
     flex: 1 1 120px;
   } 
 }     
 
 @media (max-width: 600px){ 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-buttons  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-buttons  { 
     flex: 0 0 100%;
   } 
 }     
 
 @media (max-width: 700px){
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block-label  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block-label  { 
     margin-bottom: 8px;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_rating  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block .sdJ8dsh97_rating  { 
     gap: 6px;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_user-rating  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block .sdJ8dsh97_user-rating  { 
     font-size: 25px;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_tip  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block .sdJ8dsh97_tip  { 
     width: 16px; 
     height: 16px; 
     line-height: 16px;
   } 
 
-  .shortcode-wp_cr-table-style-23 .shortcode-wp_reviews-list .shortcode-wp_review-item .shortcode-wp_review-info-block .shortcode-wp_rating .shortcode-wp_cr-rating-stars  { 
+  .sdJ8dsh97_cr-table-style-23 .sdJ8dsh97_reviews-list .sdJ8dsh97_review-item .sdJ8dsh97_review-info-block .sdJ8dsh97_rating .sdJ8dsh97_cr-rating-stars  { 
     width: 17px; 
     height: 15px;
   } 
@@ -3783,11 +3783,11 @@ figcaption {
     --ct-content-text-color-mailbride: #404040; 
 } 
 
-.mailbride_site_review-item  { 
+.iOh7jgh9hhtUk_review-item  { 
     background: #fff;
 } 
 
-.mailbride_site_review-item  { 
+.iOh7jgh9hhtUk_review-item  { 
     padding: 20px; 
     border-radius: 10px; 
     background: #fff; 
@@ -3808,11 +3808,11 @@ figcaption {
   } 
 }     
 
-.mailbride_site_partner-link { 
+.iOh7jgh9hhtUk_partner-link { 
     cursor: pointer;
 } 
 
-.mailbride_site_review-image  { 
+.iOh7jgh9hhtUk_review-image  { 
     width: 228px; 
     height: auto; 
     max-height: 270px; 
@@ -3822,17 +3822,17 @@ figcaption {
     overflow: hidden;
 } 
 
-.mailbride_site_partner-link:not(.mailbride_site_offer-title):not(.mailbride_site_offer-logo):not(.mailbride_site_offer-premium):not(.mailbride_site_offer-site):not(.mailbride_site_logo):not(.mailbride_site_cr-offer-logo):not(.mailbride_site_offer-title-col):not(.mailbride_site_offer-name):not(.mailbride_site_review-title):not(.mailbride_site_review-promotion):not(.mailbride_site_offer-thumb-title):not(.mailbride_site_offer-rating):not(.mailbride_site_cr-btn) { 
+.iOh7jgh9hhtUk_partner-link:not(.iOh7jgh9hhtUk_offer-title):not(.iOh7jgh9hhtUk_offer-logo):not(.iOh7jgh9hhtUk_offer-premium):not(.iOh7jgh9hhtUk_offer-site):not(.iOh7jgh9hhtUk_logo):not(.iOh7jgh9hhtUk_cr-offer-logo):not(.iOh7jgh9hhtUk_offer-title-col):not(.iOh7jgh9hhtUk_offer-name):not(.iOh7jgh9hhtUk_review-title):not(.iOh7jgh9hhtUk_review-promotion):not(.iOh7jgh9hhtUk_offer-thumb-title):not(.iOh7jgh9hhtUk_offer-rating):not(.iOh7jgh9hhtUk_cr-btn) { 
     color: var(--cr-accent-color-mailbride); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.mailbride_site_partner-link:not(.mailbride_site_offer-title):not(.mailbride_site_offer-logo):not(.mailbride_site_offer-premium):not(.mailbride_site_offer-site):not(.mailbride_site_logo):not(.mailbride_site_cr-offer-logo):not(.mailbride_site_offer-title-col):not(.mailbride_site_offer-name):not(.mailbride_site_review-title):not(.mailbride_site_review-promotion):not(.mailbride_site_offer-thumb-title):not(.mailbride_site_offer-rating):not(.mailbride_site_cr-btn):hover { 
+.iOh7jgh9hhtUk_partner-link:not(.iOh7jgh9hhtUk_offer-title):not(.iOh7jgh9hhtUk_offer-logo):not(.iOh7jgh9hhtUk_offer-premium):not(.iOh7jgh9hhtUk_offer-site):not(.iOh7jgh9hhtUk_logo):not(.iOh7jgh9hhtUk_cr-offer-logo):not(.iOh7jgh9hhtUk_offer-title-col):not(.iOh7jgh9hhtUk_offer-name):not(.iOh7jgh9hhtUk_review-title):not(.iOh7jgh9hhtUk_review-promotion):not(.iOh7jgh9hhtUk_offer-thumb-title):not(.iOh7jgh9hhtUk_offer-rating):not(.iOh7jgh9hhtUk_cr-btn):hover { 
     text-decoration: underline;
 } 
 
-.mailbride_site_review-info  { 
+.iOh7jgh9hhtUk_review-info  { 
     display: flex; 
     flex-direction: column; 
     width: 100%;
@@ -3844,29 +3844,29 @@ figcaption {
     height: auto;
   } 
 
-  .mailbride_site_lazyloaded { 
+  .iOh7jgh9hhtUk_lazyloaded { 
     opacity: 1; 
     transition: opacity .3s;
   } 
 }     
 
-.mailbride_site_cr-rating-table img { 
+.iOh7jgh9hhtUk_cr-rating-table img { 
     max-width: 100%; 
     height: auto;
 } 
 
-.mailbride_site_review-image img  { 
+.iOh7jgh9hhtUk_review-image img  { 
     width: auto; 
     object-fit: contain;
     flex: 0 0 auto;  
     transition: opacity .3s;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-image img:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-image img:hover { 
     opacity: .8;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating  { 
     display: flex; 
     align-items: center;
 } 
@@ -3877,7 +3877,7 @@ figcaption {
   } 
 }     
 
-.mailbride_site_cr-btn { 
+.iOh7jgh9hhtUk_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -3897,15 +3897,15 @@ figcaption {
     outline: unset;
 } 
 
-.mailbride_site_cr-btn.mailbride_site_big-size { 
+.iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_big-size { 
     padding: 15px 40px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-mobile-button  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-mobile-button  { 
     background: linear-gradient(265deg, #ff89ca 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-mobile-button  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-mobile-button  { 
     display: none; 
     margin-top: 20px; 
     height: 38px; 
@@ -3916,21 +3916,21 @@ figcaption {
     text-transform: uppercase;
 } 
 
-.mailbride_site_cr-btn:hover { 
+.iOh7jgh9hhtUk_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-mailbride), 0.75);
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-mobile-button:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-mobile-button:hover { 
     background: linear-gradient(265deg, var(--cr-accent-color-mailbride) 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons  { 
     display: flex; 
     gap: 20px; 
     margin-top: 10px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-special-offer  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-special-offer  { 
     color: #212d41 !important; 
     font-size: 16px; 
     font-weight: bold; 
@@ -3941,12 +3941,12 @@ figcaption {
     transition: opacity .3s;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-special-offer:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-special-offer:hover { 
     opacity: .8; 
     text-decoration: none !important;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-buttons  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons  { 
     margin-top: 15px; 
     flex: 1 1 auto; 
     display: flex; 
@@ -3954,7 +3954,7 @@ figcaption {
     gap: 30px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-name  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-name  { 
     color: #212d41 !important; 
     font-size: 20px; 
     font-weight: bold; 
@@ -3963,12 +3963,12 @@ figcaption {
     transition: color .3s;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-name:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-name:hover { 
     text-decoration: none !important; 
     color: var(--cr-accent-color-mailbride) !important;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-rating  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-rating  { 
     display: flex; 
     align-items: center; 
     margin-left: 25px;
@@ -3986,7 +3986,7 @@ figcaption {
   } 
 }     
 
-.mailbride_site_cr-rating-table ul { 
+.iOh7jgh9hhtUk_cr-rating-table ul { 
     list-style-type: disk; 
     list-style-position: outside; 
     padding: 0 0 0 20px; 
@@ -3994,35 +3994,35 @@ figcaption {
 } 
 
 @media all{ 
-  .mailbride_site_ct-section-content .mailbride_site_ct-content ul { 
+  .iOh7jgh9hhtUk_ct-section-content .iOh7jgh9hhtUk_ct-content ul { 
     font-size: 16px; 
     line-height: 24px; 
     margin-bottom: 16px; 
     padding-left: 30px;
   } 
 
-  .mailbride_site_ct-section-content .mailbride_site_ct-content ul { 
+  .iOh7jgh9hhtUk_ct-section-content .iOh7jgh9hhtUk_ct-content ul { 
     list-style: disc;
   } 
 }     
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul  { 
     margin-left: 16px; 
     padding: 0; 
     flex: 0 0 calc(50% - 10px); 
     list-style: none;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-special-offer svg  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-special-offer svg  { 
     min-width: 14px; 
     margin-top: 5px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link  { 
     background: linear-gradient(265deg, #ff89ca 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link  { 
     min-width: 170px; 
     height: 44px; 
     padding: 12px 35px; 
@@ -4034,11 +4034,11 @@ figcaption {
     border-radius: 4px;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link:hover { 
     background: linear-gradient(265deg, var(--cr-accent-color-mailbride) 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-rating .mailbride_site_cr-rating-number  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-rating .iOh7jgh9hhtUk_cr-rating-number  { 
     color: #212d41; 
     font-size: 16px; 
     font-weight: bold; 
@@ -4051,12 +4051,12 @@ ul li  {
 } 
 
 @media all{ 
-  .mailbride_site_ct-section-content .mailbride_site_ct-content li { 
+  .iOh7jgh9hhtUk_ct-section-content .iOh7jgh9hhtUk_ct-content li { 
     margin-bottom: 10px;
   } 
 }     
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul li  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li  { 
     color: #5d6b83; 
     font-size: 16px;
     list-style: circle;
@@ -4067,11 +4067,11 @@ ul li  {
     position: relative;
 } 
 
-.mailbride_site_cr-rating-table ul li::before, .mailbride_site_cr-rating-table ul li::after, .mailbride_site_cr-rating-table ol li::before, .mailbride_site_cr-rating-table ol li::after, .mailbride_site_cr-top-offers ul li::before, .mailbride_site_cr-top-offers ul li::after, .mailbride_site_cr-top-offers ol li::before, .mailbride_site_cr-top-offers ol li::after { 
+.iOh7jgh9hhtUk_cr-rating-table ul li::before, .iOh7jgh9hhtUk_cr-rating-table ul li::after, .iOh7jgh9hhtUk_cr-rating-table ol li::before, .iOh7jgh9hhtUk_cr-rating-table ol li::after, .iOh7jgh9hhtUk_cr-top-offers ul li::before, .iOh7jgh9hhtUk_cr-top-offers ul li::after, .iOh7jgh9hhtUk_cr-top-offers ol li::before, .iOh7jgh9hhtUk_cr-top-offers ol li::after { 
     content: none !important;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons ul li::before { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li::before { 
     content: "" !important; 
     width: 14px; 
     height: 26px; 
@@ -4082,38 +4082,38 @@ ul li  {
     border: none;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons .mailbride_site_cr-cpm_offer_pros-list li::before { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons .iOh7jgh9hhtUk_cr-cpm_offer_pros-list li::before { 
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIyNiIgdmlld0JveD0iMCAwIDE0IDI2IiBmaWxsPSJub25lIj4KICAgIDxwYXRoIGQ9Ik03LjAxODk0IDUuOTA3MUMzLjY0MzIxIDUuOTA3MSAwLjkxMzA4NiA4LjY0NTE2IDAuOTEzMDg2IDEyLjA2MDZDMC45MTMwODYgMTUuNDc2IDMuNjQzIDE4LjIxNDEgNy4wMTg5NCAxOC4yMTQxQzEwLjM5NDcgMTguMjE0MSAxMy4xMjQ4IDE1LjQ3NjEgMTMuMTI0OCAxMi4wNjA2QzEzLjEyNDggOC42NDUyMSAxMC40MjQxIDUuOTA3MSA3LjAxODk0IDUuOTA3MVpNOS44NjYzOSAxMS4yOTUxTDYuNzU0OCAxNC4zODY2QzYuNjA3OTggMTQuNTMzOSA2LjM3MzEyIDE0LjY1MTYgNi4xMzgyNCAxNC42NTE2QzUuOTAzMzcgMTQuNjUxNiA1LjY5OCAxNC41NjMzIDUuNTIxNjggMTQuMzg2NkwzLjk5NTE2IDEyLjg1NTZDMy42NzIyNCAxMi41MzE3IDMuNjcyMjQgMTEuOTcyMiAzLjk5NTE2IDExLjY0ODRDNC4zMTgwOCAxMS4zMjQ1IDQuODc1ODcgMTEuMzI0NSA1LjE5ODc3IDExLjY0ODRMNi4xMzgyNCAxMi41OTA2TDguNjMzNTMgMTAuMDg3OUM4Ljk1NjQ0IDkuNzY0MDIgOS41MTQyMyA5Ljc2NDAyIDkuODM3MTQgMTAuMDg3OUMxMC4xODkzIDEwLjQxMTggMTAuMTg5MyAxMC45NDE4IDkuODY2NDIgMTEuMjk1MUg5Ljg2NjM5WiIgZmlsbD0iI0YwMkU3MyIvPgo8L3N2Zz4=") no-repeat;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons ul li::after { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li::after { 
     display: none;
 } 
 
-.mailbride_site_cr-rating-table ul li::marker, .mailbride_site_cr-rating-table ol li::marker, .mailbride_site_cr-top-offers ul li::marker, .mailbride_site_cr-top-offers ol li::marker { 
+.iOh7jgh9hhtUk_cr-rating-table ul li::marker, .iOh7jgh9hhtUk_cr-rating-table ol li::marker, .iOh7jgh9hhtUk_cr-top-offers ul li::marker, .iOh7jgh9hhtUk_cr-top-offers ol li::marker { 
     color: var(--cr-accent-color-mailbride);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul li:last-child  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li:last-child  { 
     margin-bottom: 0;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons .mailbride_site_cr-cpm_offer_cons-list li::before { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons .iOh7jgh9hhtUk_cr-cpm_offer_cons-list li::before { 
     top: 1px; 
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDE0IDIwIiBmaWxsPSJub25lIj4KICAgIDxwYXRoIGQ9Ik03LjAxNTE2IDE3LjE4NThDMTAuMzkwNCAxNy4xODU4IDEzLjEyMDIgMTQuNDQ4MiAxMy4xMjAyIDExLjAzMzJDMTMuMTIwMiA3LjYxODI0IDEwLjM5MDYgNC45MSA3LjAxNTE2IDQuOTFDMy42Mzk5IDQuOTEgMC45MTAxNTYgNy42NDc2OCAwLjkxMDE1NiAxMS4wNjI2QzAuOTEwMTU2IDE0LjQ3NzYgMy42MTA0NCAxNy4xODU4IDcuMDE1MTYgMTcuMTg1OFpNNC43MjU3OCAxMC4wMDI5QzQuNDAyOTEgOS42NzkwMiA0LjQwMjkxIDkuMTE5NjUgNC43MjU3OCA4Ljc5NTgzQzUuMDQ4NjUgOC40NzIwMSA1LjYwNjM2IDguNDcyIDUuOTI5MjIgOC43OTU4M0w2Ljk4NTg2IDkuODU1NjFMOC4wNDI0OSA4Ljc5NTgzQzguMzY1MzYgOC40NzIgOC45MjMwNyA4LjQ3MiA5LjI0NTkzIDguNzk1ODNDOS41Njg4IDkuMTE5NjYgOS41Njg4IDkuNjc5MDQgOS4yNDU5MyAxMC4wMDI5TDguMTg5MyAxMS4wNjI2TDkuMjQ1OTMgMTIuMTIyNEM5LjU2ODggMTIuNDQ2MyA5LjU2ODggMTMuMDA1NiA5LjI0NTkzIDEzLjMyOTVDOS4wNjk4NiAxMy41MDYxIDguODY0MzEgMTMuNTk0NCA4LjYyOTQ2IDEzLjU5NDRDOC4zOTQ2MyAxMy41OTQ0IDguMTg5MjggMTMuNTA2MSA4LjAxMjk4IDEzLjMyOTVMNi45NTYzNSAxMi4yNjk3TDUuOTI5MTcgMTMuMzI5NUM1Ljc1MzEgMTMuNTA2MSA1LjU0NzU0IDEzLjU5NDQgNS4zMTI3IDEzLjU5NDRDNS4wNzc4NiAxMy41OTQ0IDQuODcyNTEgMTMuNTA2MSA0LjY5NjIyIDEzLjMyOTVDNC4zNzMzNSAxMy4wMDU2IDQuMzczMzUgMTIuNDQ2MyA0LjY5NjIyIDEyLjEyMjRMNS43NTI4NiAxMS4wNjI2TDQuNzI1NzggMTAuMDAyOVoiIGZpbGw9IiMyMTJENDEiLz4KPC9zdmc+") no-repeat;
 }
 
 
 @media (max-width: 650px) {
-    .mailbride_site_review-item,
-    .mailbride_site_review-info .mailbride_site_review-pros-cons {
+    .iOh7jgh9hhtUk_review-item,
+    .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons {
         flex-direction: column;
         align-items: center;
     }
-    .mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link {
+    .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link {
         width: 100%;
     }
-    .mailbride_site_review-info .mailbride_site_review-name-rating {
+    .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating {
         justify-content: space-between;
     }
 }

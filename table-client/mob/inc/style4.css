@@ -6,11 +6,11 @@
     --ct-content-text-color-mailbride: #404040; 
 } 
 
-.mailbride_site_review-item  { 
+.iOh7jgh9hhtUk_review-item  { 
     background: #fff;
 } 
 
-.mailbride_site_review-item  { 
+.iOh7jgh9hhtUk_review-item  { 
     padding: 20px; 
     border-radius: 10px; 
     background: #fff; 
@@ -30,11 +30,11 @@
   } 
 }     
 
-.mailbride_site_partner-link { 
+.iOh7jgh9hhtUk_partner-link { 
     cursor: pointer;
 } 
 
-.mailbride_site_review-image  { 
+.iOh7jgh9hhtUk_review-image  { 
     width: 228px; 
     height: auto; 
     max-height: 270px; 
@@ -44,17 +44,17 @@
     overflow: hidden;
 } 
 
-.mailbride_site_partner-link:not(.mailbride_site_offer-title):not(.mailbride_site_offer-logo):not(.mailbride_site_offer-premium):not(.mailbride_site_offer-site):not(.mailbride_site_logo):not(.mailbride_site_cr-offer-logo):not(.mailbride_site_offer-title-col):not(.mailbride_site_offer-name):not(.mailbride_site_review-title):not(.mailbride_site_review-promotion):not(.mailbride_site_offer-thumb-title):not(.mailbride_site_offer-rating):not(.mailbride_site_cr-btn) { 
+.iOh7jgh9hhtUk_partner-link:not(.iOh7jgh9hhtUk_offer-title):not(.iOh7jgh9hhtUk_offer-logo):not(.iOh7jgh9hhtUk_offer-premium):not(.iOh7jgh9hhtUk_offer-site):not(.iOh7jgh9hhtUk_logo):not(.iOh7jgh9hhtUk_cr-offer-logo):not(.iOh7jgh9hhtUk_offer-title-col):not(.iOh7jgh9hhtUk_offer-name):not(.iOh7jgh9hhtUk_review-title):not(.iOh7jgh9hhtUk_review-promotion):not(.iOh7jgh9hhtUk_offer-thumb-title):not(.iOh7jgh9hhtUk_offer-rating):not(.iOh7jgh9hhtUk_cr-btn) { 
     color: var(--cr-accent-color-mailbride); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.mailbride_site_partner-link:not(.mailbride_site_offer-title):not(.mailbride_site_offer-logo):not(.mailbride_site_offer-premium):not(.mailbride_site_offer-site):not(.mailbride_site_logo):not(.mailbride_site_cr-offer-logo):not(.mailbride_site_offer-title-col):not(.mailbride_site_offer-name):not(.mailbride_site_review-title):not(.mailbride_site_review-promotion):not(.mailbride_site_offer-thumb-title):not(.mailbride_site_offer-rating):not(.mailbride_site_cr-btn):hover { 
+.iOh7jgh9hhtUk_partner-link:not(.iOh7jgh9hhtUk_offer-title):not(.iOh7jgh9hhtUk_offer-logo):not(.iOh7jgh9hhtUk_offer-premium):not(.iOh7jgh9hhtUk_offer-site):not(.iOh7jgh9hhtUk_logo):not(.iOh7jgh9hhtUk_cr-offer-logo):not(.iOh7jgh9hhtUk_offer-title-col):not(.iOh7jgh9hhtUk_offer-name):not(.iOh7jgh9hhtUk_review-title):not(.iOh7jgh9hhtUk_review-promotion):not(.iOh7jgh9hhtUk_offer-thumb-title):not(.iOh7jgh9hhtUk_offer-rating):not(.iOh7jgh9hhtUk_cr-btn):hover { 
     text-decoration: underline;
 } 
 
-.mailbride_site_review-info  { 
+.iOh7jgh9hhtUk_review-info  { 
     display: flex; 
     flex-direction: column; 
     width: 100%;
@@ -66,29 +66,29 @@
     height: auto;
   } 
 
-  .mailbride_site_lazyloaded { 
+  .iOh7jgh9hhtUk_lazyloaded { 
     opacity: 1; 
     transition: opacity .3s;
   } 
 }     
 
-.mailbride_site_cr-rating-table img { 
+.iOh7jgh9hhtUk_cr-rating-table img { 
     max-width: 100%; 
     height: auto;
 } 
 
-.mailbride_site_review-image img  { 
+.iOh7jgh9hhtUk_review-image img  { 
     width: auto; 
     object-fit: contain;
     flex: 0 0 auto;  
     transition: opacity .3s;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-image img:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-image img:hover { 
     opacity: .8;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating  { 
     display: flex; 
     align-items: center;
 } 
@@ -99,7 +99,7 @@
   } 
 }     
 
-.mailbride_site_cr-btn { 
+.iOh7jgh9hhtUk_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -119,15 +119,15 @@
     outline: unset;
 } 
 
-.mailbride_site_cr-btn.mailbride_site_big-size { 
+.iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_big-size { 
     padding: 15px 40px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-mobile-button  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-mobile-button  { 
     background: linear-gradient(265deg, #ff89ca 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-mobile-button  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-mobile-button  { 
     display: none; 
     margin-top: 20px; 
     height: 38px; 
@@ -138,21 +138,21 @@
     text-transform: uppercase;
 } 
 
-.mailbride_site_cr-btn:hover { 
+.iOh7jgh9hhtUk_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-mailbride), 0.75);
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-mobile-button:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-mobile-button:hover { 
     background: linear-gradient(265deg, var(--cr-accent-color-mailbride) 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons  { 
     display: flex; 
     gap: 20px; 
     margin-top: 10px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-special-offer  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-special-offer  { 
     color: #212d41 !important; 
     font-size: 16px; 
     font-weight: bold; 
@@ -163,12 +163,12 @@
     transition: opacity .3s;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-special-offer:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-special-offer:hover { 
     opacity: .8; 
     text-decoration: none !important;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-buttons  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons  { 
     margin-top: 15px; 
     flex: 1 1 auto; 
     display: flex; 
@@ -176,7 +176,7 @@
     gap: 30px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-name  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-name  { 
     color: #212d41 !important; 
     font-size: 20px; 
     font-weight: bold; 
@@ -185,12 +185,12 @@
     transition: color .3s;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-name:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-name:hover { 
     text-decoration: none !important; 
     color: var(--cr-accent-color-mailbride) !important;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-rating  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-rating  { 
     display: flex; 
     align-items: center; 
     margin-left: 25px;
@@ -208,7 +208,7 @@
   } 
 }     
 
-.mailbride_site_cr-rating-table ul { 
+.iOh7jgh9hhtUk_cr-rating-table ul { 
     list-style-type: disk; 
     list-style-position: outside; 
     padding: 0 0 0 20px; 
@@ -216,35 +216,35 @@
 } 
 
 @media all{ 
-  .mailbride_site_ct-section-content .mailbride_site_ct-content ul { 
+  .iOh7jgh9hhtUk_ct-section-content .iOh7jgh9hhtUk_ct-content ul { 
     font-size: 16px; 
     line-height: 24px; 
     margin-bottom: 16px; 
     padding-left: 30px;
   } 
 
-  .mailbride_site_ct-section-content .mailbride_site_ct-content ul { 
+  .iOh7jgh9hhtUk_ct-section-content .iOh7jgh9hhtUk_ct-content ul { 
     list-style: disc;
   } 
 }     
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul  { 
     margin-left: 16px; 
     padding: 0; 
     flex: 0 0 calc(50% - 10px); 
     list-style: none;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-special-offer svg  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-special-offer svg  { 
     min-width: 14px; 
     margin-top: 5px;
 } 
 
-.mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link  { 
     background: linear-gradient(265deg, #ff89ca 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link  { 
     min-width: 170px; 
     height: 44px; 
     padding: 12px 35px; 
@@ -256,11 +256,11 @@
     border-radius: 4px;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link:hover { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link:hover { 
     background: linear-gradient(265deg, var(--cr-accent-color-mailbride) 1.55%, var(--cr-accent-color-mailbride) 99.18%);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-name-rating .mailbride_site_review-rating .mailbride_site_cr-rating-number  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating .iOh7jgh9hhtUk_review-rating .iOh7jgh9hhtUk_cr-rating-number  { 
     color: #212d41; 
     font-size: 16px; 
     font-weight: bold; 
@@ -273,12 +273,12 @@ ul li  {
 } 
 
 @media all{ 
-  .mailbride_site_ct-section-content .mailbride_site_ct-content li { 
+  .iOh7jgh9hhtUk_ct-section-content .iOh7jgh9hhtUk_ct-content li { 
     margin-bottom: 10px;
   } 
 }     
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul li  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li  { 
     color: #5d6b83; 
     font-size: 16px;
     list-style: circle;
@@ -289,11 +289,11 @@ ul li  {
     position: relative;
 } 
 
-.mailbride_site_cr-rating-table ul li::before, .mailbride_site_cr-rating-table ul li::after, .mailbride_site_cr-rating-table ol li::before, .mailbride_site_cr-rating-table ol li::after, .mailbride_site_cr-top-offers ul li::before, .mailbride_site_cr-top-offers ul li::after, .mailbride_site_cr-top-offers ol li::before, .mailbride_site_cr-top-offers ol li::after { 
+.iOh7jgh9hhtUk_cr-rating-table ul li::before, .iOh7jgh9hhtUk_cr-rating-table ul li::after, .iOh7jgh9hhtUk_cr-rating-table ol li::before, .iOh7jgh9hhtUk_cr-rating-table ol li::after, .iOh7jgh9hhtUk_cr-top-offers ul li::before, .iOh7jgh9hhtUk_cr-top-offers ul li::after, .iOh7jgh9hhtUk_cr-top-offers ol li::before, .iOh7jgh9hhtUk_cr-top-offers ol li::after { 
     content: none !important;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons ul li::before { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li::before { 
     content: "" !important; 
     width: 14px; 
     height: 26px; 
@@ -304,44 +304,44 @@ ul li  {
     border: none;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons .mailbride_site_cr-cpm_offer_pros-list li::before { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons .iOh7jgh9hhtUk_cr-cpm_offer_pros-list li::before { 
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIyNiIgdmlld0JveD0iMCAwIDE0IDI2IiBmaWxsPSJub25lIj4KICAgIDxwYXRoIGQ9Ik03LjAxODk0IDUuOTA3MUMzLjY0MzIxIDUuOTA3MSAwLjkxMzA4NiA4LjY0NTE2IDAuOTEzMDg2IDEyLjA2MDZDMC45MTMwODYgMTUuNDc2IDMuNjQzIDE4LjIxNDEgNy4wMTg5NCAxOC4yMTQxQzEwLjM5NDcgMTguMjE0MSAxMy4xMjQ4IDE1LjQ3NjEgMTMuMTI0OCAxMi4wNjA2QzEzLjEyNDggOC42NDUyMSAxMC40MjQxIDUuOTA3MSA3LjAxODk0IDUuOTA3MVpNOS44NjYzOSAxMS4yOTUxTDYuNzU0OCAxNC4zODY2QzYuNjA3OTggMTQuNTMzOSA2LjM3MzEyIDE0LjY1MTYgNi4xMzgyNCAxNC42NTE2QzUuOTAzMzcgMTQuNjUxNiA1LjY5OCAxNC41NjMzIDUuNTIxNjggMTQuMzg2NkwzLjk5NTE2IDEyLjg1NTZDMy42NzIyNCAxMi41MzE3IDMuNjcyMjQgMTEuOTcyMiAzLjk5NTE2IDExLjY0ODRDNC4zMTgwOCAxMS4zMjQ1IDQuODc1ODcgMTEuMzI0NSA1LjE5ODc3IDExLjY0ODRMNi4xMzgyNCAxMi41OTA2TDguNjMzNTMgMTAuMDg3OUM4Ljk1NjQ0IDkuNzY0MDIgOS41MTQyMyA5Ljc2NDAyIDkuODM3MTQgMTAuMDg3OUMxMC4xODkzIDEwLjQxMTggMTAuMTg5MyAxMC45NDE4IDkuODY2NDIgMTEuMjk1MUg5Ljg2NjM5WiIgZmlsbD0iI0YwMkU3MyIvPgo8L3N2Zz4=") no-repeat;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons ul li::after { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li::after { 
     display: none;
 } 
 
-.mailbride_site_cr-rating-table ul li::marker, .mailbride_site_cr-rating-table ol li::marker, .mailbride_site_cr-top-offers ul li::marker, .mailbride_site_cr-top-offers ol li::marker { 
+.iOh7jgh9hhtUk_cr-rating-table ul li::marker, .iOh7jgh9hhtUk_cr-rating-table ol li::marker, .iOh7jgh9hhtUk_cr-top-offers ul li::marker, .iOh7jgh9hhtUk_cr-top-offers ol li::marker { 
     color: var(--cr-accent-color-mailbride);
 } 
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul li:last-child  { 
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul li:last-child  { 
     margin-bottom: 0;
 } 
 
-.mailbride_site_cr-table-style-20 .mailbride_site_reviews-list .mailbride_site_review-item .mailbride_site_review-info .mailbride_site_review-pros-cons .mailbride_site_cr-cpm_offer_cons-list li::before { 
+.iOh7jgh9hhtUk_cr-table-style-20 .iOh7jgh9hhtUk_reviews-list .iOh7jgh9hhtUk_review-item .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons .iOh7jgh9hhtUk_cr-cpm_offer_cons-list li::before { 
     top: 1px; 
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDE0IDIwIiBmaWxsPSJub25lIj4KICAgIDxwYXRoIGQ9Ik03LjAxNTE2IDE3LjE4NThDMTAuMzkwNCAxNy4xODU4IDEzLjEyMDIgMTQuNDQ4MiAxMy4xMjAyIDExLjAzMzJDMTMuMTIwMiA3LjYxODI0IDEwLjM5MDYgNC45MSA3LjAxNTE2IDQuOTFDMy42Mzk5IDQuOTEgMC45MTAxNTYgNy42NDc2OCAwLjkxMDE1NiAxMS4wNjI2QzAuOTEwMTU2IDE0LjQ3NzYgMy42MTA0NCAxNy4xODU4IDcuMDE1MTYgMTcuMTg1OFpNNC43MjU3OCAxMC4wMDI5QzQuNDAyOTEgOS42NzkwMiA0LjQwMjkxIDkuMTE5NjUgNC43MjU3OCA4Ljc5NTgzQzUuMDQ4NjUgOC40NzIwMSA1LjYwNjM2IDguNDcyIDUuOTI5MjIgOC43OTU4M0w2Ljk4NTg2IDkuODU1NjFMOC4wNDI0OSA4Ljc5NTgzQzguMzY1MzYgOC40NzIgOC45MjMwNyA4LjQ3MiA5LjI0NTkzIDguNzk1ODNDOS41Njg4IDkuMTE5NjYgOS41Njg4IDkuNjc5MDQgOS4yNDU5MyAxMC4wMDI5TDguMTg5MyAxMS4wNjI2TDkuMjQ1OTMgMTIuMTIyNEM5LjU2ODggMTIuNDQ2MyA5LjU2ODggMTMuMDA1NiA5LjI0NTkzIDEzLjMyOTVDOS4wNjk4NiAxMy41MDYxIDguODY0MzEgMTMuNTk0NCA4LjYyOTQ2IDEzLjU5NDRDOC4zOTQ2MyAxMy41OTQ0IDguMTg5MjggMTMuNTA2MSA4LjAxMjk4IDEzLjMyOTVMNi45NTYzNSAxMi4yNjk3TDUuOTI5MTcgMTMuMzI5NUM1Ljc1MzEgMTMuNTA2MSA1LjU0NzU0IDEzLjU5NDQgNS4zMTI3IDEzLjU5NDRDNS4wNzc4NiAxMy41OTQ0IDQuODcyNTEgMTMuNTA2MSA0LjY5NjIyIDEzLjMyOTVDNC4zNzMzNSAxMy4wMDU2IDQuMzczMzUgMTIuNDQ2MyA0LjY5NjIyIDEyLjEyMjRMNS43NTI4NiAxMS4wNjI2TDQuNzI1NzggMTAuMDAyOVoiIGZpbGw9IiMyMTJENDEiLz4KPC9zdmc+") no-repeat;
 }
 
 
 @media (max-width: 650px) {
-    .mailbride_site_review-item,
-    .mailbride_site_review-info .mailbride_site_review-pros-cons {
+    .iOh7jgh9hhtUk_review-item,
+    .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons {
         flex-direction: column;
         align-items: center;
     }
-    .mailbride_site_review-info .mailbride_site_review-buttons .mailbride_site_cr-btn.mailbride_site_partner-link {
+    .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-buttons .iOh7jgh9hhtUk_cr-btn.iOh7jgh9hhtUk_partner-link {
         width: 100%;
     }
-    .mailbride_site_review-info .mailbride_site_review-name-rating {
+    .iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-name-rating {
         justify-content: space-between;
     }
 }
 
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons {
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons {
     display: flex;
     gap: 20px;
     margin-top: 10px;
@@ -352,14 +352,14 @@ ul li  {
     max-width: 100%;
 }
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons ul {
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons ul {
     margin: 0;
     padding-left: 20px;
     list-style-position: inside;
     box-sizing: border-box;
 }
 
-.mailbride_site_review-info .mailbride_site_review-pros-cons li {
+.iOh7jgh9hhtUk_review-info .iOh7jgh9hhtUk_review-pros-cons li {
     padding: 5px 0;
     line-height: 1.5;
     word-wrap: break-word;

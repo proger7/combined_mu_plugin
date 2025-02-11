@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const offerBlocks = document.querySelectorAll('.wp_brand-models_profile-offer-online');
+    const offerBlocks = document.querySelectorAll('.g5oXi5dh9a_profile-offer-online');
     let maxHeight = 0;
     offerBlocks.forEach(block => {
         block.style.height = 'auto';

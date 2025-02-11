@@ -1,18 +1,18 @@
-.aimojo_st_comparison-wrapper { 
+.wGuu8hjkhgjj_comparison-wrapper { 
     justify-content: center;
 } 
 
-.aimojo_st_comparison-wrapper  { 
+.wGuu8hjkhgjj_comparison-wrapper  { 
     display: flex; 
     flex: 1; 
     width: 100%;
 } 
 
-.aimojo_st_comparison-wrapper  { 
+.wGuu8hjkhgjj_comparison-wrapper  { 
     gap: 10px;
 } 
 
-.aimojo_st_comparison-wrapper  { 
+.wGuu8hjkhgjj_comparison-wrapper  { 
     font-size: 14px;
 } 
 
@@ -31,7 +31,7 @@
   } 
 }     
 
-.aimojo_st_comparison-item { 
+.wGuu8hjkhgjj_comparison-item { 
     flex: 1 0 0; 
     position: relative; 
     padding-top: 0; 
@@ -42,38 +42,38 @@
 } 
    
 
-.aimojo_st_comparison-item  { 
+.wGuu8hjkhgjj_comparison-item  { 
     margin-top: 49px;
 } 
 
-.aimojo_st_comparison-item:first-child  { 
+.wGuu8hjkhgjj_comparison-item:first-child  { 
     border-left: 1px solid rgba(206,206,206,.5);
 } 
 
-.aimojo_st_comparison-item  { 
+.wGuu8hjkhgjj_comparison-item  { 
     max-width: 350px !important; 
     border: 2px solid #e5e5e5d1;
 } 
 
-.aimojo_st_comparison-item  { 
+.wGuu8hjkhgjj_comparison-item  { 
     background: #ffffff; 
     color: #333333;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-header  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-header  { 
     padding: 0 15px 25px; 
     text-align: center; 
     position: relative;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-row-description  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-row-description  { 
     border-top: 1px solid rgba(206,206,206,.5); 
     padding: 15px; 
     font-size: inherit; 
     line-height: 1.3;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-badge  { 
     text-align: center; 
     font-weight: 600; 
     text-transform: uppercase; 
@@ -81,7 +81,7 @@
     line-height: 18px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-badge  { 
     text-decoration: none; 
     position: absolute; 
     top: -50px; 
@@ -98,13 +98,13 @@
     justify-content: center;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-badge  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-badge  { 
     padding: 16px; 
     background-color: #7635f3; 
     border-radius: 8px 8px 0 0;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image  { 
     padding-top: 25px; 
     display: table; 
     width: 100%; 
@@ -113,7 +113,7 @@
     margin-bottom: 25px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image  { 
     padding-top: 0px; 
     display: table; 
     width: 100%; 
@@ -122,7 +122,7 @@
     margin-bottom: 25px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-title  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-title  { 
     margin-top: 0; 
     margin-bottom: 0; 
     font-weight: 600; 
@@ -131,7 +131,7 @@
     text-decoration: none;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-rating  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-rating  { 
     margin-bottom: 15px; 
     margin-left: auto!important; 
     margin-right: auto!important;
@@ -161,22 +161,22 @@ a {
 } 
 
 @media all{ 
-  .aimojo_st_space-page-content a { 
+  .wGuu8hjkhgjj_space-page-content a { 
     color: #ff2453; 
     text-decoration: underline;
   } 
 }     
 
-.aimojo_st_space-page-content a { 
+.wGuu8hjkhgjj_space-page-content a { 
     color: #ff3535;
 } 
 
-.aimojo_st_space-page-content a { 
+.wGuu8hjkhgjj_space-page-content a { 
     text-decoration: none; 
     font-weight: 600;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_gss-item-btn  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_gss-item-btn  { 
     font-size: 16px; 
     line-height: 1; 
     padding: 12px 25px; 
@@ -193,7 +193,7 @@ a {
     border-radius: 4px;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-header > :last-child  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-header > :last-child  { 
     margin: 0;
 } 
 
@@ -202,30 +202,30 @@ a {
     text-decoration: none;
   } 
 
-  .aimojo_st_space-page-content a:hover { 
+  .wGuu8hjkhgjj_space-page-content a:hover { 
     color: #be2edd;
   } 
 }     
 
- .aimojo_st_space-page-content a:hover { 
+ .wGuu8hjkhgjj_space-page-content a:hover { 
     color: #302b63;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_gss-item-btn:hover { 
     box-shadow: -1px 6px 13px rgba(0,0,0,.4)!important;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_gss-item-btn:hover { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_gss-item-btn:hover { 
     background: #fcd43e !important; 
     transform: scale(1.05); 
     transition: all 0.3s ease-in-out;
 } 
 
-.aimojo_st_item-row-title  { 
+.wGuu8hjkhgjj_item-row-title  { 
     display: none!important;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_item-row-description .aimojo_st_item-row-title  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-row-description .wGuu8hjkhgjj_item-row-title  { 
     display: none; 
     margin: -15px -15px 15px; 
     padding: 7px 15px; 
@@ -237,16 +237,16 @@ a {
 } 
 
 @media all{ 
-   .aimojo_st_space-page-content a:hover { 
+   .wGuu8hjkhgjj_space-page-content a:hover { 
     color: #be2edd;
   } 
 }     
 
-.aimojo_st_has-mercury-main-color, .aimojo_st_home-page .aimojo_st_textwidget a:hover, .aimojo_st_space-header-2-top-soc a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-menu ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li a:hover, .aimojo_st_space-header-2-nav ul.aimojo_st_main-menu li:hover a, .aimojo_st_space-page-content a:hover, .aimojo_st_space-pros-cons ul li a:hover, .aimojo_st_space-pros-cons ol li a:hover, .aimojo_st_space-companies-2-archive-item-desc a:hover, .aimojo_st_space-organizations-3-archive-item-terms-ins a:hover, .aimojo_st_space-organizations-7-archive-item-terms a:hover, .aimojo_st_space-organizations-8-archive-item-terms a:hover, .aimojo_st_space-comments-form-box p.aimojo_st_comment-notes span.aimojo_st_required, form.aimojo_st_comment-form p.aimojo_st_comment-notes span.aimojo_st_required { 
+.wGuu8hjkhgjj_has-mercury-main-color, .wGuu8hjkhgjj_home-page .wGuu8hjkhgjj_textwidget a:hover, .wGuu8hjkhgjj_space-header-2-top-soc a:hover, .wGuu8hjkhgjj_space-header-menu ul.wGuu8hjkhgjj_main-menu li a:hover, .wGuu8hjkhgjj_space-header-menu ul.wGuu8hjkhgjj_main-menu li:hover a, .wGuu8hjkhgjj_space-header-2-nav ul.wGuu8hjkhgjj_main-menu li a:hover, .wGuu8hjkhgjj_space-header-2-nav ul.wGuu8hjkhgjj_main-menu li:hover a, .wGuu8hjkhgjj_space-page-content a:hover, .wGuu8hjkhgjj_space-pros-cons ul li a:hover, .wGuu8hjkhgjj_space-pros-cons ol li a:hover, .wGuu8hjkhgjj_space-companies-2-archive-item-desc a:hover, .wGuu8hjkhgjj_space-organizations-3-archive-item-terms-ins a:hover, .wGuu8hjkhgjj_space-organizations-7-archive-item-terms a:hover, .wGuu8hjkhgjj_space-organizations-8-archive-item-terms a:hover, .wGuu8hjkhgjj_space-comments-form-box p.wGuu8hjkhgjj_comment-notes span.wGuu8hjkhgjj_required, form.wGuu8hjkhgjj_comment-form p.wGuu8hjkhgjj_comment-notes span.wGuu8hjkhgjj_required { 
     color: #302b63;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image  { 
     display: table-cell; 
     vertical-align: middle; 
     width: 100%; 
@@ -263,7 +263,7 @@ a {
   } 
 }     
 
-.aimojo_st_comparison-item .aimojo_st_item-rating .aimojo_st_item-stars-rating  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_item-rating .wGuu8hjkhgjj_item-stars-rating  { 
     display: flex; 
     justify-content: center; 
     overflow: hidden; 
@@ -290,16 +290,16 @@ a {
     -webkit-backface-visibility: hidden;
   } 
 
-  .aimojo_st_space-content-section img { 
+  .wGuu8hjkhgjj_space-content-section img { 
     border-radius: 5px;
   } 
 
-  .aimojo_st_space-page-content img { 
+  .wGuu8hjkhgjj_space-page-content img { 
     border-radius: 5px!important;
   } 
 }     
 
-.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image img  { 
     max-height: 160px; 
     width: auto!important; 
     height: auto!important; 
@@ -308,7 +308,7 @@ a {
     max-width: 100%!important;
 } 
 
-.aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img  { 
+.wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image img  { 
     width: 100% !important; 
     height: 129px !important; 
     object-fit: contain !important; 
@@ -320,95 +320,95 @@ a {
 
 
 /* These were inline style tags. Uses id+class to override almost everything */
-#style-kAalw.aimojo_st_style-kAalw {  
+#style-kAalw.wGuu8hjkhgjj_style-kAalw {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-G5y2m.aimojo_st_style-G5y2m {  
+#style-G5y2m.wGuu8hjkhgjj_style-G5y2m {  
    background-color: #7635f3;  
 }  
-#style-yNlxo.aimojo_st_style-yNlxo {  
+#style-yNlxo.wGuu8hjkhgjj_style-yNlxo {  
    font-size: 18px;  
 }  
-#style-PMQL4.aimojo_st_style-PMQL4 {  
+#style-PMQL4.wGuu8hjkhgjj_style-PMQL4 {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-htejV.aimojo_st_style-htejV {  
+#style-htejV.wGuu8hjkhgjj_style-htejV {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-VOKMq.aimojo_st_style-VOKMq {  
+#style-VOKMq.wGuu8hjkhgjj_style-VOKMq {  
    background-color: #000000;  
 }  
-#style-nVqXU.aimojo_st_style-nVqXU {  
+#style-nVqXU.wGuu8hjkhgjj_style-nVqXU {  
    font-size: 18px;  
 }  
-#style-3BRVH.aimojo_st_style-3BRVH {  
+#style-3BRVH.wGuu8hjkhgjj_style-3BRVH {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-c9b7C.aimojo_st_style-c9b7C {  
+#style-c9b7C.wGuu8hjkhgjj_style-c9b7C {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-oHZNZ.aimojo_st_style-oHZNZ {  
+#style-oHZNZ.wGuu8hjkhgjj_style-oHZNZ {  
    background-color: #7635f3;  
 }  
-#style-eMdS2.aimojo_st_style-eMdS2 {  
+#style-eMdS2.wGuu8hjkhgjj_style-eMdS2 {  
    font-size: 18px;  
 }  
-#style-QSNhh.aimojo_st_style-QSNhh {  
+#style-QSNhh.wGuu8hjkhgjj_style-QSNhh {  
    min-height: auto;  
     height: 104px;  
 }  
 /* These were inline style tags. Uses id+class to override almost everything */
-#style-9KM7g.aimojo_st_style-9KM7g {  
+#style-9KM7g.wGuu8hjkhgjj_style-9KM7g {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-o1fJI.aimojo_st_style-o1fJI {  
+#style-o1fJI.wGuu8hjkhgjj_style-o1fJI {  
    background-color: #7635f3;  
 }  
-#style-iXbas.aimojo_st_style-iXbas {  
+#style-iXbas.wGuu8hjkhgjj_style-iXbas {  
    font-size: 18px;  
 }  
-#style-h7PD1.aimojo_st_style-h7PD1 {  
+#style-h7PD1.wGuu8hjkhgjj_style-h7PD1 {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-ftcRh.aimojo_st_style-ftcRh {  
+#style-ftcRh.wGuu8hjkhgjj_style-ftcRh {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-GDvU3.aimojo_st_style-GDvU3 {  
+#style-GDvU3.wGuu8hjkhgjj_style-GDvU3 {  
    background-color: #000000;  
 }  
-#style-AXPiR.aimojo_st_style-AXPiR {  
+#style-AXPiR.wGuu8hjkhgjj_style-AXPiR {  
    font-size: 18px;  
 }  
-#style-EAGTY.aimojo_st_style-EAGTY {  
+#style-EAGTY.wGuu8hjkhgjj_style-EAGTY {  
    min-height: auto;  
     height: 104px;  
 }  
-#style-zCkoP.aimojo_st_style-zCkoP {  
+#style-zCkoP.wGuu8hjkhgjj_style-zCkoP {  
    min-height: auto;  
     height: 305px;  
 }  
-#style-5PA2C.aimojo_st_style-5PA2C {  
+#style-5PA2C.wGuu8hjkhgjj_style-5PA2C {  
    background-color: #7635f3;  
 }  
-#style-Oolhi.aimojo_st_style-Oolhi {  
+#style-Oolhi.wGuu8hjkhgjj_style-Oolhi {  
    font-size: 18px;  
 }  
-#style-f2QKw.aimojo_st_style-f2QKw {  
+#style-f2QKw.wGuu8hjkhgjj_style-f2QKw {  
    min-height: auto;  
     height: 104px;  
 }  
 
 @media (max-width: 650px) {
-    .aimojo_st_comparison-wrapper,
-    .aimojo_st_comparison-item {
+    .wGuu8hjkhgjj_comparison-wrapper,
+    .wGuu8hjkhgjj_comparison-item {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -419,13 +419,13 @@ a {
 
 
 
-.aimojo_st_comparison-wrapper {
+.wGuu8hjkhgjj_comparison-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-between;
 }
-.aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+.wGuu8hjkhgjj_comparison-wrapper .wGuu8hjkhgjj_comparison-item {
     flex: 0 1 calc(var(--item-width) - 16px) !important;
     max-width: calc(var(--item-width) - 16px) !important;
     display: flex;
@@ -435,17 +435,17 @@ a {
 }
 
 @media (max-width: 992px) {
-    .aimojo_st_comparison-item .aimojo_st_product-image .aimojo_st_image img {
+    .wGuu8hjkhgjj_comparison-item .wGuu8hjkhgjj_product-image .wGuu8hjkhgjj_image img {
         width: 75% !important;
     }
-    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+    .wGuu8hjkhgjj_comparison-wrapper .wGuu8hjkhgjj_comparison-item {
         flex: 0 1 calc(50% - 16px) !important;
         max-width: calc(50% - 16px) !important;
     }
 }
 
 @media (max-width: 480px) {
-    .aimojo_st_comparison-wrapper .aimojo_st_comparison-item {
+    .wGuu8hjkhgjj_comparison-wrapper .wGuu8hjkhgjj_comparison-item {
         flex: 0 1 100% !important;
         max-width: 100% !important;
     }

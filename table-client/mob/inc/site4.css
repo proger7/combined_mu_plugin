@@ -11,7 +11,7 @@
     --ct-content-text-color-site4: #505b6d; 
 } 
 
-.wp_site4_bride_profiles-grid  { 
+.yfg6Ghh54ffj48_profiles-grid  { 
     display: grid; 
     gap: 20px; 
     grid-template-columns: repeat(3, 1fr);
@@ -24,7 +24,7 @@
   } 
 }     
 
-.wp_site4_bride_profile-grid-item  { 
+.yfg6Ghh54ffj48_profile-grid-item  { 
     background: #fff; 
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1)); 
     border-radius: 10px; 
@@ -37,22 +37,22 @@
 } 
 
 @media all{ 
-  .wp_site4_bride_profile-grid-item  { 
+  .yfg6Ghh54ffj48_profile-grid-item  { 
     border-radius: 0; 
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1));
   } 
 
-  .wp_site4_bride_tns-outer { 
+  .yfg6Ghh54ffj48_tns-outer { 
     padding: 0 !important;
   } 
 }     
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer  { 
     position: relative; 
     user-select: none;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side  { 
     display: flex; 
     flex-direction: column; 
     justify-content: space-between; 
@@ -62,18 +62,18 @@
 } 
 
 @media all{ 
-  .wp_site4_bride_tns-visually-hidden { 
+  .yfg6Ghh54ffj48_tns-visually-hidden { 
     position: absolute; 
     left: -10000em;
   } 
 
-  .wp_site4_bride_tns-ah { 
+  .yfg6Ghh54ffj48_tns-ah { 
     -webkit-transition: height 0s; 
     -moz-transition: height 0s; 
     transition: height 0s;
   } 
 
-  .wp_site4_bride_tns-ovh { 
+  .yfg6Ghh54ffj48_tns-ovh { 
     overflow: hidden;
   } 
 }     
@@ -82,7 +82,7 @@
     transition-duration: 0.3s;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-nav  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-nav  { 
     position: absolute; 
     bottom: 30px; 
     width: 100%; 
@@ -91,16 +91,16 @@
     justify-content: center;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-info  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-info  { 
     display: flex; 
     flex-direction: column;
 } 
 
-.wp_site4_bride_partner-link { 
+.yfg6Ghh54ffj48_partner-link { 
     cursor: pointer;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-button  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-button  { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -118,23 +118,23 @@
 } 
 
 @media all{ 
-  .wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-button  { 
+  .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-button  { 
     border-radius: 0;
   } 
 }     
 
-.wp_site4_bride_partner-link:not(.wp_site4_bride_offer-title):not(.wp_site4_bride_offer-logo):not(.wp_site4_bride_offer-premium):not(.wp_site4_bride_offer-site):not(.wp_site4_bride_logo):not(.wp_site4_bride_cr-offer-logo):not(.wp_site4_bride_offer-title-col):not(.wp_site4_bride_offer-name):not(.wp_site4_bride_review-title):not(.wp_site4_bride_review-promotion):not(.wp_site4_bride_offer-thumb-title):not(.wp_site4_bride_offer-rating):not(.wp_site4_bride_cr-btn) { 
+.yfg6Ghh54ffj48_partner-link:not(.yfg6Ghh54ffj48_offer-title):not(.yfg6Ghh54ffj48_offer-logo):not(.yfg6Ghh54ffj48_offer-premium):not(.yfg6Ghh54ffj48_offer-site):not(.yfg6Ghh54ffj48_logo):not(.yfg6Ghh54ffj48_cr-offer-logo):not(.yfg6Ghh54ffj48_offer-title-col):not(.yfg6Ghh54ffj48_offer-name):not(.yfg6Ghh54ffj48_review-title):not(.yfg6Ghh54ffj48_review-promotion):not(.yfg6Ghh54ffj48_offer-thumb-title):not(.yfg6Ghh54ffj48_offer-rating):not(.yfg6Ghh54ffj48_cr-btn) { 
     color: var(--cr-accent-color-site4); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.wp_site4_bride_cpm-profiles-style-1 .wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-button:hover { 
+.yfg6Ghh54ffj48_cpm-profiles-style-1 .yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-button:hover { 
     box-shadow: 0 3px 5px rgba(var(--cr-accent-color-rgb-site4), 0.5); 
     text-decoration: none !important;
 } 
 
-.wp_site4_bride_partner-link:not(.wp_site4_bride_offer-title):not(.wp_site4_bride_offer-logo):not(.wp_site4_bride_offer-premium):not(.wp_site4_bride_offer-site):not(.wp_site4_bride_logo):not(.wp_site4_bride_cr-offer-logo):not(.wp_site4_bride_offer-title-col):not(.wp_site4_bride_offer-name):not(.wp_site4_bride_review-title):not(.wp_site4_bride_review-promotion):not(.wp_site4_bride_offer-thumb-title):not(.wp_site4_bride_offer-rating):not(.wp_site4_bride_cr-btn):hover { 
+.yfg6Ghh54ffj48_partner-link:not(.yfg6Ghh54ffj48_offer-title):not(.yfg6Ghh54ffj48_offer-logo):not(.yfg6Ghh54ffj48_offer-premium):not(.yfg6Ghh54ffj48_offer-site):not(.yfg6Ghh54ffj48_logo):not(.yfg6Ghh54ffj48_cr-offer-logo):not(.yfg6Ghh54ffj48_offer-title-col):not(.yfg6Ghh54ffj48_offer-name):not(.yfg6Ghh54ffj48_review-title):not(.yfg6Ghh54ffj48_review-promotion):not(.yfg6Ghh54ffj48_offer-thumb-title):not(.yfg6Ghh54ffj48_offer-rating):not(.yfg6Ghh54ffj48_cr-btn):hover { 
     text-decoration: underline;
 } 
 
@@ -169,12 +169,12 @@
     -webkit-appearance: button;
   } 
 
-  .wp_site4_bride_tns-outer [aria-controls]  { 
+  .yfg6Ghh54ffj48_tns-outer [aria-controls]  { 
     cursor: pointer;
   } 
 }     
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-controls button  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-controls button  { 
     position: absolute; 
     font-size: 16px; 
     font-weight: bold; 
@@ -195,11 +195,11 @@
     border-radius: 50%;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-controls button[data-controls="prev"]  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-controls button[data-controls="prev"]  { 
     left: 15px;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-controls button[disabled]  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-controls button[disabled]  { 
     display: none;
 } 
 
@@ -209,11 +209,11 @@
   } 
 }     
 
-.wp_site4_bride_cpm-profiles-style-1 .wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-controls button:hover { 
+.yfg6Ghh54ffj48_cpm-profiles-style-1 .yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-controls button:hover { 
     opacity: 1;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-controls button[data-controls="next"]  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-controls button[data-controls="next"]  { 
     right: 15px;
 } 
 
@@ -221,7 +221,7 @@
     margin: 0px;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-nav button  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-nav button  { 
     display: block; 
     outline: none; 
     width: 10px; 
@@ -233,7 +233,7 @@
     padding: 0;
 } 
 
-.wp_site4_bride_cpm-profiles-style-1 .wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-nav button::before { 
+.yfg6Ghh54ffj48_cpm-profiles-style-1 .yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-nav button::before { 
     content: ""; 
     position: absolute; 
     top: 50%; 
@@ -249,18 +249,18 @@
     box-shadow: 0 0 3px rgba(0,0,0,.2);
 } 
 
-.wp_site4_bride_cpm-profiles-style-1 .wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-nav button.wp_site4_bride_tns-nav-active::before { 
+.yfg6Ghh54ffj48_cpm-profiles-style-1 .yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-nav button.yfg6Ghh54ffj48_tns-nav-active::before { 
     opacity: 1;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-info .wp_site4_bride_profile-location  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-info .yfg6Ghh54ffj48_profile-location  { 
     font-size: 14px; 
     line-height: 1.4; 
     font-weight: normal; 
     color: #999;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-info .wp_site4_bride_profile-website  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-info .yfg6Ghh54ffj48_profile-website  { 
     font-size: 14px; 
     line-height: 1.4; 
     font-weight: normal; 
@@ -277,13 +277,13 @@
 } 
 
 @media all{ 
-  .wp_site4_bride_tns-slider { 
+  .yfg6Ghh54ffj48_tns-slider { 
     -webkit-transition: all 0s; 
     -moz-transition: all 0s; 
     transition: all 0s;
   } 
 
-  .wp_site4_bride_tns-horizontal.wp_site4_bride_tns-subpixel { 
+  .yfg6Ghh54ffj48_tns-horizontal.yfg6Ghh54ffj48_tns-subpixel { 
     white-space: nowrap;
   } 
 }     
@@ -297,14 +297,14 @@
     transition-duration: 0.3s;
 } 
 
-.wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-info .wp_site4_bride_profile-name > *  { 
+.yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-info .yfg6Ghh54ffj48_profile-name > *  { 
     font-size: 20px; 
     line-height: 1.4; 
     font-weight: bold; 
     color: #333 !important;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-info .wp_site4_bride_profile-website-link  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-info .yfg6Ghh54ffj48_profile-website-link  { 
     font-weight: bold; 
     color: var(--cr-accent-color-site4) !important; 
     filter: brightness(1.2); 
@@ -313,7 +313,7 @@
     cursor: pointer;
 } 
 
-.wp_site4_bride_cpm-profiles-style-1 .wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_profile-bottom-side .wp_site4_bride_profile-info .wp_site4_bride_profile-website-link:hover { 
+.yfg6Ghh54ffj48_cpm-profiles-style-1 .yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-bottom-side .yfg6Ghh54ffj48_profile-info .yfg6Ghh54ffj48_profile-website-link:hover { 
     opacity: .7; 
     text-decoration: none !important;
 } 
@@ -337,52 +337,52 @@
 } 
 
 @media all{ 
-  .wp_site4_bride_tns-slider > .wp_site4_bride_tns-item  { 
+  .yfg6Ghh54ffj48_tns-slider > .yfg6Ghh54ffj48_tns-item  { 
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
   } 
 
-  .wp_site4_bride_tns-horizontal.wp_site4_bride_tns-subpixel > .wp_site4_bride_tns-item  { 
+  .yfg6Ghh54ffj48_tns-horizontal.yfg6Ghh54ffj48_tns-subpixel > .yfg6Ghh54ffj48_tns-item  { 
     display: inline-block; 
     vertical-align: top; 
     white-space: normal;
   } 
 }     
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-item  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-item  { 
     position: relative;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-top-side .wp_site4_bride_item.wp_site4_bride_tns-item  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_item.yfg6Ghh54ffj48_tns-item  { 
     display: inline-block;
 } 
 
-#tns1 > .wp_site4_bride_tns-item  { 
+#tns1 > .yfg6Ghh54ffj48_tns-item  { 
     font-size: 18px;
 } 
 
-#tns1 > .wp_site4_bride_tns-item  { 
+#tns1 > .yfg6Ghh54ffj48_tns-item  { 
     width: calc(20%);
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-top-side .wp_site4_bride_item:not(:first-child)  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_item:not(:first-child)  { 
     display: none;
 } 
 
-#tns2 > .wp_site4_bride_tns-item  { 
+#tns2 > .yfg6Ghh54ffj48_tns-item  { 
     font-size: 18px;
 } 
 
-#tns2 > .wp_site4_bride_tns-item  { 
+#tns2 > .yfg6Ghh54ffj48_tns-item  { 
     width: calc(25%);
 } 
 
-#tns3 > .wp_site4_bride_tns-item  { 
+#tns3 > .yfg6Ghh54ffj48_tns-item  { 
     font-size: 18px;
 } 
 
-#tns3 > .wp_site4_bride_tns-item  { 
+#tns3 > .yfg6Ghh54ffj48_tns-item  { 
     width: calc(25%);
 } 
 
@@ -392,12 +392,12 @@
     height: auto;
   } 
 
-  .wp_site4_bride_lazyloaded { 
+  .yfg6Ghh54ffj48_lazyloaded { 
     opacity: 1; 
     transition: opacity .3s;
   } 
 
-  .wp_site4_bride_ct-content-box img { 
+  .yfg6Ghh54ffj48_ct-content-box img { 
     max-width: 100%; 
     height: auto; 
     border-radius: 4px; 
@@ -405,7 +405,7 @@
   } 
 }     
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_profile-top-side .wp_site4_bride_item img  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_item img  { 
     display: block; 
     width: 100%; 
     height: 280px; 
@@ -414,11 +414,11 @@
     border-radius: 0;
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-item:last-child img  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-item:last-child img  { 
     filter: blur(5px);
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-item .wp_site4_bride_more  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-item .yfg6Ghh54ffj48_more  { 
     width: 100%; 
     height: 100%; 
     position: absolute; 
@@ -436,7 +436,7 @@
     background: rgba(0,0,0,.3);
 } 
 
-.wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-item .wp_site4_bride_more .wp_site4_bride_profile-all-photos-button  { 
+.yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-item .yfg6Ghh54ffj48_more .yfg6Ghh54ffj48_profile-all-photos-button  { 
     opacity: 1; 
     font-weight: bold; 
     text-transform: uppercase; 
@@ -450,113 +450,113 @@
 } 
 
 @media all{ 
-  .wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-item .wp_site4_bride_more .wp_site4_bride_profile-all-photos-button  { 
+  .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-item .yfg6Ghh54ffj48_more .yfg6Ghh54ffj48_profile-all-photos-button  { 
     border-radius: 0;
   } 
 }     
 
-.wp_site4_bride_cpm-profiles-style-1 .wp_site4_bride_profiles-grid .wp_site4_bride_profile-grid-item .wp_site4_bride_tns-outer .wp_site4_bride_tns-item .wp_site4_bride_more .wp_site4_bride_profile-all-photos-button:hover { 
+.yfg6Ghh54ffj48_cpm-profiles-style-1 .yfg6Ghh54ffj48_profiles-grid .yfg6Ghh54ffj48_profile-grid-item .yfg6Ghh54ffj48_tns-outer .yfg6Ghh54ffj48_tns-item .yfg6Ghh54ffj48_more .yfg6Ghh54ffj48_profile-all-photos-button:hover { 
     background: #fff; 
     color: #000 !important; 
     text-decoration: none !important;
 } 
 
 @media (max-width: 767px){ 
-  .wp_site4_bride_profiles-grid  { 
+  .yfg6Ghh54ffj48_profiles-grid  { 
     grid-template-columns: repeat(2, 1fr);
   } 
 }     
 
 @media (max-width: 430px){ 
-  .wp_site4_bride_profiles-grid  { 
+  .yfg6Ghh54ffj48_profiles-grid  { 
     grid-template-columns: 1fr;
   } 
 }     
 
 @media (max-width: 767px){ 
-  .wp_site4_bride_profile-top-side .wp_site4_bride_item:not(:first-child)  { 
+  .yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_item:not(:first-child)  { 
     display: none;
   } 
 
-  .wp_site4_bride_profile-top-side .wp_site4_bride_item img  { 
+  .yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_item img  { 
     height: 320px !important;
   } 
 }     
 
 
-#tns1-mw.wp_site4_bride_style-kM8WB {  
+#tns1-mw.yfg6Ghh54ffj48_style-kM8WB {  
    height: 280px;  
 }  
-#tns1.wp_site4_bride_style-78Lzw {  
+#tns1.yfg6Ghh54ffj48_style-78Lzw {  
    transition-duration: 0s;  
     transform: translate3d(0%, 0px, 0px);  
 }  
-#tns2-mw.wp_site4_bride_style-pgspc {  
+#tns2-mw.yfg6Ghh54ffj48_style-pgspc {  
    height: 280px;  
 }  
-#tns2.wp_site4_bride_style-lvYjo {  
+#tns2.yfg6Ghh54ffj48_style-lvYjo {  
    transition-duration: 0s;  
     transform: translate3d(0%, 0px, 0px);  
 }  
-#tns3-mw.wp_site4_bride_style-P2gyD {  
+#tns3-mw.yfg6Ghh54ffj48_style-P2gyD {  
    height: 280px;  
 }  
-#tns3.wp_site4_bride_style-HvbyA {  
-   transition-duration: 0s;  
-    transform: translate3d(0%, 0px, 0px);  
-}  
-
-#tns1-mw.wp_site4_bride_style-qZdYU {  
-   height: 280px;  
-}  
-#tns1.wp_site4_bride_style-YQhZ3 {  
-   transition-duration: 0s;  
-    transform: translate3d(0%, 0px, 0px);  
-}  
-#tns2-mw.wp_site4_bride_style-3WQqF {  
-   height: 280px;  
-}  
-#tns2.wp_site4_bride_style-poO8w {  
-   transition-duration: 0s;  
-    transform: translate3d(0%, 0px, 0px);  
-}  
-#tns3-mw.wp_site4_bride_style-qyKtw {  
-   height: 280px;  
-}  
-#tns3.wp_site4_bride_style-1a1Tr {  
+#tns3.yfg6Ghh54ffj48_style-HvbyA {  
    transition-duration: 0s;  
     transform: translate3d(0%, 0px, 0px);  
 }  
 
-.wp_site4_bride_profile-top-side .wp_site4_bride_tns-item {
+#tns1-mw.yfg6Ghh54ffj48_style-qZdYU {  
+   height: 280px;  
+}  
+#tns1.yfg6Ghh54ffj48_style-YQhZ3 {  
+   transition-duration: 0s;  
+    transform: translate3d(0%, 0px, 0px);  
+}  
+#tns2-mw.yfg6Ghh54ffj48_style-3WQqF {  
+   height: 280px;  
+}  
+#tns2.yfg6Ghh54ffj48_style-poO8w {  
+   transition-duration: 0s;  
+    transform: translate3d(0%, 0px, 0px);  
+}  
+#tns3-mw.yfg6Ghh54ffj48_style-qyKtw {  
+   height: 280px;  
+}  
+#tns3.yfg6Ghh54ffj48_style-1a1Tr {  
+   transition-duration: 0s;  
+    transform: translate3d(0%, 0px, 0px);  
+}  
+
+.yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_tns-item {
     display: block !important;
 }
-.wp_site4_bride_partner-link-view {
+.yfg6Ghh54ffj48_partner-link-view {
     color: #FFF;
 }
 
 
- .wp_site4_bride_profile-top-side {
+ .yfg6Ghh54ffj48_profile-top-side {
      display: flex;
      overflow: hidden;
      position: relative;
  }
- .wp_site4_bride_profile-top-side .wp_site4_bride_item {
+ .yfg6Ghh54ffj48_profile-top-side .yfg6Ghh54ffj48_item {
      flex: 0 0 auto;
      width: 230px;
  }
- .wp_site4_bride_profile-top-side img {
+ .yfg6Ghh54ffj48_profile-top-side img {
      display: block;
      width: 100%;
      height: auto;
  }
- .wp_site4_bride_tns-controls button {
+ .yfg6Ghh54ffj48_tns-controls button {
      background: #007bff;
      color: white;
      border: none;
      padding: 5px 10px;
      cursor: pointer;
  }
- .wp_site4_bride_tns-controls button:hover {
+ .yfg6Ghh54ffj48_tns-controls button:hover {
      background: #0056b3;
  }

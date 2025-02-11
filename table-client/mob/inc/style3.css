@@ -7,11 +7,11 @@
     --ct-content-link-color-inspirationalwomenseries: #f86d6c; 
 } 
 
-.insp_woman_review-item  { 
+.jUfg678Gghhhtg_review-item  { 
     background: #fff;
 } 
 
-.insp_woman_review-item  { 
+.jUfg678Gghhhtg_review-item  { 
     align-items: center; 
     background: #fff; 
     box-shadow: 0 6px 20px rgba(148,160,178,.2); 
@@ -24,11 +24,11 @@
     gap: 10%;
 } 
 
-.insp_woman_review-item.insp_woman_has-review  { 
+.jUfg678Gghhhtg_review-item.jUfg678Gghhhtg_has-review  { 
     gap: 4%;
 } 
 
-.insp_woman_review-item:hover  { 
+.jUfg678Gghhhtg_review-item:hover  { 
     box-shadow: 0 8px 36px rgba(0,0,0,.24);
 } 
 
@@ -43,25 +43,25 @@
   } 
 }     
 
-.insp_woman_review-logo  { 
+.jUfg678Gghhhtg_review-logo  { 
     flex: 1 1 auto; 
     font-size: 18px; 
     line-height: 22px; 
     font-weight: bold;
 } 
 
-.insp_woman_cr-rating-stars { 
+.jUfg678Gghhhtg_cr-rating-stars { 
     position: relative; 
     width: 98px; 
     height: 17px; 
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 51.9"%3E%3Cpolygon points="26.9,0 35.3,16.9 53.9,19.6 40.4,32.7 43.6,51.2 26.9,42.5 10.3,51.2 13.5,32.7 0,19.6 18.6,16.9" fill="%23ddd"/%3E%3C/svg%3E');
 } 
 
-.insp_woman_cr-rating-stars  { 
+.jUfg678Gghhhtg_cr-rating-stars  { 
     flex: 0 0 98px;
 } 
 
-.insp_woman_cr-rating-number  { 
+.jUfg678Gghhhtg_cr-rating-number  { 
     flex: 0 0 52px; 
     text-align: center; 
     font-size: 34px; 
@@ -76,7 +76,7 @@
   } 
 }     
 
-.insp_woman_cr-btn { 
+.jUfg678Gghhhtg_cr-btn { 
     display: inline-block; 
     padding: 10px 12px; 
     font-size: 14px; 
@@ -96,12 +96,12 @@
     outline: unset;
 } 
 
-.insp_woman_cr-rating-table a { 
+.jUfg678Gghhhtg_cr-rating-table a { 
     text-decoration: none;
 } 
 
 @media all{ 
-  .insp_woman_ct-section-content .insp_woman_ct-content a { 
+  .jUfg678Gghhhtg_ct-section-content .jUfg678Gghhhtg_ct-content a { 
     color: var(--ct-content-link-color-inspirationalwomenseries); 
     text-decoration: underline; 
     text-decoration-color: rgba(0,0,0,0); 
@@ -109,30 +109,30 @@
   } 
 }     
 
-.insp_woman_read-review-link  { 
+.jUfg678Gghhhtg_read-review-link  { 
     display: flex; 
     background: none; 
     text-transform: none;
 } 
 
-.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link::after { 
+.jUfg678Gghhhtg_cr-table-style-14 .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_read-review-link::after { 
     display: block; 
     padding-left: 5px; 
     content: "\2192"; 
     transition: transform .24s ease-in-out;
 } 
 
-.insp_woman_cr-btn:hover { 
+.jUfg678Gghhhtg_cr-btn:hover { 
     background: rgba(var(--cr-accent-color-rgb-inspirationalwomenseries), 0.75);
 } 
 
 @media all{ 
-  .insp_woman_ct-section-content .insp_woman_ct-content a:hover { 
+  .jUfg678Gghhhtg_ct-section-content .jUfg678Gghhhtg_ct-content a:hover { 
     text-decoration-color: var(--ct-content-link-color-inspirationalwomenseries);
   } 
 }     
 
-.insp_woman_cr-table-style-14 .insp_woman_review-item .insp_woman_read-review-link:hover::after { 
+.jUfg678Gghhhtg_cr-table-style-14 .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_read-review-link:hover::after { 
     transform: translateX(10px);
 } 
 
@@ -142,7 +142,7 @@
   } 
 }     
 
-.insp_woman_partner-link { 
+.jUfg678Gghhhtg_partner-link { 
     cursor: pointer;
 } 
 
@@ -160,34 +160,34 @@
     max-width: 100%;
   } 
 
-  figure:not(.insp_woman_wp-block-image)  { 
+  figure:not(.jUfg678Gghhhtg_wp-block-image)  { 
     width: auto !important;
   } 
 }     
 
-.insp_woman_review-logo figure  { 
+.jUfg678Gghhhtg_review-logo figure  { 
     position: relative; 
     overflow: hidden; 
     margin: 0 !important;
 } 
 
-div.insp_woman_review-item > div.insp_woman_review-logo > figure  { 
+div.jUfg678Gghhhtg_review-item > div.jUfg678Gghhhtg_review-logo > figure  { 
     margin: 0;
 } 
 
 @media all{ 
-  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed):not(.insp_woman_aligncenter)  { 
+  figure:not(.jUfg678Gghhhtg_wp-block-media-text__media):not(.jUfg678Gghhhtg_wp-block-embed):not(.jUfg678Gghhhtg_aligncenter)  { 
     margin: 0 15px 30px;
   } 
 }     
 
-.insp_woman_partner-link:not(.insp_woman_offer-title):not(.insp_woman_offer-logo):not(.insp_woman_offer-premium):not(.insp_woman_offer-site):not(.insp_woman_logo):not(.insp_woman_cr-offer-logo):not(.insp_woman_offer-title-col):not(.insp_woman_offer-name):not(.insp_woman_review-title):not(.insp_woman_review-promotion):not(.insp_woman_offer-thumb-title):not(.insp_woman_offer-rating):not(.insp_woman_cr-btn) { 
+.jUfg678Gghhhtg_partner-link:not(.jUfg678Gghhhtg_offer-title):not(.jUfg678Gghhhtg_offer-logo):not(.jUfg678Gghhhtg_offer-premium):not(.jUfg678Gghhhtg_offer-site):not(.jUfg678Gghhhtg_logo):not(.jUfg678Gghhhtg_cr-offer-logo):not(.jUfg678Gghhhtg_offer-title-col):not(.jUfg678Gghhhtg_offer-name):not(.jUfg678Gghhhtg_review-title):not(.jUfg678Gghhhtg_review-promotion):not(.jUfg678Gghhhtg_offer-thumb-title):not(.jUfg678Gghhhtg_offer-rating):not(.jUfg678Gghhhtg_cr-btn) { 
     color: var(--cr-accent-color-inspirationalwomenseries); 
     font-weight: bold; 
     text-decoration: none;
 } 
 
-.insp_woman_cr-rating-stars .insp_woman_fill  { 
+.jUfg678Gghhhtg_cr-rating-stars .jUfg678Gghhhtg_fill  { 
     position: absolute; 
     height: 100%; 
     top: 0; 
@@ -201,25 +201,25 @@ div.insp_woman_review-item > div.insp_woman_review-logo > figure  {
     height: auto;
   } 
 
-  .insp_woman_lazyloaded { 
+  .jUfg678Gghhhtg_lazyloaded { 
     opacity: 1; 
     transition: opacity .3s;
   } 
 }     
 
-.insp_woman_cr-rating-table img { 
+.jUfg678Gghhhtg_cr-rating-table img { 
     max-width: 100%; 
     height: auto;
 } 
 
-.insp_woman_review-logo figure img  { 
+.jUfg678Gghhhtg_review-logo figure img  { 
     display: block; 
     width: 120px; 
     z-index: 2;
 } 
 
 @media all{ 
-  figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img  { 
+  figure:not(.jUfg678Gghhhtg_wp-block-media-text__media):not(.jUfg678Gghhhtg_wp-block-embed) img  { 
     max-width: 100%; 
     height: 40px; 
     object-fit: contain;
@@ -240,7 +240,7 @@ figcaption {
     text-align: center;
 } 
 
-.insp_woman_review-logo figure figcaption  { 
+.jUfg678Gghhhtg_review-logo figure figcaption  { 
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -251,22 +251,22 @@ figcaption {
 
 
 @media (max-width: 650px) {
-    .insp_woman_cr-btn {
+    .jUfg678Gghhhtg_cr-btn {
         min-width: unset !important;
         display: flex !important;
         flex: 0 0 50% !important;
         justify-content: center !important;
         margin-top: 11px !important;
     }
-    .insp_woman_review-item {
+    .jUfg678Gghhhtg_review-item {
         padding: 10px !important;
         flex-wrap: wrap;
         justify-content: center;
     }
-    figure:not(.insp_woman_wp-block-media-text__media):not(.insp_woman_wp-block-embed) img {
+    figure:not(.jUfg678Gghhhtg_wp-block-media-text__media):not(.jUfg678Gghhhtg_wp-block-embed) img {
         max-width: none !important;
     }
-    .insp_woman_review-logo {
+    .jUfg678Gghhhtg_review-logo {
         display: flex !important;
         justify-content: center !important;
         flex: 1 1 100% !important;
@@ -275,7 +275,7 @@ figcaption {
 
 
 @media (max-width: 650px) {
-    .insp_woman_review-item {
+    .jUfg678Gghhhtg_review-item {
         padding: 20px 10px 10px;
         border: 2px solid #ddd;
         border-radius: 10px;
@@ -285,18 +285,18 @@ figcaption {
         text-align: center;
     }
 
-    .insp_woman_review-item img {
+    .jUfg678Gghhhtg_review-item img {
         margin-bottom: 10px;
         border-radius: 8px;
 }
 
-    .insp_woman_review-item .insp_woman_cr-rating-stars {
+    .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_cr-rating-stars {
         margin-top: 10px;
         font-size: 14px;
         color: #666;
     }
 
-    .insp_woman_review-item .insp_woman_cr-btn {
+    .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_cr-btn {
         margin-top: 15px;
         background-color: #ff5722;
         color: #fff;
@@ -306,7 +306,7 @@ figcaption {
         text-transform: uppercase;
     }
 
-    .insp_woman_review-item .insp_woman_cr-btn:hover {
+    .jUfg678Gghhhtg_review-item .jUfg678Gghhhtg_cr-btn:hover {
         background-color: #e64a19;
         color: #fff;
     }
