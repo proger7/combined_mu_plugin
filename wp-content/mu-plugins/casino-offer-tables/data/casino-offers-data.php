@@ -14,7 +14,7 @@ return array(
             "link" => "https://eventgenius.co.uk/go/goldenbet-casino/",
             "logo" => "https://eventgenius.co.uk/wp-content/uploads/2022/09/goldenbet-casino-uk.webp",
             "linkID" => "12345",
-            "Tag" => "online",
+            "Tag" => "online567",
         ),
         "basswin-casino" => array(
             "brandName" => "BassWin Casino",
