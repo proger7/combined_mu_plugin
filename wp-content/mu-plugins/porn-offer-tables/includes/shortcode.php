@@ -71,8 +71,10 @@ function porn_offer_tables_shortcode($atts) {
     $columns = $sidebar_columns[$sidebar_value] ?? 2;
 
     if ($style === 'porn1') {
-        $output = '<div id="pages-content" class="prn1_d_thumbs-item sort-wrapper" data-columns="' . $columns . '" data-default-columns="' . $columns . '">';
+        $output = '<div id="pages-content" class="prn1_d_thumbs-item sort-wrapper" data-columns="' . esc_attr($columns) . '" data-default-columns="' . esc_attr($columns) . '">';
         $output .= '<div id="page-content" class="prn1_d_page-content" data-url="/">';
+
+        $classes = ['prn1_d_flash', 'prn1_d_bonus', 'prn1_d_downloads', 'prn1_d_life'];
 
         foreach ($filteredOffers as $arr_key => $offer) {
             $offerLinkURL = site_url() . "/out/offer.php?id=" . esc_attr($offer['linkID']) . "&o=" . urlencode($arr_key) . "&t=dating";
@@ -81,38 +83,45 @@ function porn_offer_tables_shortcode($atts) {
             $output .= '<div class="prn1_d_thumb">';
             $output .= '<div class="prn1_d_item-fix">';
             $output .= '<div class="prn1_d_item">';
+            
             $output .= '<div class="prn1_d_img-holder">';
             $output .= '<a href="' . esc_url($offerPageURL) . '">';
             $output .= '<img class="prn1_d_img" loading="lazy" src="' . esc_url($offer['logo']) . '" alt="' . esc_attr($offer['brandName']) . '" width="500" height="280">';
             $output .= '</a>';
+            
             $output .= '<div class="prn1_d_content-discount-thumb">' . esc_html($offer['discount']) . '</div>';
+            
             $output .= '<div class="prn1_d_content-status">';
-
-            $classes = ['prn1_d_flash', 'prn1_d_bonus', 'prn1_d_downloads', 'prn1_d_life'];
             foreach ($offer['labels'] as $index => $label) {
                 $class = $classes[$index] ?? '';
                 $output .= '<span class="' . esc_attr($class) . '">' . esc_html($label);
                 $output .= '<div class="prn1_d_popup-card">' . esc_html($label) . '</div>';
                 $output .= '</span>';
             }
-
             $output .= '</div>';
+            
             $output .= '</div>';
+            
             $output .= '<div class="prn1_d_content">';
             $output .= '<div class="prn1_d_text">';
             $output .= '<a class="prn1_d_title" href="' . esc_url($offerPageURL) . '">' . esc_html($offer['brandName']) . '</a>';
             $output .= '<span class="prn1_d_descrip">' . esc_html($offer['description']) . '</span>';
             $output .= '</div>';
+            
             $output .= '<div class="prn1_d_price">';
             $output .= '<span class="prn1_d_now">$' . esc_html($offer['price']) . '</span>';
             $output .= '<span class="prn1_d_before">$' . esc_html($offer['oldPrice']) . '</span>';
             $output .= '</div>';
+            
             $output .= '</div>';
+            
             $output .= '</div>';
+            
             $output .= '<div class="prn1_d_row-links">';
             $output .= '<a class="prn1_d_btn-thumb prn1_d_buy" href="' . esc_url($offerLinkURL) . '" target="_blank" rel="nofollow">Buy Now</a>';
             $output .= '<a href="' . esc_url($offerPageURL) . '" class="prn1_d_btn-thumb prn1_d_now">View Deal</a>';
             $output .= '</div>';
+            
             $output .= '</div>';
             $output .= '</div>';
         }
